@@ -9,17 +9,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Space+Mono:wght@400;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0e0e0f;
-    --bg2: #161618;
-    --bg3: #1e1e21;
-    --border: #2a2a2e;
-    --text: #e8e6e0;
-    --text-muted: #7a7870;
-    --text-dim: #4a4844;
-    --accent: #c8a96e;
-    --accent2: #7eb8a4;
-    --accent3: #b87b6e;
-    --signal: #4a7c6b;
+    --bg: #f8f7f4;
+    --bg2: #ffffff;
+    --bg3: #f0ede8;
+    --border: #e0dbd4;
+    --text: #1a1816;
+    --text-muted: #5a5550;
+    --text-dim: #9a9590;
+    --accent: #8b6914;
+    --accent2: #2e7a68;
+    --accent3: #8b3e30;
+    --signal: #2e7a68;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -28,8 +28,9 @@
     background: var(--bg);
     color: var(--text);
     font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 300;
-    line-height: 1.7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
     min-height: 100vh;
   }
 
@@ -261,9 +262,31 @@
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--border);
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 1.5rem;
+    flex-wrap: wrap;
   }
+  .day-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .nav-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+  }
+  .nav-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .nav-btn:disabled { opacity: 0.25; cursor: default; }
   .day-date {
     font-family: 'Space Mono', monospace;
     font-size: 1.5rem;
@@ -271,7 +294,7 @@
     letter-spacing: 0.05em;
   }
   .day-total {
-    font-size: 0.78rem;
+    font-size: 0.9rem;
     color: var(--text-muted);
   }
 
@@ -289,7 +312,7 @@
   .signal-list li {
     padding: 0.6rem 0;
     border-bottom: 1px solid var(--border);
-    font-size: 0.88rem;
+    font-size: 1rem;
     color: var(--text);
     display: flex;
     gap: 0.75rem;
@@ -318,9 +341,9 @@
   }
   .text-block.full { grid-column: 1 / -1; }
   .text-block p {
-    font-size: 0.85rem;
+    font-size: 0.97rem;
     color: var(--text-muted);
-    line-height: 1.8;
+    line-height: 1.9;
     white-space: pre-line;
   }
 
@@ -348,7 +371,7 @@
     margin-bottom: 0.5rem;
   }
   .category-name {
-    font-size: 0.88rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--text);
   }
@@ -359,9 +382,9 @@
     color: var(--accent);
   }
   .category-summary {
-    font-size: 0.78rem;
+    font-size: 0.9rem;
     color: var(--text-muted);
-    line-height: 1.6;
+    line-height: 1.7;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -381,7 +404,7 @@
   .cat-article-item {
     padding: 0.4rem 0;
     border-bottom: 1px solid var(--border);
-    font-size: 0.8rem;
+    font-size: 0.92rem;
   }
   .cat-article-item:last-child { border-bottom: none; }
   .cat-article-item a {
@@ -580,6 +603,9 @@ function doSearch(q) {
 
 function renderDay(day) {
   const content = document.getElementById('main-content');
+  const idx = allDays.findIndex(d => d.date === day.date);
+  const hasPrev = idx < allDays.length - 1; // allDays is desc, so prev = older = higher index
+  const hasNext = idx > 0;                   // next = newer = lower index
 
   const cats = day.categories.map(cat => `
     <div class="category-block" onclick="toggleCategory(this)">
@@ -603,6 +629,10 @@ function renderDay(day) {
 
   content.innerHTML = `
     <div class="day-header">
+      <div class="day-nav">
+        <button class="nav-btn" onclick="navigateDay(${idx + 1})" ${!hasPrev ? 'disabled' : ''} title="前の日">◀</button>
+        <button class="nav-btn" onclick="navigateDay(${idx - 1})" ${!hasNext ? 'disabled' : ''} title="次の日">▶</button>
+      </div>
       <span class="day-date">${day.date}</span>
       <span class="day-total">${day.total_articles} articles</span>
     </div>
@@ -632,6 +662,14 @@ function renderDay(day) {
 
 function toggleCategory(el) {
   el.classList.toggle('expanded');
+}
+
+function navigateDay(idx) {
+  if (idx < 0 || idx >= allDays.length) return;
+  const day = allDays[idx];
+  const li = document.querySelectorAll('.date-list li')[idx];
+  selectDay(day, li);
+  document.getElementById('main-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 // Load data
