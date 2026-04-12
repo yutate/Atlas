@@ -182,6 +182,12 @@
   .mobile-kw-tag:hover { border-color: var(--accent); color: var(--accent); }
   .mobile-kw-tag.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+  /* SIDEBAR TABS */
+  .sidebar-tabs { display: flex; border-bottom: 1px solid var(--border); margin-bottom: 1rem; }
+  .sidebar-tab { flex: 1; background: none; border: none; border-bottom: 2px solid transparent; padding: 0.6rem 0; font-family: 'Space Mono', monospace; font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); cursor: pointer; transition: all 0.15s; margin-bottom: -1px; }
+  .sidebar-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .sidebar-tab:hover { color: var(--text-muted); }
+
   /* SEARCH CLEAR BUTTON */
   .search-wrap { position: relative; }
   .search-clear {
@@ -252,12 +258,15 @@
 
 <div class="layout" id="main-layout">
   <aside class="sidebar">
+    <div class="sidebar-tabs">
+      <button class="sidebar-tab active" id="stab-archive" onclick="switchSidebarTab('archive', this)">Archive</button>
+      <button class="sidebar-tab" id="stab-signal" onclick="switchSidebarTab('signal', this)">Signals</button>
+    </div>
     <div id="sidebar-archive">
-      <div class="sidebar-label">Archive</div>
       <ul class="date-list" id="date-list"></ul>
     </div>
     <div id="sidebar-signal" style="display:none;">
-      <div class="sidebar-label">頻出キーワード</div>
+      <div class="sidebar-label" style="padding:0 1.5rem;margin-bottom:0.75rem;">頻出キーワード</div>
       <ul class="kw-list" id="kw-list"></ul>
     </div>
   </aside>
@@ -515,14 +524,29 @@ function clearKwFilter() {
   });
 }
 
+function switchSidebarTab(tab, btn) {
+  document.querySelectorAll('.sidebar-tab').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  document.getElementById('sidebar-archive').style.display = tab === 'archive' ? '' : 'none';
+  document.getElementById('sidebar-signal').style.display = tab === 'signal' ? '' : 'none';
+}
+
 function switchMainTab(tab, btn) {
+  currentMainTab = tab;
   document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
   const isArchive = tab === 'archive';
   document.getElementById('archive-view').style.display = isArchive ? '' : 'none';
   document.getElementById('signal-view').classList.toggle('active', !isArchive);
-  document.getElementById('sidebar-archive').style.display = isArchive ? '' : 'none';
-  document.getElementById('sidebar-signal').style.display = isArchive ? 'none' : '';
+  // Sync sidebar tab
+  const stabArchive = document.getElementById('stab-archive');
+  const stabSignal = document.getElementById('stab-signal');
+  if (stabArchive && stabSignal) {
+    stabArchive.classList.toggle('active', isArchive);
+    stabSignal.classList.toggle('active', !isArchive);
+    document.getElementById('sidebar-archive').style.display = isArchive ? '' : 'none';
+    document.getElementById('sidebar-signal').style.display = isArchive ? 'none' : '';
+  }
 }
 
 function mobileNav(tab, btn) {
@@ -654,10 +678,11 @@ function showSearchView(show) {
   document.getElementById('archive-view').style.display = show ? 'none' : '';
   document.getElementById('signal-view').classList.toggle('active', !show && currentMainTab === 'signal');
   document.getElementById('main-tabs').style.display = show ? 'none' : '';
-  // Sidebar: always show signal kw list while searching, else follow current tab
+  // Sidebar always shows normally regardless of search state
+  // Just restore to archive tab when entering search
   if (show) {
-    document.getElementById('sidebar-archive').style.display = 'none';
-    document.getElementById('sidebar-signal').style.display = '';
+    document.getElementById('sidebar-archive').style.display = '';
+    document.getElementById('sidebar-signal').style.display = 'none';
   } else {
     document.getElementById('sidebar-archive').style.display = currentMainTab === 'archive' ? '' : 'none';
     document.getElementById('sidebar-signal').style.display = currentMainTab === 'signal' ? '' : 'none';
