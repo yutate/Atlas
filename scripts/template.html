@@ -435,13 +435,176 @@
     padding: 1rem 0;
   }
 
+  /* SIDEBAR TABS */
+  .sidebar-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.25rem;
+    padding: 0 0.5rem;
+  }
+  .sidebar-tab {
+    flex: 1;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 0.6rem 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+    transition: all 0.15s;
+    margin-bottom: -1px;
+  }
+  .sidebar-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .sidebar-tab:hover { color: var(--text-muted); }
+
+  /* SIGNAL KEYWORD RANKING */
+  .kw-list { list-style: none; padding: 0 1rem; }
+  .kw-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .kw-item:hover { opacity: 0.7; }
+  .kw-word {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    flex: 1;
+  }
+  .kw-bar-wrap {
+    width: 40px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .kw-bar {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+  }
+  .kw-count {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    flex-shrink: 0;
+    width: 14px;
+    text-align: right;
+  }
+
+  /* SIGNAL TIMELINE */
+  .signal-timeline { padding: 0 1rem; }
+  .timeline-day { margin-bottom: 1.25rem; }
+  .timeline-date {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.4rem;
+    cursor: pointer;
+  }
+  .timeline-date:hover { text-decoration: underline; }
+  .timeline-signals { list-style: none; }
+  .timeline-signals li {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    padding: 0.2rem 0 0.2rem 0.6rem;
+    border-left: 2px solid var(--border);
+    margin-bottom: 0.2rem;
+  }
+  .timeline-signals li.highlight {
+    border-left-color: var(--accent2);
+    color: var(--text);
+  }
+
+  /* KW FILTER BADGE */
+  .kw-filter-badge {
+    display: none;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    background: var(--bg3);
+    border-bottom: 1px solid var(--border);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+  .kw-filter-badge.visible { display: flex; }
+  .kw-filter-badge strong { color: var(--accent); }
+  .kw-clear {
+    margin-left: auto;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    font-size: 0.65rem;
+    padding: 0.15rem 0.5rem;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .kw-clear:hover { color: var(--accent3); border-color: var(--accent3); }
+
   @media (max-width: 768px) {
     .main-layout { grid-template-columns: 1fr; }
     .sidebar { display: none; }
     .text-sections { grid-template-columns: 1fr; }
     .container { padding: 0 1rem; }
-    .content { padding: 1.5rem 1rem; }
+    .content { padding: 1.5rem 1rem 5rem; }
+
+    /* Mobile panels shown under main content */
+    .mobile-panel {
+      display: none;
+      padding: 1.5rem 1rem 5rem;
+    }
+    .mobile-panel.active { display: block; }
   }
+
+  @media (min-width: 769px) {
+    .bottom-nav { display: none; }
+    .mobile-panel { display: none !important; }
+  }
+
+  /* BOTTOM NAV */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 56px;
+    background: var(--bg2);
+    border-top: 1px solid var(--border);
+    display: flex;
+    z-index: 200;
+  }
+  .bottom-nav-btn {
+    flex: 1;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    color: var(--text-dim);
+    font-family: 'Space Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.15s;
+  }
+  .bottom-nav-btn.active { color: var(--accent); }
+  .bottom-nav-btn svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.5; }
 </style>
 </head>
 <body>
@@ -468,15 +631,62 @@
 
   <div class="main-layout">
     <aside class="sidebar">
-      <div class="sidebar-label">Archive</div>
-      <ul class="date-list" id="date-list"></ul>
+      <div class="sidebar-tabs">
+        <button class="sidebar-tab active" onclick="switchSidebarTab('archive', this)">Archive</button>
+        <button class="sidebar-tab" onclick="switchSidebarTab('signals', this)">Signals</button>
+      </div>
+      <div id="tab-archive">
+        <ul class="date-list" id="date-list"></ul>
+      </div>
+      <div id="tab-signals" style="display:none;">
+        <div class="sidebar-label" style="padding:0 1rem;margin-bottom:0.75rem;">頻出キーワード</div>
+        <ul class="kw-list" id="kw-list"></ul>
+        <div class="sidebar-label" style="padding:0 1rem;margin:1.25rem 0 0.75rem;">タイムライン</div>
+        <div class="signal-timeline" id="signal-timeline"></div>
+      </div>
     </aside>
 
     <main class="content" id="main-content">
-      <div class="empty-state">データを読み込んでいます...</div>
+      <div class="kw-filter-badge" id="kw-filter-badge">
+        <span>キーワード絞り込み：<strong id="kw-filter-label"></strong></span>
+        <button class="kw-clear" onclick="clearKwFilter()">✕ クリア</button>
+      </div>
+      <div id="main-inner">
+        <div class="empty-state">データを読み込んでいます...</div>
+      </div>
     </main>
   </div>
 </div>
+
+<!-- Mobile: Archive panel -->
+<div class="mobile-panel active" id="mobile-archive">
+  <div class="sidebar-label" style="margin-bottom:0.75rem;">Archive</div>
+  <ul class="date-list" id="date-list-mobile"></ul>
+</div>
+
+<!-- Mobile: Signals panel -->
+<div class="mobile-panel" id="mobile-signals">
+  <div class="sidebar-label" style="margin-bottom:0.75rem;">頻出キーワード</div>
+  <ul class="kw-list" id="kw-list-mobile"></ul>
+  <div class="sidebar-label" style="margin:1.5rem 0 0.75rem;">タイムライン</div>
+  <div class="signal-timeline" id="signal-timeline-mobile"></div>
+</div>
+
+<!-- Bottom nav (mobile only) -->
+<nav class="bottom-nav">
+  <button class="bottom-nav-btn active" id="nav-today" onclick="mobileNav('today', this)">
+    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    Today
+  </button>
+  <button class="bottom-nav-btn" id="nav-archive" onclick="mobileNav('archive', this)">
+    <svg viewBox="0 0 24 24"><polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+    Archive
+  </button>
+  <button class="bottom-nav-btn" id="nav-signals" onclick="mobileNav('signals', this)">
+    <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+    Signals
+  </button>
+</nav>
 
 <script>
 // DATA_PLACEHOLDER
@@ -486,15 +696,14 @@ let allDays = [];
 let currentDay = null;
 let activeCategory = 'ALL';
 let searchTimeout = null;
+let activeKwFilter = null;
 
 function init() {
   allDays = [...ATLAS_DATA].sort((a, b) => b.date.localeCompare(a.date));
 
-  // Header meta
   document.getElementById('header-meta').textContent =
     `${allDays.length} days / ${allDays.reduce((s, d) => s + d.total_articles, 0)} articles`;
 
-  // Build sidebar
   const dateList = document.getElementById('date-list');
   allDays.forEach((day, i) => {
     const li = document.createElement('li');
@@ -506,7 +715,6 @@ function init() {
     dateList.appendChild(li);
   });
 
-  // Build category filters (all unique categories)
   const cats = new Set(['ALL']);
   allDays.forEach(d => d.categories.forEach(c => cats.add(c.name)));
   const filterWrap = document.getElementById('category-filters');
@@ -518,15 +726,186 @@ function init() {
     filterWrap.appendChild(btn);
   });
 
-  // Search
   document.getElementById('search-input').addEventListener('input', (e) => {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => doSearch(e.target.value.trim()), 200);
   });
 
-  // Show latest day
+  buildSignalViews();
+  buildMobileDateList();
   if (allDays.length > 0) selectDay(allDays[0], dateList.querySelector('li'));
 }
+
+function buildMobileDateList() {
+  const mobileList = document.getElementById('date-list-mobile');
+  if (!mobileList) return;
+  allDays.forEach((day, i) => {
+    const li = document.createElement('li');
+    const btn = document.createElement('button');
+    btn.innerHTML = `${day.date}<span class="date-count">${day.total_articles} articles</span>`;
+    btn.onclick = () => {
+      // Switch to today view and select day
+      mobileNav('today', document.getElementById('nav-today'));
+      selectDay(day, document.querySelectorAll('.date-list li')[i]);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    li.appendChild(btn);
+    mobileList.appendChild(li);
+  });
+}
+
+// ── SIGNAL VIEWS ──────────────────────────────────────────
+
+function buildSignalViews() {
+  buildKwRanking();
+  buildTimeline(null);
+}
+
+// ── MOBILE NAV ────────────────────────────────────────────
+
+function mobileNav(tab, btn) {
+  document.querySelectorAll('.bottom-nav-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  // Hide all mobile panels and main content
+  document.querySelectorAll('.mobile-panel').forEach(p => p.classList.remove('active'));
+  document.getElementById('main-content').style.display = '';
+
+  if (tab === 'today') {
+    document.getElementById('main-content').style.display = '';
+  } else if (tab === 'archive') {
+    document.getElementById('main-content').style.display = 'none';
+    document.getElementById('mobile-archive').classList.add('active');
+  } else if (tab === 'signals') {
+    document.getElementById('main-content').style.display = 'none';
+    document.getElementById('mobile-signals').classList.add('active');
+  }
+}
+
+function extractKeywords(signal) {
+  const quoted = [...signal.matchAll(/[「」]([^「」]{2,12})[「」]/g)].map(m => m[1]);
+  const kana = [...signal.matchAll(/[ァ-ヶー]{4,}/g)].map(m => m[0]);
+  return [...new Set([...quoted, ...kana])];
+}
+
+function buildKwRanking() {
+  const freq = {};
+  allDays.forEach(day => {
+    (day.signals || []).forEach(sig => {
+      extractKeywords(sig).forEach(kw => {
+        freq[kw] = (freq[kw] || 0) + 1;
+      });
+      // Also extract short phrases
+      sig.split(/[。、「」\s・\/]/).forEach(p => {
+        const t = p.trim();
+        if (t.length >= 4 && t.length <= 15) {
+          freq[t] = (freq[t] || 0) + 0.5;
+        }
+      });
+    });
+  });
+
+  const sorted = Object.entries(freq)
+    .filter(([k]) => k.length >= 3)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 25);
+
+  const max = sorted[0]?.[1] || 1;
+  const list = document.getElementById('kw-list');
+  list.innerHTML = '';
+
+  sorted.forEach(([kw, count]) => {
+    const pct = Math.round((count / max) * 100);
+    const li = document.createElement('li');
+    li.className = 'kw-item';
+    li.title = `「${kw}」でタイムラインを絞り込む`;
+    li.innerHTML = `
+      <span class="kw-word">${kw}</span>
+      <div class="kw-bar-wrap"><div class="kw-bar" style="width:${pct}%"></div></div>
+      <span class="kw-count">${Math.round(count)}</span>
+    `;
+    li.onclick = () => filterByKw(kw);
+    list.appendChild(li);
+
+    // Mobile duplicate
+    const liM = li.cloneNode(true);
+    liM.onclick = () => filterByKw(kw);
+    const mobileList = document.getElementById('kw-list-mobile');
+    if (mobileList) mobileList.appendChild(liM);
+  });
+}
+
+function buildTimeline(filterKw) {
+  const timeline = document.getElementById('signal-timeline');
+  timeline.innerHTML = '';
+
+  allDays.forEach((day, i) => {
+    const signals = day.signals || [];
+    if (signals.length === 0) return;
+    const toShow = filterKw ? signals.filter(s => s.includes(filterKw)) : signals;
+    if (toShow.length === 0) return;
+
+    const block = document.createElement('div');
+    block.className = 'timeline-day';
+
+    const dateEl = document.createElement('div');
+    dateEl.className = 'timeline-date';
+    dateEl.textContent = day.date;
+    dateEl.onclick = () => {
+      switchSidebarTab('archive', document.querySelectorAll('.sidebar-tab')[0]);
+      selectDay(day, document.querySelectorAll('.date-list li')[i]);
+    };
+
+    const ul = document.createElement('ul');
+    ul.className = 'timeline-signals';
+    toShow.forEach(sig => {
+      const li = document.createElement('li');
+      li.textContent = sig;
+      if (filterKw) li.classList.add('highlight');
+      ul.appendChild(li);
+    });
+
+    block.appendChild(dateEl);
+    block.appendChild(ul);
+    timeline.appendChild(block);
+
+    // Mobile duplicate
+    const mobileTimeline = document.getElementById('signal-timeline-mobile');
+    if (mobileTimeline) {
+      const blockM = block.cloneNode(true);
+      // Re-attach click on date
+      blockM.querySelector('.timeline-date').onclick = () => {
+        mobileNav('today', document.getElementById('nav-today'));
+        selectDay(day, document.querySelectorAll('.date-list li')[i]);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
+      mobileTimeline.appendChild(blockM);
+    }
+  });
+}
+
+function filterByKw(kw) {
+  activeKwFilter = kw;
+  switchSidebarTab('signals', document.querySelectorAll('.sidebar-tab')[1]);
+  buildTimeline(kw);
+  document.getElementById('kw-filter-badge').classList.add('visible');
+  document.getElementById('kw-filter-label').textContent = kw;
+}
+
+function clearKwFilter() {
+  activeKwFilter = null;
+  document.getElementById('kw-filter-badge').classList.remove('visible');
+  buildTimeline(null);
+}
+
+function switchSidebarTab(tab, btn) {
+  document.querySelectorAll('.sidebar-tab').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+  document.getElementById('tab-archive').style.display = tab === 'archive' ? '' : 'none';
+  document.getElementById('tab-signals').style.display = tab === 'signals' ? '' : 'none';
+}
+
+// ── CORE ──────────────────────────────────────────────────
 
 function selectDay(day, li) {
   currentDay = day;
@@ -548,10 +927,7 @@ function doSearch(q) {
   const grid = document.getElementById('results-grid');
   const header = document.getElementById('results-header');
 
-  if (!q) {
-    resultsEl.classList.remove('visible');
-    return;
-  }
+  if (!q) { resultsEl.classList.remove('visible'); return; }
 
   const ql = q.toLowerCase();
   const results = [];
@@ -569,7 +945,6 @@ function doSearch(q) {
     });
   });
 
-  // Deduplicate by URL
   const seen = new Set();
   const deduped = results.filter(r => {
     if (seen.has(r.url)) return false;
@@ -597,20 +972,19 @@ function doSearch(q) {
       grid.appendChild(card);
     });
   }
-
   resultsEl.classList.add('visible');
 }
 
 function renderDay(day) {
-  const content = document.getElementById('main-content');
+  const inner = document.getElementById('main-inner');
   const idx = allDays.findIndex(d => d.date === day.date);
-  const hasPrev = idx < allDays.length - 1; // allDays is desc, so prev = older = higher index
-  const hasNext = idx > 0;                   // next = newer = lower index
+  const hasPrev = idx < allDays.length - 1;
+  const hasNext = idx > 0;
 
   const cats = day.categories.map(cat => `
     <div class="category-block" onclick="toggleCategory(this)">
       <div class="category-header">
-        <span class="category-name${cat.is_cross ? ' cross' : ''}">${cat.name}${cat.is_cross ? ' ×' : ''}</span>
+        <span class="category-name${cat.is_cross ? ' cross' : ''}">${cat.name}${cat.is_cross ? ' x' : ''}</span>
         <span class="category-count">${cat.count}</span>
       </div>
       <div class="category-summary">${cat.summary}</div>
@@ -627,7 +1001,7 @@ function renderDay(day) {
 
   const signals = day.signals.map(s => `<li>${s}</li>`).join('');
 
-  content.innerHTML = `
+  inner.innerHTML = `
     <div class="day-header">
       <div class="day-nav">
         <button class="nav-btn" onclick="navigateDay(${idx + 1})" ${!hasPrev ? 'disabled' : ''} title="前の日">◀</button>
@@ -636,12 +1010,10 @@ function renderDay(day) {
       <span class="day-date">${day.date}</span>
       <span class="day-total">${day.total_articles} articles</span>
     </div>
-
     <div class="signals-section">
       <div class="section-label">Signals</div>
       <ul class="signal-list">${signals}</ul>
     </div>
-
     <div class="text-sections">
       <div class="text-block">
         <div class="section-label">Change — 前日差分</div>
@@ -652,7 +1024,6 @@ function renderDay(day) {
         <p>${day.insight || '—'}</p>
       </div>
     </div>
-
     <div class="categories-section">
       <div class="section-label">Categories</div>
       <div class="categories-grid">${cats}</div>
@@ -660,9 +1031,7 @@ function renderDay(day) {
   `;
 }
 
-function toggleCategory(el) {
-  el.classList.toggle('expanded');
-}
+function toggleCategory(el) { el.classList.toggle('expanded'); }
 
 function navigateDay(idx) {
   if (idx < 0 || idx >= allDays.length) return;
@@ -672,19 +1041,17 @@ function navigateDay(idx) {
   document.getElementById('main-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// Load data
 (function() {
   try {
     if (typeof ATLAS_DATA !== 'undefined' && ATLAS_DATA.length > 0) {
       init();
     } else {
-      document.getElementById('main-content').innerHTML =
+      document.getElementById('main-inner').innerHTML =
         '<div class="empty-state">atlas.jsonにデータがありません</div>';
     }
-  } catch(e) {
-    console.error(e);
-  }
+  } catch(e) { console.error(e); }
 })();
+
 </script>
 </body>
 </html>
