@@ -182,6 +182,38 @@
   .mobile-kw-tag:hover { border-color: var(--accent); color: var(--accent); }
   .mobile-kw-tag.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
+  /* SEARCH CLEAR BUTTON */
+  .search-wrap { position: relative; }
+  .search-clear {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    line-height: 1;
+    display: none;
+  }
+  .search-clear.visible { display: block; }
+  .search-clear:hover { color: var(--accent3); }
+
+  /* SEARCH VIEW in main area */
+  #search-view { display: none; padding: 2rem 2.5rem; }
+  #search-view.active { display: block; }
+  .search-view-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .search-view-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.15em; text-transform: uppercase; }
+
   .empty-state { text-align: center; padding: 4rem 2rem; color: var(--text-dim); font-size: 0.85rem; }
   .no-results { color: var(--text-dim); font-size: 0.85rem; padding: 1rem 0; }
 
@@ -208,12 +240,9 @@
 <div class="search-section">
   <div class="search-wrap">
     <input type="text" id="search-input" placeholder="記事タイトル、キーワード、ソースで検索..." autocomplete="off">
+    <button class="search-clear" id="search-clear" onclick="clearSearch()" title="クリア">✕</button>
   </div>
   <div class="filter-wrap" id="category-filters"></div>
-</div>
-<div id="search-results">
-  <div class="results-header" id="results-header"></div>
-  <div class="article-grid" id="results-grid"></div>
 </div>
 
 <div class="main-tabs" id="main-tabs">
@@ -243,6 +272,13 @@
       <button class="kw-clear-btn" onclick="clearKwFilter()">✕ クリア</button>
     </div>
     <div id="signal-tl"></div>
+  </div>
+
+  <div id="search-view">
+    <div class="search-view-header">
+      <span class="search-view-label" id="search-view-label"></span>
+    </div>
+    <div class="article-grid" id="search-results-grid"></div>
   </div>
 </div>
 
@@ -297,12 +333,17 @@ function init() {
   buildSignalTl('signal-tl', false);
   buildSignalTl('signal-tl-mobile', true);
 
-  document.getElementById('search-input').addEventListener('input', e => {
+  const searchInput = document.getElementById('search-input');
+  const searchClear = document.getElementById('search-clear');
+
+  searchInput.addEventListener('input', e => {
+    const q = e.target.value.trim();
+    searchClear.classList.toggle('visible', q.length > 0);
     clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => doSearch(e.target.value.trim()), 200);
+    searchTimeout = setTimeout(() => doSearch(q), 200);
   });
-  document.getElementById('search-input').addEventListener('focus', () => {
-    doSearch(document.getElementById('search-input').value.trim());
+  searchInput.addEventListener('focus', () => {
+    doSearch(searchInput.value.trim());
   });
 
   if (allDays.length > 0) selectDay(allDays[0], document.querySelector('#date-list li'));
@@ -551,7 +592,6 @@ function navigateDay(idx) {
 }
 
 function doSearch(q) {
-  const resultsEl = document.getElementById('search-results');
   const ql = q.toLowerCase();
   const results = [];
 
@@ -568,11 +608,12 @@ function doSearch(q) {
   const seen = new Set();
   const deduped = results.filter(r => { if (seen.has(r.url)) return false; seen.add(r.url); return true; });
 
-  document.getElementById('results-header').textContent = q
+  const label = q
     ? `${deduped.length} results — "${q}"${activeCategory !== 'ALL' ? ` in ${activeCategory}` : ''}`
     : `全記事 ${deduped.length} 件${activeCategory !== 'ALL' ? ` — ${activeCategory}` : ''}`;
 
-  document.getElementById('results-grid').innerHTML = deduped.length === 0
+  document.getElementById('search-view-label').textContent = label;
+  document.getElementById('search-results-grid').innerHTML = deduped.length === 0
     ? '<div class="no-results">該当する記事が見つかりませんでした</div>'
     : deduped.map(art => `
         <div class="article-card">
@@ -583,7 +624,24 @@ function doSearch(q) {
             <span class="article-date-tag">${art.date}</span>
           </div>
         </div>`).join('');
-  resultsEl.classList.add('visible');
+
+  // Show search view, hide others
+  showSearchView(true);
+}
+
+function clearSearch() {
+  const input = document.getElementById('search-input');
+  input.value = '';
+  document.getElementById('search-clear').classList.remove('visible');
+  showSearchView(false);
+  input.focus();
+}
+
+function showSearchView(show) {
+  document.getElementById('search-view').classList.toggle('active', show);
+  document.getElementById('archive-view').style.display = show ? 'none' : '';
+  document.getElementById('signal-view').classList.toggle('active', show ? false : (currentMainTab === 'signal'));
+  document.getElementById('main-tabs').style.display = show ? 'none' : '';
 }
 
 (function() {
