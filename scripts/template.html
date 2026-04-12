@@ -19,7 +19,6 @@
     --accent: #8b6914;
     --accent2: #2e7a68;
     --accent3: #8b3e30;
-    --signal: #2e7a68;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -47,572 +46,156 @@
     background: var(--bg);
     z-index: 100;
   }
-  .site-title {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
-    color: var(--accent);
-    text-transform: uppercase;
-  }
-  .header-meta {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.65rem;
-    color: var(--text-dim);
-    letter-spacing: 0.1em;
-  }
+  .site-title { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.2em; color: var(--accent); text-transform: uppercase; }
+  .header-meta { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.1em; }
 
-  /* LAYOUT */
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 2rem;
-  }
-
-  /* SEARCH BAR */
-  .search-section {
-    padding: 2rem 0 1.5rem;
-    border-bottom: 1px solid var(--border);
-  }
-  .search-row {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-  }
-  .search-wrap {
-    flex: 1;
-    position: relative;
-  }
-  .search-wrap::before {
-    content: '検索';
-    position: absolute;
-    left: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: 'Space Mono', monospace;
-    font-size: 0.6rem;
-    color: var(--text-dim);
-    letter-spacing: 0.15em;
-    pointer-events: none;
-  }
-  #search-input {
-    width: 100%;
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 2px;
-    padding: 0.75rem 1rem 0.75rem 3.5rem;
-    color: var(--text);
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 300;
-    outline: none;
-    transition: border-color 0.2s;
-  }
+  /* SEARCH */
+  .search-section { padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); background: var(--bg); }
+  .search-wrap { position: relative; }
+  .search-wrap::before { content: '検索'; position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--text-dim); letter-spacing: 0.15em; pointer-events: none; }
+  #search-input { width: 100%; background: var(--bg2); border: 1px solid var(--border); border-radius: 2px; padding: 0.75rem 1rem 0.75rem 3.5rem; color: var(--text); font-family: 'Noto Sans JP', sans-serif; font-size: 0.95rem; outline: none; transition: border-color 0.2s; }
   #search-input:focus { border-color: var(--accent); }
-  #search-input::placeholder { color: var(--text-dim); font-size: 0.85rem; }
-
-  .filter-wrap {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-  .filter-btn {
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--text-muted);
-    padding: 0.4rem 0.8rem;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 0.72rem;
-    cursor: pointer;
-    border-radius: 2px;
-    transition: all 0.15s;
-    white-space: nowrap;
-  }
+  #search-input::placeholder { color: var(--text-dim); }
+  .filter-wrap { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
+  .filter-btn { background: none; border: 1px solid var(--border); color: var(--text-muted); padding: 0.35rem 0.75rem; font-family: 'Noto Sans JP', sans-serif; font-size: 0.72rem; cursor: pointer; border-radius: 2px; transition: all 0.15s; white-space: nowrap; }
   .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
-  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 500; }
+  .filter-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 500; }
 
   /* SEARCH RESULTS */
-  #search-results {
-    display: none;
-    padding: 1.5rem 0;
-    border-bottom: 1px solid var(--border);
-  }
+  #search-results { display: none; padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); }
   #search-results.visible { display: block; }
-  .results-header {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.65rem;
-    color: var(--text-dim);
-    letter-spacing: 0.15em;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-  }
-  .article-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 0.75rem;
-  }
-  .article-card {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 2px;
-    padding: 1rem 1.2rem;
-    transition: border-color 0.15s;
-    animation: fadeIn 0.2s ease;
-  }
+  .results-header { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.15em; margin-bottom: 1rem; text-transform: uppercase; }
+  .article-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 0.75rem; }
+  .article-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 2px; padding: 1rem 1.2rem; transition: border-color 0.15s; animation: fadeIn 0.2s ease; }
   .article-card:hover { border-color: var(--accent); }
-  .article-card a {
-    color: var(--text);
-    text-decoration: none;
-    font-size: 0.88rem;
-    line-height: 1.5;
-    display: block;
-  }
+  .article-card a { color: var(--text); text-decoration: none; font-size: 0.88rem; line-height: 1.5; display: block; }
   .article-card a:hover { color: var(--accent); }
-  .article-meta {
-    display: flex;
-    gap: 0.75rem;
-    margin-top: 0.5rem;
-    align-items: center;
-  }
-  .article-source {
-    font-size: 0.68rem;
-    color: var(--text-dim);
-    font-family: 'Space Mono', monospace;
-  }
-  .article-category-tag {
-    font-size: 0.63rem;
-    color: var(--accent2);
-    border: 1px solid var(--signal);
-    padding: 0.1rem 0.4rem;
-    border-radius: 1px;
-  }
-  .article-date-tag {
-    font-size: 0.63rem;
-    color: var(--text-dim);
-    font-family: 'Space Mono', monospace;
-    margin-left: auto;
-  }
+  .article-meta { display: flex; gap: 0.75rem; margin-top: 0.5rem; align-items: center; flex-wrap: wrap; }
+  .article-source { font-size: 0.68rem; color: var(--text-dim); font-family: 'Space Mono', monospace; }
+  .article-category-tag { font-size: 0.63rem; color: var(--accent2); border: 1px solid var(--accent2); padding: 0.1rem 0.4rem; border-radius: 1px; }
+  .article-date-tag { font-size: 0.63rem; color: var(--text-dim); font-family: 'Space Mono', monospace; margin-left: auto; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 
-  /* MAIN LAYOUT */
-  .main-layout {
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 0;
-    min-height: calc(100vh - 56px);
-  }
+  /* MAIN TABS */
+  .main-tabs { display: flex; border-bottom: 1px solid var(--border); padding: 0 2rem; background: var(--bg); }
+  .main-tab { background: none; border: none; border-bottom: 2px solid transparent; padding: 0.75rem 1.25rem 0.75rem 0; margin-right: 1rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-dim); cursor: pointer; transition: all 0.15s; margin-bottom: -1px; }
+  .main-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .main-tab:hover { color: var(--text-muted); }
+
+  /* LAYOUT */
+  .layout { display: grid; grid-template-columns: 220px 1fr; min-height: calc(100vh - 56px); }
 
   /* SIDEBAR */
-  .sidebar {
-    border-right: 1px solid var(--border);
-    padding: 2rem 0;
-    position: sticky;
-    top: 56px;
-    height: calc(100vh - 56px);
-    overflow-y: auto;
-  }
+  .sidebar { border-right: 1px solid var(--border); padding: 1.5rem 0; position: sticky; top: 56px; height: calc(100vh - 56px); overflow-y: auto; }
   .sidebar::-webkit-scrollbar { width: 3px; }
-  .sidebar::-webkit-scrollbar-track { background: transparent; }
   .sidebar::-webkit-scrollbar-thumb { background: var(--border); }
+  .sidebar-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--text-dim); letter-spacing: 0.2em; text-transform: uppercase; padding: 0 1.5rem; margin-bottom: 0.75rem; }
 
-  .sidebar-label {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.58rem;
-    color: var(--text-dim);
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    padding: 0 1.5rem;
-    margin-bottom: 0.75rem;
-  }
-  .date-list { list-style: none; margin-bottom: 2rem; }
-  .date-list li {
-    border-left: 2px solid transparent;
-    transition: all 0.15s;
-  }
+  .date-list { list-style: none; }
+  .date-list li { border-left: 2px solid transparent; transition: all 0.15s; }
   .date-list li.active { border-left-color: var(--accent); }
-  .date-list li button {
-    width: 100%;
-    text-align: left;
-    background: none;
-    border: none;
-    padding: 0.5rem 1.5rem 0.5rem 1.3rem;
-    color: var(--text-muted);
-    cursor: pointer;
-    font-size: 0.82rem;
-    font-family: 'Space Mono', monospace;
-    transition: color 0.15s;
-  }
+  .date-list li button { width: 100%; text-align: left; background: none; border: none; padding: 0.5rem 1.5rem 0.5rem 1.3rem; color: var(--text-muted); cursor: pointer; font-size: 0.82rem; font-family: 'Space Mono', monospace; transition: color 0.15s; }
   .date-list li.active button { color: var(--accent); }
   .date-list li:hover button { color: var(--text); }
-  .date-count {
-    font-size: 0.65rem;
-    color: var(--text-dim);
-    display: block;
-    margin-top: 0.1rem;
-  }
+  .date-count { font-size: 0.65rem; color: var(--text-dim); display: block; margin-top: 0.1rem; }
+
+  .kw-list { list-style: none; padding: 0 0.75rem; }
+  .kw-item { display: flex; align-items: center; gap: 0.5rem; padding: 0.4rem 0.5rem; border-radius: 2px; cursor: pointer; transition: background 0.15s; }
+  .kw-item:hover { background: var(--bg3); }
+  .kw-item.active { background: var(--accent); }
+  .kw-item.active .kw-word, .kw-item.active .kw-count { color: #fff; }
+  .kw-word { font-size: 0.78rem; color: var(--text-muted); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .kw-bar-wrap { width: 36px; height: 3px; background: var(--border); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+  .kw-bar { height: 100%; background: var(--accent); border-radius: 2px; }
+  .kw-item.active .kw-bar-wrap { background: rgba(255,255,255,0.3); }
+  .kw-item.active .kw-bar { background: #fff; }
+  .kw-count { font-family: 'Space Mono', monospace; font-size: 0.6rem; color: var(--text-dim); flex-shrink: 0; }
 
   /* CONTENT */
-  .content {
-    padding: 2rem 2.5rem;
-    overflow-y: auto;
-  }
+  .content { padding: 2rem 2.5rem; }
 
-  /* DAY VIEW */
-  .day-header {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    flex-wrap: wrap;
-  }
-  .day-nav {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .nav-btn {
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--text-muted);
-    width: 32px;
-    height: 32px;
-    border-radius: 2px;
-    cursor: pointer;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.15s;
-  }
+  .day-header { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+  .day-nav { display: flex; gap: 0.5rem; }
+  .nav-btn { background: none; border: 1px solid var(--border); color: var(--text-muted); width: 32px; height: 32px; border-radius: 2px; cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center; transition: all 0.15s; }
   .nav-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
   .nav-btn:disabled { opacity: 0.25; cursor: default; }
-  .day-date {
-    font-family: 'Space Mono', monospace;
-    font-size: 1.5rem;
-    color: var(--accent);
-    letter-spacing: 0.05em;
-  }
-  .day-total {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-  }
+  .day-date { font-family: 'Space Mono', monospace; font-size: 1.5rem; color: var(--accent); }
+  .day-total { font-size: 0.9rem; color: var(--text-muted); }
 
-  /* SIGNALS */
-  .section-label {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.6rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--text-dim);
-    margin-bottom: 0.75rem;
-  }
+  .section-label { font-family: 'Space Mono', monospace; font-size: 0.6rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 0.75rem; }
   .signals-section { margin-bottom: 2rem; }
   .signal-list { list-style: none; }
-  .signal-list li {
-    padding: 0.6rem 0;
-    border-bottom: 1px solid var(--border);
-    font-size: 1rem;
-    color: var(--text);
-    display: flex;
-    gap: 0.75rem;
-    align-items: flex-start;
-  }
-  .signal-list li::before {
-    content: '▸';
-    color: var(--accent2);
-    font-size: 0.7rem;
-    margin-top: 0.2rem;
-    flex-shrink: 0;
-  }
+  .signal-list li { padding: 0.6rem 0; border-bottom: 1px solid var(--border); font-size: 1rem; color: var(--text); display: flex; gap: 0.75rem; align-items: flex-start; }
+  .signal-list li::before { content: '▸'; color: var(--accent2); font-size: 0.7rem; margin-top: 0.3rem; flex-shrink: 0; }
 
-  /* CHANGE + INSIGHT */
-  .text-sections {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  .text-block {
-    background: var(--bg2);
-    border: 1px solid var(--border);
-    border-radius: 2px;
-    padding: 1.25rem 1.5rem;
-  }
+  .text-sections { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 2rem; }
+  .text-block { background: var(--bg2); border: 1px solid var(--border); border-radius: 2px; padding: 1.25rem 1.5rem; }
   .text-block.full { grid-column: 1 / -1; }
-  .text-block p {
-    font-size: 0.97rem;
-    color: var(--text-muted);
-    line-height: 1.9;
-    white-space: pre-line;
-  }
+  .text-block p { font-size: 0.97rem; color: var(--text-muted); line-height: 1.9; white-space: pre-line; }
 
-  /* CATEGORIES */
   .categories-section { margin-bottom: 2rem; }
-  .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 1px;
-    background: var(--border);
-    border: 1px solid var(--border);
-  }
-  .category-block {
-    background: var(--bg);
-    padding: 1.25rem 1.5rem;
-    cursor: pointer;
-    transition: background 0.15s;
-  }
-  .category-block:hover { background: var(--bg2); }
-  .category-block.expanded { background: var(--bg2); }
-  .category-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 0.5rem;
-  }
-  .category-name {
-    font-size: 1rem;
-    font-weight: 500;
-    color: var(--text);
-  }
+  .categories-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+  .category-block { background: var(--bg); padding: 1.25rem 1.5rem; cursor: pointer; transition: background 0.15s; }
+  .category-block:hover, .category-block.expanded { background: var(--bg2); }
+  .category-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+  .category-name { font-size: 1rem; font-weight: 500; color: var(--text); }
   .category-name.cross { color: var(--accent2); }
-  .category-count {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.75rem;
-    color: var(--accent);
-  }
-  .category-summary {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    line-height: 1.7;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .category-block.expanded .category-summary {
-    display: block;
-    -webkit-line-clamp: unset;
-  }
-  .category-articles {
-    display: none;
-    margin-top: 1rem;
-    border-top: 1px solid var(--border);
-    padding-top: 0.75rem;
-  }
+  .category-count { font-family: 'Space Mono', monospace; font-size: 0.75rem; color: var(--accent); }
+  .category-summary { font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .category-block.expanded .category-summary { display: block; }
+  .category-articles { display: none; margin-top: 1rem; border-top: 1px solid var(--border); padding-top: 0.75rem; }
   .category-block.expanded .category-articles { display: block; }
-  .cat-article-item {
-    padding: 0.4rem 0;
-    border-bottom: 1px solid var(--border);
-    font-size: 0.92rem;
-  }
+  .cat-article-item { padding: 0.4rem 0; border-bottom: 1px solid var(--border); font-size: 0.92rem; }
   .cat-article-item:last-child { border-bottom: none; }
-  .cat-article-item a {
-    color: var(--text-muted);
-    text-decoration: none;
-    transition: color 0.15s;
-  }
+  .cat-article-item a { color: var(--text-muted); text-decoration: none; transition: color 0.15s; }
   .cat-article-item a:hover { color: var(--accent); }
-  .cat-article-source {
-    font-size: 0.65rem;
-    color: var(--text-dim);
-    font-family: 'Space Mono', monospace;
-    margin-top: 0.1rem;
-  }
+  .cat-article-source { font-size: 0.65rem; color: var(--text-dim); font-family: 'Space Mono', monospace; margin-top: 0.1rem; }
 
-  /* EMPTY STATE */
-  .empty-state {
-    text-align: center;
-    padding: 4rem 2rem;
-    color: var(--text-dim);
-    font-size: 0.85rem;
-  }
+  /* SIGNAL TIMELINE VIEW */
+  #signal-view { display: none; padding: 2rem 2.5rem; }
+  #signal-view.active { display: block; }
+  .signal-filter-bar { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; padding: 0.75rem 1rem; background: var(--bg3); border: 1px solid var(--border); border-radius: 2px; }
+  .signal-filter-label { font-size: 0.85rem; color: var(--text-muted); }
+  .signal-filter-label strong { color: var(--accent); }
+  .kw-clear-btn { background: none; border: 1px solid var(--border); color: var(--text-dim); font-size: 0.7rem; padding: 0.2rem 0.6rem; border-radius: 2px; cursor: pointer; transition: all 0.15s; margin-left: auto; }
+  .kw-clear-btn:hover { border-color: var(--accent3); color: var(--accent3); }
 
-  /* NO RESULTS */
-  .no-results {
-    color: var(--text-dim);
-    font-size: 0.85rem;
-    padding: 1rem 0;
-  }
+  .signal-tl-day { margin-bottom: 1.75rem; }
+  .signal-tl-date { font-family: 'Space Mono', monospace; font-size: 0.72rem; color: var(--accent); letter-spacing: 0.1em; margin-bottom: 0.5rem; cursor: pointer; display: inline-block; }
+  .signal-tl-date:hover { text-decoration: underline; }
+  .signal-tl-list { list-style: none; }
+  .signal-tl-list li { font-size: 0.95rem; color: var(--text-muted); line-height: 1.65; padding: 0.3rem 0 0.3rem 0.75rem; border-left: 2px solid var(--border); margin-bottom: 0.3rem; transition: border-color 0.15s, color 0.15s, opacity 0.15s; }
+  .signal-tl-list li.match { border-left-color: var(--accent2); color: var(--text); font-weight: 500; }
+  .signal-tl-list li.dimmed { opacity: 0.25; }
 
-  /* SIDEBAR TABS */
-  .sidebar-tabs {
-    display: flex;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 1.25rem;
-    padding: 0 0.5rem;
-  }
-  .sidebar-tab {
-    flex: 1;
-    background: none;
-    border: none;
-    border-bottom: 2px solid transparent;
-    padding: 0.6rem 0;
-    font-family: 'Space Mono', monospace;
-    font-size: 0.58rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--text-dim);
-    cursor: pointer;
-    transition: all 0.15s;
-    margin-bottom: -1px;
-  }
-  .sidebar-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
-  .sidebar-tab:hover { color: var(--text-muted); }
-
-  /* SIGNAL KEYWORD RANKING */
-  .kw-list { list-style: none; padding: 0 1rem; }
-  .kw-item {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.4rem 0;
-    border-bottom: 1px solid var(--border);
-    cursor: pointer;
-    transition: opacity 0.15s;
-  }
-  .kw-item:hover { opacity: 0.7; }
-  .kw-word {
-    font-size: 0.72rem;
-    color: var(--text-muted);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    min-width: 0;
-    flex: 1;
-  }
-  .kw-bar-wrap {
-    width: 40px;
-    height: 4px;
-    background: var(--border);
-    border-radius: 2px;
-    overflow: hidden;
-    flex-shrink: 0;
-  }
-  .kw-bar {
-    height: 100%;
-    background: var(--accent);
-    border-radius: 2px;
-  }
-  .kw-count {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.6rem;
-    color: var(--text-dim);
-    flex-shrink: 0;
-    width: 14px;
-    text-align: right;
-  }
-
-  /* SIGNAL TIMELINE */
-  .signal-timeline { padding: 0 1rem; }
-  .timeline-day { margin-bottom: 1.25rem; }
-  .timeline-date {
-    font-family: 'Space Mono', monospace;
-    font-size: 0.6rem;
-    color: var(--accent);
-    letter-spacing: 0.1em;
-    margin-bottom: 0.4rem;
-    cursor: pointer;
-  }
-  .timeline-date:hover { text-decoration: underline; }
-  .timeline-signals { list-style: none; }
-  .timeline-signals li {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    line-height: 1.5;
-    padding: 0.2rem 0 0.2rem 0.6rem;
-    border-left: 2px solid var(--border);
-    margin-bottom: 0.2rem;
-  }
-  .timeline-signals li.highlight {
-    border-left-color: var(--accent2);
-    color: var(--text);
-  }
-
-  /* KW FILTER BADGE */
-  .kw-filter-badge {
-    display: none;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem 1.5rem;
-    background: var(--bg3);
-    border-bottom: 1px solid var(--border);
-    font-size: 0.75rem;
-    color: var(--text-muted);
-  }
-  .kw-filter-badge.visible { display: flex; }
-  .kw-filter-badge strong { color: var(--accent); }
-  .kw-clear {
-    margin-left: auto;
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--text-dim);
-    font-size: 0.65rem;
-    padding: 0.15rem 0.5rem;
-    cursor: pointer;
-    border-radius: 2px;
-  }
-  .kw-clear:hover { color: var(--accent3); border-color: var(--accent3); }
-
-  @media (max-width: 768px) {
-    .main-layout { grid-template-columns: 1fr; }
-    .sidebar { display: none; }
-    .text-sections { grid-template-columns: 1fr; }
-    .container { padding: 0 1rem; }
-    .content { padding: 1.5rem 1rem 5rem; }
-    /* When main-content is hidden on mobile, collapse fully */
-    #main-content[style*="display: none"],
-    #main-content[style*="display:none"] {
-      display: none !important;
-      height: 0 !important;
-      overflow: hidden !important;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-    /* Mobile panels shown under main content */
-    .mobile-panel {
-      display: none;
-      padding: 1.5rem 1rem 5rem;
-    }
-    .mobile-panel.active { display: block; }
-  }
-
-  @media (min-width: 769px) {
-    .bottom-nav { display: none; }
-    .mobile-panel { display: none !important; }
-  }
-
-  /* BOTTOM NAV */
-  .bottom-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 56px;
-    background: var(--bg2);
-    border-top: 1px solid var(--border);
-    display: flex;
-    z-index: 200;
-  }
-  .bottom-nav-btn {
-    flex: 1;
-    background: none;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    cursor: pointer;
-    color: var(--text-dim);
-    font-family: 'Space Mono', monospace;
-    font-size: 0.55rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    transition: color 0.15s;
-  }
+  /* MOBILE */
+  .bottom-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; height: 56px; background: var(--bg2); border-top: 1px solid var(--border); z-index: 200; }
+  .bottom-nav-btn { flex: 1; background: none; border: none; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; cursor: pointer; color: var(--text-dim); font-family: 'Space Mono', monospace; font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.15s; }
   .bottom-nav-btn.active { color: var(--accent); }
   .bottom-nav-btn svg { width: 20px; height: 20px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+
+  .mobile-panel { display: none; padding: 1.5rem 1rem 5rem; }
+  .mobile-panel.active { display: block; }
+
+  .mobile-kw-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.25rem; }
+  .mobile-kw-tag { background: none; border: 1px solid var(--border); color: var(--text-muted); font-size: 0.75rem; padding: 0.3rem 0.7rem; border-radius: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+  .mobile-kw-tag:hover { border-color: var(--accent); color: var(--accent); }
+  .mobile-kw-tag.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  .empty-state { text-align: center; padding: 4rem 2rem; color: var(--text-dim); font-size: 0.85rem; }
+  .no-results { color: var(--text-dim); font-size: 0.85rem; padding: 1rem 0; }
+
+  @media (max-width: 768px) {
+    .layout { display: block; }
+    .sidebar { display: none; }
+    .main-tabs { display: none; }
+    .bottom-nav { display: flex; }
+    .search-section { padding: 1rem; }
+    #search-results { padding: 1rem; }
+    .content { padding: 1.25rem 1rem 5rem; }
+    #signal-view { padding: 1.25rem 1rem 5rem; }
+    .text-sections { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
@@ -622,65 +205,60 @@
   <div class="header-meta" id="header-meta">loading...</div>
 </header>
 
-<div class="container">
-  <div class="search-section">
-    <div class="search-row">
-      <div class="search-wrap">
-        <input type="text" id="search-input" placeholder="記事タイトル、キーワード、ソースで検索..." autocomplete="off">
-      </div>
+<div class="search-section">
+  <div class="search-wrap">
+    <input type="text" id="search-input" placeholder="記事タイトル、キーワード、ソースで検索..." autocomplete="off">
+  </div>
+  <div class="filter-wrap" id="category-filters"></div>
+</div>
+<div id="search-results">
+  <div class="results-header" id="results-header"></div>
+  <div class="article-grid" id="results-grid"></div>
+</div>
+
+<div class="main-tabs" id="main-tabs">
+  <button class="main-tab active" onclick="switchMainTab('archive', this)">Archive</button>
+  <button class="main-tab" onclick="switchMainTab('signal', this)">Signal 変遷</button>
+</div>
+
+<div class="layout" id="main-layout">
+  <aside class="sidebar">
+    <div id="sidebar-archive">
+      <div class="sidebar-label">Archive</div>
+      <ul class="date-list" id="date-list"></ul>
     </div>
-    <div class="filter-wrap" id="category-filters" style="margin-top:0.75rem;"></div>
+    <div id="sidebar-signal" style="display:none;">
+      <div class="sidebar-label">頻出キーワード</div>
+      <ul class="kw-list" id="kw-list"></ul>
+    </div>
+  </aside>
+
+  <div class="content" id="archive-view">
+    <div class="empty-state">データを読み込んでいます...</div>
   </div>
 
-  <div id="search-results">
-    <div class="results-header" id="results-header"></div>
-    <div class="article-grid" id="results-grid"></div>
-  </div>
-
-  <div class="main-layout">
-    <aside class="sidebar">
-      <div class="sidebar-tabs">
-        <button class="sidebar-tab active" onclick="switchSidebarTab('archive', this)">Archive</button>
-        <button class="sidebar-tab" onclick="switchSidebarTab('signals', this)">Signals</button>
-      </div>
-      <div id="tab-archive">
-        <ul class="date-list" id="date-list"></ul>
-      </div>
-      <div id="tab-signals" style="display:none;">
-        <div class="sidebar-label" style="padding:0 1rem;margin-bottom:0.75rem;">頻出キーワード</div>
-        <ul class="kw-list" id="kw-list"></ul>
-        <div class="sidebar-label" style="padding:0 1rem;margin:1.25rem 0 0.75rem;">タイムライン</div>
-        <div class="signal-timeline" id="signal-timeline"></div>
-      </div>
-    </aside>
-
-    <main class="content" id="main-content">
-      <div class="kw-filter-badge" id="kw-filter-badge">
-        <span>キーワード絞り込み：<strong id="kw-filter-label"></strong></span>
-        <button class="kw-clear" onclick="clearKwFilter()">✕ クリア</button>
-      </div>
-      <div id="main-inner">
-        <div class="empty-state">データを読み込んでいます...</div>
-      </div>
-    </main>
+  <div id="signal-view">
+    <div class="signal-filter-bar" id="signal-filter-bar" style="display:none;">
+      <span class="signal-filter-label">絞り込み中：<strong id="signal-filter-kw"></strong></span>
+      <button class="kw-clear-btn" onclick="clearKwFilter()">✕ クリア</button>
+    </div>
+    <div id="signal-tl"></div>
   </div>
 </div>
 
-<!-- Mobile: Archive panel -->
-<div class="mobile-panel active" id="mobile-archive">
+<!-- Mobile panels -->
+<div class="mobile-panel" id="mobile-archive">
   <div class="sidebar-label" style="margin-bottom:0.75rem;">Archive</div>
   <ul class="date-list" id="date-list-mobile"></ul>
 </div>
 
-<!-- Mobile: Signals panel -->
 <div class="mobile-panel" id="mobile-signals">
   <div class="sidebar-label" style="margin-bottom:0.75rem;">頻出キーワード</div>
-  <ul class="kw-list" id="kw-list-mobile"></ul>
-  <div class="sidebar-label" style="margin:1.5rem 0 0.75rem;">タイムライン</div>
-  <div class="signal-timeline" id="signal-timeline-mobile"></div>
+  <div class="mobile-kw-tags" id="mobile-kw-tags"></div>
+  <div class="sidebar-label" style="margin-bottom:0.75rem;">Signal 変遷</div>
+  <div id="signal-tl-mobile"></div>
 </div>
 
-<!-- Bottom nav (mobile only) -->
 <nav class="bottom-nav">
   <button class="bottom-nav-btn active" id="nav-today" onclick="mobileNav('today', this)">
     <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -692,7 +270,7 @@
   </button>
   <button class="bottom-nav-btn" id="nav-signals" onclick="mobileNav('signals', this)">
     <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-    Signals
+    Signal
   </button>
 </nav>
 
@@ -703,8 +281,8 @@ const ATLAS_DATA = [];
 let allDays = [];
 let currentDay = null;
 let activeCategory = 'ALL';
+let activeKw = null;
 let searchTimeout = null;
-let activeKwFilter = null;
 
 function init() {
   allDays = [...ATLAS_DATA].sort((a, b) => b.date.localeCompare(a.date));
@@ -712,281 +290,204 @@ function init() {
   document.getElementById('header-meta').textContent =
     `${allDays.length} days / ${allDays.reduce((s, d) => s + d.total_articles, 0)} articles`;
 
-  const dateList = document.getElementById('date-list');
-  allDays.forEach((day, i) => {
-    const li = document.createElement('li');
-    if (i === 0) li.classList.add('active');
-    const btn = document.createElement('button');
-    btn.innerHTML = `${day.date}<span class="date-count">${day.total_articles} articles</span>`;
-    btn.onclick = () => selectDay(day, li);
-    li.appendChild(btn);
-    dateList.appendChild(li);
-  });
+  buildDateList('date-list', false);
+  buildDateList('date-list-mobile', true);
+  buildCategoryFilters();
+  buildKwViews();
+  buildSignalTl('signal-tl', false);
+  buildSignalTl('signal-tl-mobile', true);
 
-  const cats = new Set(['ALL']);
-  allDays.forEach(d => d.categories.forEach(c => cats.add(c.name)));
-  const filterWrap = document.getElementById('category-filters');
-  cats.forEach(cat => {
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn' + (cat === 'ALL' ? ' active' : '');
-    btn.textContent = cat;
-    btn.onclick = () => setCategory(cat, btn);
-    filterWrap.appendChild(btn);
-  });
-
-  document.getElementById('search-input').addEventListener('input', (e) => {
+  document.getElementById('search-input').addEventListener('input', e => {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => doSearch(e.target.value.trim()), 200);
   });
 
-  buildSignalViews();
-  buildMobileDateList();
-  if (allDays.length > 0) selectDay(allDays[0], dateList.querySelector('li'));
+  if (allDays.length > 0) selectDay(allDays[0], document.querySelector('#date-list li'));
 }
 
-function buildMobileDateList() {
-  const mobileList = document.getElementById('date-list-mobile');
-  if (!mobileList) return;
+function buildDateList(listId, isMobile) {
+  const list = document.getElementById(listId);
+  if (!list) return;
   allDays.forEach((day, i) => {
     const li = document.createElement('li');
+    if (i === 0 && !isMobile) li.classList.add('active');
     const btn = document.createElement('button');
     btn.innerHTML = `${day.date}<span class="date-count">${day.total_articles} articles</span>`;
     btn.onclick = () => {
-      // Switch to today view and select day
-      mobileNav('today', document.getElementById('nav-today'));
-      selectDay(day, document.querySelectorAll('.date-list li')[i]);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (isMobile) {
+        mobileNav('today', document.getElementById('nav-today'));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+      selectDay(day, isMobile ? null : li);
     };
     li.appendChild(btn);
-    mobileList.appendChild(li);
+    list.appendChild(li);
   });
 }
 
-// ── SIGNAL VIEWS ──────────────────────────────────────────
-
-function buildSignalViews() {
-  buildKwRanking();
-  buildTimeline(null);
+function buildCategoryFilters() {
+  const cats = new Set(['ALL']);
+  allDays.forEach(d => d.categories.forEach(c => cats.add(c.name)));
+  const wrap = document.getElementById('category-filters');
+  cats.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'filter-btn' + (cat === 'ALL' ? ' active' : '');
+    btn.textContent = cat;
+    btn.onclick = () => {
+      activeCategory = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const q = document.getElementById('search-input').value.trim();
+      if (q) doSearch(q);
+    };
+    wrap.appendChild(btn);
+  });
 }
 
-// ── MOBILE NAV ────────────────────────────────────────────
-
-function mobileNav(tab, btn) {
-  document.querySelectorAll('.bottom-nav-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-
-  // Reset
-  document.querySelectorAll('.mobile-panel').forEach(p => p.classList.remove('active'));
-  const mainContent = document.getElementById('main-content');
-  const mainLayout = document.querySelector('.main-layout');
-
-  if (tab === 'today') {
-    mainLayout.style.display = '';
-    mainContent.style.display = '';
-  } else if (tab === 'archive') {
-    mainLayout.style.display = 'none';
-    document.getElementById('mobile-archive').classList.add('active');
-  } else if (tab === 'signals') {
-    mainLayout.style.display = 'none';
-    document.getElementById('mobile-signals').classList.add('active');
-  }
-}
-
-function extractKeywords(signal) {
+function extractKws(signal) {
   const quoted = [...signal.matchAll(/[「」]([^「」]{2,12})[「」]/g)].map(m => m[1]);
   const kana = [...signal.matchAll(/[ァ-ヶー]{4,}/g)].map(m => m[0]);
   return [...new Set([...quoted, ...kana])];
 }
 
-function buildKwRanking() {
+function buildKwViews() {
   const freq = {};
   allDays.forEach(day => {
     (day.signals || []).forEach(sig => {
-      extractKeywords(sig).forEach(kw => {
-        freq[kw] = (freq[kw] || 0) + 1;
-      });
-      // Also extract short phrases
-      sig.split(/[。、「」\s・\/]/).forEach(p => {
-        const t = p.trim();
-        if (t.length >= 4 && t.length <= 15) {
-          freq[t] = (freq[t] || 0) + 0.5;
-        }
-      });
+      extractKws(sig).forEach(kw => { freq[kw] = (freq[kw] || 0) + 1; });
     });
   });
-
-  const sorted = Object.entries(freq)
-    .filter(([k]) => k.length >= 3)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 25);
-
+  const sorted = Object.entries(freq).filter(([k]) => k.length >= 3).sort((a, b) => b[1] - a[1]).slice(0, 20);
   const max = sorted[0]?.[1] || 1;
+
   const list = document.getElementById('kw-list');
-  list.innerHTML = '';
+  const tagWrap = document.getElementById('mobile-kw-tags');
 
   sorted.forEach(([kw, count]) => {
     const pct = Math.round((count / max) * 100);
+
+    // PC list
     const li = document.createElement('li');
     li.className = 'kw-item';
-    li.title = `「${kw}」でタイムラインを絞り込む`;
-    li.innerHTML = `
-      <span class="kw-word">${kw}</span>
-      <div class="kw-bar-wrap"><div class="kw-bar" style="width:${pct}%"></div></div>
-      <span class="kw-count">${Math.round(count)}</span>
-    `;
+    li.dataset.kw = kw;
+    li.innerHTML = `<span class="kw-word">${kw}</span><div class="kw-bar-wrap"><div class="kw-bar" style="width:${pct}%"></div></div><span class="kw-count">${count}</span>`;
     li.onclick = () => filterByKw(kw);
     list.appendChild(li);
 
-    // Mobile duplicate
-    const liM = li.cloneNode(true);
-    liM.onclick = () => filterByKw(kw);
-    const mobileList = document.getElementById('kw-list-mobile');
-    if (mobileList) mobileList.appendChild(liM);
+    // Mobile tag
+    const btn = document.createElement('button');
+    btn.className = 'mobile-kw-tag';
+    btn.textContent = kw;
+    btn.dataset.kw = kw;
+    btn.onclick = () => filterByKw(kw);
+    tagWrap.appendChild(btn);
   });
 }
 
-function buildTimeline(filterKw) {
-  const timeline = document.getElementById('signal-timeline');
-  timeline.innerHTML = '';
-
+function buildSignalTl(containerId, isMobile) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.innerHTML = '';
   allDays.forEach((day, i) => {
     const signals = day.signals || [];
-    if (signals.length === 0) return;
-    const toShow = filterKw ? signals.filter(s => s.includes(filterKw)) : signals;
-    if (toShow.length === 0) return;
-
+    if (!signals.length) return;
     const block = document.createElement('div');
-    block.className = 'timeline-day';
+    block.className = 'signal-tl-day';
 
     const dateEl = document.createElement('div');
-    dateEl.className = 'timeline-date';
+    dateEl.className = 'signal-tl-date';
     dateEl.textContent = day.date;
     dateEl.onclick = () => {
-      switchSidebarTab('archive', document.querySelectorAll('.sidebar-tab')[0]);
-      selectDay(day, document.querySelectorAll('.date-list li')[i]);
+      if (isMobile) {
+        mobileNav('today', document.getElementById('nav-today'));
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        switchMainTab('archive', document.querySelectorAll('.main-tab')[0]);
+      }
+      selectDay(day, document.querySelectorAll('#date-list li')[i]);
     };
 
     const ul = document.createElement('ul');
-    ul.className = 'timeline-signals';
-    toShow.forEach(sig => {
+    ul.className = 'signal-tl-list';
+    signals.forEach(sig => {
       const li = document.createElement('li');
       li.textContent = sig;
-      if (filterKw) li.classList.add('highlight');
+      li.dataset.text = sig;
       ul.appendChild(li);
     });
 
     block.appendChild(dateEl);
     block.appendChild(ul);
-    timeline.appendChild(block);
-
-    // Mobile duplicate
-    const mobileTimeline = document.getElementById('signal-timeline-mobile');
-    if (mobileTimeline) {
-      const blockM = block.cloneNode(true);
-      // Re-attach click on date
-      blockM.querySelector('.timeline-date').onclick = () => {
-        mobileNav('today', document.getElementById('nav-today'));
-        selectDay(day, document.querySelectorAll('.date-list li')[i]);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      };
-      mobileTimeline.appendChild(blockM);
-    }
+    container.appendChild(block);
   });
 }
 
 function filterByKw(kw) {
-  activeKwFilter = kw;
-  switchSidebarTab('signals', document.querySelectorAll('.sidebar-tab')[1]);
-  buildTimeline(kw);
-  document.getElementById('kw-filter-badge').classList.add('visible');
-  document.getElementById('kw-filter-label').textContent = kw;
+  if (activeKw === kw) { clearKwFilter(); return; }
+  activeKw = kw;
+
+  document.querySelectorAll('.kw-item').forEach(el => el.classList.toggle('active', el.dataset.kw === kw));
+  document.querySelectorAll('.mobile-kw-tag').forEach(el => el.classList.toggle('active', el.dataset.kw === kw));
+
+  const bar = document.getElementById('signal-filter-bar');
+  bar.style.display = 'flex';
+  document.getElementById('signal-filter-kw').textContent = kw;
+
+  ['signal-tl', 'signal-tl-mobile'].forEach(id => {
+    const c = document.getElementById(id);
+    if (!c) return;
+    c.querySelectorAll('.signal-tl-list li').forEach(li => {
+      const m = li.dataset.text && li.dataset.text.includes(kw);
+      li.classList.toggle('match', m);
+      li.classList.toggle('dimmed', !m);
+    });
+  });
+
+  // PC: switch to signal tab
+  if (window.innerWidth > 768) {
+    switchMainTab('signal', document.querySelectorAll('.main-tab')[1]);
+  }
 }
 
 function clearKwFilter() {
-  activeKwFilter = null;
-  document.getElementById('kw-filter-badge').classList.remove('visible');
-  buildTimeline(null);
+  activeKw = null;
+  document.querySelectorAll('.kw-item').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.mobile-kw-tag').forEach(el => el.classList.remove('active'));
+  document.getElementById('signal-filter-bar').style.display = 'none';
+  ['signal-tl', 'signal-tl-mobile'].forEach(id => {
+    const c = document.getElementById(id);
+    if (c) c.querySelectorAll('li').forEach(li => li.classList.remove('match', 'dimmed'));
+  });
 }
 
-function switchSidebarTab(tab, btn) {
-  document.querySelectorAll('.sidebar-tab').forEach(b => b.classList.remove('active'));
+function switchMainTab(tab, btn) {
+  document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
-  document.getElementById('tab-archive').style.display = tab === 'archive' ? '' : 'none';
-  document.getElementById('tab-signals').style.display = tab === 'signals' ? '' : 'none';
+  const isArchive = tab === 'archive';
+  document.getElementById('archive-view').style.display = isArchive ? '' : 'none';
+  document.getElementById('signal-view').classList.toggle('active', !isArchive);
+  document.getElementById('sidebar-archive').style.display = isArchive ? '' : 'none';
+  document.getElementById('sidebar-signal').style.display = isArchive ? 'none' : '';
 }
 
-// ── CORE ──────────────────────────────────────────────────
+function mobileNav(tab, btn) {
+  document.querySelectorAll('.bottom-nav-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('main-layout').style.display = tab === 'today' ? '' : 'none';
+  document.querySelectorAll('.mobile-panel').forEach(p => p.classList.remove('active'));
+  if (tab === 'archive') document.getElementById('mobile-archive').classList.add('active');
+  if (tab === 'signals') document.getElementById('mobile-signals').classList.add('active');
+}
 
 function selectDay(day, li) {
   currentDay = day;
-  document.querySelectorAll('.date-list li').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('#date-list li').forEach(el => el.classList.remove('active'));
   if (li) li.classList.add('active');
   renderDay(day);
 }
 
-function setCategory(cat, btn) {
-  activeCategory = cat;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  const q = document.getElementById('search-input').value.trim();
-  if (q) doSearch(q);
-}
-
-function doSearch(q) {
-  const resultsEl = document.getElementById('search-results');
-  const grid = document.getElementById('results-grid');
-  const header = document.getElementById('results-header');
-
-  if (!q) { resultsEl.classList.remove('visible'); return; }
-
-  const ql = q.toLowerCase();
-  const results = [];
-
-  allDays.forEach(day => {
-    day.categories.forEach(cat => {
-      if (activeCategory !== 'ALL' && cat.name !== activeCategory) return;
-      cat.articles.forEach(art => {
-        const match =
-          art.title.toLowerCase().includes(ql) ||
-          (art.source || '').toLowerCase().includes(ql) ||
-          cat.summary.toLowerCase().includes(ql);
-        if (match) results.push({ ...art, category: cat.name, date: day.date });
-      });
-    });
-  });
-
-  const seen = new Set();
-  const deduped = results.filter(r => {
-    if (seen.has(r.url)) return false;
-    seen.add(r.url);
-    return true;
-  });
-
-  header.textContent = `${deduped.length} results — "${q}"${activeCategory !== 'ALL' ? ` in ${activeCategory}` : ''}`;
-  grid.innerHTML = '';
-
-  if (deduped.length === 0) {
-    grid.innerHTML = '<div class="no-results">該当する記事が見つかりませんでした</div>';
-  } else {
-    deduped.forEach(art => {
-      const card = document.createElement('div');
-      card.className = 'article-card';
-      card.innerHTML = `
-        <a href="${art.url}" target="_blank" rel="noopener">${art.title}</a>
-        <div class="article-meta">
-          <span class="article-source">${art.source || ''}</span>
-          <span class="article-category-tag">${art.category}</span>
-          <span class="article-date-tag">${art.date}</span>
-        </div>
-      `;
-      grid.appendChild(card);
-    });
-  }
-  resultsEl.classList.add('visible');
-}
-
 function renderDay(day) {
-  const inner = document.getElementById('main-inner');
+  const view = document.getElementById('archive-view');
   const idx = allDays.findIndex(d => d.date === day.date);
   const hasPrev = idx < allDays.length - 1;
   const hasNext = idx > 0;
@@ -994,7 +495,7 @@ function renderDay(day) {
   const cats = day.categories.map(cat => `
     <div class="category-block" onclick="toggleCategory(this)">
       <div class="category-header">
-        <span class="category-name${cat.is_cross ? ' cross' : ''}">${cat.name}${cat.is_cross ? ' x' : ''}</span>
+        <span class="category-name${cat.is_cross ? ' cross' : ''}">${cat.name}${cat.is_cross ? ' ×' : ''}</span>
         <span class="category-count">${cat.count}</span>
       </div>
       <div class="category-summary">${cat.summary}</div>
@@ -1009,20 +510,18 @@ function renderDay(day) {
     </div>
   `).join('');
 
-  const signals = day.signals.map(s => `<li>${s}</li>`).join('');
-
-  inner.innerHTML = `
+  view.innerHTML = `
     <div class="day-header">
       <div class="day-nav">
-        <button class="nav-btn" onclick="navigateDay(${idx + 1})" ${!hasPrev ? 'disabled' : ''} title="前の日">◀</button>
-        <button class="nav-btn" onclick="navigateDay(${idx - 1})" ${!hasNext ? 'disabled' : ''} title="次の日">▶</button>
+        <button class="nav-btn" onclick="navigateDay(${idx + 1})" ${!hasPrev ? 'disabled' : ''}>◀</button>
+        <button class="nav-btn" onclick="navigateDay(${idx - 1})" ${!hasNext ? 'disabled' : ''}>▶</button>
       </div>
       <span class="day-date">${day.date}</span>
       <span class="day-total">${day.total_articles} articles</span>
     </div>
     <div class="signals-section">
       <div class="section-label">Signals</div>
-      <ul class="signal-list">${signals}</ul>
+      <ul class="signal-list">${(day.signals || []).map(s => `<li>${s}</li>`).join('')}</ul>
     </div>
     <div class="text-sections">
       <div class="text-block">
@@ -1045,23 +544,51 @@ function toggleCategory(el) { el.classList.toggle('expanded'); }
 
 function navigateDay(idx) {
   if (idx < 0 || idx >= allDays.length) return;
-  const day = allDays[idx];
-  const li = document.querySelectorAll('.date-list li')[idx];
-  selectDay(day, li);
-  document.getElementById('main-content').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  selectDay(allDays[idx], document.querySelectorAll('#date-list li')[idx]);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function doSearch(q) {
+  const resultsEl = document.getElementById('search-results');
+  if (!q) { resultsEl.classList.remove('visible'); return; }
+
+  const ql = q.toLowerCase();
+  const results = [];
+  allDays.forEach(day => {
+    day.categories.forEach(cat => {
+      if (activeCategory !== 'ALL' && cat.name !== activeCategory) return;
+      cat.articles.forEach(art => {
+        if (art.title.toLowerCase().includes(ql) || (art.source || '').toLowerCase().includes(ql) || cat.summary.toLowerCase().includes(ql))
+          results.push({ ...art, category: cat.name, date: day.date });
+      });
+    });
+  });
+
+  const seen = new Set();
+  const deduped = results.filter(r => { if (seen.has(r.url)) return false; seen.add(r.url); return true; });
+
+  document.getElementById('results-header').textContent =
+    `${deduped.length} results — "${q}"${activeCategory !== 'ALL' ? ` in ${activeCategory}` : ''}`;
+  document.getElementById('results-grid').innerHTML = deduped.length === 0
+    ? '<div class="no-results">該当する記事が見つかりませんでした</div>'
+    : deduped.map(art => `
+        <div class="article-card">
+          <a href="${art.url}" target="_blank" rel="noopener">${art.title}</a>
+          <div class="article-meta">
+            <span class="article-source">${art.source || ''}</span>
+            <span class="article-category-tag">${art.category}</span>
+            <span class="article-date-tag">${art.date}</span>
+          </div>
+        </div>`).join('');
+  resultsEl.classList.add('visible');
 }
 
 (function() {
   try {
-    if (typeof ATLAS_DATA !== 'undefined' && ATLAS_DATA.length > 0) {
-      init();
-    } else {
-      document.getElementById('main-inner').innerHTML =
-        '<div class="empty-state">atlas.jsonにデータがありません</div>';
-    }
+    if (typeof ATLAS_DATA !== 'undefined' && ATLAS_DATA.length > 0) init();
+    else document.getElementById('archive-view').innerHTML = '<div class="empty-state">atlas.jsonにデータがありません</div>';
   } catch(e) { console.error(e); }
 })();
-
 </script>
 </body>
 </html>
