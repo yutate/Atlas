@@ -340,8 +340,7 @@ function buildCategoryFilters() {
       activeCategory = cat;
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
-      const q = document.getElementById('search-input').value.trim();
-      if (q) doSearch(q);
+      doSearch(document.getElementById('search-input').value.trim());
     };
     wrap.appendChild(btn);
   });
