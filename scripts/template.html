@@ -343,6 +343,7 @@ function init() {
     searchTimeout = setTimeout(() => doSearch(q), 200);
   });
   searchInput.addEventListener('focus', () => {
+    searchClear.classList.add('visible');
     doSearch(searchInput.value.trim());
   });
 
@@ -361,6 +362,17 @@ function buildDateList(listId, isMobile) {
       if (isMobile) {
         mobileNav('today', document.getElementById('nav-today'));
         window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        // If in search view, close it first
+        const searchInput = document.getElementById('search-input');
+        if (document.getElementById('search-view').classList.contains('active')) {
+          searchInput.value = '';
+          document.getElementById('search-clear').classList.remove('visible');
+          showSearchView(false);
+          // restore main tab
+          const archiveTab = document.querySelectorAll('.main-tab')[0];
+          switchMainTab('archive', archiveTab);
+        }
       }
       selectDay(day, isMobile ? null : li);
     };
@@ -640,8 +652,16 @@ function clearSearch() {
 function showSearchView(show) {
   document.getElementById('search-view').classList.toggle('active', show);
   document.getElementById('archive-view').style.display = show ? 'none' : '';
-  document.getElementById('signal-view').classList.toggle('active', show ? false : (currentMainTab === 'signal'));
+  document.getElementById('signal-view').classList.toggle('active', !show && currentMainTab === 'signal');
   document.getElementById('main-tabs').style.display = show ? 'none' : '';
+  // Sidebar: always show signal kw list while searching, else follow current tab
+  if (show) {
+    document.getElementById('sidebar-archive').style.display = 'none';
+    document.getElementById('sidebar-signal').style.display = '';
+  } else {
+    document.getElementById('sidebar-archive').style.display = currentMainTab === 'archive' ? '' : 'none';
+    document.getElementById('sidebar-signal').style.display = currentMainTab === 'signal' ? '' : 'none';
+  }
 }
 
 (function() {
