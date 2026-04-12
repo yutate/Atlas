@@ -301,6 +301,9 @@ function init() {
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => doSearch(e.target.value.trim()), 200);
   });
+  document.getElementById('search-input').addEventListener('focus', () => {
+    doSearch(document.getElementById('search-input').value.trim());
+  });
 
   if (allDays.length > 0) selectDay(allDays[0], document.querySelector('#date-list li'));
 }
@@ -550,15 +553,14 @@ function navigateDay(idx) {
 
 function doSearch(q) {
   const resultsEl = document.getElementById('search-results');
-  if (!q) { resultsEl.classList.remove('visible'); return; }
-
   const ql = q.toLowerCase();
   const results = [];
+
   allDays.forEach(day => {
     day.categories.forEach(cat => {
       if (activeCategory !== 'ALL' && cat.name !== activeCategory) return;
       cat.articles.forEach(art => {
-        if (art.title.toLowerCase().includes(ql) || (art.source || '').toLowerCase().includes(ql) || cat.summary.toLowerCase().includes(ql))
+        if (!q || art.title.toLowerCase().includes(ql) || (art.source || '').toLowerCase().includes(ql) || cat.summary.toLowerCase().includes(ql))
           results.push({ ...art, category: cat.name, date: day.date });
       });
     });
@@ -567,8 +569,10 @@ function doSearch(q) {
   const seen = new Set();
   const deduped = results.filter(r => { if (seen.has(r.url)) return false; seen.add(r.url); return true; });
 
-  document.getElementById('results-header').textContent =
-    `${deduped.length} results — "${q}"${activeCategory !== 'ALL' ? ` in ${activeCategory}` : ''}`;
+  document.getElementById('results-header').textContent = q
+    ? `${deduped.length} results — "${q}"${activeCategory !== 'ALL' ? ` in ${activeCategory}` : ''}`
+    : `全記事 ${deduped.length} 件${activeCategory !== 'ALL' ? ` — ${activeCategory}` : ''}`;
+
   document.getElementById('results-grid').innerHTML = deduped.length === 0
     ? '<div class="no-results">該当する記事が見つかりませんでした</div>'
     : deduped.map(art => `
