@@ -560,7 +560,15 @@
     .text-sections { grid-template-columns: 1fr; }
     .container { padding: 0 1rem; }
     .content { padding: 1.5rem 1rem 5rem; }
-
+    /* When main-content is hidden on mobile, collapse fully */
+    #main-content[style*="display: none"],
+    #main-content[style*="display:none"] {
+      display: none !important;
+      height: 0 !important;
+      overflow: hidden !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
     /* Mobile panels shown under main content */
     .mobile-panel {
       display: none;
@@ -767,17 +775,19 @@ function mobileNav(tab, btn) {
   document.querySelectorAll('.bottom-nav-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 
-  // Hide all mobile panels and main content
+  // Reset
   document.querySelectorAll('.mobile-panel').forEach(p => p.classList.remove('active'));
-  document.getElementById('main-content').style.display = '';
+  const mainContent = document.getElementById('main-content');
+  const mainLayout = document.querySelector('.main-layout');
 
   if (tab === 'today') {
-    document.getElementById('main-content').style.display = '';
+    mainLayout.style.display = '';
+    mainContent.style.display = '';
   } else if (tab === 'archive') {
-    document.getElementById('main-content').style.display = 'none';
+    mainLayout.style.display = 'none';
     document.getElementById('mobile-archive').classList.add('active');
   } else if (tab === 'signals') {
-    document.getElementById('main-content').style.display = 'none';
+    mainLayout.style.display = 'none';
     document.getElementById('mobile-signals').classList.add('active');
   }
 }
