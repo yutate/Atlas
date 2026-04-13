@@ -1,5 +1,848 @@
 [
   {
+    "date": "2026-04-13",
+    "total_articles": 109,
+    "categories": [
+      {
+        "name": "Marketing",
+        "count": 24,
+        "is_cross": false,
+        "summary": "主要テーマ：AEO/AIO、AI購買、第一想起、マーケ自動化、パーソナライゼーション。\n構造的変化：検索起点の集客から、回答・推薦・購買までをつなぐ対話型ファネルへ移行。\n共通論点：信頼、引用、説明可能性、行動データ、広告と購買の直結。",
+        "articles": [
+          {
+            "title": "TikTokとInstagramが検索エンジンに──若年層へのマーケティング手法はこう変わった | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95597",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "ASCII.jp：【営業の未来】生成AIが営業マンを超える日!? 買い手の半数以上が「AIの提案」で購買候補を増やしてるって知ってた？ (1/2)",
+            "url": "https://ascii.jp/elem/000/004/387/4387808/",
+            "source": "ASCII.jp"
+          },
+          {
+            "title": "アパレルECサイト顧客体験、悪いと感じる要素として53％が「検索性能」を選択【ブレインパッド調査】　：MarkeZine（マーケジン）",
+            "url": "https://markezine.jp/article/detail/50653",
+            "source": "MarkeZine"
+          },
+          {
+            "title": "ソーシャルメディアで実現するアカウントベースドマーケティング──効果測定の鍵とは | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95446",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "SNS時代の瞬発力。 TikTok のコメント投稿から5日で広告キャンペーンを制作 | DIGIDAY［日本版］",
+            "url": "https://digiday.jp/glossy/how-batiste-turned-a-viral-tiktok-into-a-campaign-in-5-days/",
+            "source": "DIGIDAY［日本版］"
+          },
+          {
+            "title": "AIで構築する「自動マーケティング」創業者5人の実践例 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95612",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "回答エンジン最適化は新しい戦略ではない――SEOの延長線上にあるもの | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95657",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "マーケティング自動化の落とし穴：効率化と引き換えに失われたブランドの独自性 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95590",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "スクリーンを超えた絆：ブランドグッズがもたらす記憶に残るマーケティング効果 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95591",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AI主導のパーソナライゼーション：マーケターが知るべき実践手法 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95587",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "マーケターからCEOになって分かった、準備できていたこと・できていなかったこと | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95509",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "マーケティング変革の鍵はAI活用──CMOが果たすべき役割 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95249",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "How to plug into an agentic ad tech platform - Ad Age",
+            "url": "https://adage.com/technology/ad-tech/aa-ai-agentic-explained/",
+            "source": "Ad Age"
+          },
+          {
+            "title": "「新SEO」はYouTubeとクリエイター　大半のブランドが取り残される理由 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95554",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "加速するアマゾン離れ、EC戦略に大きな変化…205億ドル市場に膨らむAI購買 | ビジネスジャーナル",
+            "url": "https://biz-journal.jp/company/post_394260.html",
+            "source": "ビジネスジャーナル"
+          },
+          {
+            "title": "検索対策の「黄金律」がAIで崩壊、SEOはキーワードから「信頼」の争奪戦へ 口コミサイトの影響力が増大、17日周期の更新で「裏技」は通用せず(1/2) | JBpress",
+            "url": "https://jbpress.ismedia.jp/articles/-/94213",
+            "source": "JBpress"
+          },
+          {
+            "title": "ADWEEK: Code in OpenAI's Ads Manager Suggests the Company Is Building Conversion Tracking Into ChatGPT",
+            "url": "https://www.adweek.com/media/openai-performance-marketing-expansion/",
+            "source": "ADWEEK"
+          },
+          {
+            "title": "日経クロストレンド: AI時代の新消費モデルは「AICAS」 500人独自調査に見る購買行動の変化",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01354/00006/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "MarkeZine: コカ・コーラがROAS3,750％達成 非計画購買を捉えるUber Eatsのリテールメディアの全容",
+            "url": "https://markezine.jp/article/detail/50325?",
+            "source": "MarkeZine"
+          },
+          {
+            "title": "MarkeZine: 「第一想起の獲得」と「あやしさの払拭」、目的も規模も異なるBtoB企業のコミュニケーション戦略とは？ (1/3)",
+            "url": "https://markezine.jp/article/detail/50558",
+            "source": "MarkeZine"
+          },
+          {
+            "title": "ネットショップ担当者フォーラム: Amazonの新しいAI搭載ショッピング機能「Help Me Decide」とは",
+            "url": "https://netshop.impress.co.jp/n/2026/04/10/15900",
+            "source": "ネットショップ担当者フォーラム"
+          },
+          {
+            "title": "日経クロストレンド: 西口氏が提案「AI検索攻略法」 AIに推奨されない商品は売れない時代",
+            "url": "https://xtrend.nikkei.com/atcl/seminar/19/00075/00026/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "AIで構築する「自動マーケティング」創業者5人の実践例 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95612",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "MarkeZine: 「購入」はゴールではない？その先の生活行動まで見据え、市場を創る「価値創生CXモデル」5つのステージ (1/3)",
+            "url": "https://markezine.jp/article/detail/50579",
+            "source": "MarkeZine"
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 13,
+        "is_cross": false,
+        "summary": "主要テーマ：信頼、誠実さ、世界観設計、オーセンティシティ、未来洞察。\n構造的変化：ブランドは知名度より、共鳴と信頼の継続資産として評価される。\n共通論点：見た目より中身、一貫性、炎上回避、若年層に響く人格設計。",
+        "articles": [
+          {
+            "title": "自然食品ブランドが挑む、フードシステム再生への道 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95476",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "キャラクターに命を吹き込むバックストーリーの作り方｜物語の深みと一貫性を生む設計術【テクニックでセンスを超える！プロが教えるマンガネーム】 - ラブすぽ",
+            "url": "https://love-spo.com/article/manga-blueprint009/",
+            "source": "ラブすぽ"
+          },
+          {
+            "title": "なぜ「ブランドもの」は高くても人気があるのか…ただの「目印」から、特別な価値があるという「信頼」へと変化したブランドビジネスの背景 | 集英社オンライン",
+            "url": "https://shueisha.online/articles/-/257178",
+            "source": "集英社オンライン"
+          },
+          {
+            "title": "ガワよりナカミ 〜テクノロジーについて考える①｜若宮和男",
+            "url": "https://comemo.nikkei.com/n/n1689554b4f0c",
+            "source": "NIKKEI COMEMO"
+          },
+          {
+            "title": "MarkeZine: Z世代を突くgreen colaと疲労に寄り添う三ツ矢サイダー。時代を捉えるブランディング (1/3)",
+            "url": "https://markezine.jp/article/detail/50608",
+            "source": "MarkeZine"
+          },
+          {
+            "title": "動画文化で高まる「極太フォント」需要。アドビが新書体「ネオクロ」を開発する理由（BUSINESS INSIDER JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/72bcfa76dfd22efa1da0429af4da0bf7b6f13076",
+            "source": "Yahoo!ニュース / BUSINESS INSIDER JAPAN"
+          },
+          {
+            "title": "HIKAKIN､新作麦茶｢ONICHA｣の発表は､なぜ炎上したのか？ 最強の武器\"誠実さ\"に生じた綻び - 東洋経済オンライン",
+            "url": "https://toyokeizai.net/articles/-/941110?display=b",
+            "source": "東洋経済オンライン"
+          },
+          {
+            "title": "Forbes JAPAN: AIが偽装できない唯一のリーダーシップ能力：戦略的オーセンティシティ",
+            "url": "https://forbesjapan.com/articles/detail/95448",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AdverTimes.（アドタイ）: 新社会人の不安と期待を捉える春の発信 人材・金融会社に広がる応援広告",
+            "url": "https://www.advertimes.com/20260409/article540049/",
+            "source": "AdverTimes"
+          },
+          {
+            "title": "AdverTimes.（アドタイ）: FCC賞2026発表、最高賞は九州広告業協会 「広告のスキップ」題材に",
+            "url": "https://www.advertimes.com/20260409/article540812/",
+            "source": "AdverTimes"
+          },
+          {
+            "title": "AdverTimes.（アドタイ）: 【書籍先行公開】クリエイターがマーケティングを学ぶ意義 ～ WhoとWhat",
+            "url": "https://www.advertimes.com/20260408/article540580/",
+            "source": "AdverTimes"
+          },
+          {
+            "title": "TABI LABO: スーパーヒーローより“共感できる男性像”。Z世代が求める新しい男性キャラクター",
+            "url": "https://tabi-labo.com/312398/notherojustaman",
+            "source": "TABI LABO"
+          },
+          {
+            "title": "博報堂、25年来の未来洞察の知見を凝縮した初のメソッドブック『未来洞察 RESONANCE』を公開",
+            "url": "https://www.hakuhodo.co.jp/news/info/007225/",
+            "source": "博報堂"
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 30,
+        "is_cross": false,
+        "summary": "主要テーマ：AIエージェント、AI依存、副作用、ロボティクス、コーディング、音楽創作、モデル競争。\n構造的変化：AIは作業補助から、意思決定・創作・組織設計・雇用構造を変える前提に。\n共通論点：人間判断の残余、依存の管理、ツールの民主化、非公開最強モデルと公開モデルの緊張。",
+        "articles": [
+          {
+            "title": "たった1人で世界を変える「1人ユニコーン企業」の作り方：AIエージェントのチームと叶える未来の働き方",
+            "url": "https://note.com/edwardcyber/n/n7ef71c2026ad",
+            "source": "note"
+          },
+          {
+            "title": "OpenAIは広告収入が劇的に増加し2026年に約25億ドルに到達すると予測している、その後も倍々に増え続け2030年には約1000億ドルに達するという楽観的予測 - GIGAZINE",
+            "url": "https://gigazine.net/news/20260410-openai-ad-revenue/",
+            "source": "GIGAZINE"
+          },
+          {
+            "title": "2034年､スマホを持ち歩く人間は絶滅する…元マイクロソフトエンジニアが大予想｢iPhoneに代わる次世代機｣ - PRESIDENT Online",
+            "url": "https://president.jp/articles/-/111314",
+            "source": "PRESIDENT Online"
+          },
+          {
+            "title": "AI時代の音楽業界、クリエイターは「才能」から「経営者」へ | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95638",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AIが出力する質の低い提案が、人間の創造性を高める可能性 | カラパイア",
+            "url": "https://karapaia.com/archives/595154.html",
+            "source": "カラパイア"
+          },
+          {
+            "title": "AIを使ったことを忘れる人々──人間とAIの協働作業が記憶に与える影響 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95564",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "「AI時代に良い問いを立てる人が優秀」は本当なのか？をクーンのパラダイム論から考える",
+            "url": "https://zenn.dev/acntechjp/articles/ac59a66d0e58d6",
+            "source": "Zenn"
+          },
+          {
+            "title": "Claude Codeに学習する仕組みを自作したら、指摘が減った話",
+            "url": "https://note.com/jake_k547/n/n2004f4422e12",
+            "source": "note"
+          },
+          {
+            "title": "Webデザイナー必読！ DESIGN.md とは？ AIデザインツール Google Stitch で DESIGN.md を使ってみる。",
+            "url": "https://note.com/howmanydesigns/n/nae3dfff16e30",
+            "source": "note"
+          },
+          {
+            "title": "チャットボットはキャラクターを演じている--Anthropicがそれを危険だと指摘する理由 - ZDNET Japan",
+            "url": "https://japan.zdnet.com/article/35246180/",
+            "source": "ZDNET Japan"
+          },
+          {
+            "title": "【新発表】最強のAIが、非売品になった理由",
+            "url": "https://newspicks.com/news/16409670/body/",
+            "source": "NewsPicks"
+          },
+          {
+            "title": "ChatGPTの開発者に関する真実",
+            "url": "https://www.vietnam.vn/ja/su-that-ve-cha-de-chatgpt",
+            "source": "Vietnam.vn"
+          },
+          {
+            "title": "AIに「ちゃんとやらせる」ためのプロンプト技法 — エージェント定義から抽出した実践パターン",
+            "url": "https://zenn.dev/headwaters/articles/96f6b78d73a376",
+            "source": "Zenn"
+          },
+          {
+            "title": "米Arcee AI、3990億パラメータのオープンウェイト推論モデル「Trinity-Large-Thinking」公開",
+            "url": "https://ledge.ai/articles/arcee_ai_trinity_large_thinking_open_weights_release",
+            "source": "Ledge.ai"
+          },
+          {
+            "title": "AIブームに続いて、量子コンピューティングの波が押し寄せている。",
+            "url": "https://www.vietnam.vn/ja/lan-song-may-tinh-luong-tu-sau-con-sot-ai",
+            "source": "Vietnam.vn"
+          },
+          {
+            "title": "n8nで「三権分立AIエージェント」を構築したら、寝ている間にバグのないコードが勝手に完成した話 #LLM - Qiita",
+            "url": "https://qiita.com/YushiYamamoto/items/9a53b6f957f809089881",
+            "source": "Qiita"
+          },
+          {
+            "title": "AIエージェントは社会を変えるか　1人起業した体験から考える「働くAI」の現在地（リアルサウンド）",
+            "url": "https://news.yahoo.co.jp/articles/c1e0eac12a732bd1d8b3d91c263f228cd28632d7",
+            "source": "Yahoo!ニュース / リアルサウンド"
+          },
+          {
+            "title": "生成AIが答えを返す時代に、なお判断はなぜ人間に残るのか――ドレイファスから考える熟達と経験の重み",
+            "url": "https://news.yahoo.co.jp/expert/articles/285f6d6df7751a425e9e9c41dd9950faeff699b5",
+            "source": "Yahoo!ニュース エキスパート"
+          },
+          {
+            "title": "【AI依存症】AIは人間の「忍耐力」を奪うことが判明（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/0debdd531e2a9dc099875fdb8dc66a12437515c8",
+            "source": "Yahoo!ニュース / ビジネス＋IT"
+          },
+          {
+            "title": "AI動画生成を“みんなのもの”に　OpenAIの撤退後、Googleが「無料」で仕掛ける意図を考える（リアルサウンド）",
+            "url": "https://news.yahoo.co.jp/articles/44aafeb27f981b21b894f7aacb8acb149b485ea6",
+            "source": "Yahoo!ニュース / リアルサウンド"
+          },
+          {
+            "title": "無料で読めるAIエージェントの実践ガイド、Googleが公開 - ＠IT",
+            "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/10/news057.html",
+            "source": "＠IT"
+          },
+          {
+            "title": "Anthropicが「Project Glasswing」を発表／Metaがマルチモーダル推論モデル「Muse Spark」を公開（ITmedia PC USER）",
+            "url": "https://news.yahoo.co.jp/articles/0cd340db6dc70b678bae45f8e5ff257c2cbe11f8",
+            "source": "Yahoo!ニュース / ITmedia PC USER"
+          },
+          {
+            "title": "ChatGPTとGrokの「強み」から考える、AI使い分け術（ライフハッカー・ジャパン）",
+            "url": "https://news.yahoo.co.jp/articles/ae757833b85da106650c971c897e6f00dc06540e",
+            "source": "Yahoo!ニュース / ライフハッカー・ジャパン"
+          },
+          {
+            "title": "ITmedia: 生成AIが「危険サイト」に誘導する事例を確認、どのような手口？",
+            "url": "https://techtarget.itmedia.co.jp/tt/news/2604/11/news02.html",
+            "source": "TechTarget Japan / ITmedia"
+          },
+          {
+            "title": "WIRED.jp: 生成AIを使った勉強は、知識の定着を妨げる：研究結果",
+            "url": "https://wired.jp/article/chatgpt-study-aid-impairs-long-term-knowledge-retention/",
+            "source": "WIRED.jp"
+          },
+          {
+            "title": "XenoSpectrum: 困ったときだけOpusに聞く：Claudeにトークンを削減しながら精度を上げる「アドバイザーツール」モードが登場",
+            "url": "https://xenospectrum.com/anthropic-advisor-tool-cost-reduction/",
+            "source": "XenoSpectrum"
+          },
+          {
+            "title": "newspicks.com: 【ミニ教養】一流企業のAI活用、「答え」が判明しました",
+            "url": "https://newspicks.com/news/16428988/body/",
+            "source": "NewsPicks"
+          },
+          {
+            "title": "ZDNET Japan: AIが雇用に与える影響はまるで満潮のように--MITの報告書",
+            "url": "https://japan.zdnet.com/article/35246042/",
+            "source": "ZDNET Japan"
+          },
+          {
+            "title": "Yahoo!ニュース: 【ロボット界のGPTに俺はなる！】Generalist AIがロボットAI基盤モデル「GEN-1」発表（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/c51b371cf659599ad7b8f3dcf889d98c81afa83c",
+            "source": "Yahoo!ニュース / ビジネス＋IT"
+          },
+          {
+            "title": "internetcom.jp: 【2026年4月】最新AIツール・プラットフォーム注目情報4選！動画生成からスキンケア研究まで幅広く進化！",
+            "url": "https://internetcom.jp/amp/211200/2026-april-ai-trend-2",
+            "source": "internetcom.jp"
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 11,
+        "is_cross": false,
+        "summary": "主要テーマ：決済認証、Fintech、財務変革、クラウド、通信、働きがい。\n構造的変化：事業競争は商品単体より、決済・通信・データセンター・財務運営の基盤力へ。\n共通論点：信頼される認証、継続率、インフラ投資、生活密着の価値。",
+        "articles": [
+          {
+            "title": "消費者の56％が「決済時の認証」に不安。Visa調査で判明した、EC成長を阻む「見えない壁」 | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2613ko105/",
+            "source": "DXマガジン"
+          },
+          {
+            "title": "デジタル変革を成功に導く財務部門のリーダーシップ戦略 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95598",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "「働きがいレポート2026」を発刊 | GPTW Japanのプレスリリース",
+            "url": "https://kyodonewsprwire.jp/release/202603316703",
+            "source": "共同通信PRワイヤー"
+          },
+          {
+            "title": "“目立たないテクノロジー”は消えたのか？スマホ時代に再び問われるカームテクノロジーの思想 | TABI LABO",
+            "url": "https://tabi-labo.com/312397/calmtechnotcalm",
+            "source": "TABI LABO"
+          },
+          {
+            "title": "〈伸び率は国内断トツ〉PayPayカード急拡大､クレカ業界が警戒する\"切り札\"の正体 - 東洋経済オンライン",
+            "url": "https://toyokeizai.net/articles/-/940481",
+            "source": "東洋経済オンライン"
+          },
+          {
+            "title": "アジアのフィンテックで何が“止まって”いる？ 規制・決済・越境の「理想と現実」（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/b697f84ea9c3904f7fd98e549fb3ba246e5005ea",
+            "source": "Yahoo!ニュース / ビジネス＋IT"
+          },
+          {
+            "title": "ソフトバンク寺尾氏が語る「つながり続ける」ための決断、料金改定と引き換えに提供する新価値とは（ケータイ Watch）",
+            "url": "https://news.yahoo.co.jp/articles/03a85019b67a05dfb36591324fd8cd539df86dd9",
+            "source": "Yahoo!ニュース / ケータイ Watch"
+          },
+          {
+            "title": "AI特化の「ネオクラウド」市場が爆発的成長 前年比223％増を記録（ITmedia エンタープライズ）",
+            "url": "https://news.yahoo.co.jp/articles/c40d0dba4f6546e8245004b448e850eae92e111c",
+            "source": "Yahoo!ニュース / ITmedia エンタープライズ"
+          },
+          {
+            "title": "廃校がAIの心臓部に!? 地方の遊休施設を「AIデータセンター」に生まれ変わらせるハイレゾの挑戦",
+            "url": "https://news.yahoo.co.jp/articles/ef80a1ada5be708b987e6f2b9a65acc0e8281155",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "イオンモバイル、驚異の解約率1.19%…「生活密着型」MVNOという新たな勝ち筋 - ビジネスジャーナル",
+            "url": "https://biz-journal.jp/it/post_394202.html",
+            "source": "ビジネスジャーナル"
+          },
+          {
+            "title": "通話アプリの常識を覆す『POPOPO』…GACKTら著名人経営陣が描く戦略とは - ビジネスジャーナル",
+            "url": "https://biz-journal.jp/company/post_394164.html",
+            "source": "ビジネスジャーナル"
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 8,
+        "is_cross": false,
+        "summary": "主要テーマ：クリエイター分配、音楽SNS集中、エンゲージメント基盤、AIローカル化、プラットフォーム拡張。\n構造的変化：プラットフォームは配信面から、創作者報酬・AI統合・データ基盤の競争へ。\n共通論点：誰に還元するか、どこで利用文脈を囲い込むか、ローカル vs クラウド。",
+        "articles": [
+          {
+            "title": "X、収益分配を刷新　拡散者でなく「オリジナル」作者に還元 - Impress Watch",
+            "url": "https://www.watch.impress.co.jp/docs/news/2101029.html",
+            "source": "Impress Watch"
+          },
+          {
+            "title": "Instagram、熱心な音楽ファンが最も集中しているソーシャルメディアに ルミネイト調査 | Musicman",
+            "url": "https://www.musicman.co.jp/business/720499?utm_source=feed_smartnews&utm_medium=rss&utm_campaign=feed_outsource",
+            "source": "Musicman"
+          },
+          {
+            "title": "Tokyoガス、「Braze」と「Databricks」を連携--AIを活用した顧客エンゲージメント基盤を構築 - ZDNET Japan",
+            "url": "https://japan.zdnet.com/article/35245921/",
+            "source": "ZDNET Japan"
+          },
+          {
+            "title": "Google Financeが一新 AIに銘柄や市場動向を質問 - Impress Watch",
+            "url": "https://www.watch.impress.co.jp/docs/news/2100309.html",
+            "source": "Impress Watch"
+          },
+          {
+            "title": "YouTube、自分そっくりのアバターを作成可能に　ショート動画で分身が活躍（CNET Japan）",
+            "url": "https://news.yahoo.co.jp/articles/ce7ec6789b9ab7b2712c603c1ea56902c1faf0b5",
+            "source": "Yahoo!ニュース / CNET Japan"
+          },
+          {
+            "title": "＠IT: Googleが公開したAIエージェント実践ガイド",
+            "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/10/news057.html",
+            "source": "＠IT"
+          },
+          {
+            "title": "FirefoxのサイドバーにあるAIチャット機能を完全ローカル化してみた - GIGAZINE",
+            "url": "https://gigazine.net/news/20260411-lemonade-firefox-localhost/",
+            "source": "GIGAZINE"
+          },
+          {
+            "title": "YouTube がGemini搭載の提携マッチングツール発表 - DIGIDAY［日本版］",
+            "url": "https://digiday.jp/platforms/youtube-is-building-infrastructure-for-the-full-creator-brand-partnership-lifecycle/",
+            "source": "DIGIDAY［日本版］"
+          }
+        ]
+      },
+      {
+        "name": "Media",
+        "count": 9,
+        "is_cross": false,
+        "summary": "主要テーマ：テレビ衰退論、アニメ投資、SNS流通、AIとジャーナリズム、スクレイピング脅威。\n構造的変化：メディアは流通面より、IP・真正性・保護技術の争いに移行。\n共通論点：AI生成の信頼性、リンク不利化、サイトの存在意義、配信の再編。",
+        "articles": [
+          {
+            "title": "いよいよ「テレビは終わり」なのか…業界関係者が明かす「今春のテレビ改編」で起きている異常事態 - 現代ビジネス",
+            "url": "https://gendai.media/articles/-/165976",
+            "source": "現代ビジネス"
+          },
+          {
+            "title": "「コンテンツこそ王様」テレビ局はなぜアニメ投資を強めるのか｜ニューズウィーク日本版",
+            "url": "https://www.newsweekjapan.jp/sudo/2026/04/post-9.php",
+            "source": "ニューズウィーク日本版"
+          },
+          {
+            "title": "Xでリンクを含む投稿はエンゲージメント率が下がることが18のメディアアカウントを対象にした調査で明らかに - GIGAZINE",
+            "url": "https://gigazine.net/news/20260410-x-post-with-link-low-engagement-with-link/",
+            "source": "GIGAZINE"
+          },
+          {
+            "title": "AI生成のレントゲン画像、専門家でも見分けられない。医療ハッキングの怖さ（ギズモード・ジャパン）",
+            "url": "https://news.yahoo.co.jp/articles/edb17f44281e8c048f6b72fb0f48ab6fed817fde",
+            "source": "Yahoo!ニュース / ギズモード・ジャパン"
+          },
+          {
+            "title": "海外有名カルチャー誌、新田真剣佑のインタビューをAI生成し物議。「何これ？」「ジャーナリズムの死」（ハフポスト日本版）",
+            "url": "https://news.yahoo.co.jp/articles/6a67117c7274efb45a6e930f7d8ef0397a153e89",
+            "source": "Yahoo!ニュース / ハフポスト日本版"
+          },
+          {
+            "title": "Do You Still Need a Website in 2026?",
+            "url": "https://youtu.be/IM3UAX3MhnI?si=BHgxCWJykGGXJ1bf",
+            "source": "YouTube"
+          },
+          {
+            "title": "Media Briefing: Another AI threat emerges for publishers: the third-party scraper - Digiday",
+            "url": "https://digiday.com/media/media-briefing-another-ai-threat-emerges-for-publishers-the-third-party-scraper/",
+            "source": "Digiday"
+          },
+          {
+            "title": "ロイター | 経済、株価、ビジネス、国際、政治ニュース",
+            "url": "https://jp.reuters.com/?tag:reuters.com,2026:newsml_KBN3QM05T-NOJPBS",
+            "source": "Reuters"
+          },
+          {
+            "title": "YouTube発の「北欧、暮らしの道具店」オリジナルドラマ「ひとりごとエプロン」が日韓で展開拡大",
+            "url": "https://netshop.impress.co.jp/n/2026/04/09/15893",
+            "source": "ネットショップ担当者フォーラム"
+          }
+        ]
+      },
+      {
+        "name": "Society",
+        "count": 9,
+        "is_cross": false,
+        "summary": "主要テーマ：若者の疲れ、不安負担、働きがい、安全性、深めないコミュニケーション。\n構造的変化：社会は“濃い関係”より、摩擦を減らす接点と安全性の見える化を求めている。\n共通論点：若年層の負担、将来不安、失敗回避、インフラ前提の不公平。",
+        "articles": [
+          {
+            "title": "「風が強くてビジュが崩れる」令和の若者の３割が「花見を楽しいと思わない」環境的な理由に加えＺ世代らしい価値観も - スポーツ報知",
+            "url": "https://hochi.news/articles/20260411-OHT1T51287.html",
+            "source": "スポーツ報知"
+          },
+          {
+            "title": "日本の若者、「優れたリーダーがいる」が急上昇 将来への期待感は6か国中最下位【日本財団調べ】 | Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/04/13/52460",
+            "source": "Web担当者Forum"
+          },
+          {
+            "title": "若者はどうしてお客さまの「不安」を背負うのか？ 自動車ディーラー「若者のリアル」 - 日刊自動車新聞",
+            "url": "https://www.netdenjd.com/archives/657215",
+            "source": "日刊自動車新聞"
+          },
+          {
+            "title": "「働きがいレポート2026」を発刊 | GPTW Japanのプレスリリース",
+            "url": "https://kyodonewsprwire.jp/release/202603316703",
+            "source": "共同通信PRワイヤー"
+          },
+          {
+            "title": "一発退場で人生終了？失敗を極端に恐れる日本社会 若者の7割が挑戦を避け、中高年が後輩の指導を諦める構造的欠陥（ABEMA TIMES）",
+            "url": "https://news.yahoo.co.jp/articles/1a3abd87ae23dff11a73e30f307cb7d84da78f54",
+            "source": "Yahoo!ニュース / ABEMA TIMES"
+          },
+          {
+            "title": "SNSは本当に「安全」なのか？　ヘイト拡散を可視化する新ツールが変える“評価基準”",
+            "url": "https://news.yahoo.co.jp/articles/a56be443b7af01afac9f1ea9f345ea29f07e3172",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "「なんで自分のギガを使う必要が？」賛否両論のスマホ注文。“スマホありき”のサービスに疑問も - TRILL",
+            "url": "https://trilltrill.jp/articles/4676944",
+            "source": "TRILL"
+          },
+          {
+            "title": "東洋経済オンライン: コミュニケーションを｢あえて深めない｣コミュニケーションツールの進化",
+            "url": "https://toyokeizai.net/articles/-/940944",
+            "source": "東洋経済オンライン"
+          },
+          {
+            "title": "東洋経済オンライン: 中間層以下の若者は結婚が遠のいていく…",
+            "url": "https://toyokeizai.net/articles/photo/941099?pn=3",
+            "source": "東洋経済オンライン"
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 7,
+        "is_cross": false,
+        "summary": "主要テーマ：音楽認知、DIY文化、声の固有性、フォント、観光体験。\n構造的変化：文化は大量消費より、固有性・コミュニティ・身体的な体験で価値化する。\n共通論点：AI時代に残る人間の声、共同体的な制作、体験の希少性。",
+        "articles": [
+          {
+            "title": "「推しの声」が観光ガイド、無線で給電…トヨタの多用途EVどう使う - 朝日新聞",
+            "url": "https://www.asahi.com/sp/articles/ASV482QBJV48ULFA00HM.html?ref=smartnews",
+            "source": "朝日新聞"
+          },
+          {
+            "title": "非音楽家でも、脳は”音楽のルール”を理解している | Merkystyle",
+            "url": "https://mama.smt.docomo.ne.jp/merkystyle/articles/361253/",
+            "source": "Merkystyle"
+          },
+          {
+            "title": "若者の間で再び広がる「ジン」文化。DIY小冊子がコミュニティの情報共有ツールに | TABI LABO",
+            "url": "https://tabi-labo.com/312402/diyzines",
+            "source": "TABI LABO"
+          },
+          {
+            "title": "AI時代の音楽業界、クリエイターは「才能」から「経営者」へ | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95638",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "動画文化で高まる「極太フォント」需要。アドビが新書体「ネオクロ」を開発する理由",
+            "url": "https://news.yahoo.co.jp/articles/72bcfa76dfd22efa1da0429af4da0bf7b6f13076",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "文春オンライン: 「“AI Ado”がMrs. GREEN APPLEさんの楽曲を…」歌い手・Adoが考える“人間の声”でしかできないこと",
+            "url": "https://bunshun.jp/articles/-/87428",
+            "source": "文春オンライン"
+          },
+          {
+            "title": "newspicks.com: 長時間化する東京ディズニーリゾートの待ち時間に関する考察",
+            "url": "https://newspicks.com/news/16431363/body/?ref=news-body_16196823",
+            "source": "NewsPicks"
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 10,
+        "is_cross": false,
+        "summary": "主要テーマ：仮説思考、全体像、傾聴、複雑性の制御、行動設計。\n構造的変化：リーダーは正解提示者より、仮説を置き、全体を見て、行動を設計する役割へ。\n共通論点：変化適応、複雑化した戦略の簡素化、意思決定の質。",
+        "articles": [
+          {
+            "title": "AIに代替されないのは「変化を恐れない人」。20代で5回の転職を経験した社長が語る、正解のない時代のキャリア構築術 - 求人ボックスジャーナル",
+            "url": "https://xn--pckua2a7gp15o89zb.com/journal/career/1264/",
+            "source": "求人ボックスジャーナル"
+          },
+          {
+            "title": "データは何も語らない。意思決定に寄与するのは、仮説ばかりである – WirelessWire",
+            "url": "https://wirelesswire.jp/2026/04/93248/",
+            "source": "WirelessWire"
+          },
+          {
+            "title": "販売戦略コンサル、新人時代の失敗談　チーズが売れない原因は「全体像」が見えていないことにあった - AERA Books",
+            "url": "https://dot.asahi.com/articles/-/278731?page=1",
+            "source": "AERA Books"
+          },
+          {
+            "title": "デジタル変革を成功に導く財務部門のリーダーシップ戦略 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95598",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "戦略の複雑さが企業を蝕む──ハーバード教授が説く「価値の棒」理論 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95555",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "#371： 自信を埋めるのは「知識」ではなく「行動設計」である",
+            "url": "https://note.com/booster_nobu/n/n51720e1356de",
+            "source": "note"
+          },
+          {
+            "title": "マーケターからCEOになって分かった、準備できていたこと・できていなかったこと | Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/95509",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "優れたリーダーになるための5つの言葉──傾聴の力 | Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/95435",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "「すばやく動いて壊せ」はもう古い──リーダーに必要な意思決定の新ルール | Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/95292",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "私のリーダーシップジャーニー - ダイヤモンド・オンライン",
+            "url": "https://diamond.jp/articles/-/385752?page=3",
+            "source": "ダイヤモンド・オンライン"
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 11,
+        "is_cross": false,
+        "summary": "主要テーマ：補助線となる技術・理論・個人ツール・周辺知識。\n構造的変化：主流テーマの理解には、基礎理論や周辺技術の吸収がより重要。\n共通論点：未来予測、ツール実務、リテラシーの差。",
+        "articles": [
+          {
+            "title": "歴史家は、データを歴史化する – WirelessWire & Schrödinger's",
+            "url": "https://wirelesswire.jp/2026/04/93238/",
+            "source": "WirelessWire"
+          },
+          {
+            "title": "2034年､スマホを持ち歩く人間は絶滅する…元マイクロソフトエンジニアが大予想｢iPhoneに代わる次世代機｣ - PRESIDENT Online",
+            "url": "https://president.jp/articles/-/111314",
+            "source": "PRESIDENT Online"
+          },
+          {
+            "title": "ChatGPTの開発者に関する真実",
+            "url": "https://www.vietnam.vn/ja/su-that-ve-cha-de-chatgpt",
+            "source": "Vietnam.vn"
+          },
+          {
+            "title": "AIブームに続いて、量子コンピューティングの波が押し寄せている。",
+            "url": "https://www.vietnam.vn/ja/lan-song-may-tinh-luong-tu-sau-con-sot-ai",
+            "source": "Vietnam.vn"
+          },
+          {
+            "title": "Yuta User manual",
+            "url": "https://yutate.github.io/Yuta-User-manual/",
+            "source": "GitHub Pages"
+          },
+          {
+            "title": "I want to extend my Claude sessions (full guide)",
+            "url": "https://x.com/i/status/2042293751805329445",
+            "source": "X"
+          },
+          {
+            "title": "マッチングアルゴリズム設計3つの手法と精度向上の実践",
+            "url": "https://note.com/ripla_business/n/nc1e8a97c16db",
+            "source": "note"
+          },
+          {
+            "title": "スターリンク対抗の「アマゾンレオ」、2026年中盤に開始へ（CNET Japan）",
+            "url": "https://news.yahoo.co.jp/articles/709e4bbe495c2477ea69bdada29352dbed4af132",
+            "source": "Yahoo!ニュース / CNET Japan"
+          },
+          {
+            "title": "ドローンのサイエンスコミュニケーション - newspicks.com",
+            "url": "https://newspicks.com/news/16431390/body/?ref=topics",
+            "source": "NewsPicks"
+          },
+          {
+            "title": "XenoSpectrum: 困ったときだけOpusに聞く…アドバイザーツールモード",
+            "url": "https://xenospectrum.com/anthropic-advisor-tool-cost-reduction/",
+            "source": "XenoSpectrum"
+          },
+          {
+            "title": "＠IT: Googleが公開したAIエージェント実践ガイド",
+            "url": "https://atmarkit.itmedia.co.jp/ait/articles/2604/10/news057.html",
+            "source": "＠IT"
+          }
+        ]
+      },
+      {
+        "name": "Z世代",
+        "count": 16,
+        "is_cross": true,
+        "summary": "Z世代観点での主要論点：検索行動のSNS化、所有から利用、エモ消費、将来不安、共感可能なキャラクター、軽いコミュニティ志向。\n消費行動／価値観の変化：Z世代は効率よりも、見つけやすさ・共感・心理的負荷の低さ・象徴的所有を重視。\n他カテゴリとの接続：ブランド、SNS、購買、移動、仕事観、自己表現のすべてで新しい基準を提示している。",
+        "articles": [
+          {
+            "title": "TikTokとInstagramが検索エンジンに──若年層へのマーケティング手法はこう変わった | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/95597",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "「風が強くてビジュが崩れる」令和の若者の３割が「花見を楽しいと思わない」環境的な理由に加えＺ世代らしい価値観も - スポーツ報知",
+            "url": "https://hochi.news/articles/20260411-OHT1T51287.html",
+            "source": "スポーツ報知"
+          },
+          {
+            "title": "若者の間で再び広がる「ジン」文化。DIY小冊子がコミュニティの情報共有ツールに | TABI LABO",
+            "url": "https://tabi-labo.com/312402/diyzines",
+            "source": "TABI LABO"
+          },
+          {
+            "title": "日本の若者、「優れたリーダーがいる」が急上昇 将来への期待感は6か国中最下位【日本財団調べ】 | Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/04/13/52460",
+            "source": "Web担当者Forum"
+          },
+          {
+            "title": "若者はどうしてお客さまの「不安」を背負うのか？　新米のら猫コンサルが見た自動車ディーラー「若者のリアル」",
+            "url": "https://www.netdenjd.com/archives/657215",
+            "source": "日刊自動車新聞"
+          },
+          {
+            "title": "「買ったのに使わない？」約6割が “使わなくても満足” 若年層で広がる “所有すること自体に価値” を感じる消費",
+            "url": "https://prtimes.jp/main/html/rd/p/000000183.000144334.html",
+            "source": "PR TIMES"
+          },
+          {
+            "title": "新社会人の半数がクルマ購入予定なし　理由は「お金」ではなく…　二極化する意識",
+            "url": "https://maidonanews.jp/article/16423995",
+            "source": "まいどなニュース"
+          },
+          {
+            "title": "新社会人の不安と期待を捉える春の発信 人材・金融会社に広がる応援広告",
+            "url": "https://www.advertimes.com/20260409/article540049/",
+            "source": "AdverTimes"
+          },
+          {
+            "title": "Z世代を突くgreen colaと疲労に寄り添う三ツ矢サイダー。時代を捉えるブランディング",
+            "url": "https://markezine.jp/article/detail/50608",
+            "source": "MarkeZine"
+          },
+          {
+            "title": "スーパーヒーローより“共感できる男性像”。Z世代が求める新しい男性キャラクター",
+            "url": "https://tabi-labo.com/312398/notherojustaman",
+            "source": "TABI LABO"
+          },
+          {
+            "title": "【調査から見えた】Z世代の「クルマ離れ」が進行中？ 原因は「ライフスタイルと経済状況の変化」…「所有」から「利用」が一般化",
+            "url": "https://news.yahoo.co.jp/articles/4784fae32ca932c6e958db03b265fcdcb10c1d8f",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "日本経済新聞: Z世代は「エモ消費」､瞬間的なときめきで買う 女子高生646人に調査",
+            "url": "https://www.nikkei.com/article/DGXZQOUC302AH0Q6A330C2000000/",
+            "source": "日本経済新聞"
+          },
+          {
+            "title": "クーリエ・ジャポン: 「将来が奪われる」 AIネイティブのZ世代が抱く切実な拒否感の正体",
+            "url": "https://courrier.jp/news/archives/441773/",
+            "source": "クーリエ・ジャポン"
+          },
+          {
+            "title": "TikTokで築いた数千億円の経済圏 - DIGIDAY［日本版］",
+            "url": "https://digiday.jp/platforms/how-a-tiktok-doctorate-made-26-year-old-griffin-johnson-a-venture-capitalist/",
+            "source": "DIGIDAY［日本版］"
+          },
+          {
+            "title": "令和の若者の花見観 / 車離れ / 所有満足 / エモ消費 の連続テーマ群",
+            "url": "",
+            "source": "Atlas Note"
+          },
+          {
+            "title": "TABI LABO: スーパーヒーローより“共感できる男性像”。Z世代が求める新しい男性キャラクター",
+            "url": "https://tabi-labo.com/312398/notherojustaman",
+            "source": "TABI LABO"
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "検索の主戦場がGoogleからTikTok／Instagram／回答エンジンへ分散し、AEO/AIOがさらに実務化している。",
+      "AI導入の勝負はモデル選定より、エージェント設計・UI標準・ガバナンス・データ基盤へ移っている。",
+      "若年層は「所有しない」だけでなく、「使わなくても満足」「共感できる象徴を持つ」方向へ価値観を更新している。",
+      "ブランドは自動化を進めるほど独自性を失うリスクがあり、真実性・愛着・体験価値の再設計が重要になっている。",
+      "FintechとECは、認証・AI決済・コンシェルジュ・トークン化預金などを通じて再び基盤競争に入っている。"
+    ],
+    "change": "4/10までの「AI検索・対話型購買」論点が、4/13ではSNS検索・AEO・EC認証・AI決済へさらに拡張した。AI記事はモデル性能比較より、エージェント運用・依存・学習定着・危険誘導・法務ガイドへと論点が深化した。Z世代論は「不安」だけではなく、「所有観」「エモ消費」「共感型キャラクター」「花見さえ面倒」という生活実感の粒度まで下りてきた。ブランド論は、広告や認知の話から、愛着・真実性・独自性をどう守るかにより寄っている。",
+    "insight": "4/13の記事群の中心には、AIが情報流通と購買導線を変える一方で、人間側には「何を信じ、どう選ぶか」をより強く迫っているという構図がある。検索はもはや検索エンジンだけの話ではなく、TikTokやInstagram、回答エンジン、AIコンシェルジュ、AI決済、リテールメディアへと分散した。結果として、マーケティングの勝敗は露出量ではなく、どの文脈で見つかり、どの形で信用されるかに移った。\n\n同時に、AIが提案・生成・判断支援を担うほど、人間には別の価値が残る。傾聴、オーセンティシティ、仮説構築、問いを立てる力、そして「この判断を引き受けるのは誰か」という責任の所在である。AIが低品質な提案で創造性を刺激する、あるいは使う人ほど影響を受けるという論点は、AIが万能でないだけでなく、人間の思考環境そのものを変えつつあることを示している。\n\nZ世代の論点も深い。彼らはSNSを検索インフラとして使い、モノを所有する意味を再定義し、重いコミュニケーションや儀礼的な楽しさから距離を取る。一方で、エモ消費、共感できる男性像、DIYジンのような軽い共同体には反応する。つまり、若年層は無関心なのではなく、過剰な圧や制度化された熱量を回避しながら、自分に近い文脈だけを選び取っている。\n\n結局、AI時代の競争は「誰が一番すごいAIを持つか」ではなく、「どの接点で人間にとって自然で、信じられ、使い続けられる設計をつくれるか」にかかっている。ここで勝つのは、速さだけでなく、構造理解と文脈設計を持つ企業である。"
+  },
+  {
     "date": "2026-04-10",
     "total_articles": 109,
     "categories": [
