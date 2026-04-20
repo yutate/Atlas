@@ -329,6 +329,10 @@ let activeCategory = 'ALL';
 let activeKw = null;
 let searchTimeout = null;
 
+function esc(s) {
+  return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 function init() {
   allDays = [...ATLAS_DATA].sort((a, b) => b.date.localeCompare(a.date));
 
@@ -581,8 +585,8 @@ function renderDay(day) {
       <div class="category-articles">
         ${cat.articles.map(a => `
           <div class="cat-article-item">
-            <a href="${a.url}" target="_blank" rel="noopener">${a.title}</a>
-            <div class="cat-article-source">${a.source || ''}</div>
+            <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+            <div class="cat-article-source">${esc(a.source || '')}</div>
           </div>
         `).join('')}
       </div>
@@ -653,9 +657,9 @@ function doSearch(q) {
     ? '<div class="no-results">該当する記事が見つかりませんでした</div>'
     : deduped.map(art => `
         <div class="article-card">
-          <a href="${art.url}" target="_blank" rel="noopener">${art.title}</a>
+          <a href="${esc(art.url)}" target="_blank" rel="noopener">${esc(art.title)}</a>
           <div class="article-meta">
-            <span class="article-source">${art.source || ''}</span>
+            <span class="article-source">${esc(art.source || '')}</span>
             <span class="article-category-tag">${art.category}</span>
             <span class="article-date-tag">${art.date}</span>
           </div>
