@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-04-27",
-    "total_articles": 104,
+    "total_articles": 118,
     "categories": [
       {
         "name": "Marketing / Advertising",
-        "count": 16,
+        "count": 17,
         "is_cross": false,
         "summary": "Marketing / Advertisingでは、予算慣行、営業手法、広告費構成、リテールメディア、代理店モデル、AI広告運用まで含めて、実務の前提そのものが見直されている。特に、AIが執行の自動化を進めるほど、差を生むのは「戦略の明確さ」「評価設計」「味覚」「信頼」であり、量や運用テクニックだけでは競争優位になりにくくなっている。",
         "articles": [
@@ -88,6 +88,11 @@
             "title": "Future of Marketing Briefing: In the age of AI, taste is the new competitive advantage",
             "url": "https://digiday.com/marketing/future-of-marketing-briefing-in-the-age-of-ai-taste-is-the-new-competitive-advantage/",
             "source": "Digiday"
+          },
+          {
+            "title": "Uplane Raised $4.5 Million to Replace Marketers With AI",
+            "url": "https://www.businessinsider.com/pitch-deck-uplane-raised-funding-to-replace-marketing-agencies-ai-2026-4",
+            "source": "Business Insider"
           }
         ]
       },
