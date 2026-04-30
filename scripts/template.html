@@ -640,49 +640,49 @@ function initMonthly() {
   renderMonthly(monthlyData[0], true);
 }
 
-function renderMonthly(m, isMobile = false) {
-  const el = document.getElementById(isMobile ? 'monthly-content-mobile' : 'monthly-content');
-  const sections = (m.sections || []).map((s, i) => `
-    <div class="monthly-section" id="${isMobile ? 'msecm' : 'msec'}-${i}">
-      <div class="monthly-section-header" onclick="toggleMonthlySection('${isMobile ? \"msecm\" : \"msec\"}-${i}')">
-        <span class="monthly-section-num">0${s.number}</span>
-        <span class="monthly-section-theme">${esc(s.theme)}</span>
-        <span class="monthly-section-title">${esc(s.title)}</span>
-      </div>
-      <div class="monthly-section-body">
-        <div class="monthly-structure">
-          <div class="monthly-struct-block">
-            <div class="monthly-struct-label">旧</div>
-            <div class="monthly-struct-text">${esc(s.structure_old || '')}</div>
-          </div>
-          <div class="monthly-struct-block">
-            <div class="monthly-struct-label">新</div>
-            <div class="monthly-struct-text">${esc(s.structure_new || '')}</div>
-          </div>
-        </div>
-        <div class="monthly-essence">${esc(s.essence || '')}</div>
-        <ul class="monthly-articles">
-          ${(s.articles || []).map(a => `<li><a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></li>`).join('')}
-        </ul>
-      </div>
-    </div>
-  `).join('');
+function renderMonthly(m, isMobile) {
+  const prefix = isMobile ? 'msecm' : 'msec';
+  const targetId = isMobile ? 'monthly-content-mobile' : 'monthly-content';
+  const el = document.getElementById(targetId);
+  if (!el) return;
 
-  el.innerHTML = `
-    <div class="monthly-header">
-      <div class="monthly-date-label">${esc(m.date)}</div>
-      <div class="monthly-title">${esc(m.title)}</div>
-      <div class="monthly-one-line">${esc(m.one_line || '')}</div>
-      <div class="monthly-summary">${esc(m.summary || '')}</div>
-      <a class="monthly-note-link" href="${esc(m.note_url || '')}" target="_blank" rel="noopener">↗ noteで読む</a>
-    </div>
-    <div class="monthly-sections">${sections}</div>
-    <div class="monthly-conclusion">
-      <div class="section-label">結論</div>
-      <pre>${esc(m.conclusion || '')}</pre>
-    </div>
-  `;
+  const sections = (m.sections || []).map((s, i) => {
+    const secId = prefix + '-' + i;
+    const arts = (s.articles || []).map(a =>
+      '<li><a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a></li>'
+    ).join('');
+    return '<div class="monthly-section" id="' + secId + '">' +
+      '<div class="monthly-section-header" onclick="toggleMonthlySection('' + secId + '')">' +
+        '<span class="monthly-section-num">0' + s.number + '</span>' +
+        '<span class="monthly-section-theme">' + esc(s.theme) + '</span>' +
+        '<span class="monthly-section-title">' + esc(s.title) + '</span>' +
+      '</div>' +
+      '<div class="monthly-section-body">' +
+        '<div class="monthly-structure">' +
+          '<div class="monthly-struct-block"><div class="monthly-struct-label">旧</div><div class="monthly-struct-text">' + esc(s.structure_old || '') + '</div></div>' +
+          '<div class="monthly-struct-block"><div class="monthly-struct-label">新</div><div class="monthly-struct-text">' + esc(s.structure_new || '') + '</div></div>' +
+        '</div>' +
+        '<div class="monthly-essence">' + esc(s.essence || '') + '</div>' +
+        '<ul class="monthly-articles">' + arts + '</ul>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+
+  el.innerHTML =
+    '<div class="monthly-header">' +
+      '<div class="monthly-date-label">' + esc(m.date) + '</div>' +
+      '<div class="monthly-title">' + esc(m.title) + '</div>' +
+      '<div class="monthly-one-line">' + esc(m.one_line || '') + '</div>' +
+      '<div class="monthly-summary">' + esc(m.summary || '') + '</div>' +
+      '<a class="monthly-note-link" href="' + esc(m.note_url || '') + '" target="_blank" rel="noopener">↗ noteで読む</a>' +
+    '</div>' +
+    '<div class="monthly-sections">' + sections + '</div>' +
+    '<div class="monthly-conclusion">' +
+      '<div class="section-label">結論</div>' +
+      '<pre>' + esc(m.conclusion || '') + '</pre>' +
+    '</div>';
 }
+
 
 function toggleMonthlySection(id) {
   document.getElementById(id).classList.toggle('expanded');
