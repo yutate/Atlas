@@ -220,50 +220,10 @@
   }
   .search-view-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.15em; text-transform: uppercase; }
 
-  /* MONTHLY VIEW */
-  #monthly-view { display: none; padding: 2rem 2.5rem; }
-  #monthly-view.active { display: block; }
-  .monthly-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
-  .monthly-date-label { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--accent); letter-spacing: 0.15em; margin-bottom: 0.5rem; }
-  .monthly-title { font-size: 1.15rem; font-weight: 500; color: var(--text); line-height: 1.5; margin-bottom: 0.75rem; }
-  .monthly-one-line { font-size: 0.9rem; color: var(--text-muted); font-style: italic; margin-bottom: 1rem; }
-  .monthly-summary { font-size: 0.95rem; color: var(--text-muted); line-height: 1.9; margin-bottom: 1rem; }
-  .monthly-note-link { display: inline-flex; align-items: center; gap: 0.4rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--accent2); border: 1px solid var(--accent2); padding: 0.3rem 0.75rem; border-radius: 2px; text-decoration: none; letter-spacing: 0.1em; transition: all 0.15s; }
-  .monthly-note-link:hover { background: var(--accent2); color: #fff; }
-  .monthly-sections { margin-top: 2rem; }
-  .monthly-section { border: 1px solid var(--border); border-radius: 2px; margin-bottom: 1rem; overflow: hidden; }
-  .monthly-section-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: center; gap: 1rem; background: var(--bg); transition: background 0.15s; }
-  .monthly-section-header:hover, .monthly-section.expanded .monthly-section-header { background: var(--bg2); border-bottom: 1px solid var(--border); }
-  .monthly-section-num { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--accent); width: 24px; flex-shrink: 0; }
-  .monthly-section-theme { font-size: 0.7rem; color: var(--accent2); border: 1px solid var(--accent2); padding: 0.1rem 0.5rem; border-radius: 1px; flex-shrink: 0; }
-  .monthly-section-title { font-size: 0.92rem; font-weight: 500; color: var(--text); flex: 1; line-height: 1.4; }
-  .monthly-section-body { display: none; padding: 1.25rem 1.5rem; }
-  .monthly-section.expanded .monthly-section-body { display: block; }
-  .monthly-structure { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
-  .monthly-struct-block { background: var(--bg3); border: 1px solid var(--border); border-radius: 2px; padding: 0.75rem 1rem; }
-  .monthly-struct-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--text-dim); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem; }
-  .monthly-struct-text { font-size: 0.85rem; color: var(--text-muted); }
-  .monthly-essence { font-size: 0.92rem; color: var(--text); line-height: 1.8; margin-bottom: 1rem; padding: 0.75rem 1rem; border-left: 3px solid var(--accent); background: var(--bg2); }
-  .monthly-articles { list-style: none; }
-  .monthly-articles li { padding: 0.35rem 0; border-bottom: 1px solid var(--border); font-size: 0.85rem; }
-  .monthly-articles li:last-child { border-bottom: none; }
-  .monthly-articles a { color: var(--text-muted); text-decoration: none; transition: color 0.15s; }
-  .monthly-articles a:hover { color: var(--accent); }
-  .monthly-conclusion { background: var(--bg2); border: 1px solid var(--border); border-radius: 2px; padding: 1.25rem 1.5rem; margin-top: 2rem; }
-  .monthly-conclusion pre { font-family: 'Noto Sans JP', sans-serif; font-size: 0.92rem; color: var(--text-muted); line-height: 1.9; white-space: pre-wrap; }
-  .monthly-list { list-style: none; padding: 0 0.75rem; }
-  .monthly-list li { border-left: 2px solid transparent; transition: all 0.15s; }
-  .monthly-list li.active { border-left-color: var(--accent); }
-  .monthly-list li button { width: 100%; text-align: left; background: none; border: none; padding: 0.5rem 1rem; color: var(--text-muted); cursor: pointer; font-size: 0.82rem; font-family: 'Space Mono', monospace; transition: color 0.15s; }
-  .monthly-list li.active button { color: var(--accent); }
-  .monthly-list li:hover button { color: var(--text); }
-
   .empty-state { text-align: center; padding: 4rem 2rem; color: var(--text-dim); font-size: 0.85rem; }
   .no-results { color: var(--text-dim); font-size: 0.85rem; padding: 1rem 0; }
 
   @media (max-width: 768px) {
-    #monthly-view { padding: 1.25rem 1rem 5rem; }
-    .mobile-panel#mobile-monthly { padding: 1.5rem 1rem 5rem; }
     .layout { display: block; }
     .sidebar { display: none; }
     .main-tabs { display: none; }
@@ -294,7 +254,6 @@
 <div class="main-tabs" id="main-tabs">
   <button class="main-tab active" onclick="switchMainTab('archive', this)">Archive</button>
   <button class="main-tab" onclick="switchMainTab('signal', this)">Signal 変遷</button>
-  <button class="main-tab" onclick="switchMainTab('monthly', this)">Monthly</button>
 </div>
 
 <div class="layout" id="main-layout">
@@ -310,10 +269,6 @@
       <div class="sidebar-label" style="padding:0 1.5rem;margin-bottom:0.75rem;">頻出キーワード</div>
       <ul class="kw-list" id="kw-list"></ul>
     </div>
-    <div id="sidebar-monthly" style="display:none;">
-      <div class="sidebar-label" style="padding:0 1.5rem;margin-bottom:0.75rem;">Monthly</div>
-      <ul class="monthly-list" id="monthly-list"></ul>
-    </div>
   </aside>
 
   <div class="content" id="archive-view">
@@ -326,10 +281,6 @@
       <button class="kw-clear-btn" onclick="clearKwFilter()">✕ クリア</button>
     </div>
     <div id="signal-tl"></div>
-  </div>
-
-  <div id="monthly-view">
-    <div id="monthly-content"></div>
   </div>
 
   <div id="search-view">
@@ -353,13 +304,6 @@
   <div id="signal-tl-mobile"></div>
 </div>
 
-<!-- Mobile: Monthly panel -->
-<div class="mobile-panel" id="mobile-monthly">
-  <div class="sidebar-label" style="margin-bottom:0.75rem;">Monthly</div>
-  <ul class="monthly-list" id="monthly-list-mobile"></ul>
-  <div id="monthly-content-mobile"></div>
-</div>
-
 <nav class="bottom-nav">
   <button class="bottom-nav-btn active" id="nav-today" onclick="mobileNav('today', this)">
     <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -373,14 +317,10 @@
     <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
     Signal
   </button>
-  <button class="bottom-nav-btn" id="nav-monthly" onclick="mobileNav('monthly', this)">
-    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
-    Monthly
-  </button>
 </nav>
 
 <script>
-// AUTO-GENERATED
+// AUTO-GENERATED — DO NOT EDIT
 const ATLAS_DATA = [
   {
     "date": "2026-05-01",
@@ -19085,227 +19025,6 @@ const ATLAS_DATA = [
     ],
     "change": "4/1の記事群で最もはっきり見えた変化は、AIが“便利な補助ツール”から“制御と信頼が必要な実務主体”へ進んだこと だ。OpenClaw、Copilot Cowork、Qwen3.5-Omni、Codexプラグインなどは、AIが答えるだけでなく動く存在になったことを示している。一方で、Claudeの利用制限見直し、Soraの高コスト、広告混入やガイドライン整備は、普及の先にある制約も明確にした。マーケティングでは、想起文脈・PR発想・n=1の限界突破・社会文脈接続が強調され、施策単位の最適化から“どう記憶されるか”の競争に移っている。さらにZ世代では、AI相談・スマホ疲れ・推し活・安心感重視が同時に観測され、デジタル依存とデジタル疲労が共存する世代像 がより鮮明になった。",
     "insight": "今日の全体像は、「AI実装の本番は、性能競争ではなく社会実装設計である」 という一点に集約される。AIエージェントの性能が上がるほど、企業には導入判断、権限管理、コスト構造、倫理、説明責任が求められる。マーケティングでも同じで、AIで量産できる時代ほど、ブランドの世界観や記憶構造や文脈設計が差分になる。つまり、AIは競争優位そのものではなく、設計能力の格差を露出させる装置 になっている。\n\nAIカテゴリでは、OpenClaw系の普及、中国勢の勢い、Claude利用制限、Sora高コスト、ガイドライン更新がひとつの流れとしてつながっている。ここから見えるのは、AI産業の勝負が「最高性能」から「回る運用」へ移った ことだ。どれだけ強いモデルでも、使いすぎると回らず、危険すぎると通らず、コストが重いと続かない。今後の競争軸は、モデルそのものより、接続・制御・採算・信頼の総合力になる。\n\nMarketingでは、想起文脈、PR発想、ソーシャルリスニング、社会文脈設計、SNS運用の見直しが中心だった。これは、広告やコンテンツが単に露出を増やす装置ではなく、意味をつくり、会話を誘発し、検索や想起のきっかけを設計する装置 へ変わっていることを示す。特にAI時代には、「AIが拾う情報」と「人が語りたくなる情報」を両立できるブランドが強い。\n\nZ世代は今日も重要な先行指標だった。スマホ疲れが広がる一方でAIに人間関係を相談し、推し活にお金を使い、旅行では安心感とコスパを重視する。これは矛盾ではなく、不安定な時代に、自分の感情コストを最小化しながら意味ある接点だけを選ぼうとしている と読むべきだ。企業に必要なのは、説教ではなく共感、派手さではなく安心、機能訴求ではなく「疲れない関係性」の設計である。"
-  },
-  {
-    "type": "monthly",
-    "date": "2026-04",
-    "title": "AIが\"前提\"から\"意思決定主体\"へ進み、人間は\"納得と信頼\"を再設計し始めた",
-    "one_line": "AIが決め、人間が\"信じられる理由\"を設計する世界が本格実装された月",
-    "note_url": "https://note.com/yutate/n/n9ab539298e91",
-    "summary": "AIが「使うもの」でも「前提になるもの」でもなく、「判断と接点を実際に動かす存在」へ進んだ月。検索・購買・広告・決済・認証・組織・社会制度・若年層行動すべてのレイヤーで、AIが「結果を出す」だけでなく「判断の流れそのものを運ぶ」構造変化が起きた。",
-    "conclusion": "① AIは導線を握るだけでなく、判断と実行を担い始めた\n② 人間は意味だけでなく、納得と信頼を設計する側へ移った\n③ 競争軸は性能差から、接続・運用・責任設計へ移った\n④ プラットフォームが「AI接点」をめぐる総力戦に入った\n⑤ ブランドと組織は、露出ではなく解釈と文脈で競うようになった",
-    "sections": [
-      {
-        "number": 1,
-        "theme": "検索",
-        "title": "検索は「探索」から「発見される構造」へ、さらに「推薦と承認」へ移行した",
-        "structure_old": "検索 → 比較 → クリック → 選択",
-        "structure_new": "相談 → 推薦 → 承認 → 実行",
-        "essence": "検索は\"行為\"ではなく\"前処理\"になり、勝負は「見つかるか」より「推薦されるか」に移った。",
-        "articles": [
-          {
-            "title": "「AI検索」経験率が64％へと大幅上昇",
-            "url": "https://netkeizai.com/articles/detail/18330"
-          },
-          {
-            "title": "AIに「発見」されなければビジネスは始まらない",
-            "url": "https://www.itmedia.co.jp/business/articles/2604/28/news020.html"
-          },
-          {
-            "title": "AI時代のSEO対策「一次情報」と「専門性」が重要",
-            "url": "https://mainichi.jp/articles/20260428/pr2/00m/020/045000c"
-          },
-          {
-            "title": "AI Overview CTR Fell 61%, But Clicks Didn't Collapse",
-            "url": "https://www.searchenginejournal.com/ai-overview-ctr-fell-61-but-clicks-didnt-collapse/572993/"
-          },
-          {
-            "title": "AI Is Now The Best-converting Channel In Retail. Your PDPs Might Not Be Ready.",
-            "url": "https://www.linkedin.com/pulse/ai-now-best-converting-channel-retail-your-pdps-might-roger-dunn-hru8c"
-          }
-        ]
-      },
-      {
-        "number": 2,
-        "theme": "コマース",
-        "title": "コマースは「選ぶ」から「委ねる」へ、さらに「実行される」へ進んだ",
-        "structure_old": "人間が探して選ぶ",
-        "structure_new": "AIが候補を決め、人間が承認し、実行まで導く",
-        "essence": "購買の主語が人間からAIへ部分移行し、その移行が\"購買の前段\"だけでなく\"実行段階\"にまで広がった。",
-        "articles": [
-          {
-            "title": "楽天市場、「AIコンシェルジュ」で注文額41%増",
-            "url": "https://www.nikkei.com/article/DGXZQOUC130YN0T10C26A4000000/"
-          },
-          {
-            "title": "Gapが挑むエージェントコマース活用",
-            "url": "https://netshop.impress.co.jp/n/2026/04/14/15913"
-          },
-          {
-            "title": "Walmart「未来の店舗」が示すAI時代の小売り",
-            "url": "https://xtrend.nikkei.com/atcl/contents/18/00109/00226/"
-          },
-          {
-            "title": "AIが勝手に売買する時代に…アンソロピックがAIエージェント同士の自動取引実験を実施",
-            "url": "https://www.sbbit.jp/article/cont1/185227"
-          },
-          {
-            "title": "Anthropicが検証、AIに「商い」を任せるとどうなるのか",
-            "url": "https://www.sbbit.jp/article/cont1/185225"
-          }
-        ]
-      },
-      {
-        "number": 3,
-        "theme": "プラットフォーム",
-        "title": "プラットフォームは「情報提供」から「意思決定OS」へ、さらに「AI接点基盤」へ進化した",
-        "structure_old": "情報提供・流通・メディア",
-        "structure_new": "AIを通じて検索・対話・判断・実行を完結させるOS",
-        "essence": "\"最初に相談される場所\"が市場を握るのではなく、\"最後まで完結させる場所\"が覇権を握るようになった。",
-        "articles": [
-          {
-            "title": "OpenAI、ChatGPT向けクラウド自律AIエージェント「workspace agents」提供開始",
-            "url": "https://www.itmedia.co.jp/aiplus/articles/2604/23/news063.html"
-          },
-          {
-            "title": "ブラウザのChromeにGeminiが統合",
-            "url": "https://k-tai.watch.impress.co.jp/docs/news/2103099.html"
-          },
-          {
-            "title": "OpenAI's Rumored Phone Would Replace Apps With AI Agents",
-            "url": "https://www.cnet.com/tech/services-and-software/openais-rumored-phone-would-replace-apps-with-ai-agents/"
-          },
-          {
-            "title": "ABEMAの作品がChatGPTで探せるように、「Apps in ChatGPT」に対応",
-            "url": "https://k-tai.watch.impress.co.jp/docs/news/2105331.html"
-          },
-          {
-            "title": "WorldがAIの時代に人間であることを証明するデジタル認証基盤として次世代版World IDを発表",
-            "url": "https://dime.jp/genre/2108676/"
-          }
-        ]
-      },
-      {
-        "number": 4,
-        "theme": "AI統治",
-        "title": "AIの論点は「性能競争」から「運用・統治・責任競争」へ完全に移った",
-        "structure_old": "どれだけ賢いか",
-        "structure_new": "どれだけ安全に、継続的に、責任を持って運用できるか",
-        "essence": "AIは便利な生成機械ではなく、社会が統治しなければならない対象になった。",
-        "articles": [
-          {
-            "title": "OpenAI、AIの社会的責任を定義する5原則を提示",
-            "url": "https://www.itmedia.co.jp/aiplus/articles/2604/27/news098.html"
-          },
-          {
-            "title": "AIエージェントが本番環境のデータベースとバックアップを全破壊",
-            "url": "https://gigazine.net/news/20260427-ai-coding-agent-deleted-database/"
-          },
-          {
-            "title": "AIが勝手に送金・メール削除？「AIエージェント」の権限を奪う新手のハッキング",
-            "url": "https://news.yahoo.co.jp/articles/27ef401a53e9816fd33f83e6cc213734fc11d1dc"
-          },
-          {
-            "title": "中国、「擬人化AI」を規制する法令を制定",
-            "url": "https://forbesjapan.com/articles/detail/96084"
-          },
-          {
-            "title": "オープンAIは慈善団体を「盗もうとした」 マスク氏が裁判で証言",
-            "url": "https://jp.wsj.com/articles/elon-musk-testifies-of-ai-risk-at-trial-says-openai-tried-to-steal-a-charity-937fba54"
-          }
-        ]
-      },
-      {
-        "number": 5,
-        "theme": "ブランド",
-        "title": "ブランドは「露出」から「意味資産」へ、さらに「AIにどう語られるか」へ進んだ",
-        "structure_old": "覚えられる",
-        "structure_new": "どう解釈されるか",
-        "essence": "「覚えられる」だけでは足りず、「どう解釈されるか」までが価値になる。",
-        "articles": [
-          {
-            "title": "「AIはあなたのブランドを何と語っているか」",
-            "url": "https://news.mynavi.jp/techplus/article/20260428-4392858/"
-          },
-          {
-            "title": "AIが「第一印象」を決める時代の評判管理術",
-            "url": "https://forbesjapan.com/articles/detail/96296"
-          },
-          {
-            "title": "楽天とWOWOWが「最強の自炊」を開始",
-            "url": "https://dxmagazine.jp/news/2616ty39/"
-          },
-          {
-            "title": "駄菓子「ビッグカツ」が若者に突然ブーム",
-            "url": "https://xtrend.nikkei.com/atcl/contents/18/00019/00064/"
-          },
-          {
-            "title": "Creator Economy時代のブランド戦略とは",
-            "url": "https://chizaizukan.com/pickup/report/7DUdE0UQ42Kl6ykKkwa56C/"
-          }
-        ]
-      },
-      {
-        "number": 6,
-        "theme": "社会",
-        "title": "社会は「効率化」から「信頼・制度・人間性の再定義」へ向かった",
-        "structure_old": "効率化・便利化",
-        "structure_new": "信頼・制度・人間性の再定義",
-        "essence": "AIが効率を高めるほど、「人間とは何か」「何を信じるか」が再び中心テーマになった。",
-        "articles": [
-          {
-            "title": "AI依存、粘り強さや思考力の低下招く可能性",
-            "url": "https://nordot.app/1420410240387678237"
-          },
-          {
-            "title": "スマホは子どもを壊すのか― 世界が動き始めた「SNS規制」",
-            "url": "https://note.com/yogetsu_spa/n/nc11f2ab3f5a7"
-          },
-          {
-            "title": "ローマ教皇レオ14世が「AIを使った説教作成」を禁じる",
-            "url": "https://gigazine.net/news/20260427-catholics-pope-vatican-ai-police/"
-          },
-          {
-            "title": "スタンフォードHAIの調査が示す、AI観の「深まる意見の溝」",
-            "url": "https://forbesjapan.com/articles/detail/96231"
-          },
-          {
-            "title": "「生成」から「祈り」へ──変容するAIとの関係性",
-            "url": "https://wired.jp/article/sz-digital-street-watching-ai-architecture-of-belief/"
-          }
-        ]
-      },
-      {
-        "number": 7,
-        "theme": "組織",
-        "title": "組織は「効率」ではなく「判断と翻訳の設計」で競うようになった",
-        "structure_old": "管理の強さ",
-        "structure_new": "設計のうまさ",
-        "essence": "「人がついてくる理由」だけでなく、「人とAIをどう分担させるか」が競争力になった。",
-        "articles": [
-          {
-            "title": "AIが暴いた「作業者」と「創造的思考者」の違い",
-            "url": "https://forbesjapan.com/articles/detail/96560"
-          },
-          {
-            "title": "組織が生成AIを使いこなすためには「AI筋肉」の形成が必要",
-            "url": "https://enterprisezine.jp/news/detail/24181"
-          },
-          {
-            "title": "「粘り強いね」と褒めたら部下の心が折れた",
-            "url": "https://www.itmedia.co.jp/business/articles/2604/28/news011.html"
-          },
-          {
-            "title": "経営層の共通言語はデータへ",
-            "url": "https://forbesjapan.com/articles/detail/96591"
-          },
-          {
-            "title": "山口周『コンテキスト・リーダーシップ』発売1週間で増刷",
-            "url": "https://news.yahoo.co.jp/articles/4ec10b06cefe4a6372455172f48cc0682ce1d667"
-          }
-        ]
-      }
-    ]
   }
 ];
 
@@ -19320,8 +19039,7 @@ function esc(s) {
 }
 
 function init() {
-  try {
-  allDays = [...ATLAS_DATA].filter(d => d.type !== 'monthly').sort((a, b) => b.date.localeCompare(a.date));
+  allDays = [...ATLAS_DATA].sort((a, b) => b.date.localeCompare(a.date));
 
   document.getElementById('header-meta').textContent =
     `${allDays.length} days / ${allDays.reduce((s, d) => s + d.total_articles, 0)} articles`;
@@ -19347,11 +19065,7 @@ function init() {
     doSearch(searchInput.value.trim());
   });
 
-  initMonthly();
   if (allDays.length > 0) selectDay(allDays[0], document.querySelector('#date-list li'));
-  } catch(e) {
-    document.getElementById('archive-view').innerHTML = '<div style="padding:2rem;color:red;font-family:monospace;font-size:12px;">ERROR: ' + e.message + '<br>' + e.stack + '</div>';
-  }
 }
 
 function buildDateList(listId, isMobile) {
@@ -19526,113 +19240,21 @@ function switchSidebarTab(tab, btn) {
   document.getElementById('sidebar-signal').style.display = tab === 'signal' ? '' : 'none';
 }
 
-function initMonthly() {
-  const monthlyData = ATLAS_DATA.filter(d => d.type === 'monthly')
-    .sort((a, b) => b.date.localeCompare(a.date));
-  if (!monthlyData.length) return;
-
-  // PC sidebar list
-  const list = document.getElementById('monthly-list');
-  // Mobile list
-  const listMobile = document.getElementById('monthly-list-mobile');
-
-  monthlyData.forEach((m, i) => {
-    // PC
-    const li = document.createElement('li');
-    if (i === 0) li.classList.add('active');
-    const btn = document.createElement('button');
-    btn.textContent = m.date;
-    btn.onclick = () => {
-      document.querySelectorAll('#monthly-list li').forEach(el => el.classList.remove('active'));
-      li.classList.add('active');
-      renderMonthly(m, false);
-    };
-    li.appendChild(btn);
-    list.appendChild(li);
-
-    // Mobile
-    if (listMobile) {
-      const liM = document.createElement('li');
-      if (i === 0) liM.classList.add('active');
-      const btnM = document.createElement('button');
-      btnM.textContent = m.date;
-      btnM.onclick = () => {
-        document.querySelectorAll('#monthly-list-mobile li').forEach(el => el.classList.remove('active'));
-        liM.classList.add('active');
-        renderMonthly(m, true);
-      };
-      liM.appendChild(btnM);
-      listMobile.appendChild(liM);
-    }
-  });
-
-  renderMonthly(monthlyData[0], false);
-  renderMonthly(monthlyData[0], true);
-}
-
-function renderMonthly(m, isMobile) {
-  const prefix = isMobile ? 'msecm' : 'msec';
-  const targetId = isMobile ? 'monthly-content-mobile' : 'monthly-content';
-  const el = document.getElementById(targetId);
-  if (!el) return;
-
-  const sections = (m.sections || []).map((s, i) => {
-    const secId = prefix + '-' + i;
-    const arts = (s.articles || []).map(a =>
-      '<li><a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a></li>'
-    ).join('');
-    return '<div class="monthly-section" id="' + secId + '">' +
-      '<div class="monthly-section-header" onclick="toggleMonthlySection('' + secId + '')">' +
-        '<span class="monthly-section-num">0' + s.number + '</span>' +
-        '<span class="monthly-section-theme">' + esc(s.theme) + '</span>' +
-        '<span class="monthly-section-title">' + esc(s.title) + '</span>' +
-      '</div>' +
-      '<div class="monthly-section-body">' +
-        '<div class="monthly-structure">' +
-          '<div class="monthly-struct-block"><div class="monthly-struct-label">旧</div><div class="monthly-struct-text">' + esc(s.structure_old || '') + '</div></div>' +
-          '<div class="monthly-struct-block"><div class="monthly-struct-label">新</div><div class="monthly-struct-text">' + esc(s.structure_new || '') + '</div></div>' +
-        '</div>' +
-        '<div class="monthly-essence">' + esc(s.essence || '') + '</div>' +
-        '<ul class="monthly-articles">' + arts + '</ul>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-
-  el.innerHTML =
-    '<div class="monthly-header">' +
-      '<div class="monthly-date-label">' + esc(m.date) + '</div>' +
-      '<div class="monthly-title">' + esc(m.title) + '</div>' +
-      '<div class="monthly-one-line">' + esc(m.one_line || '') + '</div>' +
-      '<div class="monthly-summary">' + esc(m.summary || '') + '</div>' +
-      '<a class="monthly-note-link" href="' + esc(m.note_url || '') + '" target="_blank" rel="noopener">↗ noteで読む</a>' +
-    '</div>' +
-    '<div class="monthly-sections">' + sections + '</div>' +
-    '<div class="monthly-conclusion">' +
-      '<div class="section-label">結論</div>' +
-      '<pre>' + esc(m.conclusion || '') + '</pre>' +
-    '</div>';
-}
-
-
-function toggleMonthlySection(id) {
-  document.getElementById(id).classList.toggle('expanded');
-}
-
 function switchMainTab(tab, btn) {
   currentMainTab = tab;
   document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
-  document.getElementById('archive-view').style.display = tab === 'archive' ? '' : 'none';
-  document.getElementById('signal-view').classList.toggle('active', tab === 'signal');
-  document.getElementById('monthly-view').classList.toggle('active', tab === 'monthly');
+  const isArchive = tab === 'archive';
+  document.getElementById('archive-view').style.display = isArchive ? '' : 'none';
+  document.getElementById('signal-view').classList.toggle('active', !isArchive);
+  // Sync sidebar tab
   const stabArchive = document.getElementById('stab-archive');
   const stabSignal = document.getElementById('stab-signal');
   if (stabArchive && stabSignal) {
-    stabArchive.classList.toggle('active', tab === 'archive');
-    stabSignal.classList.toggle('active', tab === 'signal');
-    document.getElementById('sidebar-archive').style.display = tab === 'archive' ? '' : 'none';
-    document.getElementById('sidebar-signal').style.display = tab === 'signal' ? '' : 'none';
-    document.getElementById('sidebar-monthly').style.display = tab === 'monthly' ? '' : 'none';
+    stabArchive.classList.toggle('active', isArchive);
+    stabSignal.classList.toggle('active', !isArchive);
+    document.getElementById('sidebar-archive').style.display = isArchive ? '' : 'none';
+    document.getElementById('sidebar-signal').style.display = isArchive ? 'none' : '';
   }
 }
 
@@ -19643,7 +19265,6 @@ function mobileNav(tab, btn) {
   document.querySelectorAll('.mobile-panel').forEach(p => p.classList.remove('active'));
   if (tab === 'archive') document.getElementById('mobile-archive').classList.add('active');
   if (tab === 'signals') document.getElementById('mobile-signals').classList.add('active');
-  if (tab === 'monthly') document.getElementById('mobile-monthly').classList.add('active');
 }
 
 function selectDay(day, li) {
