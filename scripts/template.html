@@ -220,50 +220,10 @@
   }
   .search-view-label { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--text-dim); letter-spacing: 0.15em; text-transform: uppercase; }
 
-  /* MONTHLY VIEW */
-  #monthly-view { display: none; padding: 2rem 2.5rem; }
-  #monthly-view.active { display: block; }
-  .monthly-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
-  .monthly-date-label { font-family: 'Space Mono', monospace; font-size: 0.7rem; color: var(--accent); letter-spacing: 0.15em; margin-bottom: 0.5rem; }
-  .monthly-title { font-size: 1.15rem; font-weight: 500; color: var(--text); line-height: 1.5; margin-bottom: 0.75rem; }
-  .monthly-one-line { font-size: 0.9rem; color: var(--text-muted); font-style: italic; margin-bottom: 1rem; }
-  .monthly-summary { font-size: 0.95rem; color: var(--text-muted); line-height: 1.9; margin-bottom: 1rem; }
-  .monthly-note-link { display: inline-flex; align-items: center; gap: 0.4rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--accent2); border: 1px solid var(--accent2); padding: 0.3rem 0.75rem; border-radius: 2px; text-decoration: none; letter-spacing: 0.1em; transition: all 0.15s; }
-  .monthly-note-link:hover { background: var(--accent2); color: #fff; }
-  .monthly-sections { margin-top: 2rem; }
-  .monthly-section { border: 1px solid var(--border); border-radius: 2px; margin-bottom: 1rem; overflow: hidden; }
-  .monthly-section-header { padding: 1rem 1.25rem; cursor: pointer; display: flex; align-items: center; gap: 1rem; background: var(--bg); transition: background 0.15s; }
-  .monthly-section-header:hover, .monthly-section.expanded .monthly-section-header { background: var(--bg2); border-bottom: 1px solid var(--border); }
-  .monthly-section-num { font-family: 'Space Mono', monospace; font-size: 0.65rem; color: var(--accent); width: 24px; flex-shrink: 0; }
-  .monthly-section-theme { font-size: 0.7rem; color: var(--accent2); border: 1px solid var(--accent2); padding: 0.1rem 0.5rem; border-radius: 1px; flex-shrink: 0; }
-  .monthly-section-title { font-size: 0.92rem; font-weight: 500; color: var(--text); flex: 1; line-height: 1.4; }
-  .monthly-section-body { display: none; padding: 1.25rem 1.5rem; }
-  .monthly-section.expanded .monthly-section-body { display: block; }
-  .monthly-structure { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
-  .monthly-struct-block { background: var(--bg3); border: 1px solid var(--border); border-radius: 2px; padding: 0.75rem 1rem; }
-  .monthly-struct-label { font-family: 'Space Mono', monospace; font-size: 0.58rem; color: var(--text-dim); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.3rem; }
-  .monthly-struct-text { font-size: 0.85rem; color: var(--text-muted); }
-  .monthly-essence { font-size: 0.92rem; color: var(--text); line-height: 1.8; margin-bottom: 1rem; padding: 0.75rem 1rem; border-left: 3px solid var(--accent); background: var(--bg2); }
-  .monthly-articles { list-style: none; }
-  .monthly-articles li { padding: 0.35rem 0; border-bottom: 1px solid var(--border); font-size: 0.85rem; }
-  .monthly-articles li:last-child { border-bottom: none; }
-  .monthly-articles a { color: var(--text-muted); text-decoration: none; transition: color 0.15s; }
-  .monthly-articles a:hover { color: var(--accent); }
-  .monthly-conclusion { background: var(--bg2); border: 1px solid var(--border); border-radius: 2px; padding: 1.25rem 1.5rem; margin-top: 2rem; }
-  .monthly-conclusion pre { font-family: 'Noto Sans JP', sans-serif; font-size: 0.92rem; color: var(--text-muted); line-height: 1.9; white-space: pre-wrap; }
-  .monthly-list { list-style: none; padding: 0 0.75rem; }
-  .monthly-list li { border-left: 2px solid transparent; transition: all 0.15s; }
-  .monthly-list li.active { border-left-color: var(--accent); }
-  .monthly-list li button { width: 100%; text-align: left; background: none; border: none; padding: 0.5rem 1rem; color: var(--text-muted); cursor: pointer; font-size: 0.82rem; font-family: 'Space Mono', monospace; transition: color 0.15s; }
-  .monthly-list li.active button { color: var(--accent); }
-  .monthly-list li:hover button { color: var(--text); }
-
   .empty-state { text-align: center; padding: 4rem 2rem; color: var(--text-dim); font-size: 0.85rem; }
   .no-results { color: var(--text-dim); font-size: 0.85rem; padding: 1rem 0; }
 
   @media (max-width: 768px) {
-    #monthly-view { padding: 1.25rem 1rem 5rem; }
-    .mobile-panel#mobile-monthly { padding: 1.5rem 1rem 5rem; }
     .layout { display: block; }
     .sidebar { display: none; }
     .main-tabs { display: none; }
@@ -294,7 +254,6 @@
 <div class="main-tabs" id="main-tabs">
   <button class="main-tab active" onclick="switchMainTab('archive', this)">Archive</button>
   <button class="main-tab" onclick="switchMainTab('signal', this)">Signal 変遷</button>
-  <button class="main-tab" onclick="switchMainTab('monthly', this)">Monthly</button>
 </div>
 
 <div class="layout" id="main-layout">
@@ -310,10 +269,6 @@
       <div class="sidebar-label" style="padding:0 1.5rem;margin-bottom:0.75rem;">頻出キーワード</div>
       <ul class="kw-list" id="kw-list"></ul>
     </div>
-    <div id="sidebar-monthly" style="display:none;">
-      <div class="sidebar-label" style="padding:0 1.5rem;margin-bottom:0.75rem;">Monthly</div>
-      <ul class="monthly-list" id="monthly-list"></ul>
-    </div>
   </aside>
 
   <div class="content" id="archive-view">
@@ -326,10 +281,6 @@
       <button class="kw-clear-btn" onclick="clearKwFilter()">✕ クリア</button>
     </div>
     <div id="signal-tl"></div>
-  </div>
-
-  <div id="monthly-view">
-    <div id="monthly-content"></div>
   </div>
 
   <div id="search-view">
@@ -353,13 +304,6 @@
   <div id="signal-tl-mobile"></div>
 </div>
 
-<!-- Mobile: Monthly panel -->
-<div class="mobile-panel" id="mobile-monthly">
-  <div class="sidebar-label" style="margin-bottom:0.75rem;">Monthly</div>
-  <ul class="monthly-list" id="monthly-list-mobile"></ul>
-  <div id="monthly-content-mobile"></div>
-</div>
-
 <nav class="bottom-nav">
   <button class="bottom-nav-btn active" id="nav-today" onclick="mobileNav('today', this)">
     <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -372,10 +316,6 @@
   <button class="bottom-nav-btn" id="nav-signals" onclick="mobileNav('signals', this)">
     <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
     Signal
-  </button>
-  <button class="bottom-nav-btn" id="nav-monthly" onclick="mobileNav('monthly', this)">
-    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="16" y1="2" x2="16" y2="6"/></svg>
-    Monthly
   </button>
 </nav>
 
@@ -394,8 +334,7 @@ function esc(s) {
 }
 
 function init() {
-  try {
-  allDays = [...ATLAS_DATA].filter(d => d.type !== 'monthly').sort((a, b) => b.date.localeCompare(a.date));
+  allDays = [...ATLAS_DATA].sort((a, b) => b.date.localeCompare(a.date));
 
   document.getElementById('header-meta').textContent =
     `${allDays.length} days / ${allDays.reduce((s, d) => s + d.total_articles, 0)} articles`;
@@ -421,11 +360,7 @@ function init() {
     doSearch(searchInput.value.trim());
   });
 
-  initMonthly();
   if (allDays.length > 0) selectDay(allDays[0], document.querySelector('#date-list li'));
-  } catch(e) {
-    document.getElementById('archive-view').innerHTML = '<div style="padding:2rem;color:red;font-family:monospace;font-size:12px;">ERROR: ' + e.message + '<br>' + e.stack + '</div>';
-  }
 }
 
 function buildDateList(listId, isMobile) {
@@ -600,113 +535,21 @@ function switchSidebarTab(tab, btn) {
   document.getElementById('sidebar-signal').style.display = tab === 'signal' ? '' : 'none';
 }
 
-function initMonthly() {
-  const monthlyData = ATLAS_DATA.filter(d => d.type === 'monthly')
-    .sort((a, b) => b.date.localeCompare(a.date));
-  if (!monthlyData.length) return;
-
-  // PC sidebar list
-  const list = document.getElementById('monthly-list');
-  // Mobile list
-  const listMobile = document.getElementById('monthly-list-mobile');
-
-  monthlyData.forEach((m, i) => {
-    // PC
-    const li = document.createElement('li');
-    if (i === 0) li.classList.add('active');
-    const btn = document.createElement('button');
-    btn.textContent = m.date;
-    btn.onclick = () => {
-      document.querySelectorAll('#monthly-list li').forEach(el => el.classList.remove('active'));
-      li.classList.add('active');
-      renderMonthly(m, false);
-    };
-    li.appendChild(btn);
-    list.appendChild(li);
-
-    // Mobile
-    if (listMobile) {
-      const liM = document.createElement('li');
-      if (i === 0) liM.classList.add('active');
-      const btnM = document.createElement('button');
-      btnM.textContent = m.date;
-      btnM.onclick = () => {
-        document.querySelectorAll('#monthly-list-mobile li').forEach(el => el.classList.remove('active'));
-        liM.classList.add('active');
-        renderMonthly(m, true);
-      };
-      liM.appendChild(btnM);
-      listMobile.appendChild(liM);
-    }
-  });
-
-  renderMonthly(monthlyData[0], false);
-  renderMonthly(monthlyData[0], true);
-}
-
-function renderMonthly(m, isMobile) {
-  const prefix = isMobile ? 'msecm' : 'msec';
-  const targetId = isMobile ? 'monthly-content-mobile' : 'monthly-content';
-  const el = document.getElementById(targetId);
-  if (!el) return;
-
-  const sections = (m.sections || []).map((s, i) => {
-    const secId = prefix + '-' + i;
-    const arts = (s.articles || []).map(a =>
-      '<li><a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.title) + '</a></li>'
-    ).join('');
-    return '<div class="monthly-section" id="' + secId + '">' +
-      '<div class="monthly-section-header" onclick="toggleMonthlySection('' + secId + '')">' +
-        '<span class="monthly-section-num">0' + s.number + '</span>' +
-        '<span class="monthly-section-theme">' + esc(s.theme) + '</span>' +
-        '<span class="monthly-section-title">' + esc(s.title) + '</span>' +
-      '</div>' +
-      '<div class="monthly-section-body">' +
-        '<div class="monthly-structure">' +
-          '<div class="monthly-struct-block"><div class="monthly-struct-label">旧</div><div class="monthly-struct-text">' + esc(s.structure_old || '') + '</div></div>' +
-          '<div class="monthly-struct-block"><div class="monthly-struct-label">新</div><div class="monthly-struct-text">' + esc(s.structure_new || '') + '</div></div>' +
-        '</div>' +
-        '<div class="monthly-essence">' + esc(s.essence || '') + '</div>' +
-        '<ul class="monthly-articles">' + arts + '</ul>' +
-      '</div>' +
-    '</div>';
-  }).join('');
-
-  el.innerHTML =
-    '<div class="monthly-header">' +
-      '<div class="monthly-date-label">' + esc(m.date) + '</div>' +
-      '<div class="monthly-title">' + esc(m.title) + '</div>' +
-      '<div class="monthly-one-line">' + esc(m.one_line || '') + '</div>' +
-      '<div class="monthly-summary">' + esc(m.summary || '') + '</div>' +
-      '<a class="monthly-note-link" href="' + esc(m.note_url || '') + '" target="_blank" rel="noopener">↗ noteで読む</a>' +
-    '</div>' +
-    '<div class="monthly-sections">' + sections + '</div>' +
-    '<div class="monthly-conclusion">' +
-      '<div class="section-label">結論</div>' +
-      '<pre>' + esc(m.conclusion || '') + '</pre>' +
-    '</div>';
-}
-
-
-function toggleMonthlySection(id) {
-  document.getElementById(id).classList.toggle('expanded');
-}
-
 function switchMainTab(tab, btn) {
   currentMainTab = tab;
   document.querySelectorAll('.main-tab').forEach(b => b.classList.remove('active'));
   if (btn) btn.classList.add('active');
-  document.getElementById('archive-view').style.display = tab === 'archive' ? '' : 'none';
-  document.getElementById('signal-view').classList.toggle('active', tab === 'signal');
-  document.getElementById('monthly-view').classList.toggle('active', tab === 'monthly');
+  const isArchive = tab === 'archive';
+  document.getElementById('archive-view').style.display = isArchive ? '' : 'none';
+  document.getElementById('signal-view').classList.toggle('active', !isArchive);
+  // Sync sidebar tab
   const stabArchive = document.getElementById('stab-archive');
   const stabSignal = document.getElementById('stab-signal');
   if (stabArchive && stabSignal) {
-    stabArchive.classList.toggle('active', tab === 'archive');
-    stabSignal.classList.toggle('active', tab === 'signal');
-    document.getElementById('sidebar-archive').style.display = tab === 'archive' ? '' : 'none';
-    document.getElementById('sidebar-signal').style.display = tab === 'signal' ? '' : 'none';
-    document.getElementById('sidebar-monthly').style.display = tab === 'monthly' ? '' : 'none';
+    stabArchive.classList.toggle('active', isArchive);
+    stabSignal.classList.toggle('active', !isArchive);
+    document.getElementById('sidebar-archive').style.display = isArchive ? '' : 'none';
+    document.getElementById('sidebar-signal').style.display = isArchive ? 'none' : '';
   }
 }
 
@@ -717,7 +560,6 @@ function mobileNav(tab, btn) {
   document.querySelectorAll('.mobile-panel').forEach(p => p.classList.remove('active'));
   if (tab === 'archive') document.getElementById('mobile-archive').classList.add('active');
   if (tab === 'signals') document.getElementById('mobile-signals').classList.add('active');
-  if (tab === 'monthly') document.getElementById('mobile-monthly').classList.add('active');
 }
 
 function selectDay(day, li) {
