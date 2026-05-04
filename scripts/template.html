@@ -334,7 +334,7 @@ function esc(s) {
 }
 
 function init() {
-  allDays = [...ATLAS_DATA].sort((a, b) => b.date.localeCompare(a.date));
+  allDays = [...ATLAS_DATA].filter(d => d.type !== 'monthly').sort((a, b) => b.date.localeCompare(a.date));
 
   document.getElementById('header-meta').textContent =
     `${allDays.length} days / ${allDays.reduce((s, d) => s + d.total_articles, 0)} articles`;
