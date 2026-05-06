@@ -1,5 +1,506 @@
 [
   {
+    "date": "2026-05-06",
+    "total_articles": 88,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 16,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "AI拡大で高まる消費者の不信──パーソナライゼーションが「パラノイア」に変わるとき | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96934"
+          },
+          {
+            "title": "ADWEEK: The 2026 Marketing Vanguard Awards: Fiercely Human Amid Rapid Change",
+            "url": "https://www.adweek.com/brand-marketing/the-2026-marketing-vanguard-fiercely-human-amid-rapid-change/"
+          },
+          {
+            "title": "AdverTimes.（アドタイ） by 宣伝会議: 推し活＝健康の極み タニタが実証した推しの力",
+            "url": "https://www.advertimes.com/20260505/article543181/?utm_source=feed&page=2"
+          },
+          {
+            "title": "inc.com: Marketers Are Spending Billions on Influencers—but Overlooking Their Most Engaged Audience",
+            "url": "https://www.inc.com/annabel-burba/marketers-are-spending-billions-on-influencers-but-overlooking-their-most-engaged-audience/91337618"
+          },
+          {
+            "title": "ADWEEK: These Marketing Concepts Have Become Meaningless—and They're Sabotaging Your Strategy",
+            "url": "https://www.adweek.com/brand-marketing/these-marketing-concepts-have-become-meaningless-and-theyre-sabotaging-your-strategy/"
+          },
+          {
+            "title": "ADWEEK: OpenAI Opens ChatGPT Ads to Self-Service Platform",
+            "url": "https://www.adweek.com/media/openai-opens-chatgpt-ads-to-self-service-platform"
+          },
+          {
+            "title": "ADWEEK: Ulta Beauty Says AI Is Supercharging Its Rewards Program, Driving 95% of Sales",
+            "url": "https://www.adweek.com/brand-marketing/ulta-beauty-ai-supercharging-rewards-program-driving-sales/"
+          },
+          {
+            "title": "Marketing Week: When asking consumers questions, beware the silent asterisk",
+            "url": "https://www.marketingweek.com/helen-edwards-questions-asterisk/"
+          },
+          {
+            "title": "クリエイター主導マーケティング、主要なメディアチャネルに 広告業界団体IAB | Musicman",
+            "url": "https://www.musicman.co.jp/business/724262?utm_source=feed_smartnews&utm_medium=rss&utm_campaign=feed_outsource"
+          },
+          {
+            "title": "バズっても売れない理由　消費者はインフルエンサーより友人を信頼する実態 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96359"
+          },
+          {
+            "title": "ChatGPT広告への戦略的アプローチ──ブランドが知るべき実践法 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96914"
+          },
+          {
+            "title": "AI検索時代に勝つ、GEO代理店の見極め方 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96900"
+          },
+          {
+            "title": "広告業界の9割が「AIネイティブ」化、問われるディレクション能力 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96477"
+          },
+          {
+            "title": "基本的なSEO対策だけでは不十分な理由──検索順位を上げるために必要なこと | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96903"
+          },
+          {
+            "title": "AI検索時代の顧客獲得術　11人のエキスパートが語る新戦略 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96721"
+          },
+          {
+            "title": "マクドナルドの営業利益率12％を支える「0歳からの刷り込み」戦略 〜 日本のエンタメ企業が見落とす兆円規模のLTVと脳科学｜はっちょん",
+            "url": "https://note.com/commodvs/n/n3a0687e497c4?external_type=smart_news&external_position=original_link&rt=external&sub_rt=smart_news"
+          }
+        ],
+        "summary": "Marketing / Advertisingでは、AI広告、GEO、ChatGPT広告、AIネイティブ化、パーソナライゼーション不信、インフルエンサー限界が並び、広告・検索・CRMの前提が「人に届ける」から「AIと生活者の双方に信頼される構造をつくる」へ移っている。特に、AI検索時代の顧客獲得と、消費者がAI最適化に不信を抱く構図が同時に出ており、マーケティングは効率化よりも信頼・解釈・関係設計の競争になっている。"
+      },
+      {
+        "name": "Branding",
+        "count": 5,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "老舗化粧品企業が都心で“AIアニメ”広告→「セーラームーンかと思った」勘違いが続出　発表では「類似性の確認を行っている」言及も（オタク総研）",
+            "url": "https://news.yahoo.co.jp/articles/e29522db897a1ad6e5f42a610cc1e43c1bc8ebc7"
+          },
+          {
+            "title": "故ヴァル・キルマーのAI復活、「本人が熱望した」と娘が説明 ─ 「否定的なコメントもありましたが、大きく2つに分かれていると思います」 | THE RIVER",
+            "url": "https://theriver.jp/val-kilmer-using-ai-comments/"
+          },
+          {
+            "title": "AI生成コンテンツの氾濫時代に効く、非デジタルなブランド差別化戦略 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96899"
+          },
+          {
+            "title": "｢エモい｣はAIの苦手科目。Netflix創業者が語るAI時代に人間コンテンツが勝つ理由 | ギズモード・ジャパン",
+            "url": "https://www.gizmodo.jp/2026/05/hopeful-thought-of-the-day-robots-cant-do-human-conflict.html?utm_source=smartnews&utm_medium=android&utm_campaign=smartnews"
+          },
+          {
+            "title": "Crocsが掲げる「非アルゴリズム時代」、Z世代に刺さる新ブランド戦略とは | TABI LABO",
+            "url": "https://tabi-labo.com/312482/crocspostalgorithm"
+          }
+        ],
+        "summary": "Brandingでは、AI生成が一般化するほど、逆に「非デジタル」「人間的な違和感」「文脈の固有性」「本物らしさ」が差別化要素になっている。AIアニメ広告の誤認や故人AI復活の賛否は、ブランドがAIを使う際に、技術の巧拙だけでなく、文化的記憶・人格・ファン感情まで含めた設計が必要になっていることを示している。"
+      },
+      {
+        "name": "AI",
+        "count": 21,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "22歳の開発者が「Claude Mythos」を推定・構築、公開プロジェクト「OpenMythos」開始 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96827"
+          },
+          {
+            "title": "ITmedia: 「生成AIの出力は直しにくい」をどう克服？　Canvaが仕掛ける“編集できる画像生成AI”の衝撃：本田雅一のクロスオーバーデジタル（1/3 ページ） - ITmedia PC USER",
+            "url": "https://www.itmedia.co.jp/pcuser/articles/2605/05/news025.html"
+          },
+          {
+            "title": "Google、AIエージェントがUIを生成するための標準規格「A2UI v0.9」公開|CodeZine（コードジン）",
+            "url": "https://codezine.jp/news/detail/24062"
+          },
+          {
+            "title": "Claude CodeがAPIキー不要に：開発者のセキュリティ負荷を下げる新認証を導入 | XenoSpectrum",
+            "url": "https://xenospectrum.com/claude-api-workload-identity-federation/#google_vignette"
+          },
+          {
+            "title": "「Claude Mythos」を開発したアンソロピックCEOが断言「AIバブルはまだまだスケールしていく」（クーリエ・ジャポン）",
+            "url": "https://news.yahoo.co.jp/articles/aeb15e5c4b5d911194d933ada001a08a09ed59ec"
+          },
+          {
+            "title": "AIの本質は『出力』じゃなくて『構造の仮置き』なのかも、という話 #PR｜けんすう",
+            "url": "https://kensuu.com/n/n75b652e1ce81"
+          },
+          {
+            "title": "xAIの音声会話エージェントAI「Grok Voice Think Fast 1.0」が登場 - GIGAZINE",
+            "url": "https://gigazine.net/news/20260427-grok-voice-think-fast-1/"
+          },
+          {
+            "title": "アンソロピック、金融サービス向けの新たなAIエージェントを発表 - Bloomberg",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-05-05/TEKKWIKGZAO300#gsc.tab=0"
+          },
+          {
+            "title": "XDA: I use OpenCode over Claude Code, and it's every bit as good",
+            "url": "https://www.xda-developers.com/i-use-opencode-over-claude-code-and-its-every-bit-as-good"
+          },
+          {
+            "title": "TestingCatalog: Anthropic is working on Orbit, its upcoming proactive assistant",
+            "url": "https://www.testingcatalog.com/anthropic-is-working-on-orbit-its-upcoming-proactive-assistant/"
+          },
+          {
+            "title": "GIGAZINE: AIモデルに「あなたは熟練プログラマーです」と伝えるとかえってプログラマーとしての能力が低下する",
+            "url": "https://gigazine.net/news/20260503-ai-expert-personas/"
+          },
+          {
+            "title": "XenoSpectrum: エージェント3〜5個が限界：「人間がボトルネック」と気づいたOpenAIが作った自律化の仕組み",
+            "url": "https://xenospectrum.com/openai-symphony-codex-orchestration/"
+          },
+          {
+            "title": "Forbes JAPAN: 「AI 2027」の予測は88%的中──急速に進化する自律型AIエージェントの脅威",
+            "url": "https://forbesjapan.com/articles/detail/96821"
+          },
+          {
+            "title": "WIRED.jp: 「AlphaGo」の生みの親が語る、いまのAI開発の限界とその先",
+            "url": "https://wired.jp/article/david-silver-ai-ineffable-intelligence-reinforcement-learning/"
+          },
+          {
+            "title": "Business Insider Japan: 元Metaマネージャー、「AI時代で勝ち残っているエンジニアはわずか2%」。巨大テック企業でいま起こっていること",
+            "url": "https://www.businessinsider.jp/article/2605-ex-meta-manager-says-2-percent-engineers-winning-ai-era/"
+          },
+          {
+            "title": "MITテクノロジーレビュー: 「オープンAIを蒸留した」マスク対アルトマン第1週、 法廷がざわめく",
+            "url": "https://www.technologyreview.jp/s/382208/musk-v-altman-week-1-elon-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/"
+          },
+          {
+            "title": "AIの「生産性」ではなく「成果」を測定せよ | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96937"
+          },
+          {
+            "title": "AI停滞の原因はイノベーション不足ではなくインフラにある | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96922"
+          },
+          {
+            "title": "AIが知性を「誰でも使える資源」に変える時代──人類に訪れる真の変革 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96902"
+          },
+          {
+            "title": "70代以上でも40代並みの頭脳を保つ「スーパーエイジャー」、AI活用で認知機能を維持 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96816"
+          },
+          {
+            "title": "Google Cloudの最新AIがアニメ制作を革新、もうAIは「クリエイターの敵」ではない。東南アジア最大級のメディアの“人間中心”のAI制作術とは？ | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2617ko35"
+          }
+        ],
+        "summary": "AIでは、モデル性能そのものより、エージェントの実装、UI生成、認証、成果測定、インフラ制約、人間との分業が主題になっている。AIは「出力するもの」ではなく「構造を仮置きし、作業を組織し、意思決定を支援するもの」へ変化している。一方で、AI投資・AIバブル・人間のボトルネックも同時に語られており、導入の焦点は性能評価から運用設計へ移っている。"
+      },
+      {
+        "name": "Business",
+        "count": 10,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "「全部トップにしていく」──SBI北尾氏が語った金融の構造競争【編集長コラム】（NADA NEWS）",
+            "url": "https://news.yahoo.co.jp/articles/9703e907ebbfa5f1ca5e3c7c63b557fd6f7300e1"
+          },
+          {
+            "title": "Bloomberg.com: アマゾンが物流に本格参入、｢転換点｣迎えたフェデックスなど株価急落",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-05-04/TEIR7CKJH6V900"
+          },
+          {
+            "title": "Business Insider Japan: ビッグテックのAI投資は「歴史上最大の資本の誤配分だ」と著名AI研究者は警告している",
+            "url": "https://www.businessinsider.jp/article/2605-tech-ai-capex-gary-marcus-meta-msft-amzn-goog-stock/"
+          },
+          {
+            "title": "newspicks.com: 【新】星野リゾートの元社員が仕掛ける、次世代観光ビジネス",
+            "url": "https://newspicks.com/news/16605908/body"
+          },
+          {
+            "title": "newspicks.com: 【東欧発】日本の「物流危機」を救うドローン企業が面白い",
+            "url": "https://newspicks.com/news/16606659/body"
+          },
+          {
+            "title": "日本円ステーブルコインとUSDTの違いとは？仕組み・規制・使い道を徹底比較",
+            "url": "https://coinchoice.net/yen-stablecoin/"
+          },
+          {
+            "title": "なぜ10代・20代は銀行を選ばないのか？PayPay銀行が作った“抜け出せない経済圏”の正体 | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2616ukre31-2"
+          },
+          {
+            "title": "トヨタのWoven Cityで「世界最高峰AI」が稼働。住民100人で何を実験している？ | 自動運転ラボ",
+            "url": "https://jidounten-lab.com/u_61928"
+          },
+          {
+            "title": "ついに値下げ。パスポート10年用が8900円に、若年層の取得促進へ　一方で出国税は3倍に | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2616ukre39/"
+          },
+          {
+            "title": "「もう削る生活費がない」総務省データで判明！　家賃安すぎ主要都市ランキングと地方移住のリアル | FRIDAYデジタル",
+            "url": "https://friday.kodansha.co.jp/article/466887"
+          }
+        ],
+        "summary": "Businessでは、金融、物流、観光、都市、決済、行政コスト、生活費まで、AIとデジタル化の影響が基盤産業に広がっている。特にAmazon物流参入、PayPay銀行、円ステーブルコイン、Woven Cityは、競争が単体サービスではなく、物流・金融・都市・IDをまたぐ構造競争になっていることを示している。"
+      },
+      {
+        "name": "Platform",
+        "count": 5,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "マイクロソフト、「DOS 1.0」をオープンソース化--コード以上の価値 - ZDNET Japan",
+            "url": "https://japan.zdnet.com/article/35247013/"
+          },
+          {
+            "title": "netkeizai.com/articles/detail/18360",
+            "url": "https://netkeizai.com/articles/detail/18360"
+          },
+          {
+            "title": "AI時代の買い物、約5割がAIで選んだ商品で「後悔・失敗」を経験 約9割がAI活用後さらに情報収集 | AMP[アンプ] - 人生の豊かさを生む瞬間を情報でつくりだす新世代向けビジネスメディア",
+            "url": "https://ampmedia.jp/2026/05/05/ai-shopping/"
+          },
+          {
+            "title": "アップル、次期iOSで外部AIモデルを選択可能に－戦略転換鮮明に - Bloomberg",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-05-05/TEKQSQT96OSH00"
+          },
+          {
+            "title": "Googleの神機能「デュープ検索」って何？高級品とソックリな代替品を数秒で見つける裏ワザ | イチオシ | ichioshi",
+            "url": "https://ichioshi.smt.docomo.ne.jp/articles/limited/37703"
+          }
+        ],
+        "summary": "Platformでは、OS、購買、検索、AIモデル選択がつながり、ユーザー接点の主導権が再編されている。Appleの外部AIモデル選択やGoogleのデュープ検索は、プラットフォームが単なる入り口ではなく、比較・判断・購買の過程そのものを握り始めていることを示している。"
+      },
+      {
+        "name": "Media",
+        "count": 4,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "Fast Company: Farewell to MIT Sloan Management Review: Now what for management ideas?",
+            "url": "https://www.fastcompany.com/91536406/farewell-to-the-sloan-management-review-now-what-for-management-ideas"
+          },
+          {
+            "title": "Yahoo!ニュース: 父が生成AIで作った勉強アプリを遊ぶ5歳息子→順調かと思ったら…… “まさかの結末”に「むっちゃ笑った」「破壊力が高い」",
+            "url": "https://news.yahoo.co.jp/articles/a2b491eec8731244934fd5b9d4908ba8fa3ecc6b"
+          },
+          {
+            "title": "newspicks.com: 第六回（最終回）：専門家の未来宣言── AIに“勝つ”のではなく、AIと共に“問い続ける”者へ",
+            "url": "https://newspicks.com/news/16603895/body"
+          },
+          {
+            "title": "Google Cloudの最新AIがアニメ制作を革新、もうAIは「クリエイターの敵」ではない。東南アジア最大級のメディアの“人間中心”のAI制作術とは？ | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2617ko35"
+          }
+        ],
+        "summary": "Mediaでは、AIによる制作・学習・専門知・コンテンツ流通の変化が扱われている。従来の編集知や専門知が弱まる一方で、AIを使って問いを立て続ける力、人間中心の制作術、体験としてのコンテンツが新しい価値になっている。"
+      },
+      {
+        "name": "Society",
+        "count": 13,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "newspicks.com: 【バリキャリ】Z世代女子の「最新コミュニティ」に潜入した",
+            "url": "https://newspicks.com/news/16529052/body/"
+          },
+          {
+            "title": "退職時にAIエージェントは持ち出せるか？　企業と個人で揺れる「思考の所有権」（Forbes JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/b7aea0be81bbc14b30e12b4f12629012d56d2978"
+          },
+          {
+            "title": "「Z世代の失業率30％」の予測も。AIがジュニアの仕事を奪い新卒採用がストップ、若者を襲う“AI淘汰”の足音（SPA!）",
+            "url": "https://news.yahoo.co.jp/articles/43617d95a9fe454b5b4b85d6f4e95c26b0c42a65"
+          },
+          {
+            "title": "英紙の視点　なぜいま日本発「SONTAKU」が世界中に蔓延しているのか（クーリエ・ジャポン）",
+            "url": "https://news.yahoo.co.jp/articles/adb8549f8f3241ba5b15fcdea7ef6ede6778cc5a"
+          },
+          {
+            "title": "ドイツの美術館に展示された「犬型人面ロボット」が映すAIと情報社会の権力構図 #エキスパートトピ（佐藤仁） - エキスパート - Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/expert/articles/c3c6f4559daf93c048cd31e2b87b82b5a58c899b"
+          },
+          {
+            "title": "newspicks.com: 【Z世代考】「世界で一番働く国」で考えたキャリアのこと",
+            "url": "https://newspicks.com/news/16529235/body"
+          },
+          {
+            "title": "@DIME アットダイム: Z世代に人気！スマホの使用を物理的に制限する「タイムロッキングコンテナ」のメルカリでの取引件数が急増｜",
+            "url": "https://dime.jp/genre/2111554"
+          },
+          {
+            "title": "TABI LABO: Z世代がPCを「自作」し始めた理由が深い",
+            "url": "https://tabi-labo.com/312541/gen-z-cyberdeck-diy-pc"
+          },
+          {
+            "title": "Business Insider Japan: コンサルからすし職人へ…これからはブルーワーカーの時代なのか。AI時代、ホワイトカラー職の将来「不安」6割",
+            "url": "https://www.businessinsider.jp/article/2605-is-the-era-of-blue-collar-work-arriving/"
+          },
+          {
+            "title": "AIは雇用を奪うのか、配置し直すのか――BCGが示すAI労働の六層モデル",
+            "url": "https://newspicks.com/news/16607144/body"
+          },
+          {
+            "title": "東大生｢自分が書いたレポートより､全部AI任せのほうが､ずっと評価が高い｣技術革新で難関大卒のバブルは弾けたか？ | キャリア・教育 | 東洋経済オンライン",
+            "url": "https://toyokeizai.net/articles/-/942575?utm_source=smartnews&utm_medium=http&utm_campaign=link_back&utm_content=article"
+          },
+          {
+            "title": "AIは雇用を奪わない──歴史的視点から読み解く仕事の未来 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96913"
+          },
+          {
+            "title": "働く人の3割が「春の出会い」に意欲も、半数近くは「職場と私生活の分離」を希望 | マイナビニュース",
+            "url": "https://news.mynavi.jp/article/20260505-4395336/?lead=&utm_source=smartnews&utm_medium=android&utm_campaign=sp_app"
+          }
+        ],
+        "summary": "Societyでは、AIが仕事、若者のキャリア、所有権、教育評価、労働不安、職場の境界線に深く入り込んでいる。特に「思考の所有権」「Z世代の失業率」「ホワイトカラー不安」「AI任せのレポート評価」は、AIが単なる業務効率化ではなく、人間の成長機会や社会的序列を変える存在になっていることを示している。"
+      },
+      {
+        "name": "Culture",
+        "count": 7,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "「仮説を持たずにいられない」という性質こそが人間知性の根源である | 未来思考2045 | ダイヤモンド・オンライン",
+            "url": "https://diamond.jp/articles/-/389140"
+          },
+          {
+            "title": "人間が話す言葉の数は減少傾向にある - GIGAZINE",
+            "url": "https://gigazine.net/news/20260505-speaking-words-decreasing/"
+          },
+          {
+            "title": "エーアイではなくエアイ、インターネットではなくインタネト。トクン時代のカタカナ語圧縮主義と「ティザー」表記の考古学（CloseBox） | テクノエッジ TechnoEdge",
+            "url": "https://www.techno-edge.net/article/2026/04/29/5031.html"
+          },
+          {
+            "title": "片づけないほうがひらめく理由　創造性と環境の意外な関係（ITmedia ビジネスオンライン） - Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/articles/546c6ff0de3194d9145b9973447ceab045deb485"
+          },
+          {
+            "title": "ギズモード・ジャパン: ブームは本物だった！イマドキなY2Kガジェット10連発",
+            "url": "https://www.gizmodo.jp/2026/05/316779.html"
+          },
+          {
+            "title": "ノーベル賞学者が導き出した「死後の意識」〜なぜAIには心がなく、人間は死んでも宇宙に残るのか？〜｜構造のロジック",
+            "url": "https://note.com/hara3281/n/n802a90081fbe?external_type=smart_news&external_position=original_link&rt=external&sub_rt=smart_news"
+          },
+          {
+            "title": "Z世代が「読書家」を名乗る時代に。40代・50代の私たちが見つめ直したい“読む時間”｜🌊 神谷佳希｜大河の流れ、法務と未来をデザインする",
+            "url": "https://note.com/nice_cosmos4982/n/n9ec304d62f33?external_type=smart_news&external_position=original_link&rt=external&sub_rt=smart_news"
+          }
+        ],
+        "summary": "Cultureでは、AI時代における人間知性、言葉、仮説、創造性、読書、レトロガジェット、意識といったテーマが並んでいる。効率化が進むほど、仮説を持つ力、言葉の質、散らかった環境からのひらめき、読む時間のような非効率な人間的営みが再評価されている。"
+      },
+      {
+        "name": "Leadership",
+        "count": 5,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "Ad Age: GM marketing executive Norm de Greve is departing the automaker",
+            "url": "https://adage.com/brand-marketing/aa-gm-norm-de-greve-exit/"
+          },
+          {
+            "title": "ADWEEK: 5 Things CEO-Ready CMOs Know That Others Don't",
+            "url": "https://www.adweek.com/brand-marketing/5-things-ceo-ready-cmos-know-that-others-dont"
+          },
+          {
+            "title": "AIの「生産性」ではなく「成果」を測定せよ | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96937"
+          },
+          {
+            "title": "AIは「無能な上司」に従わない。1人100人力の組織を作るための「AIマネジメント」の鉄則 | DXマガジン",
+            "url": "https://dxmagazine.jp/column/in2617mm05/"
+          },
+          {
+            "title": "AIが分析した「最強の母親」に共通するポジティブさとタイパの正体 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96501"
+          }
+        ],
+        "summary": "Leadershipでは、CMOの経営人材化、AI成果測定、AIマネジメント、ポジティブさとタイパのような組織運営の態度が論点になっている。AIを導入するだけでは成果は出ず、何を成果と定義し、どの判断を人が担い、どの単位で組織を動かすかがリーダーの役割になっている。"
+      },
+      {
+        "name": "Other",
+        "count": 2,
+        "is_cross": false,
+        "articles": [
+          {
+            "title": "Boing Boing: A computer scientist beat textbook binary search by more than 2x",
+            "url": "https://boingboing.net/2026/04/30/a-computer-scientist-beat-textbook-binary-search-by-more-than-2x.html"
+          },
+          {
+            "title": "ハーネスエンジニアリングとは一体何なのか。",
+            "url": "https://newspicks.com/news/16607103/body"
+          }
+        ],
+        "summary": "Otherは、主要カテゴリに収まりきらないが、技術・工学的な思考の外縁を示す記事である。高速化やハーネスエンジニアリングのようなテーマは、AIの周辺で「構造をどう組むか」という基礎的な設計思想の重要性を補強している。"
+      },
+      {
+        "name": "Z世代",
+        "count": 8,
+        "is_cross": true,
+        "articles": [
+          {
+            "title": "newspicks.com: 【バリキャリ】Z世代女子の「最新コミュニティ」に潜入した",
+            "url": "https://newspicks.com/news/16529052/body/"
+          },
+          {
+            "title": "「Z世代の失業率30％」の予測も。AIがジュニアの仕事を奪い新卒採用がストップ、若者を襲う“AI淘汰”の足音（SPA!）",
+            "url": "https://news.yahoo.co.jp/articles/43617d95a9fe454b5b4b85d6f4e95c26b0c42a65"
+          },
+          {
+            "title": "newspicks.com: 【Z世代考】「世界で一番働く国」で考えたキャリアのこと",
+            "url": "https://newspicks.com/news/16529235/body"
+          },
+          {
+            "title": "@DIME アットダイム: Z世代に人気！スマホの使用を物理的に制限する「タイムロッキングコンテナ」のメルカリでの取引件数が急増｜",
+            "url": "https://dime.jp/genre/2111554"
+          },
+          {
+            "title": "TABI LABO: Z世代がPCを「自作」し始めた理由が深い",
+            "url": "https://tabi-labo.com/312541/gen-z-cyberdeck-diy-pc"
+          },
+          {
+            "title": "Z世代が「読書家」を名乗る時代に。40代・50代の私たちが見つめ直したい“読む時間”｜🌊 神谷佳希｜大河の流れ、法務と未来をデザインする",
+            "url": "https://note.com/nice_cosmos4982/n/n9ec304d62f33?external_type=smart_news&external_position=original_link&rt=external&sub_rt=smart_news"
+          },
+          {
+            "title": "Crocsが掲げる「非アルゴリズム時代」、Z世代に刺さる新ブランド戦略とは | TABI LABO",
+            "url": "https://tabi-labo.com/312482/crocspostalgorithm"
+          },
+          {
+            "title": "ついに値下げ。パスポート10年用が8900円に、若年層の取得促進へ　一方で出国税は3倍に | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2616ukre39/"
+          }
+        ],
+        "summary": "Z世代は、AIによる雇用不安、キャリア観、スマホ制限、PC自作、読書、非アルゴリズム志向、移動コストの変化といった多面的なテーマで現れている。共通するのは、デジタルを無条件に受け入れるのではなく、自分の主導権を守るために、接続・非接続・リアル・読書・DIYを選び直している点である。"
+      }
+    ],
+    "signals": [
+      "AIは「出力ツール」から「構造・判断・実行を支える環境」へ移行した",
+      "マーケティングはSEOや広告配信から、AI検索・ChatGPT広告・GEO・信頼設計へ移行した",
+      "ブランドはAI生成の氾濫に対して、非デジタル性、文脈、人間味を差別化軸にし始めた",
+      "社会ではAIが若者の雇用、教育評価、思考の所有権、職業不安を直接揺らし始めた",
+      "Z世代はAIやアルゴリズムを拒否するのではなく、距離を調整しながら主導権を取り戻そうとしている"
+    ],
+    "change": [
+      "AI活用 → AI統治",
+      "SEO → GEO / AI検索",
+      "パーソナライズ → パラノイア回避",
+      "デジタル最適化 → 非アルゴリズム価値",
+      "若者理解 → 主導権と距離感の設計"
+    ],
+    "insight": "5/06の記事群は、AIが「便利な技術」から「社会・企業・個人の前提環境」へ移行したことを示している。AIカテゴリでは、OpenMythos、A2UI、Claude Code認証、金融AIエージェント、Orbit、自律化の仕組みなど、AIが単体ツールではなく、UI、業務、認証、金融、開発、知識労働を横断する実行基盤になっている。一方で、AIバブル、AI投資の誤配分、インフラ不足、人間がボトルネックになる問題も同時に出ており、今後の競争軸は「どのモデルが賢いか」ではなく、「どの組織がAIを構造として扱えるか」に移っている。Marketing / Advertisingでは、ChatGPT広告、GEO、AI検索、AIネイティブ化、インフルエンサー不信、パーソナライゼーション不信が並び、広告や検索が従来の配信最適化から「AIにどう解釈され、生活者にどう信頼されるか」の設計に移行している。BrandingとCultureを見ると、AI生成コンテンツが増えるほど、非デジタル性、人間味、エモさ、読書、仮説、言葉、創造性が再評価されている。Societyでは、AIによる若者の雇用不安、思考の所有権、AI任せの教育評価、ホワイトカラー職の将来不安が強く出ている。総じて5/06は、AIが「使うもの」から「前提として設計するもの」になった日である。",
+    "rakuten_context": [
+      "楽天市場にとって、5/06の記事群が示す最大の示唆は、ECが「検索される場」から「AIに解釈・推薦される場」へ移るということ。商品名、レビュー、商品説明、ランキング、広告、店舗情報は、生活者だけでなくAIにも理解される構造に再設計する必要がある。",
+      "楽天広告・マーケティング文脈では、ChatGPT広告、GEO、AI検索、パーソナライゼーション不信の記事が重要。今後は広告配信量やクリック単価だけでなく、「AIが楽天の商品やサービスをどう説明するか」「生活者がその説明を信頼できるか」が競争力になる。",
+      "楽天カード・楽天ペイ・楽天銀行文脈では、PayPay銀行、ステーブルコイン、AI買い物失敗、金融AIエージェントの記事が示す通り、決済は単なる支払い機能ではなく、信頼・安全・判断補助の基盤になる。AI時代の金融接点では、「便利に払える」よりも「安心して任せられる」ことが重要になる。",
+      "楽天トラベルや移動・観光文脈では、星野リゾート、Woven City、パスポート値下げ、若年層の移動促進の記事が示すように、旅行は単なる予約ではなく、AIが比較・推薦・計画する体験へ移行する。楽天トラベルは、AIに選ばれる宿泊データ構造と、ユーザーが最後に納得して決める余白の両方を設計する必要がある。",
+      "Z世代施策では、AI淘汰、スマホ制限、PC自作、読書、非アルゴリズム志向の記事が重要。Z世代はデジタルが得意なだけの世代ではなく、アルゴリズムに飲み込まれないために、あえて距離を取る世代である。楽天のYouth施策では、最適化されたレコメンドを押し付けるより、自分で選んだ感覚、参加感、リアル接点、余白を設計することが重要になる。",
+      "河野CMO文脈で見ると、5/06の記事群は「AIは目的ではなく、関係性と判断を設計するための手段」という思想を補強している。AI活用の成否は、技術導入量ではなく、生活者との信頼関係、ブランドの意味、意思決定の主導権をどこに置くかで決まる。"
+    ]
+  },
+  {
     "date": "2026-05-05",
     "total_articles": 103,
     "categories": [
