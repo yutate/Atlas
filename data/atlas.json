@@ -1,5 +1,586 @@
 [
   {
+    "date": "2026-05-19",
+    "total_articles": 94,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 28,
+        "is_cross": false,
+        "summary": "Marketing / Advertisingでは、AI検索・GEO・広告自動最適化・AI可視性・購買導線設計が主題になっている。クリック獲得よりも、AIにどう解釈され、どの文脈で推薦され、最終的に生活者の納得につながるかが重要になっている。",
+        "articles": [
+          {
+            "title": "Android 版 Google パスワードマネージャー、パスキーの他社アプリへの移行機能をテスト中 | HelenTech",
+            "url": "https://helentech.jp/news-google-password-manager-passkey-transfer-86252/",
+            "source": ""
+          },
+          {
+            "title": "nri.com: 野村総合研究所、「広告効果賞2025」を発表",
+            "url": "https://www.nri.com/jp/news/info/20260518_1.html",
+            "source": ""
+          },
+          {
+            "title": "Sammy Fans: Android 17 UI blur is different from Apple’s Liquid Glass design",
+            "url": "https://www.sammyfans.com/2026/05/17/android-17-ui-blur-is-different-from-apples-liquid-glass-design/",
+            "source": ""
+          },
+          {
+            "title": "日経クロステック: フィジカルAIで問われるマーケティングの力、日本のロボット産業に期待（2ページ目）",
+            "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00138/051302018/?P=2",
+            "source": ""
+          },
+          {
+            "title": "Android Authority: Google's redesigned app icons are rolling out, whether you want them or not",
+            "url": "https://www.androidauthority.com/google-redesigned-app-icons-rolling-out-3668022/",
+            "source": ""
+          },
+          {
+            "title": "アゴラ 言論プラットフォーム: ANA、SFC改悪のマーケティング戦略を問う⑧：航空ロイヤリティから決済ロイヤリティへ",
+            "url": "https://agora-web.jp/archives/260516042446.html",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine（マーケジン）: 「価値」は顧客が見出すもの。3つの法則で考える、ロイヤル顧客の重要性 (1/3)",
+            "url": "https://markezine.jp/article/detail/50679",
+            "source": ""
+          },
+          {
+            "title": "AdverTimes.（アドタイ） by 宣伝会議: もう暑すぎて、売り方の様子までおかしい…「夜に売る」「いっそ1年中売る」「あえて着込む」 過酷な猛暑が変えた、日本の「夏ビジネス」の新常識",
+            "url": "https://www.advertimes.com/20260518/article544279/?utm_source=feed&page=2",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine（マーケジン）: 楽天インサイト、「アスキングビッグデータ」を用いて3年間比較した20代の「生活意識」変容を発表",
+            "url": "https://markezine.jp/news/detail/50774",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine（マーケジン）: 「無色透明」のインフラから「くらしの会社」を目指して。東京ガスが挑む、エビデンスに基づくブランド戦略 (1/3)",
+            "url": "https://markezine.jp/article/detail/50610",
+            "source": ""
+          },
+          {
+            "title": "AdverTimes.（アドタイ） by 宣伝会議: なぜロッテが水をつくるのか？ 飲料ブランド「THE DAY」新CMに込めた狙い",
+            "url": "https://www.advertimes.com/20260518/article544225/?utm_source=feed",
+            "source": ""
+          },
+          {
+            "title": "PR EDGE: ワインボトルのコルクが旅への入口に ポルトガルの観光マーケティング",
+            "url": "https://predge.jp/343808/",
+            "source": ""
+          },
+          {
+            "title": "AdverTimes.（アドタイ） by 宣伝会議: 「よつ葉＝バター」のイメージ脱却へ 新商品訴求から全体ブランディングにシフトするよつ葉乳業の狙い",
+            "url": "https://www.advertimes.com/20260518/article544255/?utm_source=feed&page=2",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 米老舗マーケティング会社が予告編制作事業から撤退（映画.com）",
+            "url": "https://news.yahoo.co.jp/articles/4f2941062d61b5ac58c49f1f9e866e093c62d8f5",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: AI時代に求められる越境力 「M字型戦略マーケター」を目指せ",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01372/00004/",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: P&G新CEOが就任初日にやったこと 徹底した「顧客主義」を貫くマーケティング革命：Adobe Summit 2026（1/3 ページ）",
+            "url": "https://www.itmedia.co.jp/business/articles/2605/18/news015.html",
+            "source": ""
+          },
+          {
+            "title": "ADWEEK: The Hidden Engine of Modern Marketing",
+            "url": "https://www.adweek.com/resource-library/the-hidden-engine-of-modern-marketing/",
+            "source": ""
+          },
+          {
+            "title": "Digiday: ‘Identity is the qualifier for AI’: Publicis' $2.2 billion LiveRamp deal is a bet that whoever controls the data owns the AI era",
+            "url": "https://digiday.com/media-buying/identity-is-the-qualifier-for-ai-publicis-2-2-billion-liveramp-deal-is-a-bet-that-whoever-controls-the-data-owns-the-ai-era/",
+            "source": ""
+          },
+          {
+            "title": "Digiday: The Economist prepares for a two‑track internet: one for humans and one for AI agents",
+            "url": "https://digiday.com/media/the-economist-prepares-for-a-two-track-internet-one-for-humans-and-one-for-ai-agents/",
+            "source": ""
+          },
+          {
+            "title": "DIGIDAY［日本版］: 格安通販サイトの Temu が和牛ステーキを販売。食品カテゴリ成長の巨大な勝機",
+            "url": "https://digiday.jp/modern-retail/marketplace-briefing-temu-wants-to-sell-you-a-steak-now/",
+            "source": ""
+          },
+          {
+            "title": "DIGIDAY［日本版］: 米国人の10％が購入。 TikTok Shop が美容業界でもっとも成功した理由",
+            "url": "https://digiday.jp/glossy/why-tiktoks-comment-section-is-driving-the-majority-of-first-purchases-right-now/",
+            "source": ""
+          },
+          {
+            "title": "ChatGPT広告 が日本上陸。グローバル展開を急ぐ王者OpenAIの狙い | DIGIDAY［日本版］",
+            "url": "https://digiday.jp/platforms/expand-thoughtfully-openai-offers-chatgpt-ads-to-new-markets-including-the-u-k-brazil-and-japan/",
+            "source": ""
+          },
+          {
+            "title": "衣類のオンライン購入 世界各国の消費者が“実用性”を重視…SHEINの調査 | 通販通信ECMO",
+            "url": "https://www.tsuhannews.jp/news/detail/75550",
+            "source": ""
+          },
+          {
+            "title": "ポップアップ広告より不快感が少ない？ ゲームプレイを中断させない「インゲーム広告」の購買喚起効果はデジタル広告の最大1.7倍",
+            "url": "https://www.advertimes.com/20260519/article544246/",
+            "source": ""
+          },
+          {
+            "title": "購買行動の新定番？ 「エージェンティックコマース」は人間の「買ってよかった」をどこまで満たせるのか【ネッ担まとめ】 | 新・ネットショップ担当者が知っておくべきニュースのまとめ | ネットショップ担当者フォーラム",
+            "url": "https://netshop.impress.co.jp/e/2026/05/19/16087",
+            "source": ""
+          },
+          {
+            "title": "「スーパーCMO」の台頭：AIの転換点にリーダーはいかに応えるべきか | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/97686",
+            "source": ""
+          },
+          {
+            "title": "【日本でも提供開始】ChatGPT広告、実際どうなの？2026年の最新事情",
+            "url": "https://newspicks.com/topics/ikigai-meets-ai/posts/289",
+            "source": ""
+          },
+          {
+            "title": "「問いを立てる力」と「越境するマネジメント」が、AI時代のマーケターを強くする",
+            "url": "https://www.advertimes.com/20260515/article543870/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 5,
+        "is_cross": false,
+        "summary": "Brandingでは、ブランドの視点・意味・体験・感情設計が重要テーマである。AI時代ほど、人間味、文化的文脈、記憶に残る体験価値がブランド差別化要因になっている。",
+        "articles": [
+          {
+            "title": "KDDI、ブランドスローガンを「Spark Your Journey」に一新 | KDDI News Room",
+            "url": "https://newsroom.kddi.com/news/detail/kddi_nr-1012_4496.html",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: 西松屋『COCHO COCHO』で挑む 演出なしのブランディング",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01371/00001/",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: ドイツ発老舗雑貨ブランドが若返り 鍵は失敗から始まったSNS戦略",
+            "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01861/",
+            "source": ""
+          },
+          {
+            "title": "東洋経済オンライン: \"ミュトスの衝撃\"を冷静に見るべき理由､騒動の影で進むサイバー攻撃の｢大衆化｣《4つの変化と基本対策の価値》",
+            "url": "https://toyokeizai.net/articles/-/944410?display=b",
+            "source": ""
+          },
+          {
+            "title": "時代は変わっても変わらない価値がある。オンラインショッピングに対する意外な本音",
+            "url": "https://by-them.com/493068",
+            "source": "by them（バイゼム）"
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 43,
+        "is_cross": false,
+        "summary": "AIでは、AIエージェント、推論、ローカルLLM、AI安全性、AIコスト、実行AI、ロボティクスが扱われている。AIは生成補助から、自律的に業務・判断・購買を担う存在へ移行している。",
+        "articles": [
+          {
+            "title": "凄すぎ…「Gemma 4×Claude Code活用術」、API料金ゼロでAIエージェント制作の全手順 ｜ビジネス+IT",
+            "url": "https://www.sbbit.jp/article/cont1/185346",
+            "source": ""
+          },
+          {
+            "title": "【永久保存版】AIモデル戦国時代──「2026年5月最新版」国内バーチャルヒューマン影響度ランキングをChatGPT 5.5 Thinking目線で発表 | 株式会社イトハのプレスリリース",
+            "url": "https://prtimes.jp/main/html/rd/p/000000004.000167495.html",
+            "source": ""
+          },
+          {
+            "title": "Google AI Studioでアプリを作成し、公開までやってみよう | gihyo.jp",
+            "url": "https://gihyo.jp/article/2026/05/make-app-with-google-ai-studio-02",
+            "source": ""
+          },
+          {
+            "title": "アンソロピックが調査、AIは生産性を高める一方でレイオフへの不安も強める | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/96888",
+            "source": ""
+          },
+          {
+            "title": "売上143億円｢バルニバービ｣が店をつくり､街を育てたら土地が8億→32億に…常識を覆す\"バッドロケーション戦略\"の全貌 | ビジネス | 東洋経済オンライン",
+            "url": "https://toyokeizai.net/articles/-/943195",
+            "source": ""
+          },
+          {
+            "title": "4つの主要AIに「ラジオ局の運営」を任せた結果…実験で明らかになった各モデルの挙動（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/82de12d9eb6312355c9bf7e580488a150d95f902",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "なぜアンソロピックはスペースXを選んだのか…電撃提携が示すAIインフラの地政学 | ビジネスジャーナル",
+            "url": "https://biz-journal.jp/it/post_394602.html",
+            "source": ""
+          },
+          {
+            "title": "休んでも疲れが取れない――その正体は、脳の「裏で動き続けるアプリ」だった",
+            "url": "https://studyhacker.net/brain-fatigue-dmn",
+            "source": "STUDY HACKER（スタディーハッカー）｜社会人の勉強法＆英語学習"
+          },
+          {
+            "title": "Yahoo!ニュース: 凄すぎ…「Gemma 4×Claude Code活用術」、API料金ゼロでAIエージェント制作の全手順（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/98a30c50cabc64e395082091279724a4a005d3a9",
+            "source": ""
+          },
+          {
+            "title": "NBC News: Prediction market ‘watchdog’ launches six-figure ad campaign ahead of Senate hearing",
+            "url": "https://www.nbcnews.com/politics/congress/prediction-market-watchdog-ad-campaign-senate-hearing-rcna345666",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: AIを毎日使う人ほど「生産性が向上していない」と実感 労働者の本音とは",
+            "url": "https://news.yahoo.co.jp/articles/435c8405c49ddc1492a3c0c4f221b1aa62f8f055",
+            "source": ""
+          },
+          {
+            "title": "WSJ: アマゾン、AI「周回遅れ」から有力プレーヤーへ",
+            "url": "https://jp.wsj.com/articles/how-amazon-went-from-an-ai-also-ran-to-a-real-contender-ba02de37",
+            "source": ""
+          },
+          {
+            "title": "Business Insider: Why the former Google executive who backed OpenAI and Anthropic wants to get people off their screens",
+            "url": "https://www.businessinsider.com/ex-google-executive-wants-to-get-people-off-their-screens-2026-5",
+            "source": ""
+          },
+          {
+            "title": "INTERNET Watch: Googleが検索スパムに関するポリシーを更新、AIを誤認させる行為もスパムの対象に【やじうまWatch】",
+            "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2109368.html",
+            "source": ""
+          },
+          {
+            "title": "ギズモード・ジャパン: Google新AI｢Gemini Omni｣で生成した動画がリーク。数式の再現度高っ",
+            "url": "https://www.gizmodo.jp/2026/05/google-omni_leak_video.html",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 【脅迫から妨害、犯罪まで】Anthropicが発表「AIの暗黒面」をどう制御するのか？（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/5bd8209f06a6ec07b074210b3c8815d11128f70f",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: グーグルとアドビの衝撃デモが示す、AIエージェント時代の「予言」…ホルムズ海峡封鎖に対応できるAIシナリオ【尾原和啓の深堀り】",
+            "url": "https://news.yahoo.co.jp/articles/962f4ded81111a3f3c61850161efd7b9c8b7420a",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: AIによる最適化のわな ジョブ理論で見る市場創造なき成長戦略の限界",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01277/00001/",
+            "source": ""
+          },
+          {
+            "title": "アゴラ 言論プラットフォーム: OpenAIはグローバル・クロッシングの道を歩むか",
+            "url": "https://agora-web.jp/archives/260518033018.html",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 横浜・関内でAIやWeb3をテーマにイベント 「まだ人間ですか？」（みんなの経済新聞ネットワーク）",
+            "url": "https://news.yahoo.co.jp/articles/14df78f4939a04588f1bfbf0de6751e6d0a3b922",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: MetaがAI訓練のため社員の“打鍵”を追跡 反倫理的との批判も",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/00079/00350/",
+            "source": ""
+          },
+          {
+            "title": "ビジネスジャーナル: SBG「純利益5兆円」の衝撃とOpenAI狂騒曲",
+            "url": "https://biz-journal.jp/company/post_394658.html",
+            "source": ""
+          },
+          {
+            "title": "日経クロステック: Googleが投入した最新AI半導体、設計思想転換の狙いを現地リポート",
+            "url": "https://xtech.nikkei.com/atcl/nxt/column/18/03520/051500011/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 「1国だけの問題ではない」 G7、最新AIミュトス問題協議へ",
+            "url": "https://news.yahoo.co.jp/pickup/6580709",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: セールスフォースのCEOは、自社の Anthropicトークン利用額が、3億ドルに達するだろうと語った",
+            "url": "https://www.businessinsider.jp/article/2605-marc-benioff-salesforce-anthropic-spend-tokens-slack/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: アマゾン、AIデータセンターの「未来対応」競争に参戦…AWS社内文書から判明した「タイタス・プロジェクト」の全容",
+            "url": "https://www.businessinsider.jp/article/2605-amazon-titus-future-proof-ai-data-centers-nvidia-gpus-servers/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: AIは雇用を奪うのか、増やすのか…エコノミストが指摘する「パラドックス」と人員削減の真実",
+            "url": "https://www.businessinsider.jp/article/2605-ai-impact-on-job-labor-market-growth-replacement-torsten-slok/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: グーグルはGoogle I/Oにおける大型リリースを前に、静かにAI顧客を増やしている",
+            "url": "https://www.businessinsider.jp/article/2605-google-gemini-flash-model-quietly-winning-ai-customers/",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: AnthropicとOpenAIが「FDE」に進出した理由 ー「APIサブスク利益」の限界",
+            "url": "https://newspicks.com/news/16688208/body/",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: 「考えること」をやめた人間たち──AI時代の新しい病、『認知的降伏』とは何か",
+            "url": "https://newspicks.com/news/16696777/body/?ref=topics",
+            "source": ""
+          },
+          {
+            "title": "東洋経済オンライン: 欧州は革新生み出す金融戦略で防衛力を自立させろ…テクノロジー戦争の時代に備える手法とは",
+            "url": "https://toyokeizai.net/articles/-/944654?display=b",
+            "source": ""
+          },
+          {
+            "title": "人間 vs. 人型ロボ、より多く作業をこなせるのは？　生配信で対決した結果……　米企業（1/2 ページ）",
+            "url": "https://www.itmedia.co.jp/aiplus/articles/2605/18/news069.html",
+            "source": "ITmedia AI＋"
+          },
+          {
+            "title": "女子はChatGPT、男子はGemini？ 新大学生の生成AI・SNS最新利用トレンド【東京工科大学調べ】（Web担当者Forum）",
+            "url": "https://news.yahoo.co.jp/articles/8cdcc6af801432539a25fd2f0b384169bd9e0c4c",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "酷使されたAIエージェントは“マルクス主義”に傾く：実験で判明 | WIRED.jp",
+            "url": "https://wired.jp/article/overworked-ai-agents-turn-marxist-study/",
+            "source": ""
+          },
+          {
+            "title": "Googleが新しい情報「Google検索の生成AI機能向けにウェブサイトを最適化する」を公表 | Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/05/19/52658",
+            "source": ""
+          },
+          {
+            "title": "共創！Commerce Marketing ラボ #1：米国リテールメディア急拡大の背景 _流通・小売業界 ニュースサイト【ダイヤモンド・チェーンストアオンライン】",
+            "url": "https://diamond-rm.net/technology/ai/545338/",
+            "source": ""
+          },
+          {
+            "title": "「お買い物マラソン」の店舗選びもAIが支援。楽天が進めるAIエージェントコマース戦略の現在地 | ネットショップ担当者フォーラム",
+            "url": "https://netshop.impress.co.jp/n/2026/05/19/16086",
+            "source": ""
+          },
+          {
+            "title": "AIがもたらす「感覚」の変化。新技術は生まれるたびに人の知覚を変えてきた – WirelessWire & Schrödinger's",
+            "url": "https://wirelesswire.jp/2026/05/93604/",
+            "source": ""
+          },
+          {
+            "title": "「人＋AI」協働の仕組みを訴求するアトラシアン、鍵は「コンテキストの醸成」",
+            "url": "https://japan.zdnet.com/article/35247594/",
+            "source": "ZDNET Japan"
+          },
+          {
+            "title": "「考えること」をやめた人間たち──AI時代の新しい病、『認知的降伏』とは何か",
+            "url": "https://newspicks.com/topics/sasokunitake/posts/3",
+            "source": ""
+          },
+          {
+            "title": "AI時代の金融サービスが「見えないリスク」を放置できない理由 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/97730",
+            "source": ""
+          },
+          {
+            "title": "AI生成コンテンツによりインターネットは死ぬのではなく「ゾンビ」になる？",
+            "url": "https://yamdas.hatenablog.com/entry/20260518/your-ai-use-is-breaking-my-brain",
+            "source": "YAMDAS現更新履歴"
+          },
+          {
+            "title": "「思考」と「ことば」を稽古する 〜AI時代の創造性①｜若宮和男（メタバースクリエイターズ/uni'que/アート思考キュレーター/福岡女子大客員教授）",
+            "url": "https://comemo.nikkei.com/n/nb076ff983aa0",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 7,
+        "is_cross": false,
+        "summary": "Businessでは、決済、EC、金融、経済圏、流通、通信が主題である。競争は単体サービスではなく、AI・決済・データ・接点を統合した経済圏設計に移っている。",
+        "articles": [
+          {
+            "title": "欧州が作った「米国の法律が届かないクラウド」：だがサーバーのチップだけは米国の管理を逃れられず | XenoSpectrum",
+            "url": "https://xenospectrum.com/secnumcloud-ring3-silicon-blind-spot/",
+            "source": ""
+          },
+          {
+            "title": "The Hollywood Reporter: How Big Tech Took Over the Upfronts",
+            "url": "https://www.hollywoodreporter.com/business/business-news/tech-upfronts-winners-losers-1236598576/",
+            "source": ""
+          },
+          {
+            "title": "CNBC: Mizuho shares slide 7% after denying decision on reported Rakuten Bank investment shift",
+            "url": "https://www.cnbc.com/2026/05/18/mizuho-shares-rakuten-bank-investment-card-yomiuri-shimbun-report.html",
+            "source": ""
+          },
+          {
+            "title": "Ad Age: Ad Age Tech Power List honors ad tech and brand leaders from Bose to Reddit",
+            "url": "https://adage.com/events-awards/tech-power-list/aa-introducing-2026/",
+            "source": ""
+          },
+          {
+            "title": "XenoSpectrum: 光だけで計算する未来へのブレイクスルー。ペンシルベニア大が開発した「エキシトンポラリトン」素子とは",
+            "url": "https://xenospectrum.com/ultralow-energy-optical-computing-exciton-polaritons/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 【地方住みZ世代のホンネ】過疎の地域を守っていくために働く「自分がしたいのはこういうこと」（NewsPicks ＋ｄ）",
+            "url": "https://news.yahoo.co.jp/articles/ce139e068ae698bfc9b365ec09ee828595978a52",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "金融庁「決済高度化」の射程──ステーブルコインと預金トークンが開く、もう一つの金融インフラ",
+            "url": "https://newspicks.com/topics/mhayashi/posts/772",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 2,
+        "is_cross": false,
+        "summary": "Platformでは、OS、アプリ、SNS、AIプラットフォーム、UI、検索基盤が再構築されている。AIは単なる機能追加ではなく、生活者接点そのものを再定義している。",
+        "articles": [
+          {
+            "title": "Marketing Week: ‘Having a purpose is not boring’: How Triodos Bank is carving out a niche in finance",
+            "url": "https://www.marketingweek.com/triodos-bank-purpose-brand-refresh/",
+            "source": ""
+          },
+          {
+            "title": "Metaが放つInstagram新機能。「今」をそのまま送るだけの、世界一ラクなSNSの正体 | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2619ty41/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Media",
+        "count": 1,
+        "is_cross": false,
+        "summary": "Mediaでは、音楽、配信、クリエイター、スポンサー、ファンダムが主要論点である。メディアは視聴面ではなく、熱量・体験・コミュニティを束ねる構造へ変化している。",
+        "articles": [
+          {
+            "title": "社会人の6割が「SNS依存」の自覚あり 成人のSNS利用規制は過半数が「必要」と回答 | AMP[アンプ]",
+            "url": "https://ampmedia.jp/2026/05/19/sns-izon-2605/",
+            "source": "人生の豊かさを生む瞬間を情報でつくりだす新世代向けビジネスメディア"
+          }
+        ]
+      },
+      {
+        "name": "Society",
+        "count": 1,
+        "is_cross": false,
+        "summary": "Societyでは、Z世代、SNS疲れ、若者の価値観、副業、恋愛、自己主導性が扱われている。デジタル環境に慣れた世代ほど、納得感と消耗回避を重視している。",
+        "articles": [
+          {
+            "title": "GMOインターネットグループ株式会社: 【Z世代トレンドラボ byGMO】Z世代社会人1380名が回答 「新卒社員が早めに身につけた方が良いスキル」ランキング",
+            "url": "https://group.gmo/news/article/10024/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 0,
+        "is_cross": false,
+        "summary": "Cultureでは、アート、読書、哲学、感情、意味づけ、人間らしさが扱われている。AI時代ほど、非効率な体験や文化的文脈の価値が再評価されている。",
+        "articles": []
+      },
+      {
+        "name": "Leadership",
+        "count": 0,
+        "is_cross": false,
+        "summary": "Leadershipでは、経営、責任、組織設計、委任設計が主題である。AI時代のリーダーは、AIに任せる範囲と人間が責任を持つ境界を設計する役割を担う。",
+        "articles": []
+      },
+      {
+        "name": "Other",
+        "count": 7,
+        "is_cross": false,
+        "summary": "Otherは主要カテゴリに収まりきらない科学・技術・生活観測系の記事群であり、AI時代の周辺構造変化を補助的に示している。",
+        "articles": [
+          {
+            "title": "携帯キャリアの“バラマキ競争”は終わるのか　総務省が新ルール検討へ | DXマガジン",
+            "url": "https://dxmagazine.jp/news/2517ukre92/",
+            "source": ""
+          },
+          {
+            "title": "JBpress: 「品質」「コスト」「納期」ソニー創業者・井深大が唯一こだわった条件は？短期間で成果を出すプロジェクトの進め方",
+            "url": "https://jbpress.ismedia.jp/articles/-/94545",
+            "source": ""
+          },
+          {
+            "title": "PhoneArena: Google Messages is getting two big changes: one you'll love, one you'll probably hate",
+            "url": "https://www.phonearena.com/news/google-messages-getting-two-big-changes_id180428",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: プロダクトファーストを貫くイーロン・マスク 中国の若手起業家たちに与え続ける「技術への執着」",
+            "url": "https://www.itmedia.co.jp/business/articles/2605/18/news038.html",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: 老舗書店の書泉が6年振りに黒字転換 「誰に売るか」を極める大改革",
+            "url": "https://xtrend.nikkei.com/atcl/contents/watch/00013/02878/",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: Duolingoは「君たちの英語を諦めない」 語学アプリ発ドラマ制作の狙い",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01371/00002/?i_cid=nbpnxr_index",
+            "source": ""
+          },
+          {
+            "title": "長時間ゲームをしても「趣味に留まる人」と「依存する人」の違いが明らかに",
+            "url": "https://nazology.kusuguru.co.jp/archives/195302",
+            "source": "ナゾロジー"
+          }
+        ]
+      },
+      {
+        "name": "Z世代",
+        "count": 2,
+        "is_cross": true,
+        "summary": "Z世代はAIやSNSを使いながらも、自分の主導権と距離感を重視している。",
+        "articles": [
+          {
+            "title": "Yahoo!ニュース: 【地方住みZ世代のホンネ】過疎の地域を守っていくために働く「自分がしたいのはこういうこと」（NewsPicks ＋ｄ）",
+            "url": "https://news.yahoo.co.jp/articles/ce139e068ae698bfc9b365ec09ee828595978a52",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "GMOインターネットグループ株式会社: 【Z世代トレンドラボ byGMO】Z世代社会人1380名が回答 「新卒社員が早めに身につけた方が良いスキル」ランキング",
+            "url": "https://group.gmo/news/article/10024/",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "AI検索/GEOが一般化し、ブランド競争はAI上の可視性へ移行",
+      "AIエージェントは購買・制作・業務実行主体へ進化",
+      "生活者は効率より納得感と最終決定権を重視",
+      "経済圏競争はAI・決済・データ統合戦へ",
+      "Z世代は熱量・距離感・自己主導性を重視"
+    ],
+    "change": "SEO → GEO / AI検索\n生成AI → 実行AI\n広告配信 → AI解釈設計\nEC → エージェント型コマース\n若者理解 → 消耗回避と主導権理解",
+    "insight": "5/19の記事群は、AIが検索・生成の段階を超えて、購買、提案、制作、金融、業務実行へ入り込んだことを示している。マーケティングではAI検索とGEOが一般化し、ブランドはAIにどう解釈されるかまで含めて設計する必要がある。一方で、生活者はAI推薦や自動化を全面的には信用しておらず、最終的な判断や納得感は依然として人間側に残っている。AI時代の競争軸は、自動化そのものではなく、AIに何を委任し、人間が何を引き受けるかという関係設計に移っている。"
+  },
+  {
     "date": "2026-05-18",
     "total_articles": 143,
     "categories": [
