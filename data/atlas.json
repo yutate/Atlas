@@ -1,5 +1,632 @@
 [
   {
+    "date": "2026-06-15",
+    "total_articles": 95,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 14,
+        "is_cross": false,
+        "summary": "Marketing / Advertisingでは、Google検索クリック減少、ChatGPT広告、日本の広告費、AI時代のWeb設計、WHOとWHATの近接、AI架電、ショートドラマ、駅名広告、AI検索でのブランド推薦、Creative Effectiveness、情動経済圏、AI概要時代の発見性、母の日購買データが主題である。広告・マーケティングは、露出や検索流入の獲得から、AIに読まれ、推薦され、生活者の情動や文脈に接続される設計へ移行している。",
+        "articles": [
+          {
+            "title": "In 2026, Less than One Third of Google Searches Still Send a Click",
+            "url": "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
+            "source": "SparkToro"
+          },
+          {
+            "title": "ChatGPT Advertising",
+            "url": "https://www.linkedin.com/pulse/chatgpt-advertising-most-important-marketing-since-google-delaney-riihf?utm_source=share&utm_medium=member_android&utm_campaign=share_via",
+            "source": "The Most Important Marketing Opportunity Since Google AdWords Or The Beginning of AI's Trust Crisis?"
+          },
+          {
+            "title": "電通推定の日本の広告費を詳しくさぐる(2026年公開版)（不破雷蔵）",
+            "url": "https://news.yahoo.co.jp/expert/articles/d45691e09bff97b91b6750e4f4b026a181fbdd10",
+            "source": ""
+          },
+          {
+            "title": "AIのW杯“進出”──グーグル「Gemini」がアルゼンチン代表と提携 | WIRED.jp",
+            "url": "https://wired.jp/article/artificial-intelligence-sneaks-into-the-world-cup-thanks-to-google-gemini/",
+            "source": ""
+          },
+          {
+            "title": "ウェブサイトは人間より先に機械に読ませる設計を――AI時代の新常識 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/99064",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine: 西口一希氏と振り返る、マーケティングの20年。「WHOとWHATの距離が近づく」時代の乗り越え方 (1/4)",
+            "url": "https://markezine.jp/article/detail/50867",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: タイミーがメルマガとSlack連動でアポ獲得率2.5倍 AI架電で負担を削減",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01392/00003/?i_cid=nbpnxr_author",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine: ドコモ、ミツカン、JALの成功事例も ショートドラマでブランドリフトや行動変容を促すためのポイント (1/3)",
+            "url": "https://markezine.jp/article/detail/50484",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: サントリーも「特茶ノ水」で参戦 広がる“駅名売買”の広告効果は？",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01400/00001/?i_cid=nbpnxr_parent",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: SEOの常識が変わる AI検索で自社ブランドを推薦させる新手法",
+            "url": "https://forbesjapan.com/articles/detail/98756",
+            "source": ""
+          },
+          {
+            "title": "ADWEEK: At Cannes Lions, Meta Aims to Define the Next Era of Creative Effectiveness",
+            "url": "https://www.adweek.com/sponsored/at-cannes-lions-meta-aims-to-define-the-next-era-of-creative-effectiveness/",
+            "source": ""
+          },
+          {
+            "title": "電通報: 「人の気持ちが動く体験」を科学的に研究し、「情動経済圏」の構築を目指す「情動LABO」始動！",
+            "url": "https://dentsu-ho.com/articles/9767",
+            "source": ""
+          },
+          {
+            "title": "検索エンジンに「AIによる概要」が表示される状況で自社のウェブサイトを見てもらいやすくする方法とは？",
+            "url": "https://gigazine.net/news/20260615-make-your-website-discoverable-by-ai/",
+            "source": "GIGAZINE"
+          },
+          {
+            "title": "【母の日トレンドを解説】ギフトモール、母の日購買データを分析 日常品が上昇傾向 | 日本ネット経済新聞｜新聞×ウェブでEC＆流通のデジタル化をリード",
+            "url": "https://netkeizai.com/articles/detail/18832",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 5,
+        "is_cross": false,
+        "summary": "Brandingでは、Appleの戦略、赤星のブランド成長、AI分身による本物価値の上昇、ディズニーの再投資、AIエージェント時代のブランド競争力が扱われている。AIが選択を代行するほど、ブランドは単なる認知資産ではなく、信頼、意味、体験、人格を担保する最後の差別化資本になる。",
+        "articles": [
+          {
+            "title": "Siri AIへの大刷新とティム・クックの“ラストメッセージ” 『WWDC26』から読み解くAppleの「明確な戦略」（リアルサウンド）",
+            "url": "https://news.yahoo.co.jp/articles/a7a7017e82891606f9d75f3e17de3fbaba8ac8bd",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: なぜ若者まで「とりあえず赤星」と頼むのか テレビCMゼロでも10年で3.5倍に伸びた理由：週末に「へえ」な話",
+            "url": "https://www.itmedia.co.jp/business/articles/2606/14/news003.html",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: 【皮肉】AI分身を作ったら「本物」の価値が爆上がりした",
+            "url": "https://newspicks.com/news/16867830/body/",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: ディズニーのアトラクション再投資戦略、顧客満足度向上に貢献",
+            "url": "https://forbesjapan.com/articles/detail/99059",
+            "source": ""
+          },
+          {
+            "title": "AIエージェント時代の消費者選択、ブランドに求められる新しい競争力 | TABI LABO",
+            "url": "https://tabi-labo.com/312659/ey-ai-brand-consideration-risk",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 27,
+        "is_cross": false,
+        "summary": "AIでは、オールドメディアとAIの棲み分け、Gemini活用、AI価格戦争、ChatGPTの限界、Project Glasswing、Fable/Mythos停止、音楽生成AI、GLM-5.2、AI思考支配、Google検索とGemini統合、Anthropicアクセス制御、AIワーム、MIXIの生成AI活用、AI Overview責任判決、EV充電器保護、OpenAIモデル行動、バイブコーディング、クリエイターのAI利用、AI共存の認知計算論、AI音楽検出、OKFが中心である。AIは便利な道具から、表現、検索、開発、安全保障、著作権、業務、社会制度を横断する基盤へ拡張している。",
+        "articles": [
+          {
+            "title": "AIはヒトに謝罪する？ 原稿を書かせていい？ 考えることが時代遅れ？ “オールドメディア”の記者が「共存」と「棲み分け」について考える（あいテレビ）",
+            "url": "https://news.yahoo.co.jp/articles/87687ca620b86255efa176236940fabe7d944c5c",
+            "source": ""
+          },
+          {
+            "title": "How we used Gemini to build Google I/O 2026",
+            "url": "https://www.linkedin.com/pulse/how-we-used-gemini-build-google-io-2026-google-aft5e?utm_source=share&utm_medium=member_android&utm_campaign=share_via",
+            "source": ""
+          },
+          {
+            "title": "【比較】OpenAI・Anthropic「AI価格戦争」、安いモデルで損する人の共通点 ｜ビジネス+IT",
+            "url": "https://www.sbbit.jp/article/cont1/185741",
+            "source": ""
+          },
+          {
+            "title": "ChatGPTがチェス対決で「Atari 2600」に負ける",
+            "url": "https://gigazine.net/news/20250610-chatgpt-atari-2600-chess/",
+            "source": "GIGAZINE"
+          },
+          {
+            "title": "日立も参画、アンソロピックのAI防衛「Project Glasswing」がもたらす新常識（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/100696bee1bd448ada1f56b053c1ca515286ca75",
+            "source": ""
+          },
+          {
+            "title": "Anthropic、「Fable 5」「Mythos 5」のアクセスを停止、米国政府による輸出管理指令（窓の杜）",
+            "url": "https://news.yahoo.co.jp/articles/3a7515e7c47c2318935f6d45523eb4d58c575bf4",
+            "source": ""
+          },
+          {
+            "title": "音楽生成AIが次のステージへ。ElevenLabsの新モデルが強烈すぎる（ギズモード・ジャパン）",
+            "url": "https://news.yahoo.co.jp/articles/69e3d385ca5a42f4adba0bcb0b22c6f1e1944813",
+            "source": ""
+          },
+          {
+            "title": "100万トークン対応コーディングLLM「GLM-5.2」公開、来週オープンソース化（PC Watch）",
+            "url": "https://news.yahoo.co.jp/articles/85e838f90aebfb5aeb848a90d3f69fd132e8771a",
+            "source": ""
+          },
+          {
+            "title": "AIに思考を支配されていっちゃう人特有の「ヤバい言語化」（ダイヤモンド・オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/9af7444496a2e84ca60f13c86387c1ab155397ca",
+            "source": ""
+          },
+          {
+            "title": "Google検索とGeminiが合体。AI抜きで検索したい人がGoogle離れ | ギズモード・ジャパン",
+            "url": "https://www.gizmodo.jp/article/google-search-and-gemini-merge-people-who-want-to-search-without-ai-are-turning-away-from-google/",
+            "source": ""
+          },
+          {
+            "title": "Amazon AnthropicのAIに懸念表明 2026年6月14日",
+            "url": "https://news.yahoo.co.jp/pickup/6584182",
+            "source": ""
+          },
+          {
+            "title": "アンソロピック「Fable」が突きつけた現実──AIへのアクセスを制するのは誰か（Forbes JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/e4d84b98ca19002dc2431812cf193c0d646cd60e",
+            "source": ""
+          },
+          {
+            "title": "テクノエッジ TechnoEdge: Fable 5と話していたら政府に作家を連行された。Anthropic「Fable 5」「Mythos 5」、米政府の輸出管理指令で緊急全停止。「外国籍お断り」が全ユーザーを道連れに（CloseBox）",
+            "url": "https://www.techno-edge.net/article/2026/06/13/5178.html",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: アンソロピック「Fable」が突きつけた現実──AIへのアクセスを制するのは誰か",
+            "url": "https://forbesjapan.com/articles/detail/99077",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: 自作AIアプリで介護が変わった…「脱・介護地獄」目指す「初心者バイブコーダー」が増えている",
+            "url": "https://www.businessinsider.jp/article/2606-elder-care-dementia-cancer-ai-vibe-coding-claude-lovable-cursor/",
+            "source": ""
+          },
+          {
+            "title": "東洋経済オンライン: 恐れるべきはアンソロピック｢ミュトス｣だけではない ｢AIワーム｣発見でサイバー攻撃は異次元の領域に",
+            "url": "https://toyokeizai.net/articles/-/947597?display=b",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: パワポ資料が消えた…MIXI「生成AIフル活用」がエグすぎる、年10億円削減の衝撃の裏側（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/db8d954f0e1c0ab724269259976a7279e022ff68",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: 生成AIの深層に潜む未解決の謎とは",
+            "url": "https://forbesjapan.com/articles/detail/99101",
+            "source": ""
+          },
+          {
+            "title": "WIRED: A Court Has Ruled That Google Is Liable for False Statements Generated by AI Overviews",
+            "url": "https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews/",
+            "source": ""
+          },
+          {
+            "title": "WIRED: Here’s How AI Agents Can Protect EV Chargers",
+            "url": "https://www.wired.com/story/researchers-in-spain-show-how-ai-agents-can-protect-ev-chargers/",
+            "source": ""
+          },
+          {
+            "title": "WIRED: Apple’s Camera Chief Thinks AI Can Give You Superpowers",
+            "url": "https://www.wired.com/story/apple-camera-chief-thinks-ai-can-give-you-superpowers/",
+            "source": ""
+          },
+          {
+            "title": "WIRED: Meet the OpenAI Engineer Leading ChatGPT’s Biggest Transformation Yet",
+            "url": "https://www.wired.com/story/model-behavior-interview-with-openai-codex-lead-tibo-sottiaux/",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: コーディング不要の時代が到来、しかしセキュリティリスクも──「バイブコーディング」の現在地",
+            "url": "https://forbesjapan.com/articles/detail/99099",
+            "source": ""
+          },
+          {
+            "title": "AIはクリエイターの味方か敵か──9割超が利用する一方で懸念も | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/99089",
+            "source": ""
+          },
+          {
+            "title": "人工知能（AI）との共存のための認知計算論（Cognitive Computation）の挑戦 – WirelessWire & Schrödinger's",
+            "url": "https://wirelesswire.jp/2026/06/93827/",
+            "source": ""
+          },
+          {
+            "title": "無料のAI音楽検出ツールを音楽配信サービスのDeezerがリリース、YouTube MusicやSpotifyなどのプレイリストをスキャン可能",
+            "url": "https://gigazine.net/news/20260612-deezer-ai-generated-music-detector/",
+            "source": "GIGAZINE"
+          },
+          {
+            "title": "グーグル、AIのための知識共有フォーマット「OKF」を公開（Impress Watch）",
+            "url": "https://news.yahoo.co.jp/articles/a842fa3e9271bc011c52fdeed779718f7210f86b",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 11,
+        "is_cross": false,
+        "summary": "Businessでは、ByteDance AI課金、AI株バブル、SpaceX上場、Tesla/SpaceX AI大連合、NVIDIAサーバー、原子力、未来職種、VisaのAI主導型コマース、Qoo10規制、慎重化するEC心理が扱われている。AI・宇宙・決済・電力・規制が接続し、事業競争は単体プロダクトからインフラ、資本、信頼、規制対応の複合戦へ移行している。",
+        "articles": [
+          {
+            "title": "バイトダンスの人気AI「豆包」、初めて課金に踏み切る——“中国AI“収益化の試金石に（36Kr Japan）",
+            "url": "https://news.yahoo.co.jp/articles/30548716cbcd4a9fd1a7f6ed423435de1b9ecbde",
+            "source": ""
+          },
+          {
+            "title": "東洋経済オンライン: 〈AI株バブル〉が崩壊するとき､資本主義バブルもまた崩壊する…それでも進歩するAIがもたらす危機とは",
+            "url": "https://toyokeizai.net/articles/-/948024?display=b",
+            "source": ""
+          },
+          {
+            "title": "四季報オンライン: ついにスペースX上場､これから起きることを予想する",
+            "url": "https://shikiho.toyokeizai.net/news/0/947992",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: 【テスラ合併構想】スペースXが目指す「AI大連合」",
+            "url": "https://newspicks.com/news/16866648/body/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 1ラック15億円のAIサーバー、スパコン「富岳」より強いNVIDIA「Vera Rubin」――台北で「革ジャン」が明らかにした全貌とは［道越一郎のカットエッジ］（BCN）",
+            "url": "https://news.yahoo.co.jp/articles/1cd53c9dae4b1dfc1858d5e6e127bef326d1928a",
+            "source": ""
+          },
+          {
+            "title": "MITテクノロジーレビュー: 大型か小型か、原子力の2つの戦略——中国が示す「大きいほど優位」",
+            "url": "https://www.technologyreview.jp/s/384548/why-china-is-betting-on-big-nuclear-reactors/",
+            "source": ""
+          },
+          {
+            "title": "MITテクノロジーレビュー: 未来の職種：野生生物向けの薬を開発する「自然界の新薬設計者」",
+            "url": "https://www.technologyreview.jp/s/384543/job-titles-of-the-future-natures-drug-designer/",
+            "source": ""
+          },
+          {
+            "title": "日経ビジネス電子版: スペースX上場 イーロン・マスク氏「誰でも、太陽系とその外へ連れて行く」",
+            "url": "https://business.nikkei.com/atcl/seminar/19/00030/061200781/",
+            "source": ""
+          },
+          {
+            "title": "Visa、AI主導型コマースに向け進化 「信頼性とコントロール」",
+            "url": "https://www.watch.impress.co.jp/docs/news/2116712.html",
+            "source": "Impress Watch"
+          },
+          {
+            "title": "ASCII.jp：Qoo10も規制対象に 経産省、eBay Japanを透明化法で指定",
+            "url": "https://ascii.jp/elem/000/004/410/4410247/",
+            "source": ""
+          },
+          {
+            "title": "利便性だけでは不十分──慎重化する消費者心理とEコマースの新課題 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+            "url": "https://forbesjapan.com/articles/detail/99049",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 8,
+        "is_cross": false,
+        "summary": "Platformでは、Netflix UI刷新、DAZN表記問題、Qwen Appの外部AIエージェント開放、Fitbit Air、Google vs Appleのブラウザ信頼競争、WWDC、スマートホーム、Metaスマートグラスが扱われている。プラットフォーム競争はUIや機能から、信頼、AI統合、生活接点、デバイス、エージェント開放性をめぐる競争へ移っている。",
+        "articles": [
+          {
+            "title": "Netflix、モバイルUIを刷新 ユーザー体験価値の追求で業界をリード #エキスパートトピ（武井保之）",
+            "url": "https://news.yahoo.co.jp/expert/articles/02aea8495a17e20c846b23200ea5fb430302492f",
+            "source": ""
+          },
+          {
+            "title": "なぜDAZNの誤解を招く記載が起きたのか 外資系プラットフォーマーの熾烈な競争環境が背景か #エキスパートトピ（武井保之）",
+            "url": "https://news.yahoo.co.jp/expert/articles/e4da93e0ecc15de833be957e4c8ca10c9ab8a3b3",
+            "source": ""
+          },
+          {
+            "title": "中国アリババ、消費者向けAIアプリ「Qwen App」を外部AIエージェントに開放 ケンタッキーフライドチキンやラッキンコーヒーが初期パートナーに | Ledge.ai",
+            "url": "https://ledge.ai/articles/qwen_app_third_party_ai_agents",
+            "source": ""
+          },
+          {
+            "title": "WIRED.jp: グーグル 「Fitbit Air」レビュー ： “アンビエント・ヘルス”を体現するフィットネストラッカー",
+            "url": "https://wired.jp/review/google-fitbit-air/",
+            "source": ""
+          },
+          {
+            "title": "ニコニコニュース: グーグルvs.アップル、ブラウザ競争の軸は機能から信頼へ？",
+            "url": "https://news.nicovideo.jp/watch/nw19424460?news_ref=search_search",
+            "source": ""
+          },
+          {
+            "title": "WIRED: Everything Apple Announced at WWDC 2026",
+            "url": "https://www.wired.com/story/everything-apple-announced-at-wwdc-2026/",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: スマートホームは「存在を消す」時代へ──富裕層消費者の新たな価値観",
+            "url": "https://forbesjapan.com/articles/detail/99109",
+            "source": ""
+          },
+          {
+            "title": "視界の中にAIが現れる。Metaの次世代スマートグラスは何を変えるのか？ | DXマガジン",
+            "url": "https://dxmagazine.jp/news/ykmt28/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Media",
+        "count": 5,
+        "is_cross": false,
+        "summary": "Mediaでは、noteのAI検索時代の読者増、KDDIの縦型ショートドラマ、テレビ利用、書店減少、コンビニ書店化の失敗が扱われている。AI検索で流入構造が変わる中、メディアは独自コンテンツ、ショート動画、テレビ、書店など接点の意味を再設計する段階にある。",
+        "articles": [
+          {
+            "title": "日経ビジネス電子版: note、AI検索時代の逆風下でも読者4割増 独自コンテンツ生む3要素",
+            "url": "https://business.nikkei.com/atcl/gen/19/00845/060300008/",
+            "source": ""
+          },
+          {
+            "title": "DIGIDAY［日本版］: 縦型ショートドラマ市場を牽引する KDDI の野望 仕掛け人・古波蔵洋平氏に聞く、その想い",
+            "url": "https://digiday.jp/platforms/20260615_kddi/",
+            "source": ""
+          },
+          {
+            "title": "｢テレビ離れ｣と言われるけれど…日本人のテレビ利用に起きている\"意外な変化\" | ライフ | 東洋経済オンライン",
+            "url": "https://toyokeizai.net/articles/-/947808?utm_source=smartnews&utm_medium=http&utm_campaign=link_back&utm_content=article",
+            "source": ""
+          },
+          {
+            "title": "全国の書店の数が1万店を下回る 「無書店自治体」も3割近くに | nippon.com",
+            "url": "https://www.nippon.com/ja/japan-data/h02808/",
+            "source": ""
+          },
+          {
+            "title": "“コンビニ書店化”はなぜ広がらなかったのか 本を売るほど「本離れ」が進む理由：スピン経済の歩き方（1/7 ページ）",
+            "url": "https://www.itmedia.co.jp/business/spv/2606/10/news019.html",
+            "source": "ITmedia ビジネスオンライン"
+          }
+        ]
+      },
+      {
+        "name": "Society",
+        "count": 14,
+        "is_cross": false,
+        "summary": "Societyでは、メンパ消費、ぬい活、子どものスマホ設計、懐かし雑貨とZ世代、中高年とテクノロジー、AI実装期と労働市場、Z世代リーダー志向、接待への前向き姿勢、SNS情報漏洩、若者活性化、若者支援、技術変化と政治、アルファ世代購買、スマホゲームのタイパが扱われている。生活者は選択疲れ、効率疲れ、アルゴリズム疲れを抱えつつ、安心、意味、体験、主導権を求めている。",
+        "articles": [
+          {
+            "title": "コスパ・タイパの次は「メンパ」消費が拡大 選択疲れの時代 新たなビジネスモデルも（テレビ朝日系（ANN））",
+            "url": "https://news.yahoo.co.jp/articles/25be65f1d0d029d4779bcefda0af28440dc125db",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "α・Z世代から大人まで巻き込み「ぬい活」業界が好調 ～ 売上高は成長路線に、利益は4年前から倍増 ～（東京商工リサーチ）",
+            "url": "https://news.yahoo.co.jp/articles/2691a628e75048d51585cc1b4a3c1cbe44897d15",
+            "source": ""
+          },
+          {
+            "title": "子どものスマホ、「禁止」ではもう解決しない Appleが選んだ“親が関わり続けられる”設計とは？ 米WWDC現地ルポ（AERA with Kids＋）",
+            "url": "https://news.yahoo.co.jp/articles/cca07f5070a64c85aa30867aee890eb38d877ede",
+            "source": ""
+          },
+          {
+            "title": "開業3年で売上1億円超…老舗工務店が突然「アメリカン雑貨店」を始めた理由 昭和世代垂涎の“懐かし雑貨”がZ世代を魅了（東洋経済オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/d8fe534021e7316c6971b117555bef9534848078",
+            "source": ""
+          },
+          {
+            "title": "PRESIDENT Online（プレジデントオンライン）: そりゃ｢キレる老人｣が大量に生まれるわ…山口周氏｢テクノロジーの進化が中高年から奪った大事なモノ｣【2026年5月BEST】",
+            "url": "https://president.jp/articles/-/114560?page=2",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: AI「実装期」と地政学が再編する労働市場の構造",
+            "url": "https://newspicks.com/news/16880687/body/",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: Z世代は「リーダーになりたい」。企業が彼らの成功を支援する方法",
+            "url": "https://forbesjapan.com/articles/detail/99042",
+            "source": ""
+          },
+          {
+            "title": "Excite エキサイト: Z世代営業職の8割が「接待に前向き」 世代が上がるほど接待に消極的な逆転現象が明らかに",
+            "url": "https://www.excite.co.jp/news/article/maidonanews_1438803260780593475/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 炎上知らずな若者が“火種”に SNS×情報漏洩が続くワケ「相手が裏切ることはままある」閉鎖型SNSがゆえの油断",
+            "url": "https://news.yahoo.co.jp/articles/f642457e5a3f63c2ec385087ace0b0be55d2a36d",
+            "source": ""
+          },
+          {
+            "title": "中国新聞デジタル: 若者の興味湧く活性化を",
+            "url": "https://www.chugoku-np.co.jp/articles/-/846241",
+            "source": ""
+          },
+          {
+            "title": "若者は“支援のエアポケット” 10万人アンケートで悩みを分析 若者支援につなげる～こども家庭庁（2026年6月13日掲載）｜日テレNEWS NNN",
+            "url": "https://news.ntv.co.jp/category/society/72602ceaac7043deaedec1ffa8c0f86c",
+            "source": ""
+          },
+          {
+            "title": "技術変化の速度に、ついていけない政治…未来予測の専門家の提言 「核兵器より深刻」な脅威とは | ニューズウィーク日本版 オフィシャルサイト",
+            "url": "https://www.newsweekjapan.jp/articles/-/325321",
+            "source": ""
+          },
+          {
+            "title": "アルファ世代が大人になったとき、彼らはどこで、何を、どう買うのか｜はっちょん",
+            "url": "https://note.com/commodvs/n/n4d707d444b54?external_type=smart_news&external_position=original_link&rt=external&sub_rt=smart_news",
+            "source": ""
+          },
+          {
+            "title": "スマホゲームユーザーの約57%がタイパを意識！ スキップ理由は「退屈さ」と「効率志向」が上位 | AppBank",
+            "url": "https://www.appbank.net/2026/06/15/iphone-news/3024731.php",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 5,
+        "is_cross": false,
+        "summary": "Cultureでは、時間や川をめぐるエッセイ、AI時代の儀式、ゲームと学習体験、コミュニティ・グループ・チームの違い、言語の人類史が扱われている。AIが効率化を進めるほど、人間側では儀式、共同体、遊び、言語、時間感覚といった文化的基盤の再評価が進んでいる。",
+        "articles": [
+          {
+            "title": "A river, and the thing it couldn't see",
+            "url": "https://riveroftime.danieland.net/river_of_time.html",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: シリコンバレー式「文化のデザイン」 AI時代を生き抜くための儀式",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01376/00002/?i_cid=nbpnxr_index",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: 【ゲームは学びをどう変えるのか】動機づけから考えるこれからの学習体験",
+            "url": "https://newspicks.com/news/16883562/body/?ref=topics",
+            "source": ""
+          },
+          {
+            "title": "コミュニティとグループとチームは、何が違うのか｜杉山博一（オシロ代表）",
+            "url": "https://comemo.nikkei.com/n/n4690fdc66b21",
+            "source": ""
+          },
+          {
+            "title": "『言語の人類史: 言葉の進化の謎を解く』(河出書房新社) - 著者：スティーヴン・ミズン 翻訳：岩坂 彰",
+            "url": "https://allreviews.jp/review/7805/",
+            "source": "橋爪 大三郎による書評 | 好きな書評家、読ませる書評。ALL REVIEWS"
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 6,
+        "is_cross": false,
+        "summary": "Leadershipでは、Twitter買収下の組織、管理職に向く人材、AI経営、AIが経営を決める日、人間に残る能力、AIに奪われる上司と必要な上司の差が扱われている。AI時代のリーダーには、権限や作業管理ではなく、判断、責任、構造理解、人間の能力を引き出す設計力が求められている。",
+        "articles": [
+          {
+            "title": "「イエス」と答えたのに社内メールが突如消失…マスクのツイッター買収で解雇された日本人社員の証言（プレジデントオンライン）",
+            "url": "https://news.yahoo.co.jp/articles/31676e23d04b15f75ddfa161c298fdf3435e7985",
+            "source": ""
+          },
+          {
+            "title": "管理職に向いているのは「有能な怠け者」 組織に「無能な働き者」が悪影響をもたらすわけ | ログミーBusiness 学び続ける次世代リーダーのためのメディア",
+            "url": "https://logmi.jp/main/management/333561",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: ManAIgement（マネイジメント）～AIが革新する経営",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01378/",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: AIが経営を決める日 企業を圧倒的勝者と敗者に二分",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01378/00003/?i_cid=nbpnxr_index",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: 84職種分析で判明、AIが代替できない「人間の能力」10選",
+            "url": "https://forbesjapan.com/articles/detail/98742",
+            "source": ""
+          },
+          {
+            "title": "「AIにポジションを奪われる上司」と「やっぱり必要な上司」の差 | THE21オンライン｜大人のゴールデンエイジを磨く、キャリア＆ライフメディア",
+            "url": "https://the21.php.co.jp/detail/14395",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 0,
+        "is_cross": false,
+        "summary": "Otherは主要カテゴリに該当する記事がない。",
+        "articles": []
+      },
+      {
+        "name": "Z世代",
+        "count": 10,
+        "is_cross": true,
+        "summary": "Z世代関連では、メンパ消費、ぬい活、昭和・平成レトロ、Z世代のリーダー志向、接待への前向き姿勢、SNS情報漏洩、若者支援、アルファ世代の購買、スマホゲームのタイパが横断的に現れている。Z世代・アルファ世代は効率だけでなく、選択疲れを避け、情緒的に納得し、自分で決めた感覚を保てる消費・体験・関係性を求めている。",
+        "articles": [
+          {
+            "title": "コスパ・タイパの次は「メンパ」消費が拡大 選択疲れの時代 新たなビジネスモデルも（テレビ朝日系（ANN））",
+            "url": "https://news.yahoo.co.jp/articles/25be65f1d0d029d4779bcefda0af28440dc125db",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "α・Z世代から大人まで巻き込み「ぬい活」業界が好調 ～ 売上高は成長路線に、利益は4年前から倍増 ～（東京商工リサーチ）",
+            "url": "https://news.yahoo.co.jp/articles/2691a628e75048d51585cc1b4a3c1cbe44897d15",
+            "source": ""
+          },
+          {
+            "title": "開業3年で売上1億円超…老舗工務店が突然「アメリカン雑貨店」を始めた理由 昭和世代垂涎の“懐かし雑貨”がZ世代を魅了（東洋経済オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/d8fe534021e7316c6971b117555bef9534848078",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: Z世代は「リーダーになりたい」。企業が彼らの成功を支援する方法",
+            "url": "https://forbesjapan.com/articles/detail/99042",
+            "source": ""
+          },
+          {
+            "title": "Excite エキサイト: Z世代営業職の8割が「接待に前向き」 世代が上がるほど接待に消極的な逆転現象が明らかに",
+            "url": "https://www.excite.co.jp/news/article/maidonanews_1438803260780593475/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 炎上知らずな若者が“火種”に SNS×情報漏洩が続くワケ「相手が裏切ることはままある」閉鎖型SNSがゆえの油断",
+            "url": "https://news.yahoo.co.jp/articles/f642457e5a3f63c2ec385087ace0b0be55d2a36d",
+            "source": ""
+          },
+          {
+            "title": "中国新聞デジタル: 若者の興味湧く活性化を",
+            "url": "https://www.chugoku-np.co.jp/articles/-/846241",
+            "source": ""
+          },
+          {
+            "title": "若者は“支援のエアポケット” 10万人アンケートで悩みを分析 若者支援につなげる～こども家庭庁（2026年6月13日掲載）｜日テレNEWS NNN",
+            "url": "https://news.ntv.co.jp/category/society/72602ceaac7043deaedec1ffa8c0f86c",
+            "source": ""
+          },
+          {
+            "title": "アルファ世代が大人になったとき、彼らはどこで、何を、どう買うのか｜はっちょん",
+            "url": "https://note.com/commodvs/n/n4d707d444b54?external_type=smart_news&external_position=original_link&rt=external&sub_rt=smart_news",
+            "source": ""
+          },
+          {
+            "title": "スマホゲームユーザーの約57%がタイパを意識！ スキップ理由は「退屈さ」と「効率志向」が上位 | AppBank",
+            "url": "https://www.appbank.net/2026/06/15/iphone-news/3024731.php",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "AI Agent × Brandが0615最大のテーマであり、AIが選択を代行するほどブランド、信頼、意味、人格の価値が上昇している",
+      "Search → AI Discoveryの転換が鮮明化し、Google検索クリック減少、Gemini統合検索、AI SEO、OKFが一連の構造変化として現れている",
+      "Anthropic Fable / Mythos停止、Project Glasswing、Amazonの懸念、輸出規制により、AIアクセスはプロダクト競争から地政学・安全保障・統治の問題へ移行している",
+      "VisaのAI主導型コマースとAIエージェント時代のブランド競争により、Agentic Commerceは決済実行だけでなく信頼とコントロールの設計問題になった",
+      "Z世代・アルファ世代では、メンパ消費、ぬい活、平成回帰、接待前向き、タイパ、支援のエアポケットが並び、選択疲れの中で主導権と情緒的納得を求める傾向が強まっている"
+    ],
+    "change": "SEO / Search TrafficからAI Discovery / Machine-readable Web / OKFへ\nCommerceからAgentic Commerce / AI主導型決済 / Trust & Controlへ\nAI Model AccessからAI Governance / Export Control / Safety Infrastructureへ\nBrand AwarenessからBrand as Decision Capital / Trust Capitalへ\nコスパ・タイパからメンパ / 情動価値 / 選択疲れ回避へ",
+    "insight": "0615の記事群で最も重要な変化は、AIエージェントが購買や検索の入口になるほど、ブランドと信頼の価値が再浮上していることである。VisaのAI主導型コマース、AIエージェント時代の消費者選択、ChatGPT広告、AI検索で自社ブランドを推薦させる方法、Google検索クリック減少の記事は、生活者が自分で検索して比較する構造から、AIが候補を絞り、推薦し、時には購買実行まで担う構造への移行を示している。\n\nこの変化は、マーケティングの役割を大きく変える。従来のSEOや広告は、人間にクリックされることを前提に設計されていた。しかし0615の記事群では、Webサイトは人間より先に機械に読ませる設計、AI概要時代の発見性、OKFのようなAI向け知識共有フォーマットが登場している。つまり企業は、人間にわかりやすいだけでなく、AIに正しく理解され、比較され、推薦される情報構造を持つ必要がある。\n\n一方で、AIが選択を代行するほど、ブランドは弱まるのではなく、むしろ強くなる。AIが候補を最適化しても、生活者が最後に安心して任せられるかどうかは、ブランドの信頼、体験、人格、文化的記憶に依存する。Apple、赤星、ディズニー、AI分身、本物の価値、ブランド競争力の記事は、AI時代のブランドが「見つけてもらうための記号」ではなく、「任せてもよいと感じる信頼資本」になることを示している。\n\nAI領域では、AnthropicのFable / Mythos停止、Project Glasswing、輸出規制、Amazonの懸念、AIワーム、Google AI Overview責任判決が並ぶ。これは、AI競争がモデル性能や価格の問題を超え、アクセス制御、安全保障、説明責任、法的責任、サイバー防衛を含む統治の問題へ移ったことを意味する。AIは便利なプロダクトではなく、社会制度と国際秩序に関わるインフラになっている。\n\nZ世代・若者文脈では、メンパ消費、ぬい活、平成レトロ、接待への前向き姿勢、若者支援のエアポケット、スマホゲームのタイパが横断的に現れている。ここで見えるのは、単純なコスパ・タイパではなく、選択疲れを避けたい、気持ちを消耗したくない、自分にとって納得できる関係性や体験を選びたいという欲求である。これは、自己防衛、納得主権、失敗回避、意味選別、主導権維持というこれまでの観測線の延長にある。\n\n結論として、0615は「AI Agent × Brand × Trust」の日である。AIが選択・検索・購買を代行する時代に、企業に求められるのは、AIに理解される情報設計、生活者に信頼されるブランド、そしてAIに任せてもユーザーの主導権を奪わない体験設計である。"
+  },
+  {
     "date": "2026-06-12",
     "total_articles": 118,
     "categories": [
