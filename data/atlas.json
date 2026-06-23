@@ -1,5 +1,717 @@
 [
   {
+    "date": "2026-06-23",
+    "total_articles": 112,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 28,
+        "is_cross": false,
+        "summary": "6/23のMarketing / Advertisingは、AI検索・ChatGPT広告・LLMクローラー・ハイパーパーソナライゼーション・CRM・体験設計が中心。従来のファネルや広告出稿ではなく、AIに見つけられ、AIに引用され、顧客体験の中で継続的に選ばれるための設計へ重心が移っている。特にファミマ、楽天、ロレアル、OpenAI、Walmart、Reddit、Klarnaの記事は、マーケティングが広告部門の機能ではなく、プロダクト・データ・CRM・CX・AI活用を横断する経営機能になっていることを示している。",
+        "articles": [
+          {
+            "title": "MarkeZine: 顧客から「持続的に選ばれる」ための要素とは？AI時代の生存戦略【ファミマ南雲氏×藤原氏対談・前編】 (1/3)：commercezine",
+            "url": "https://markezine.jp/article/detail/76975",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine: 市場拡大中の「ぬいぐるみ界隈」 注目サービスと界隈インサイト最前線【ぬいぐるみが大人の相棒に】 (1/3)",
+            "url": "https://markezine.jp/article/detail/50846",
+            "source": ""
+          },
+          {
+            "title": "The Drum: Experiential marketing is not having a moment",
+            "url": "https://www.thedrum.com/opinion/experiential-marketing-is-not-having-a-moment-1",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 「売れているのに利益が消える」 マーケティング担当者が見落とす「悪い売り上げ」の正体（ITmedia ビジネスオンライン）",
+            "url": "https://news.yahoo.co.jp/articles/323dbd7b0a9968762bf0866fd7adb4987986bde8",
+            "source": ""
+          },
+          {
+            "title": "Web担当者Forum: 誰も語ろうとしないAIのダークサイドと、LLMクローラーのログ活用法（前編） | Moz",
+            "url": "https://webtan.impress.co.jp/e/2026/06/22/52792",
+            "source": ""
+          },
+          {
+            "title": "Fast Company: The marketing funnel is dead. Here’s what replaced it",
+            "url": "https://www.fastcompany.com/91551491/the-marketing-funnel-is-dead-heres-what-replaced-it-marketing-leadership",
+            "source": ""
+          },
+          {
+            "title": "PYMNTS.com: Walmart Rebrands Sam’s Club Ad Program Amid Wider Advertising Shift",
+            "url": "https://www.pymnts.com/news/retail/2026/walmart-rebrands-sams-club-ad-program-amid-wider-advertising-shift/",
+            "source": ""
+          },
+          {
+            "title": "Marketing Dive: CMOs prioritize organizational influence over long-term brand growth",
+            "url": "https://www.marketingdive.com/news/cmos-prioritize-organizational-influence-over-long-term-brand-growth/823330/",
+            "source": ""
+          },
+          {
+            "title": "ネットショップ担当者フォーラム: 進むEC事業者の「二極化」――旧来のオペレーションを脱却せよ。顧客1人ひとりの心をつかむハイパーパーソナライゼーションとCS・物流の最適化アプローチ",
+            "url": "https://netshop.impress.co.jp/e/2026/06/22/16164",
+            "source": ""
+          },
+          {
+            "title": "ネットショップ担当者フォーラム: 推し購買プラットフォーム「osina」、登録ユーザー数20万人を突破",
+            "url": "https://netshop.impress.co.jp/n/2026/06/22/16276",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: 利益・意思決定・顧客の声 本気のCRMが事業を変える3つの理由",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01227/00021/?i_cid=nbpnxr_index",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine: 刈り取り・囲い込みの限界。ADKマーケティング・ソリューションズが提唱するブランドのIP化とは？ (1/3)",
+            "url": "https://markezine.jp/article/detail/50736",
+            "source": ""
+          },
+          {
+            "title": "MarkeZine: ロレアルとOpenAI、ビューティー領域の変革に向けて協業を発表 消費者体験の構築と業務改革に重点",
+            "url": "https://markezine.jp/article/detail/77014",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: 「ChatGPTにうちの会社が出てこない」 採用担当を悩ます“AI就活時代”の容赦なき実態（1/3ページ）",
+            "url": "https://www.itmedia.co.jp/news/articles/2606/18/news020.html",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: 「ボンカレー」に属人的商品づくりの限界 おいしさ予測AIで再現性担保",
+            "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01892/?i_cid=nbpnxr_author",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: 広告費・クーポンなしても急成長 しんぱち食堂、口コミを呼ぶ体験設計",
+            "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01882/?i_cid=nbpnxr_index",
+            "source": ""
+          },
+          {
+            "title": "ADWEEK: Indie Agency Dept Takes Aim at Holdco AI Stacks With Open Orchestration Layer",
+            "url": "https://www.adweek.com/agencies/indie-agency-dept-takes-aim-at-holdco-ai-stacks-with-open-orchestration-layer",
+            "source": ""
+          },
+          {
+            "title": "AdverTimes.（アドタイ） by 宣伝会議: W杯スタジアムで「ロゴ隠し」 粋な計らいで称賛集まるSNS戦略とは",
+            "url": "https://www.advertimes.com/20260622/article547910/",
+            "source": ""
+          },
+          {
+            "title": "Marketing Week: Reddit CMO: You can’t drive business growth if product and marketing aren’t intertwined",
+            "url": "https://www.marketingweek.com/reddit-cmo-growth-product-marketing/",
+            "source": ""
+          },
+          {
+            "title": "Marketing Week: Klarna CMO: I love marketing, I don’t love advertising",
+            "url": "https://www.marketingweek.com/klarna-cmo-dont-love-advertising/",
+            "source": ""
+          },
+          {
+            "title": "Marketing Week: Brand growth, AI personalisation, SMEs: 5 interesting stats to start your week",
+            "url": "https://www.marketingweek.com/ai-brand-growth-influencers-5-interesting-stats/",
+            "source": ""
+          },
+          {
+            "title": "Digiday: The AI search boom is fueling content budgets before media buys",
+            "url": "https://digiday.com/marketing/the-ai-search-boom-is-fueling-content-budgets-before-media-buys",
+            "source": ""
+          },
+          {
+            "title": "Digiday: Healthcare marketing enters a mixed-identity world",
+            "url": "https://digiday.com/sponsored/healthcare-marketing-enters-a-mixed-identity-world",
+            "source": ""
+          },
+          {
+            "title": "Digiday: Cannes Briefing: The ad industry’s power shifts, mapped in sand",
+            "url": "https://digiday.com/marketing/cannes-briefing-the-ad-industrys-power-shifts-mapped-in-sand/",
+            "source": ""
+          },
+          {
+            "title": "Digiday: How Lipton is using local creators instead of building in-house social teams",
+            "url": "https://digiday.com/media/how-lipton-is-using-local-creators-instead-of-building-in-house-social-teams/",
+            "source": ""
+          },
+          {
+            "title": "ChatGPT広告スタート 小林製薬・バイセルのマーケターに聞く期待と注意点 | Agenda note",
+            "url": "https://agenda-note.com/technology/detail/id=8564",
+            "source": ""
+          },
+          {
+            "title": "デジタル偏重の代償──顧客体験を取り戻すマーケティングの転換点",
+            "url": "https://forbesjapan.com/articles/detail/99575",
+            "source": ""
+          },
+          {
+            "title": "QRコードは顧客とつながる最短ルート その先にある可能性とは",
+            "url": "https://forbesjapan.com/articles/detail/99603",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 8,
+        "is_cross": false,
+        "summary": "Brandingでは、AI時代だからこそ「一貫性」「信頼」「人間味」「ローカル性」が重要になる流れが強い。AIで新しい表現を大量生成することよりも、顧客が安心して思い出せる“偉大なるマンネリ”や、AIを使わないことを含めたブランドポリシーが価値になる。KFC、Starbucks、Dove、JAM、伊藤忠の記事は、ブランドが単なる認知ではなく、文化・体験・信頼・自己表現の束として再定義されていることを示す。",
+        "articles": [
+          {
+            "title": "日本経済新聞: AI活用で広がるブランディングの誤解、「偉大なるマンネリ」こそ本丸",
+            "url": "https://www.nikkei.com/article/DGXZQOUC080E00Y6A600C2000000/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: なぜ伊藤忠商事はブランドを集め続けるのか？ スポーツ・カジュアルのグループ戦略 #エキスパートトピ",
+            "url": "https://news.yahoo.co.jp/expert/articles/898da1e0f2c78fde06b7969affbc843cfd1f6278",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: 英国から富裕層が大量流出──新天地での「評判管理」が成功を左右する",
+            "url": "https://forbesjapan.com/articles/detail/99598",
+            "source": ""
+          },
+          {
+            "title": "ネットショップ担当者フォーラム: 古着屋のJAM「服を買う場所」→「自分らしい時間を楽しめるブランド」への挑戦。コーヒースタンド「JAM STAND COFFEE」をオープン",
+            "url": "https://netshop.impress.co.jp/n/2026/06/19/16265",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: AIは「あなたが何者で、何をしているのか」を説明できなければならない",
+            "url": "https://forbesjapan.com/articles/detail/99608",
+            "source": ""
+          },
+          {
+            "title": "Marketing Week: ‘A brand for me’: Starbucks UK on bringing local flavour to a global brand",
+            "url": "https://www.marketingweek.com/starbucks-uk-local-campaign-global-brand/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: KFCのデザイン責任者、「ブランドはZ世代に固執しすぎている」と語る（海外）（BUSINESS INSIDER JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/10d5928e7ac6f5a81ea91484f3886c86049cbeee",
+            "source": ""
+          },
+          {
+            "title": "「AI画像は絶対に使わない」ユニリーバがW杯マーケでも貫くブランド信頼",
+            "url": "https://digiday.jp/brands/why-dove-is-betting-on-hundreds-of-creators-for-the-world-cup/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 43,
+        "is_cross": false,
+        "summary": "6/23のAIカテゴリは、性能競争よりも「導入後の現実」が中心。Shadow AI、AI禁止、FDE、AIエージェント、AIコスト、トークン課金、水資源、AI依存、AI人材争奪、SaaS疲れ、AIフロントエンド、AIガバナンスが並び、AIは“使えるか”ではなく“どう統制し、どこまで任せ、どのコストで運用するか”の段階に入っている。特にUberのAI予算破綻、Microsoftの無料利用終了、AI水資源問題、企業のShadow AI未対応は、AI導入が経営・IT・財務・倫理を横断する問題になったことを示している。",
+        "articles": [
+          {
+            "title": "ITmedia: シャドーAI対策「7割が未着手」 「AIは全て禁止」は限界 IT部門が採るべき一手とは？ Gartner提言",
+            "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news036.html",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: ノルウェーが小学校でAIを原則禁止。駄作か、妥当か？",
+            "url": "https://newspicks.com/news/16929903/body/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: OpenAIも注目、北海道の非エンジニア農家がCodexで進める「農業のDX」。ハウス自動化からLINE翻訳まで",
+            "url": "https://www.businessinsider.jp/article/2606-openai-codex-farm-automation/",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: AI導入でコスト削減を目指す企業が「10年後に直面」する戦略的リスク",
+            "url": "https://forbesjapan.com/articles/detail/98614",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: AIブームのボトルネックは、「現場の熟練人材」の不足だ",
+            "url": "https://forbesjapan.com/articles/detail/99423",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: 米政府のアンソロピック禁止令が招いた予想外の展開──世界的AIブームはむしろ加速",
+            "url": "https://forbesjapan.com/articles/detail/99461",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: OpenAIが明かす、新職種「FDE」の実態 半年で様変わり、「仕事の7割が消滅」したことも",
+            "url": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000112/",
+            "source": ""
+          },
+          {
+            "title": "Gizmodo: ガッビガビ低画質jpgの呪いを解く、たった4行のGeminiプロンプト",
+            "url": "https://www.gizmodo.jp/article/gemini_resize_repost/",
+            "source": ""
+          },
+          {
+            "title": "テクノエッジ TechnoEdge: 「AI臭い文章を生成させない」ルール集。LLMに“質の高い技術文書”を書かせるスキルを技術書出版社代表が公開（生成AIクローズアップ）",
+            "url": "https://www.techno-edge.net/article/2026/06/22/5209.html",
+            "source": ""
+          },
+          {
+            "title": "GIGAZINE: AIエージェントだけでCloudflareへの一時的なデプロイを可能にして人間による作業を減らせる機能「Temporary Cloudflare Accounts for Agents」が登場",
+            "url": "https://gigazine.net/news/20260622-cloudflare-temporary-accounts/",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: デジタル変革が頓挫する本当の理由──問題はテクノロジーではない",
+            "url": "https://forbesjapan.com/articles/detail/99588",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: AI競争の勝敗を分けるのはアルゴリズムではなくインフラだ",
+            "url": "https://forbesjapan.com/articles/detail/99583",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: AI時代の職場で女性が活躍できる理由──長年培ってきたスキルの価値",
+            "url": "https://forbesjapan.com/articles/detail/99585",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: AI時代の格差拡大を防ぐには「労働力の公平性」が不可欠だ",
+            "url": "https://forbesjapan.com/articles/detail/99584",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: CEOが口にできないAIの本音──「何をすべきかわからない」という告白",
+            "url": "https://forbesjapan.com/articles/detail/99601",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: ウーバーのAI予算破綻が示す教訓──企業リーダーが知るべき5つのポイント",
+            "url": "https://forbesjapan.com/articles/detail/99565",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: データ保持か削除か：企業に求められる「倫理的な忘却」の設計",
+            "url": "https://forbesjapan.com/articles/detail/99425",
+            "source": ""
+          },
+          {
+            "title": "WSJ: マイクロソフトCEO、AIの巨人に警鐘 「経済食い尽くす」",
+            "url": "https://jp.wsj.com/articles/microsofts-satya-nadella-we-cant-let-ai-giants-eat-the-economy-eb910265",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: 「SaaSの死」は起こっていない？ 2つの調査から見えてきたAIで代替できない、代替すべきではない業務",
+            "url": "https://www.itmedia.co.jp/news/articles/2606/22/news086.html",
+            "source": ""
+          },
+          {
+            "title": "ビジネスジャーナル: ソフトバンクG×OpenAI連合、PaaS始動の裏側…米「ミュトス禁止令」が示す地政学リスク",
+            "url": "https://biz-journal.jp/company/post_395064.html",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: AIトークンへの支出が人件費を上回った！",
+            "url": "https://www.businessinsider.jp/article/2606-ai-startup-mercor-spends-more-on-tokens-than-payroll/",
+            "source": ""
+          },
+          {
+            "title": "東洋経済オンライン: ｢AIが仕事や悩みの相談相手｣の人はなぜ打たれ弱くなるのか？",
+            "url": "https://toyokeizai.net/articles/-/948243?page=2",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: ChatGPTの人気下降、シェア半分を切る。Claudeは急成長（ギズモード・ジャパン）",
+            "url": "https://news.yahoo.co.jp/articles/31dbd759d3ad76936c3ae51307062c0b76161fd6",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: AIの無駄使いに強まる風当たり、「使い放題」なぜ終わりを迎えるのか",
+            "url": "https://news.yahoo.co.jp/articles/452ef13e6c0c5274a3d30a6df048c9ac84939b73?page=2",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: 「AI大手の莫大な利益」を国民に還元する法案を米議員が提出 年間16万円相当を受け取れるというその仕組みとは？",
+            "url": "https://news.yahoo.co.jp/articles/5d050fff2f0b386a573c7a9d23cff37ed5ce4fed",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: AIが飲み込む水、アフリカ13億人の生活用水に匹敵――国連大学が警告、「丁寧すぎる指示」も負荷に",
+            "url": "https://news.yahoo.co.jp/articles/4dbb169ae0749782f30fca561ffb2d2e5aa4ac27",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: あなたは、これから多くのものに、より高いお金を払うことになる。AIのせいだ（海外）",
+            "url": "https://news.yahoo.co.jp/articles/9073049402d140cbb123699104a580df4f7bd2b0",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: AIが自分の仕事を変えていくのが嫌で、32歳でテック業界から大工に転身しました。後悔はありません（海外）",
+            "url": "https://news.yahoo.co.jp/articles/a0c894da8316154593f471d7920fc8568227aa73",
+            "source": ""
+          },
+          {
+            "title": "WIRED: OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic’s Mythos",
+            "url": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: Google、AI界の最重要人物をOpenAIに奪われる",
+            "url": "https://www.businessinsider.jp/article/2606-google-veteran-founded-characterai-is-jumping-to-openai-talent-war/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: メタのAI戦略は「リアリティー・ラボ2.0」？ 幹部流出と現場の怒りで大混乱",
+            "url": "https://www.businessinsider.jp/article/2606-news-metas-applied-ai-is-reality-labs-20/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: マイクロソフト、AIの「タダ乗り」を終了。高騰するコストに膝を屈し、中国製モデルへ浮気中？",
+            "url": "https://www.businessinsider.jp/article/2606-news-microsoft-copilot-flirts-with-deepseek-squeezing-out-frontier-labs/",
+            "source": ""
+          },
+          {
+            "title": "MITテクノロジーレビュー: 「Fable禁止」は誰のため？ 「脅威」連発で迷走する米政府対応",
+            "url": "https://www.technologyreview.jp/s/385116/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+            "source": ""
+          },
+          {
+            "title": "日経ビジネス電子版: 「AIの明るい未来」を語るグーグル元CEOに米大学生が激怒した理由",
+            "url": "https://business.nikkei.com/atcl/gen/19/00711/061900033/",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: 評価額20兆円超、DatabricksはなぜAI時代の主役になったのか―「データ基盤」が制する次の10年",
+            "url": "https://newspicks.com/news/16935797/body/?ref=topics",
+            "source": ""
+          },
+          {
+            "title": "AIは「あなたが何者で、何をしているのか」を説明できなければならない | Forbes JAPAN 公式サイト",
+            "url": "https://forbesjapan.com/articles/detail/99608",
+            "source": ""
+          },
+          {
+            "title": "Sakana AI、Claude Mythosに並ぶ性能の『Fugu Ultra』提供 複数のモデルを“指揮”するモデルに",
+            "url": "https://realsound.jp/tech/2026/06/post-2435730",
+            "source": ""
+          },
+          {
+            "title": "AIによって「万人が平等に、自由に騙し合える社会」が到来した",
+            "url": "https://wpb.shueisha.co.jp/news/technology/20260622-131835/",
+            "source": "週プレNEWS"
+          },
+          {
+            "title": "AIバブルの崩壊の兆候が見えて来た｜sperz",
+            "url": "https://note.com/alert_bobcat9699/n/n6fe5f7a657ed",
+            "source": ""
+          },
+          {
+            "title": "「生成AI」の進化で賞やコンテストはどうなる？（1）俳句・川柳編【調査情報デジタル】",
+            "url": "https://newsdig.tbs.co.jp/articles/-/2738499",
+            "source": ""
+          },
+          {
+            "title": "Google AI Studioにクレカ等の支払い方法登録不要でアプリ公開を始められる「Starter Tier」が登場",
+            "url": "https://gigazine.net/news/20260623-starter-tier-google-ai-studio/",
+            "source": ""
+          },
+          {
+            "title": "「SaaS疲れ」の次に来る企業AIのフロントエンド──Macはエージェント時代の中核ノードになるか",
+            "url": "https://macfan.book.mynavi.jp/business/article/107898/",
+            "source": ""
+          },
+          {
+            "title": "日本人はAIを「考える」に使い、「動かす」で足が止まる。世界とこれだけ違う、日本のAI活用のリアル",
+            "url": "https://type.jp/et/feature/31236/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 16,
+        "is_cross": false,
+        "summary": "Businessでは、ファミマ×楽天、Amazon Prime Day、データセンター、DMARC、量子、ロボット、ステーブルコイン、GAFAM人員構造など、インフラ・決済・小売・企業運営の再編が目立つ。特にファミマと楽天のポイント連携は、単なる販促ではなく、データとAI活用を視野に入れた顧客理解・送客・購買接点の再設計として重要。AI時代の事業競争は、サービス単体ではなく、ID・ポイント・決済・データ・リアル接点を束ねた生活インフラ競争へ移っている。",
+        "articles": [
+          {
+            "title": "日経ビジネス電子版: ファミマと楽天がポイント還元で連携 データとAIの活用も視野に",
+            "url": "https://business.nikkei.com/atcl/gen/19/00297/060100287/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: アクセンチュアは「戦略を描く」だけではない。生活者の体験を変えるコンサルタントの役割",
+            "url": "https://www.businessinsider.jp/article/2606-accenture-customer-service/",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: Amazonの「Prime Day」に立ちはだかる問題 ほぼ全員がすでにPrime会員",
+            "url": "https://www.businessinsider.jp/article/2606-amazon-prime-day-sale-has-a-problem/",
+            "source": ""
+          },
+          {
+            "title": "ITmedia: DMARC未対応ではメールが届かない？ Cloudflareが無料化で狙う“最後の障壁”：もう猶予はない",
+            "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/22/news023.html",
+            "source": ""
+          },
+          {
+            "title": "BBC: Japan quintuples visa fees in first price hike since 1978",
+            "url": "https://www.bbc.com/news/articles/cy8d5e5e805o",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: 量子コンピュータの待ち時間を解消する新技術で処理量が3倍超に",
+            "url": "https://forbesjapan.com/articles/detail/99316",
+            "source": ""
+          },
+          {
+            "title": "Forbes JAPAN: ヒューマノイドロボット購入を検討しているなら、考え直すべき理由",
+            "url": "https://forbesjapan.com/articles/detail/99590",
+            "source": ""
+          },
+          {
+            "title": "Gizmodo: ロボット犬はもう、データセンターの警備を始めている。1台2800万円でも「2年で投資回収できる」",
+            "url": "https://www.gizmodo.jp/article/bb3ff8a2-ec5b-4f90-8f89-8a9885a99a2d/",
+            "source": ""
+          },
+          {
+            "title": "日経クロストレンド: 米VisaがAI時代の「賢いクレカ」 エージェント型EC最大の障壁は信用",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/00079/00355/",
+            "source": ""
+          },
+          {
+            "title": "WIRED: Some Electricians Think Building Data Centers Is for Sellouts",
+            "url": "https://www.wired.com/story/data-center-buildout-electricians-selling-out/",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: 約35万人が働くまちで動き出す、U35コミュニティの挑戦",
+            "url": "https://newspicks.com/news/16936258/body/?ref=topics",
+            "source": ""
+          },
+          {
+            "title": "newspicks.com: CEOになりたくない",
+            "url": "https://newspicks.com/news/16930352/body/?ref=news-body_16907702",
+            "source": ""
+          },
+          {
+            "title": "LINE上のステーブルコインウォレット「Unifi」がミニアプリに──個別アプリ不要で利用可能",
+            "url": "https://www.nadanews.com/356449/",
+            "source": ""
+          },
+          {
+            "title": "AI×国家監視も？財務省・金融庁・デジ庁が語る「デジタルマネー・本人確認」の最前線",
+            "url": "https://www.sbbit.jp/article/fj/185535",
+            "source": ""
+          },
+          {
+            "title": "不老不死に大金注ぐIT富豪たち 我が身で人体実験、若者の血を輸血……Natureが過熱指摘",
+            "url": "https://www.itmedia.co.jp/news/spv/2606/19/news028.html",
+            "source": ""
+          },
+          {
+            "title": "リストラのニュースが絶えないGAFAM、実は従業員数が減っていない本当の理由",
+            "url": "https://diamond.jp/articles/-/392868",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 4,
+        "is_cross": false,
+        "summary": "Platformでは、AIエージェント時代の実行基盤が急速に整備されている。Cloudflare、Visa、LINE、Google AI Studio、Mac、TikTokなど、従来は別々だった決済・開発・SNS・コマース・AI実行環境が統合され始めている。競争軸はアプリ数ではなく、「AIが行動を起こせる環境をどれだけ持つか」に移りつつある。",
+        "articles": [
+          {
+            "title": "PRESIDENT Online: 企業が警戒すべき｢若手社員のアプリ｣はBeRealだけでない…｢1時間ごとの私｣を記録し続ける韓国発SNSの名前",
+            "url": "https://president.jp/articles/-/114851?page=1",
+            "source": ""
+          },
+          {
+            "title": "WIRED: Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
+            "url": "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
+            "source": ""
+          },
+          {
+            "title": "DIGIDAY［日本版］: 動画有料化は解約率を20%下げる？ 米大手メディアが実証する会員維持術",
+            "url": "https://digiday.jp/publishers/media-briefing-publishers-put-premium-video-behind-the-paywall-to-sell-subscriptions/",
+            "source": ""
+          },
+          {
+            "title": "TikTokはもう若者だけのものじゃない！30代や40代も普段使いする「お買い物や旅行の最先端ツール」へ大進化",
+            "url": "https://dxmagazine.jp/news/trytoda2626-7/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Media",
+        "count": 3,
+        "is_cross": false,
+        "summary": "Mediaでは、AI検索の拡大によってコンテンツの価値が再定義されている。流入獲得よりもAIに引用されること、広告販売よりも会員維持や信頼形成が重視される構造へ変化している。またSNS規制や批判的思考への影響など、メディアは流通インフラであると同時に社会インフラとしても再評価されている。",
+        "articles": [
+          {
+            "title": "WIRED.jp: 宇宙から届く謎の繰り返し電波信号、その発信源が初めて特定される",
+            "url": "https://wired.jp/article/long-period-radio-transient-white-dwarf-binary-solved/",
+            "source": ""
+          },
+          {
+            "title": "10代を締め出せば、インターネットはたちまちゴーストタウンと化すだろう…16歳未満SNS禁止がもたらす影響",
+            "url": "https://www.businessinsider.jp/article/2606-what-happens-internet-without-teens/",
+            "source": ""
+          },
+          {
+            "title": "SNSは「深く考える力」を奪っているのか──批判的思考力への影響を問う",
+            "url": "https://forbesjapan.com/articles/detail/99491",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Society",
+        "count": 7,
+        "is_cross": false,
+        "summary": "Societyでは、AIの社会コストが主要テーマとなった。教育、雇用、格差、環境負荷、水資源、依存、子育て、民主主義など、AIは技術課題ではなく社会制度課題として議論されている。焦点は「AIで何ができるか」から「AIの利益と負担を誰が引き受けるか」へ移っている。",
+        "articles": [
+          {
+            "title": "Forbes JAPAN: 「経済的ゆとり」1位は福井県 年収だけでは見えない都道府県別の暮らしやすさ",
+            "url": "https://forbesjapan.com/articles/detail/99285",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: テック界の超大物8人が明かす自身の子育て。スマホの厳しい制限、犬を育てさせる",
+            "url": "https://www.businessinsider.jp/article/2606-tech-ceo-parenting-advice-screen-time-chores-for-kids/",
+            "source": ""
+          },
+          {
+            "title": "TBS NEWS DIG: 物価高で恋愛は後回し、米Z世代5割がデート支出ゼロ－生活防衛を優先",
+            "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/2749024",
+            "source": ""
+          },
+          {
+            "title": "Excite: Z世代の次「α世代」は、なぜ「正解を教えても動かない」? 上司に求められる新常識",
+            "url": "http://www.excite.co.jp/news/article/Cobs_3198863/",
+            "source": ""
+          },
+          {
+            "title": "東洋経済オンライン: ｢話が通じない日本人｣が急増している本当の理由",
+            "url": "https://toyokeizai.net/articles/-/948660",
+            "source": ""
+          },
+          {
+            "title": "スマホが世界的な出生率低下の原因？",
+            "url": "https://www.gizmodo.jp/article/researchers-say-smartphones-may-have-helped-drive-the-global-baby-bust/",
+            "source": ""
+          },
+          {
+            "title": "世界の富裕層上位10％が地球環境に数百兆円もの損害を与えているとの研究結果",
+            "url": "https://gigazine.net/news/20260619-worlds-richest-10-costing-earth/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 2,
+        "is_cross": false,
+        "summary": "Cultureでは、「界隈」「推し」「共感」「心理的安全」が中心テーマとなった。ぬいぐるみ界隈や推し購買に代表されるように、消費は機能ではなく感情的な居場所づくりへ向かっている。また、Z世代からα世代への移行が始まり、効率や正解よりも納得感や自己決定感が重視される傾向が強まっている。",
+        "articles": [
+          {
+            "title": "日経クロストレンド: イーロン・マスクは「百科事典」 猛烈な読書がイノベーションの源泉",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01398/00008/",
+            "source": ""
+          },
+          {
+            "title": "Vietnam.vn: Z世代の夏休み：旅行、リラックス、それとも仕事？",
+            "url": "https://www.vietnam.vn/ja/nghi-he-cua-gen-z-du-lich-nghi-ngoi-hay-di-lam",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 1,
+        "is_cross": false,
+        "summary": "Leadershipでは、AIそのものよりも意思決定と組織運営が課題として浮上している。若手が求める成長実感や厳しい指導、価値観への共感は、単なるマネジメント手法ではなくAI時代の人材定着・育成の論点である。経営者や管理職には、AI導入の判断だけでなく、人間がどこで学び、責任を持ち、成長するかを設計する力が求められている。",
+        "articles": [
+          {
+            "title": "Business Insider Japan: 若手は「厳しい指導」を求め「共感できる価値観」重視に変わった…2026年新入社員調査で分かった“AI時代の切迫感”【調査】",
+            "url": "https://www.businessinsider.jp/article/2606-new-grads-2026-growth-anxiety/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Z世代",
+        "count": 10,
+        "is_cross": true,
+        "summary": "6/23のZ世代関連記事からは、「推し」「共感」「界隈」「生活防衛」が主要テーマとして見える。恋愛や所有よりも、自分のペースや安心できる居場所を優先する傾向が強く、ぬいぐるみ界隈や推し購買の拡大もその延長線上にある。また、新入社員調査やα世代論からは、若年層が厳しさそのものを嫌うのではなく、納得できる価値観や成長実感を求めていることが分かる。SNSやTikTokを活用しながらも、効率や成功より「自分らしさ」や「心理的安全」を重視する価値観が広がっている。",
+        "articles": [
+          {
+            "title": "MarkeZine: 市場拡大中の「ぬいぐるみ界隈」 注目サービスと界隈インサイト最前線【ぬいぐるみが大人の相棒に】 (1/3)",
+            "url": "https://markezine.jp/article/detail/50846",
+            "source": ""
+          },
+          {
+            "title": "PRESIDENT Online: 企業が警戒すべき｢若手社員のアプリ｣はBeRealだけでない…｢1時間ごとの私｣を記録し続ける韓国発SNSの名前",
+            "url": "https://president.jp/articles/-/114851?page=1",
+            "source": ""
+          },
+          {
+            "title": "ネットショップ担当者フォーラム: 推し購買プラットフォーム「osina」、登録ユーザー数20万人を突破",
+            "url": "https://netshop.impress.co.jp/n/2026/06/22/16276",
+            "source": ""
+          },
+          {
+            "title": "Business Insider Japan: 若手は「厳しい指導」を求め「共感できる価値観」重視に変わった…2026年新入社員調査で分かった“AI時代の切迫感”【調査】",
+            "url": "https://www.businessinsider.jp/article/2606-new-grads-2026-growth-anxiety/",
+            "source": ""
+          },
+          {
+            "title": "Yahoo!ニュース: KFCのデザイン責任者、「ブランドはZ世代に固執しすぎている」と語る（海外）（BUSINESS INSIDER JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/10d5928e7ac6f5a81ea91484f3886c86049cbeee",
+            "source": ""
+          },
+          {
+            "title": "TBS NEWS DIG: 物価高で恋愛は後回し、米Z世代5割がデート支出ゼロ－生活防衛を優先",
+            "url": "https://newsdig.tbs.co.jp/articles/withbloomberg/2749024",
+            "source": ""
+          },
+          {
+            "title": "Excite: Z世代の次「α世代」は、なぜ「正解を教えても動かない」? 上司に求められる新常識",
+            "url": "http://www.excite.co.jp/news/article/Cobs_3198863/",
+            "source": ""
+          },
+          {
+            "title": "Vietnam.vn: Z世代の夏休み：旅行、リラックス、それとも仕事？",
+            "url": "https://www.vietnam.vn/ja/nghi-he-cua-gen-z-du-lich-nghi-ngoi-hay-di-lam",
+            "source": ""
+          },
+          {
+            "title": "10代を締め出せば、インターネットはたちまちゴーストタウンと化すだろう…16歳未満SNS禁止がもたらす影響",
+            "url": "https://www.businessinsider.jp/article/2606-what-happens-internet-without-teens/",
+            "source": ""
+          },
+          {
+            "title": "TikTokはもう若者だけのものじゃない！30代や40代も普段使いする「お買い物や旅行の最先端ツール」へ大進化",
+            "url": "https://dxmagazine.jp/news/trytoda2626-7/",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "AIは性能競争から「運用・ガバナンス・コスト管理」の時代へ移行した",
+      "ChatGPT広告、AI検索、LLMクローラーなど、AI接点が新たなマーケティング基盤になりつつある",
+      "CRM、データ統合、ハイパーパーソナライゼーションが再評価されている",
+      "AIの社会コスト（雇用・水資源・格差・依存）が顕在化している",
+      "Z世代からα世代への価値観シフトが始まり、「共感」「界隈」「納得」が重要性を増している"
+    ],
+    "change": "AI導入 → AI運営・AI統制\nSaaS導入 → Agent Front-End設計\nSEO → AI Search / LLM Visibility\n顧客獲得 → 持続的に選ばれる関係設計\nポイント施策 → 顧客理解・CRM活用\n若者攻略 → Z世代からα世代への価値観理解\nブランド認知 → ブランド信頼・ブランド説明責任",
+    "insight": "6/23の記事群は、AIが「導入するかどうか」の段階を終え、「どう運営するか」「どのコストを負担するか」「誰が責任を持つか」という段階へ進んだことを示している。Shadow AI、AI禁止論、AI予算破綻、トークン課金、人材不足、水資源問題、AI依存などの記事が集中しており、AIはもはや技術テーマではなく経営テーマになった。\n\nマーケティング領域でも変化は大きい。マーケティングファネルの終焉、ChatGPT広告、AI検索、LLMクローラー、CRM再評価、ハイパーパーソナライゼーションなど、顧客との関係性そのものを再設計する動きが加速している。重要なのは「見つけてもらう」ことよりも、「継続的に選ばれる理由を持つこと」であり、そのためにデータ・体験・ブランド・AIが統合され始めている。\n\nまた、Z世代・α世代関連の記事からは、効率や成功よりも「納得」「共感」「居場所」が重視される傾向が見える。ぬいぐるみ界隈、推し購買、恋愛支出の抑制、価値観重視の新入社員などは、若年層が競争や所有よりも、自分らしさと心理的安全を優先していることを示している。"
+  },
+  {
     "date": "2026-06-22",
     "total_articles": 173,
     "categories": [
