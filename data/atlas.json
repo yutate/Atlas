@@ -1,5 +1,641 @@
 [
   {
+    "date": "2026-07-21",
+    "total_articles": 101,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 20,
+        "is_cross": false,
+        "summary": "勝つマーケティングチームの共通点は「10個のツール」より「1つの統合AIシステム」（Forbes）、「AI SEO」「GEO」「AEO」「LLMO」で今やること専門家2者の解説（Web担）、AI検索で勝つドメインの選び方（.comと.co.jpが圧倒的）（Forbes）、GoogleのAI Max自動移行が迫るECブランドの3防衛策、「ChatGPT広告」が日本上陸（日経）、AIマーケティング導入の落とし穴と乗り越え方（Forbes）、ラストクリックの限界と新たな測定の形（Forbes）、P&G講演のマーケ必須「3つの声」、バイロン・シャープ「エビデンスに基づくマーケ」、W杯マーケティング5つの教訓（ADWEEK）、Z世代がモールの主役に（TikTok×リアル店舗）、ナイキのTV広告vsアディダスのSNSの勝者は、W杯クリエイター活用でマーケターが学んだこと5点（Digiday）、「広告の仕事をやめろ」カンヌで突きつけられた愛される広告の条件（AdverTimes）、メルカリがChatGPTアプリ導入で新送客動線構築、リテールメディアの次はクリエイティブフォーマット（ADWEEK）。AI検索対応（AIO）と人間的感情に訴える広告設計が両立必須の時代。",
+        "articles": [
+          {
+            "title": "勝つマーケティングチームの共通点、「10個のツール」より「1つの統合AIシステム」｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101173",
+            "source": ""
+          },
+          {
+            "title": "オムニチャネルの次は「オムニプラットフォーム」戦略構築の方法｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101258",
+            "source": ""
+          },
+          {
+            "title": "ラストクリックの限界──分断されたメディア環境における新たな測定のかたち｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101192",
+            "source": ""
+          },
+          {
+            "title": "メルカリがChatGPTアプリを導入、新たな送客動線になるか｜AdverTimes",
+            "url": "https://www.advertimes.com/20260717/article550922/",
+            "source": ""
+          },
+          {
+            "title": "「AI SEO」「GEO」「AEO」「LLMO」で今やること・判断の尺度を専門家2者が教えてくれた｜Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/e/2026/07/17/52973",
+            "source": ""
+          },
+          {
+            "title": "「ChatGPT広告」日本上陸 AIが揺さぶるマーケティングの常識｜日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUC060DM0W6A700C2000000/",
+            "source": ""
+          },
+          {
+            "title": "Google「AI Max」自動移行が迫る、ECブランドが今すぐ設定すべき3つの防衛策｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101248",
+            "source": ""
+          },
+          {
+            "title": "AI Is Changing How Businesses Are Found Online. That's Why You Need to Rebuild Your Search Strategy｜Entrepreneur",
+            "url": "https://www.entrepreneur.com/building-a-business/ai-is-changing-how-businesses-are-found-online-thats-why-you-need-to-rebuild-your-search-strategy",
+            "source": ""
+          },
+          {
+            "title": "AIマーケティング導入の落とし穴とその乗り越え方",
+            "url": "https://forbesjapan.com/articles/detail/101271",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AI検索で勝つドメインの選び方と.comと.co.jpが圧倒的な理由",
+            "url": "https://forbesjapan.com/articles/detail/100990",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "How 4 Retailers Are Pitching Creative Ad Formats｜ADWEEK",
+            "url": "https://www.adweek.com/commerce/how-4-retailers-are-pitching-creative-ad-formats/",
+            "source": ""
+          },
+          {
+            "title": "5 Lessons From the World Cup's Best Marketing Plays｜ADWEEK",
+            "url": "https://www.adweek.com/brand-marketing/5-lessons-from-the-world-cups-best-marketing-playsand-those-that-missed-the-mark/",
+            "source": ""
+          },
+          {
+            "title": "AI全開のP&G講演が示す真実 マーケ必須の「3つの声」｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01411/00003/",
+            "source": ""
+          },
+          {
+            "title": "バイロン・シャープ氏講演を予習 「エビデンス」に基づくマーケのススメ｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01431/00002/",
+            "source": ""
+          },
+          {
+            "title": "二季化にAI化 「当たり前」を疑う力がマーケターの競争優位性になる｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01407/00002/",
+            "source": ""
+          },
+          {
+            "title": "五things the World Cup taught marketers about creators｜Digiday",
+            "url": "https://digiday.com/marketing/the-world-cup-was-a-stress-test-for-creator-marketing-heres-what-it-revealed/",
+            "source": ""
+          },
+          {
+            "title": "The creator economy is a CEO conversation: Accenture and Whalar on their post-acquisition playbook｜Digiday",
+            "url": "https://digiday.com/media/the-creator-economy-is-a-cmo-conversation-but-really-its-a-ceo-conversation-accenture-and-whalar-on-their-post-acquisition-playbook/",
+            "source": ""
+          },
+          {
+            "title": "Z世代がモールの主役に。カナダ発ブランドが証明したTikTokとリアル店舗戦略｜DIGIDAY",
+            "url": "https://digiday.jp/glossy/fashion-briefing-as-gen-z-goes-back-to-the-mall-garage-is-opening-20-profitable-stores-a-year/",
+            "source": ""
+          },
+          {
+            "title": "ナイキのテレビ広告かアディダスのSNSか、W杯商戦の勝者は？｜DIGIDAY",
+            "url": "https://digiday.jp/brands/nike-versus-adidas-whos-spending-more-in-race-to-claim-the-world-cup-crown/",
+            "source": ""
+          },
+          {
+            "title": "「広告の仕事をやめろ」カンヌで突きつけられた「愛される広告」の条件｜AdverTimes",
+            "url": "https://www.advertimes.com/20260717/article550729/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 8,
+        "is_cross": false,
+        "summary": "ヒルトンCMOが語るAI時代の「信頼とロイヤルティの未来」（Forbes）、競争からコブランドへの転換（Creative Bloq）、カンヌで見えたAI時代を勝ち抜くブランドの3つのキーワード（日経クロストレンド）、GoogleがCM好感度初首位、Gemini訴求CMの勝因分析（日経クロストレンド）、ユニクロ柳井康治氏のカンヌ独占取材（難民支援と映画の力）（日経クロストレンド）、勝ち残るブランドを決めるのはAIエージェント（Forbes）、資生堂がCBOを新設してブランドを経営の基軸に（Forbes）、AnthropicのClaude広告に賛否（Gizmodo）。AIエージェント時代に「選ばれるブランドの設計」が経営の最上位課題になっている。",
+        "articles": [
+          {
+            "title": "Why brands have swapped competing for co-branding｜Creative Bloq",
+            "url": "https://www.creativebloq.com/design/branding/why-brands-have-swapped-competing-for-co-branding",
+            "source": ""
+          },
+          {
+            "title": "AI時代のホテル戦略──ヒルトンCMOが語る信頼とロイヤルティの未来",
+            "url": "https://forbesjapan.com/articles/detail/101268",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "Anthropicが公開したClaudeの広告に賛否の声。不気味で悲観的？真摯さと希望？｜Gizmodo",
+            "url": "https://www.gizmodo.jp/article/anthropic_claude_new_movie/",
+            "source": ""
+          },
+          {
+            "title": "勝ち残るブランドを決めるのはAIエージェント 選ばれる条件とは",
+            "url": "https://forbesjapan.com/articles/detail/101240",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "カンヌで見えた、AI時代を勝ち抜くブランドに「3つのキーワード」｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01411/00006/",
+            "source": ""
+          },
+          {
+            "title": "GoogleがCM好感度で初首位、「Gemini」訴求CMの勝因｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/watch/00013/02926/",
+            "source": ""
+          },
+          {
+            "title": "カンヌ独占取材 ユニクロ柳井康治氏が語る「難民支援と映画の力」｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01409/00006/",
+            "source": ""
+          },
+          {
+            "title": "資生堂がCBOを新設した理由 ブランドを経営の基軸にする橋本美月が語る変革",
+            "url": "https://forbesjapan.com/articles/detail/100131",
+            "source": "Forbes JAPAN"
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 37,
+        "is_cross": false,
+        "summary": "Kimi K3が「Claude Fable 5超え？」の衝撃（ビジネス+IT/複数媒体）、アリババが2.4兆パラメータQwen3.8をオープンウェイト公開予告、中国AIが米コーディングツールの心臓部になっていた（XenoSpectrum）、DeepSeekショック再来かというKimi K3分析（日経クロステック）、Kimi K3はBloombergが「米AI企業への贈り物」と評価、Hugging FaceがAIエージェントによる主要AIプラットフォームへの初侵害を確認、AIエージェントが「生成AIの136.5倍」の電力を消費、ガートナー「AIエージェントだけ追う企業は危ない」、Anthropicが州に対しAI規制を急ぐよう要請（WIRED）、孫正義のASI・2040年予測、「AI占い」に人とカネが集まっている、NVIDIAが「フィジカルAI」で日本に賭けた真相（newspicks）、Gemini SparkでAIは「聞く時代」から「任せる時代」へ、「AIで営業職は消える」予測と真逆の現象（日経）、LayerXがAI予算を「第二の人件費」として全社可視化、Anthropicの「Fable 5アクセス混乱」を終わらせる発表。AI性能・電力・覇権・コスト管理・ガバナンスが全方位で同時進行。",
+        "articles": [
+          {
+            "title": "Google検索の「AIモード」、CanvaやYouTube Musicなどのアプリと連携可能に｜ITmedia NEWS",
+            "url": "https://www.itmedia.co.jp/news/articles/2607/17/news061.html",
+            "source": ""
+          },
+          {
+            "title": "AIエージェントだけ追う企業は危ない？ガートナー流「次に投資すべき技術」の見極め方｜ビジネス+IT",
+            "url": "https://www.sbbit.jp/article/cont1/186051",
+            "source": ""
+          },
+          {
+            "title": "AIによる工数削減を計測して見えた結果と考察｜ZOZO TECH BLOG",
+            "url": "https://techblog.zozo.com/entry/rethinking-ai",
+            "source": ""
+          },
+          {
+            "title": "AIは本当に「考えている」のか Apple論文が問いかけた推論モデルの限界｜ITmedia エンタープライズ",
+            "url": "https://www.itmedia.co.jp/enterprise/spv/2607/17/news005.html",
+            "source": ""
+          },
+          {
+            "title": "AIエージェント、「生成AIの136.5倍」も電力を爆食いしていた｜ギズモード",
+            "url": "https://news.yahoo.co.jp/articles/edd9ddfd4236ef37816cc3896f68f90b9fd37cb3",
+            "source": ""
+          },
+          {
+            "title": "Google Cloud AIエージェント企業向け20の質問｜Google Cloud 公式ブログ",
+            "url": "https://cloud.google.com/blog/ja/products/ai-machine-learning/20-questions-for-the-agentic-enterprise",
+            "source": ""
+          },
+          {
+            "title": "中国はなぜAIの主導権を狙うのか──グローバルサウスとの連携で広げる中国製AIの技術仕様と国際標準化｜佐藤仁",
+            "url": "https://news.yahoo.co.jp/expert/articles/e6709515009555b4c4f655dceffd1736c72a1d2a",
+            "source": ""
+          },
+          {
+            "title": "AGIは数年以内に実現するのか──米国の官民による公開前AI審査は安全性と開発競争を両立できるのか｜佐藤仁",
+            "url": "https://news.yahoo.co.jp/expert/articles/f77976b0ac7425dc9462df320e8f441878fcb557",
+            "source": ""
+          },
+          {
+            "title": "孫正義氏が描く2040年のASI──スーパーヒューマン化は人類の生きる道になるか｜佐藤仁",
+            "url": "https://news.yahoo.co.jp/expert/articles/215d50e39b2e0e14203c5d92e1459d3133f31b94",
+            "source": ""
+          },
+          {
+            "title": "中国Kimi K3が「Claude Fable 5超え？」の衝撃、2.8兆モデルの決定的な3つの論点｜ビジネス+IT",
+            "url": "https://news.yahoo.co.jp/articles/b934dce4e8bf7240758957992e3a8ef029155c00",
+            "source": ""
+          },
+          {
+            "title": "「AI占い」に人とカネが集まっている｜newspicks",
+            "url": "https://newspicks.com/news/17129049/body/",
+            "source": ""
+          },
+          {
+            "title": "NVIDIAが「フィジカルAI」で日本に賭けた真相｜newspicks",
+            "url": "https://newspicks.com/news/17129136/body/",
+            "source": ""
+          },
+          {
+            "title": "アリババ、2.4兆パラメータ「Qwen3.8」をオープンウェイト公開予告｜すまほん!!",
+            "url": "https://smhn.info/202607-alibaba-qwen38-24trillion-parameters-open-weights-llm-announced",
+            "source": ""
+          },
+          {
+            "title": "AIができるふり──自信と実力のギャップが職場を揺るがす",
+            "url": "https://forbesjapan.com/articles/detail/101257",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "盗用疑惑の中国AIが、いつの間にか米コーディングツールの心臓部になっていた（Kimi K3）｜XenoSpectrum",
+            "url": "https://xenospectrum.com/kimi-k3-china-ai-dependency/",
+            "source": ""
+          },
+          {
+            "title": "Claude Fable 5のアクセス混乱を終わらせる──Anthropicが整理発表｜Android Authority",
+            "url": "https://www.androidauthority.com/claude-fable-5-access-3689068/",
+            "source": ""
+          },
+          {
+            "title": "その性能、Opus 4.8級。最先端なのにオープンなAI「Kimi K3」が異例すぎる理由｜Gizmodo",
+            "url": "https://www.gizmodo.jp/article/moonshot_ai_kimi_k3/",
+            "source": ""
+          },
+          {
+            "title": "AIブラックアウト──Anthropicのアクセス制限がビジネスに意味するもの",
+            "url": "https://forbesjapan.com/articles/detail/101272",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "We Used AI to Catch the First Confirmed AI Agent Breach of a Major AI Platform｜Gizmodo",
+            "url": "https://gizmodo.com/hugging-face-we-used-ai-to-catch-the-first-confirmed-ai-agent-breach-of-a-major-ai-platform-2000787778",
+            "source": "Hugging Face"
+          },
+          {
+            "title": "AIに突進した製造業、いまだ「成果」が見えない理由",
+            "url": "https://forbesjapan.com/articles/detail/101229",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "Kimi K3 May Prove to Be a Gift to America's AI Firms｜Bloomberg",
+            "url": "https://www.bloomberg.com/opinion/articles/2026-07-20/china-s-kimi-k3-strengthens-the-case-for-us-ai-investment",
+            "source": ""
+          },
+          {
+            "title": "中国「Kimi K3」を始めとしたオープンモデルの台頭、AIビジネスの先行きに暗雲｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/expert/articles/ca9ac93defe2ce4c3e19db1cbd2d4d8e90d7d29c",
+            "source": ""
+          },
+          {
+            "title": "今秋登場のSiri AIを1ヶ月試用。正直かなり満足している｜Gizmodo",
+            "url": "https://www.gizmodo.jp/article/apple-did-it-one-month-with-siri-ai/",
+            "source": ""
+          },
+          {
+            "title": "「自分の分身」をAIで作れ、Anthropic社員が教えるClaude活用術5選",
+            "url": "https://forbesjapan.com/articles/detail/101067",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "中国版「ミュトス級AI」はすぐそこに、セキュリティー上の脅威はどこまで深刻か",
+            "url": "https://forbesjapan.com/articles/detail/101148",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "中国AI新興が新型「Kimi K3」を発表、OpenAIやAnthropicへの挑戦状",
+            "url": "https://forbesjapan.com/articles/detail/101143",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "話題の中国製新型AIモデル「Kimi K3」を生み出したCEO兼創業者、ヤン・ジリン氏とは｜Business Insider Japan",
+            "url": "https://www.businessinsider.jp/article/2607-who-is-yang-zhilin-ceo-founder-moonshot-ai-kimi-k3/",
+            "source": ""
+          },
+          {
+            "title": "データがますます凶暴化するAIの未来に絶望的にならざるをえない理由と唯一の希望｜東洋経済",
+            "url": "https://toyokeizai.net/articles/-/952032",
+            "source": ""
+          },
+          {
+            "title": "「AIで営業職は消える」予測と真逆の現象 増員に動く企業続出のワケ｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com.atcl/contents/18/01378/00009/",
+            "source": ""
+          },
+          {
+            "title": "「AI構文」は損する？ プロンプトの「カルテ」で「AIバレ」を撲滅｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01415/00011/",
+            "source": ""
+          },
+          {
+            "title": "AppleはAIで「出遅れ」たのか ローカルAI逆転の可能性を考察｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/expert/articles/bbc73cc63690a441f43bf38bf08eee2ece297c1c",
+            "source": ""
+          },
+          {
+            "title": "話題はヒューマノイドでも、市場を制するのは「タスク特化型ロボット」か",
+            "url": "https://forbesjapan.com/articles/detail/101235",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "Anthropic Is Pushing States to Regulate AI Faster",
+            "url": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/",
+            "source": "WIRED"
+          },
+          {
+            "title": "DeepSeekショック再来か「Kimi K3」の鍵は2つの機構刷新｜日経クロステック",
+            "url": "https://xtech.nikkei.com/atcl/nxt/column/18/00001/11906/",
+            "source": ""
+          },
+          {
+            "title": "「AIで営業職は消える」予測と真逆の現象 増員に動く企業続出のワケ｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01378/00009/",
+            "source": ""
+          },
+          {
+            "title": "Gemini Spark、AIに「聞く時代」から「任せる時代」へ｜リアルサウンド",
+            "url": "https://news.yahoo.co.jp/articles/be1c7d319d5ced67722036b9d79ba95e8fb9da3e",
+            "source": ""
+          },
+          {
+            "title": "An OpenAI exec's comments on China's Kimi K3 kicked off a big US tech debate｜Business Insider",
+            "url": "https://www.businessinsider.com/open-source-ai-china-kimi-american-ai-industry-openai-anthropic-2026-7",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 5,
+        "is_cross": false,
+        "summary": "Visa VSP（ステーブルコイン基盤）発表、千年続いた送金の常識を覆すステーブルコイン革命（Forbes）、SuicaのQRコード決済「teppay」が加盟店募集開始（手数料1年無料）、三井住友カードの障害原因が明らかに、30億円かけた「POPOPO」が半年で終了。",
+        "articles": [
+          {
+            "title": "Visa、既存決済にステーブルコインを組み込める新基盤「VSP」｜Impress Watch",
+            "url": "https://www.watch.impress.co.jp/docs/news/2126089.html",
+            "source": ""
+          },
+          {
+            "title": "千年続いた送金の常識を覆すステーブルコイン革命｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/100986",
+            "source": ""
+          },
+          {
+            "title": "SuicaのQRコード決済「teppay」、加盟店を7月22日募集開始 手数料1年無料｜CNET Japan",
+            "url": "https://japan.cnet.com/article/35250730/",
+            "source": ""
+          },
+          {
+            "title": "三井住友カードの障害原因が明らかに｜ITmedia Mobile",
+            "url": "https://www.itmedia.co.jp/mobile/articles/2607/16/news102.html",
+            "source": ""
+          },
+          {
+            "title": "30億円かけた「POPOPO」半年で終了…国産デジタルサービスもう無理か｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/articles/29037d6a1f1b336e311ad147bbc0097fac0dde3d",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Media",
+        "count": 2,
+        "is_cross": false,
+        "summary": "Netflixがベン・アフレックのAI映画制作スタートアップ「InterPositive」を950億円で買収、テレ東音楽祭がTVerで前回比4倍の再生数を達成。",
+        "articles": [
+          {
+            "title": "Netflixが950億円でベン・アフレックのAI映画制作スタートアップ「InterPositive」を買収｜GIGAZINE",
+            "url": "https://gigazine.net/news/20260720-netflix-paid-587-million-ben-affleck-ai-startup-interpositive/",
+            "source": ""
+          },
+          {
+            "title": "テレ東音楽祭、TVerで前回比4倍の再生数を達成｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/00607/00093/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Society",
+        "count": 15,
+        "is_cross": false,
+        "summary": "AI業界が自ら招いた「反AIムーブメント」（WIRED）、「選ばない消費」の正体──AI活用から百貨店離れまで（集英社）、ガチャ活・ブラインドボックス・サブスクという選ばない消費の資本主義的限界論、AI時代に恐れるべきは「失業」ではなく「本当に取り残される人の特徴」（現代ビジネス）、AI攻撃が誰の手にも渡る日が近い（ソフトバンクが実演した2時間で崩れる企業防衛）（東洋経済）、「採用のシグナルは壊れている、AIが壊したのではなく暴いたのだ」（Forbes）、疲弊する新卒採用の現場「生成AIの書いた作文を読まされる担当者」（日経ビジネス）、広告のAI偽口コミ問題（13語で汚染）、SNSで醒形恐怖症発症、AIが古書を食い散らかしている（大量発注の抜け穴）、デジタル倫理とは何か（電通報）。AI社会の信頼・倫理・採用・教育・安全の全次元で問いが深まっている。",
+        "articles": [
+          {
+            "title": "なぜ私たちは「選ぶこと」に疲れたのか…AI活用から百貨店離れまで広がる「選ばない消費」の正体｜集英社オンライン",
+            "url": "https://shueisha.online/articles/-/258100",
+            "source": ""
+          },
+          {
+            "title": "広告主の本人確認、SNS各社に詳細の開示求める 総務省、偽広告対策の調査を取りまとめ｜産経ニュース",
+            "url": "https://www.sankei.com/article/20260717-VVFOUHWNYJOQ5GLWDESRFDC7PE/",
+            "source": ""
+          },
+          {
+            "title": "AIに代替されない能力。人生経験が価値になる「マスターワーク・イヤーズ」とは｜TABI LABO",
+            "url": "https://tabi-labo.com/312761/ai-wisdom-half-life",
+            "source": ""
+          },
+          {
+            "title": "AI時代に恐れるべきは「失業」ではなかった…米国最新レポートから見えた「本当に取り残される人」の特徴｜現代ビジネス",
+            "url": "https://gendai.media/articles/-/169158",
+            "source": ""
+          },
+          {
+            "title": "ChatGPTに「敬語で話す」人の割合は？ドコモ調査｜CNET Japan",
+            "url": "https://news.yahoo.co.jp/articles/8f22a84c359e42993e38d78576f6c9a760e501f6",
+            "source": ""
+          },
+          {
+            "title": "AI攻撃が誰の手にも渡る日は近い、ソフトバンクが実演した2時間で崩れる企業防衛の現実｜東洋経済",
+            "url": "https://toyokeizai.net/articles/-/951692",
+            "source": ""
+          },
+          {
+            "title": "AI業界が自ら招いた「反AI」ムーブメント｜WIRED.jp",
+            "url": "https://wired.jp/article/sz-ai-has-a-message-problem-of-its-own-making/",
+            "source": ""
+          },
+          {
+            "title": "San Francisco Demands Apple and Google Delete AI Nudify Apps｜WIRED",
+            "url": "https://www.wired.com/story/san-francisco-demands-apple-and-google-delete-ai-nudify-apps-from-app-stores/",
+            "source": ""
+          },
+          {
+            "title": "採用のシグナルは壊れている。AIが壊したのではなく、暴いたのだ",
+            "url": "https://forbesjapan.com/articles/detail/101228",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "健全な情報空間を実現する「デジタル倫理」とは？｜電通報",
+            "url": "https://dentsu-ho.com/articles/9806",
+            "source": ""
+          },
+          {
+            "title": "疲弊する新卒採用の現場 「生成AIの書いた作文」を読まされる担当者｜日経ビジネス",
+            "url": "https://business.nikkei.com/atcl/gen/19/00087/071600512/",
+            "source": ""
+          },
+          {
+            "title": "老朽化で道路陥没…Z世代「年収500万でもブルーカラーは嫌」が引き起こすインフラ整備後回しの実情｜東洋経済",
+            "url": "https://toyokeizai.net/articles/-/950210",
+            "source": ""
+          },
+          {
+            "title": "AIが古書を食い散らかしている──古書店に入る不可解な大量発注と「法の抜け穴」｜クーリエ・ジャポン",
+            "url": "https://news.yahoo.co.jp/articles/5abded26e2167798494cd20bb4e66a325b09f69e",
+            "source": ""
+          },
+          {
+            "title": "WAKA「Z世代・α世代のタイパ意識とデジタルサービス利用実態調査」｜dメニューニュース",
+            "url": "https://topics.smt.docomo.ne.jp/article/netkeizai/business/netkeizai-19269",
+            "source": ""
+          },
+          {
+            "title": "ガチャ活・ラブブのブラインドボックス・サブスク…「選ばない消費」の正体｜集英社オンライン",
+            "url": "https://news.yahoo.co.jp/articles/85811fbe6d4e20ed9020596459e8b944657567e3",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 8,
+        "is_cross": false,
+        "summary": "宇多田ヒカルの言葉から考えるAI時代に「アーティストに残る価値」、TikTok上半期トレンド大賞2026が示す「共創型トレンド」の方程式、シニア女性の推し活（50・60代の2人に1人が推しアリ、年平均11万円超）、あえて「生活の20%をアナログに」「老舗で食事」というヒットコンテンツ再定義法、若者の「韓国離れ」と次の手本探し、Z世代が楽しむ「ブレジャー」（出張+余暇の新スタイル）、韓国囲碁世界1位が最強AI「KataGo」に10年ぶり勝利、ジョージ・ルーカスとクリストファー・ノーランのAI映画製作論争。AIが生成できない「人間の感情・技術・勝利の瞬間」への価値が再評価されている。",
+        "articles": [
+          {
+            "title": "AIがヒット曲を生む時代に、宇多田ヒカルの言葉から考える「アーティストに残る価値」｜PHPオンライン",
+            "url": "https://shuchi.php.co.jp/article/14605",
+            "source": ""
+          },
+          {
+            "title": "シニア女性の推し活、50・60代の2人に1人が推しアリ 年平均支出11万円超｜よろず〜ニュース",
+            "url": "https://yorozoonews.jp/manamon/article/16733212",
+            "source": ""
+          },
+          {
+            "title": "あえて「生活の20%をアナログに」「食事は老舗に」ヒットコンテンツを生む再定義法とは｜GOETHE",
+            "url": "https://goetheweb.jp/person/article/20260720-masumoto-160",
+            "source": ""
+          },
+          {
+            "title": "TikTok上半期トレンド大賞2026からみる「共創型トレンド」の方程式｜リアルサウンド",
+            "url": "https://news.yahoo.co.jp/articles/8d248b2cad3c20b29e451c151f359a94738b77d4",
+            "source": ""
+          },
+          {
+            "title": "若者の「韓国離れ」が始まった…20代女性が「次の手本」にしているアジアの国｜PRESIDENT Online",
+            "url": "https://president.jp/articles/-/116016",
+            "source": ""
+          },
+          {
+            "title": "韓国囲碁の世界1位シン・ジンソ、最強AI「KataGo」に勝利…10年ぶり｜KOREA WAVE",
+            "url": "https://news.yahoo.co.jp/articles/e4f86bfaf6d25fcd678026eb7c2fe102b5d3731f",
+            "source": ""
+          },
+          {
+            "title": "ジョージ・ルーカスとクリストファー・ノーランのAI映画製作論争｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/articles/3b30bcc38f2bcacb179412ce7188df1345a1a623",
+            "source": ""
+          },
+          {
+            "title": "Z世代が楽しむ「ブレジャー」とは？出張+余暇の新スタイル｜ライフハッカー",
+            "url": "https://www.lifehacker.jp/article/2607how-to-make-workcations-work-workations-work-from-home/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 6,
+        "is_cross": false,
+        "summary": "AIが変える競争優位性の鍵は「人間関係」（Forbes）、「その瞬間に応える組織」──文化的出来事とリーダーシップ（Forbes）、崩壊寸前のリーダーが発する4つのサインと支え方（Forbes）、AI時代のリーダーシップは「判断力」が最大の武器（Forbes）、「フォワードデプロイドエンジニア（FDE）」という新職種（Forbes）、CEOの利用額も全社員に丸見えのLayerXのAI予算管理（「第二の人件費」として可視化）。AI時代のリーダーは「人間関係・判断力・予算可視化」という地に足のついた設計で競争力を持つ。",
+        "articles": [
+          {
+            "title": "AIが変える競争優位性、鍵を握るのは人間関係",
+            "url": "https://forbesjapan.com/articles/detail/101185",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "「その瞬間」に応える組織──文化的出来事とリーダーシップ",
+            "url": "https://forbesjapan.com/articles/detail/101236",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "崩壊寸前のリーダーが発する4つのサインと、その支え方",
+            "url": "https://forbesjapan.com/articles/detail/101242",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AI時代に求められる新職種「フォワードデプロイドエンジニア」とは",
+            "url": "https://forbesjapan.com/articles/detail/101225",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "CEOの利用額も「全社員に丸見え」 LayerXがAI予算を「第二の人件費」にした真意｜ITmedia",
+            "url": "https://news.yahoo.co.jp/articles/089dca5fcd6324d5745a635efaa6b3586c6bfb72",
+            "source": ""
+          },
+          {
+            "title": "AI時代のリーダーシップ「判断力」こそが人間の最大の武器になる",
+            "url": "https://forbesjapan.com/articles/detail/101227",
+            "source": "Forbes JAPAN"
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Z世代",
+        "count": 6,
+        "is_cross": true,
+        "summary": "",
+        "articles": [
+          {
+            "title": "疲弊する新卒採用の現場 「生成AIの書いた作文」を読まされる担当者｜日経ビジネス",
+            "url": "https://business.nikkei.com/atcl/gen/19/00087/071600512/",
+            "source": ""
+          },
+          {
+            "title": "老朽化で道路陥没…Z世代「年収500万でもブルーカラーは嫌」が引き起こすインフラ整備後回しの実情｜東洋経済",
+            "url": "https://toyokeizai.net/articles/-/950210",
+            "source": ""
+          },
+          {
+            "title": "若者の「韓国離れ」が始まった…20代女性が「次の手本」にしているアジアの国｜PRESIDENT Online",
+            "url": "https://president.jp/articles/-/116016",
+            "source": ""
+          },
+          {
+            "title": "WAKA「Z世代・α世代のタイパ意識とデジタルサービス利用実態調査」｜dメニューニュース",
+            "url": "https://topics.smt.docomo.ne.jp/article/netkeizai/business/netkeizai-19269",
+            "source": ""
+          },
+          {
+            "title": "Z世代が楽しむ「ブレジャー」とは？出張+余暇の新スタイル｜ライフハッカー",
+            "url": "https://www.lifehacker.jp/article/2607how-to-make-workcations-work-workations-work-from-home/",
+            "source": ""
+          },
+          {
+            "title": "Z世代がモールの主役に。カナダ発ブランドが証明したTikTokとリアル店舗戦略｜DIGIDAY",
+            "url": "https://digiday.jp/glossy/fashion-briefing-as-gen-z-goes-back-to-the-mall-garage-is-opening-20-profitable-stores-a-year/",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "Kimi K3が「DeepSeekショック再来」──中国オープンAIが米国AIビジネスの根幹を再び揺るがした",
+      "「選ばない消費」の台頭──ガチャ・ブラインドボックス・AI任せという消費の主体放棄が構造化した",
+      "AI業界が自ら招いた「反AIムーブメント」──WIREDが警告した「メッセージ問題」の深刻さ",
+      "LayerXが「AIコストを第二の人件費」として全社可視化──CEOの利用額も丸見えという組織設計",
+      "Hugging FaceがAIエージェントによる主要AIプラットフォームへの「初の侵害」を確認──セキュリティ新局面"
+    ],
+    "change": "中国オープンAI → Kimi K3（2.8兆）×Qwen3.8（2.4兆）が同日公開予告、DeepSeekショック再来\n消費の主体 → 「選ぶこと」から「選ばせること（AI・ガチャ・サブスク）」へ構造的な移行\nAI反発と依存 → WIREDが「AIが自ら招いた反AIムーブメント」と警告、両方が同時に激化\nAI予算管理 → LayerXが「第二の人件費・CEO含め全員に丸見え」という民主的設計を実装\nAIセキュリティ → AIエージェントがAIプラットフォーム自体を侵害する「AIによるAI攻撃」が初確認\nAI時代の採用 → 「AIが採用を壊したのではなく暴いた」という認識転換が進む",
+    "insight": "7/21は4日間の週末明けとして、金曜日（7/17）から週末にかけて積み上がった複数の転換点が同日に可視化された日である。\n\n最大のシグナルは「Kimi K3ショック」の同日多媒体集中報道だった。2026年上半期のDeepSeekショックの再来として、日経クロステック・Bloomberg・Business Insider・Gizmodo・ビジネス+IT・XenoSpectrum・Yahoo!ニュースが同日に報じた。2.8兆パラメータのOpus 4.8級性能でオープンウェイトというKimi K3の登場は、「最高性能AI = クローズドモデル = 米国企業」という従来の構造を根本から否定する。アリババのQwen3.8（2.4兆）も同日に公開予告されたことで、「中国のオープンAI怒涛の攻勢」が今週の主役になった。Bloombergが「これはアメリカのAI企業への贈り物（オープンソースの優位性を証明するから）」という逆説的な分析を出したことは、この問題の複雑さを示している。\n\n「選ばない消費」の構造化は、消費者行動の根本的な転換として記録される。ガチャ・ブラインドボックス・サブスク・AIへの意思決定委任という「選ばない」行動は全て、「選ぶことそのものへの疲れ」という心理的根から生まれている。楽天市場のAIコンシェルジュが「購入時間を41%短縮」した事実は、「選ばせない（AIが代わりに選ぶ）」という設計が消費者の真のニーズに応えていることを示している。「選ばない消費」はトレンドではなく、情報過多×選択肢過多という現代の構造的な結果であり、EC設計の核心問題として捉えるべきである。\n\nAI業界の「反AIムーブメント」は、AIの普及と不信が同時進行する「7/6以来の観測テーマ」の新局面として浮上した。WIREDが「AI業界が自ら招いた」と分析した通り、AIの粗悪なアウトプット・プライバシー侵害・著作権問題・雇用への影響が積み重なった結果として、反AIは「過激な意見」から「一般的な感情」になりつつある。楽天がAIを積極的に活用する中で、「どのAI使用をユーザーに開示するか」「AIが生成したコンテンツをどう位置づけるか」という透明性設計が、反AI感情への最も有効な対応になる。\n\n7/21のATLAS全体を通じた最重要インサイトは「AIの民主化と制御の困難さが同時進行している」という構造である。Kimi K3のオープン化（民主化）、LayerXのAI予算民主化（全員可視化）、AIエージェントによるAIプラットフォーム侵害（制御困難）が同日に並んだことは、AIが「一部の企業・国家のもの」から「誰でも使える・誰でも攻撃できる」インフラになったことの表れである。"
+  },
+  {
     "date": "2026-07-17",
     "total_articles": 92,
     "categories": [
