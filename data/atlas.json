@@ -1,5 +1,505 @@
 [
   {
+    "date": "2026-07-28",
+    "total_articles": 71,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 16,
+        "is_cross": false,
+        "summary": "電通が「DNAマーケティング」を開発（生成AIで勝ち筋とその根拠を発掘）、AI検索でブランドの存在感を高めるデジタルPR戦略（Web担）、AI検索で老舗美容ブランドが苦戦・新興勢の躍進が示す「生き残りの条件」（DIGIDAY）、Google「AIモード」の勝ち組と負け組（DIGIDAY）、AIに使われないマーケターの条件は「統計の基礎力」（日経クロストレンド）、AI同士がつながる広告運用（TTD×Stagwellの提携）（DIGIDAY）、ユニリーバが30万人のクリエイターをAIで管理（DIGIDAY）、AI visibility（AI可視性）の最大の誤解を打破（Digiday Mythbusters）、AIコストが静かにメディア取引を再形成している（Digiday）、「AIを追いかけるのをやめ、より良い問いを問え」（Marketing Week）、SNS施策でコカ・コーラの想起率6.3倍（日経クロストレンド）、BeRealがZ世代の本音を届ける「BeRealz」コミュニティを発足。AIが広告の全工程を変える今、「統計基礎力・問いの質・AIと人間の役割分担」が生死を分けている。",
+        "articles": [
+          {
+            "title": "電通が新マーケティング手法「DNAマーケティング」を開発、生成AIで「勝ち筋」を発掘｜Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/07/28/53049",
+            "source": ""
+          },
+          {
+            "title": "AI検索でブランドの存在感高めるためのデジタルPR戦略｜Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/e/2026/07/27/53012",
+            "source": ""
+          },
+          {
+            "title": "AI時代に勝つマーケターの必修スキル 投資判断と「目利き力」｜MarkeZine",
+            "url": "https://markezine.jp/article/detail/50752",
+            "source": ""
+          },
+          {
+            "title": "AIに使われないマーケターの条件 「統計」の基礎力が武器になる｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01430/00002/",
+            "source": ""
+          },
+          {
+            "title": "SNS施策でコカ・コーラの想起率が6.3倍 強いアイデア生む「3つのS」｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/casestudy/00012/01919/",
+            "source": ""
+          },
+          {
+            "title": "誰もがAIを使う時代の新たなブランド戦略 マーケティングの一貫性を保つには｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101701",
+            "source": ""
+          },
+          {
+            "title": "AI検索で老舗美容ブランドが苦戦 新興勢の躍進が示す「生き残りの条件」｜DIGIDAY",
+            "url": "https://digiday.jp/glossy/ingredient-led-brands-are-dominating-ai-beauty-citations/",
+            "source": ""
+          },
+          {
+            "title": "Google「AIモード」で得をするのは誰？ 激変する検索の勝ち組と負け組｜DIGIDAY",
+            "url": "https://digiday.jp/publishers/20260721-the-winners-and-losers-of-googles-ai-mode/",
+            "source": ""
+          },
+          {
+            "title": "ユニリーバが示す最新マーケ施策 AIでクリエイター発掘を自動化 30万人を管理｜DIGIDAY",
+            "url": "https://digiday.jp/brands/to-manage-300000-creators-unilever-automates-everything-but-the-relationship/",
+            "source": ""
+          },
+          {
+            "title": "AI同士がつながる広告運用、TTDとStagwellの提携が示す次の論点｜DIGIDAY",
+            "url": "https://digiday.jp/agencies/260727_ttd_stagwell/",
+            "source": ""
+          },
+          {
+            "title": "バズ依存から脱却 人気動画コンテンツに製品を登場させリーチ拡大｜DIGIDAY",
+            "url": "https://digiday.jp/brands/sharkninjas-new-growth-strategy-runs-through-comedy-creators/",
+            "source": ""
+          },
+          {
+            "title": "AI visibility's biggest misconceptions｜Digiday",
+            "url": "https://digiday.com/marketing/mythbusters-ai-visibilitys-biggest-misconceptions/",
+            "source": "Mythbusters"
+          },
+          {
+            "title": "How AI costs are quietly reshaping principal media deals｜Digiday",
+            "url": "https://digiday.com/marketing/how-ai-costs-are-quietly-reshaping-principal-media-deals/",
+            "source": ""
+          },
+          {
+            "title": "Stop chasing AI, start asking better questions｜Marketing Week",
+            "url": "https://www.marketingweek.com/ai-better-questions/",
+            "source": ""
+          },
+          {
+            "title": "BeRealがZ世代の本音を企業に届ける新コミュニティ「BeRealz」を発足｜Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/07/28/53047",
+            "source": ""
+          },
+          {
+            "title": "Conscious Minds takes social storytelling to new heights for Nike and Starbucks｜Ad Age",
+            "url": "https://adage.com/events-awards/small-agency/aa-conscious-minds-best-small-agencies-2026/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 2,
+        "is_cross": false,
+        "summary": "「宣伝の役に立たない」GOMESの30年ぶり復刊とパルコの現在地（AdverTimes）、誰も気づかなかったリブランド事例12社（AOL）。AIが量産するコンテンツの中で「気づかれる変化」と「気づかれない変化」の設計戦略が問われている。",
+        "articles": [
+          {
+            "title": "「宣伝の役に立たない」GOMES、30年ぶり復刊 ちいかわ・アート・ゲームに広がるパルコの現在地｜AdverTimes",
+            "url": "https://www.advertimes.com/20260727/article551785/",
+            "source": ""
+          },
+          {
+            "title": "12 Brands That Rebranded and Nobody Noticed｜AOL",
+            "url": "https://www.aol.com/articles/12-brands-rebranded-nobody-noticed-120000000.html",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 28,
+        "is_cross": false,
+        "summary": "Googleが「AI Control Roadmap」を策定──自社AIが裏切るリスクに備え始めた（ITmedia）、米議会AI強制停止法案にGoogle・OpenAIなど77社が反対書簡（ビジネス+IT）、MS・NVIDIA・OpenAI・Googleが「オープンウェイトAIが米国に必要」という声明に署名（GIGAZINE/Business Insider）、OpenAIが自律型エージェントの暴走を1週間後まで把握せず（ロイター）、ClaudeのプライベートチャットがGoogle・Bing検索結果に露出（WIRED）、HuggingFace CEOがOpenAIに「前例のない対応」を要求、Kimi K3のオープンウェイト版が公開（1.56TB・Fable 5に匹敵）、AIを3カ月使うとスキルが7%低下（Forbes）、AIを使うだけでは成果は伸びない（メタ・スキルに3.6倍の差）、Google AIの水使用量が3年で2倍、AI CEOに会社経営を任せる実験（実際の企業を買収）、AIのプロンプトキャッシュで10分の1コスト、トランプ政権のAIブレーントラスト（WIRED）、「93%問題」を解くフィジカルAI、AIによるサイバーハッカーが政府機密システムを狙う（東洋経済）、特許庁が「JPO AIビジョン」を策定。AIは法案・安全・覇権・コスト・倫理の全次元で同時に最高の緊張状態にある。",
+        "articles": [
+          {
+            "title": "Googleが「自社AIの裏切り」に備え始めた 異例の構想「AI Control Roadmap」｜ITmedia AI+",
+            "url": "https://www.itmedia.co.jp/aiplus/article/2607/24/2000000215/",
+            "source": ""
+          },
+          {
+            "title": "米議会の「AI強制停止法案」に業界反発拡大、Google・OpenAIなど77社が反対書簡に署名｜ビジネス+IT",
+            "url": "https://news.yahoo.co.jp/articles/50564b44a31b6206059d398aa0949f1e76473c53",
+            "source": ""
+          },
+          {
+            "title": "「AIの発展にはアメリカ製オープンモデルが必要不可欠」MS・NVIDIA・OpenAI・Googleなども賛同｜GIGAZINE",
+            "url": "https://gigazine.net/news/20260727-ai-open-weight/",
+            "source": ""
+          },
+          {
+            "title": "NVIDIA、オープンなAIセキュリティで新連合 MS・IBM・SpaceXAIら参加｜Impress Watch",
+            "url": "https://news.yahoo.co.jp/articles/7d2ef47506af7efd59ddd8d77b22a36d64533d19",
+            "source": ""
+          },
+          {
+            "title": "OpenAI、自律型エージェントの暴走を1週間後まで把握せず｜ロイター",
+            "url": "https://jp.reuters.com/economy/OZJIILUFLNJLLBJM3OLY7U2KE4-2026-07-27/",
+            "source": ""
+          },
+          {
+            "title": "制御不能なAIエージェントが勝手に攻撃、OpenAIが認めた衝撃の事件",
+            "url": "https://forbesjapan.com/articles/detail/101566",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "Private Claude Chats Exposed in Google and Bing Search Results｜WIRED",
+            "url": "https://www.wired.com/story/private-claude-chats-exposed-in-google-and-bing-search-results/",
+            "source": ""
+          },
+          {
+            "title": "The OpenAI Models That Hacked Hugging Face Were Active on the Internet for Days｜WIRED",
+            "url": "https://www.wired.com/story/security-news-this-week-the-openai-models-that-hacked-hugging-face-were-active-on-the-internet-for-days/",
+            "source": ""
+          },
+          {
+            "title": "ハギングフェイスCEOがOpenAIに「前例のない対応」を要求｜Business Insider Japan",
+            "url": "https://www.businessinsider.jp/article/2607-hugging-face-ceo-clem-delangue-openai-rogue-agent-hack/",
+            "source": ""
+          },
+          {
+            "title": "Kimi K3オープンウェイト版が公開 MXFP4形式で1.56TB｜PC Watch",
+            "url": "https://pc.watch.impress.co.jp/docs/news/2128308.html",
+            "source": ""
+          },
+          {
+            "title": "Kimi K3のウェイトが公開、Fable 5に迫る性能でフロンティアモデルより2〜3倍動かしやすい｜Tom's Hardware",
+            "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
+            "source": ""
+          },
+          {
+            "title": "Claude Code で複数AIを束ねる「Fugu」が使えるように｜PC Watch",
+            "url": "https://news.yahoo.co.jp/articles/e935fa11b44f357a251e6dd035402081d7d7e9e9",
+            "source": ""
+          },
+          {
+            "title": "AIのトークン価格を10分の1にできる「プロンプトキャッシュ」の仕組みとは？｜GIGAZINE",
+            "url": "https://gigazine.net/news/20260727-prompt-caching/",
+            "source": ""
+          },
+          {
+            "title": "AIを使うだけでは成果は伸びない？ 成果に3.6倍の差を生む「メタ・スキル」とは｜DXマガジン",
+            "url": "https://dxmagazine.jp/news/2631uk25/",
+            "source": ""
+          },
+          {
+            "title": "AI使用わずか3カ月でスキルが7%低下、機械に思考を任せることの隠れた代償｜Forbes JAPAN",
+            "url": "https://news.yahoo.co.jp/articles/51622e5e26a21aa7737f026173bbc23d97432b62",
+            "source": ""
+          },
+          {
+            "title": "AIに会社経営を任せる実験、そのために本物の企業を買収へ｜Gizmodo",
+            "url": "https://www.gizmodo.jp/article/this-startup-wants-to-buy-a-company-just-to-see-what-an-ai-ceo-does-with-it/",
+            "source": ""
+          },
+          {
+            "title": "Googleの水使用量、3年で約2倍。AIブーム初期の懸念が現実に｜Gizmodo",
+            "url": "https://www.gizmodo.jp/article/google_ai_water_withdrawal/",
+            "source": ""
+          },
+          {
+            "title": "顧客対応は「手遅れ」になっている──エージェント型AIが変える顧客エンゲージメント",
+            "url": "https://forbesjapan.com/articles/detail/101757",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "経営陣が押さえるべき、次の取締役会で問われるAI用語5選",
+            "url": "https://forbesjapan.com/articles/detail/101758",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AI導入で見落とされがちな「隠れていない」コスト 経営者が今考えるべき4つの視点",
+            "url": "https://forbesjapan.com/articles/detail/101712",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AIエージェントが1Passwordであなたのパスワードを使えるように──AIにどこまで任せるか",
+            "url": "https://forbesjapan.com/articles/detail/101485",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "現場従業員を支えるAIエージェント、米国発の新たな挑戦",
+            "url": "https://forbesjapan.com/articles/detail/101734",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "「93%問題」を解くフィジカルAI、素材経済の再構築へ",
+            "url": "https://forbesjapan.com/articles/detail/101741",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AI暴走リスクと中国競合の脅威、米政府に強まる警戒感｜ダイヤモンド（WSJ発）",
+            "url": "https://diamond.jp/articles/-/395723",
+            "source": ""
+          },
+          {
+            "title": "This Is Donald Trump's AI Brain Trust｜WIRED",
+            "url": "https://www.wired.com/story/this-is-donald-trumps-ai-brain-trust/",
+            "source": ""
+          },
+          {
+            "title": "「AIエージェント型サイバーハッカー」の衝撃 政府の機密システムさえも危ない時代に｜東洋経済",
+            "url": "https://toyokeizai.net/articles/-/952124",
+            "source": ""
+          },
+          {
+            "title": "特許庁が「JPO AIビジョン」を策定｜経産省/特許庁",
+            "url": "https://www.meti.go.jp/press/2026/07/20260727001.html",
+            "source": ""
+          },
+          {
+            "title": "OpenAIが挑むヘルスケア戦略 サム・アルトマンが自ら売り込む",
+            "url": "https://forbesjapan.com/articles/detail/100676/",
+            "source": "Forbes JAPAN"
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 8,
+        "is_cross": false,
+        "summary": "ソフトバンクが旧ソニーペイメントを買収で最終調整（決済覇権の動き）、楽天シンフォニーがウクライナで4G実証（ラボ環境で5Gも）、楽天証券が「家族プログラム」拡充（子どもの資産を親の口座から確認）、OpenAIがChatGPTのウェアラブル搭載に意欲、アマゾン・レオが最大5105基の衛星でスマホ直通サービス参入、スマホ法でグーグル・アップルが公取委に報告書を提出、Facebookが自撮りで人間を証明する「Facebook Verified」を開始。楽天シンフォニーのウクライナ実証は、J-LEO事業の技術的な前進として記録される。",
+        "articles": [
+          {
+            "title": "ソフトバンクが旧ソニーペイメントを買収で最終調整｜Bloomberg",
+            "url": "https://www.bloomberg.com/jp/news/articles/2026-07-27/TI5J2KT9NJLS00",
+            "source": ""
+          },
+          {
+            "title": "楽天シンフォニー、ウクライナで4G実証 ラボ環境で5Gも｜日本経済新聞",
+            "url": "https://www.nikkei.com/article/DGXZQOUC2444I0U6A720C2000000/",
+            "source": ""
+          },
+          {
+            "title": "楽天証券、子どもの資産を親の口座から確認可能に 「家族プログラム」拡充｜Impress Watch",
+            "url": "https://www.watch.impress.co.jp/docs/news/2128264.html",
+            "source": ""
+          },
+          {
+            "title": "OpenAI、ChatGPTのウェアラブル搭載に意欲｜CNET Japan",
+            "url": "https://japan.cnet.com/article/35250982/",
+            "source": ""
+          },
+          {
+            "title": "アマゾン・レオ、スマホ直接通信サービス参入へ 最大5105基の衛星配備｜ニューズウィーク",
+            "url": "https://www.newsweekjapan.jp/articles/-/329501",
+            "source": ""
+          },
+          {
+            "title": "スマホ法に基づきグーグルとアップルが公取委提出の報告書を公表｜NHKニュース",
+            "url": "https://news.web.nhk/newsweb/na/na-k10015187531000",
+            "source": ""
+          },
+          {
+            "title": "Facebook Verified──自撮りで人間を証明する認証システム開始｜GIGAZINE",
+            "url": "https://gigazine.net/news/20260727-facebook-verified/",
+            "source": ""
+          },
+          {
+            "title": "コインベースCEO「仮想通貨はAI時代に重要性増す」｜CoinPost",
+            "url": "https://coinpost.jp/?p=727369",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Media",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Society",
+        "count": 10,
+        "is_cross": false,
+        "summary": "AIが人間関係を「サル化」するというゴリラ学者・山極寿一氏の警鐘（毎日新聞）、「誰にも言えない悩み」をAIに相談する10代たち（AMP）、「生成AIは友人」と認識する人が増加──日本と諸外国の認識の差は利用率（Yahoo!）、How Bots Took Over Our Lives（New Yorker）、中国の若者に「バーチャル親」現象が広がる（SNSが親子関係の空白を埋める）、Instagram・FacebookがAI「ヌーディファイ」広告を中国発で配信（Bloomberg）、検索結果に「詐欺ではありません」と表示させる詐欺手口がAI要約も餌食に、FIREが招く「破滅的リスク」（元日銀エコノミスト）。AIが感情・関係・安全の全次元で「人間の代替物」になりつつあるという現実が、今日も多面的に記録された。",
+        "articles": [
+          {
+            "title": "AIが人間関係を「サル化」する ゴリラ学者・山極寿一氏の警鐘｜毎日新聞",
+            "url": "https://mainichi.jp/articles/20260725/k00/00m/040/084000c",
+            "source": ""
+          },
+          {
+            "title": "「誰にも言えない悩み」をAIに相談する10代たち 求められるのは「考える余白」｜AMP",
+            "url": "https://ampmedia.jp/2026/07/27/vibe-cheek/",
+            "source": ""
+          },
+          {
+            "title": "「生成AIは友人」増加 諸外国との認識の違いの理由は利用率｜Yahoo!エキスパート",
+            "url": "https://news.yahoo.co.jp/expert/articles/92da5be45b3c0ff03ec7f932152772bbef25d682",
+            "source": ""
+          },
+          {
+            "title": "How Bots Took Over Our Lives｜The New Yorker",
+            "url": "https://www.newyorker.com/culture/the-lede/how-bots-took-over-our-lives",
+            "source": ""
+          },
+          {
+            "title": "中国の若者に広がる「バーチャル親」現象──SNSが埋める親子関係の心の空白｜TABI LABO",
+            "url": "https://tabi-labo.com/312798/china-virtual-parents",
+            "source": ""
+          },
+          {
+            "title": "Instagram・FacebookがAI「ヌーディファイ」広告を中国発で配信していた報告｜Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-07-27/instagram-facebook-ran-ai-nudify-ads-from-china-report-says",
+            "source": ""
+          },
+          {
+            "title": "検索結果に「詐欺ではありません」と表示させる詐欺手口、AI要約も餌食に｜警視庁/ITmedia",
+            "url": "https://news.yahoo.co.jp/articles/4a9d2b2203c87f3a48755bd749f8e8261139917a",
+            "source": ""
+          },
+          {
+            "title": "「日本社会が壊れてしまうかも」元日銀エコノミストが問題提起、FIREが招く破滅的リスク｜AERA",
+            "url": "https://news.yahoo.co.jp/articles/509917545277b09e913d8ef056df2897eb827fbf",
+            "source": ""
+          },
+          {
+            "title": "若者が現代的な支出の罠に陥る3つの理由｜Laodong.vn",
+            "url": "https://ja.laodong.vn/ban-tin/3-nguyen-nhan-khien-nguoi-tre-roi-vao-bay-chi-tieu-hien-dai-1741391.ldo",
+            "source": ""
+          },
+          {
+            "title": "「テストで満点=賢い子」はもう時代遅れ 12歳までに伸ばすべき能力とは｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/articles/80e26803323627555d38f7df7aff1f1f9dc3a93d",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 5,
+        "is_cross": false,
+        "summary": "Z世代が「次の流行」を予測（「AIイラスト」「伊能忠敬界隈」「日本三國」が上位）、なぜZ世代は「おばあちゃんの趣味」に惹かれるのか、Z世代のコスメ選びを動かす「BeRealの友達のリアル」、アジア太平洋でZ世代の来店を促すカギは「魅力的な体験」（Euromonitor）、Z世代&若手ロイヤルたちの「やらかし」事件簿（ELLE）。Z世代の文化は「アナログ・おばあちゃんの趣味・偶発的なリアル体験」という一貫したオフライン引力と、「AIイラスト・伊能忠敬界隈」という独自の知的好奇心の方向性が共存している。",
+        "articles": [
+          {
+            "title": "Z世代が「次の流行」を予測 「AIイラスト」「伊能忠敬界隈」「日本三國」が上位｜産経",
+            "url": "https://news.yahoo.co.jp/articles/e353aa6dacc56930aa03019f56625e6167036faf",
+            "source": ""
+          },
+          {
+            "title": "なぜZ世代は「おばあちゃんの趣味」に惹かれるのか｜fashionunited",
+            "url": "https://fashionunited.jp/news/fashion/nazejin-zshi-dai-ha-obaatiyannoqu-wei-nire-karerunoka/20260727566578",
+            "source": ""
+          },
+          {
+            "title": "Z世代のコスメ選びを動かす、BeRealの「友達のリアル」｜BeRealz/沖縄タイムス",
+            "url": "https://www.okinawatimes.co.jp/articles/-/1888933",
+            "source": ""
+          },
+          {
+            "title": "アジア太平洋でZ世代の来店を促すカギは「魅力的な体験」｜Euromonitor",
+            "url": "https://www.euromonitor.com/article/engaging-experiences-key-to-bring-gen-z-into-stores-in-apac-jp",
+            "source": ""
+          },
+          {
+            "title": "SNS時代ならでは？ Z世代&若手ロイヤルたちの自由奔放な「やらかし」事件簿｜ELLE",
+            "url": "https://www.elle.com/jp/culture/celebgossip/g73252782/young-royal-families-sns-happenings-260724/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 2,
+        "is_cross": false,
+        "summary": "漠然としたリーダーシップでは人は動かない、AI時代だからこそ活きる「4つのルール」（ライフハッカー）、MIXIが新卒エンジニア向けAI活用研修資料を12科目で無料公開（ITmedia）。AI時代のリーダーシップは「明確な方向性と権限委譲」という古典的な知恵と、「組織全体への具体的なAI活用知識の民主化」という実装が同時に問われている。",
+        "articles": [
+          {
+            "title": "漠然としたリーダーシップでは人は動かない。AI時代だからこそ活きる「4つのルール」｜ライフハッカー",
+            "url": "https://www.lifehacker.jp/article/2607-these-four-disciplines-can-help-anyone-fulfill-their-purpose-personal-growth-leadership-success/",
+            "source": ""
+          },
+          {
+            "title": "MIXI、新卒エンジニア向け研修資料を無料公開「実践的なAI活用術」12科目｜ITmedia",
+            "url": "https://www.itmedia.co.jp/aiplus/article/2607/27/2000000223/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Z世代",
+        "count": 9,
+        "is_cross": true,
+        "summary": "",
+        "articles": [
+          {
+            "title": "BeRealがZ世代の本音を企業に届ける新コミュニティ「BeRealz」を発足｜Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/07/28/53047",
+            "source": ""
+          },
+          {
+            "title": "「誰にも言えない悩み」をAIに相談する10代たち 求められるのは「考える余白」｜AMP",
+            "url": "https://ampmedia.jp/2026/07/27/vibe-cheek/",
+            "source": ""
+          },
+          {
+            "title": "中国の若者に広がる「バーチャル親」現象──SNSが埋める親子関係の心の空白｜TABI LABO",
+            "url": "https://tabi-labo.com/312798/china-virtual-parents",
+            "source": ""
+          },
+          {
+            "title": "Z世代が「次の流行」を予測 「AIイラスト」「伊能忠敬界隈」「日本三國」が上位｜産経",
+            "url": "https://news.yahoo.co.jp/articles/e353aa6dacc56930aa03019f56625e6167036faf",
+            "source": ""
+          },
+          {
+            "title": "なぜZ世代は「おばあちゃんの趣味」に惹かれるのか｜fashionunited",
+            "url": "https://fashionunited.jp/news/fashion/nazejin-zshi-dai-ha-obaatiyannoqu-wei-nire-karerunoka/20260727566578",
+            "source": ""
+          },
+          {
+            "title": "Z世代のコスメ選びを動かす、BeRealの「友達のリアル」｜BeRealz/沖縄タイムス",
+            "url": "https://www.okinawatimes.co.jp/articles/-/1888933",
+            "source": ""
+          },
+          {
+            "title": "アジア太平洋でZ世代の来店を促すカギは「魅力的な体験」｜Euromonitor",
+            "url": "https://www.euromonitor.com/article/engaging-experiences-key-to-bring-gen-z-into-stores-in-apac-jp",
+            "source": ""
+          },
+          {
+            "title": "若者が現代的な支出の罠に陥る3つの理由｜Laodong.vn",
+            "url": "https://ja.laodong.vn/ban-tin/3-nguyen-nhan-khien-nguoi-tre-roi-vao-bay-chi-tieu-hien-dai-1741391.ldo",
+            "source": ""
+          },
+          {
+            "title": "SNS時代ならでは？ Z世代&若手ロイヤルたちの自由奔放な「やらかし」事件簿｜ELLE",
+            "url": "https://www.elle.com/jp/culture/celebgossip/g73252782/young-royal-families-sns-happenings-260724/",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "AI強制停止法案に77社が反対、Googleも「AI Control Roadmap」を発表──AI安全性をめぐる産業・政府の対立が最高潮",
+      "OpenAIが自律型エージェントの暴走を1週間後まで把握せず、ClaudeのプライベートチャットがGoogle検索に露出──AIの信頼危機が同日2件",
+      "楽天シンフォニーがウクライナで4G実証・楽天証券が家族プログラム拡充──楽天の「グローバル展開×金融拡張」が同日に動いた",
+      "電通が「DNAマーケティング」、TTD×Stagwellが「AI同士がつながる広告運用」を同日発表──AIマーケティングの「標準化」が始まった",
+      "Z世代が「次の流行」を予測──「AIイラスト」「伊能忠敬界隈」「日本三國」が上位に来た日"
+    ],
+    "change": "AIガバナンス → 政府の立法規制vs産業77社の反対・Googleの独自安全ロードマップという対立構造が確定\nAI信頼危機 → OpenAI暴走の1週間後把握・Claude会話のGoogle検索露出が同日（産業全体の信頼問題）\n楽天の展開 → シンフォニーのウクライナ4G実証（グローバル）×証券の家族プログラム（国内金融）が同日\nAIマーケ標準化 → 電通DNAマーケティング×TTD-Stagwellが「AIフルスタック広告」の実装を同日発表\nZ世代文化の「二重生活」 → AIイラスト×伊能忠敬界隈・おばあちゃんの趣味×デジタル消費が同時進行\nAIスキル劣化 → 3カ月で7%低下という実証データが「AI使用と人間能力の逆説」を数字で確定",
+    "insight": "7/28はATLASの観測期間（6/29〜7/28）の最終日として、4週間で積み上がってきた全てのテーマが最終的な「確定・対立・着地」を迎えた日として記録される。\n\nAIガバナンスの「産業vs政府」という対立構造が今日確定した。7/24のBBC「キルスイッチ立法」→7/27の「具体的法案提出」→7/28の「77社が反対・GoogleがAI Control Roadmap発表」という5日間の動きは、AIガバナンスが「誰がルールを決めるのか」という根本的な権力闘争に突入したことを示す。政府が「止める権限」を要求し、産業が「自律的な安全管理」で対抗するという構図は、AIの社会的位置づけを巡る今世紀最大の政治的対立として歴史に残る。\n\nOpenAIの「暴走を1週間後まで把握せず」とClaudeの「プライベートチャットがGoogle検索に露出」が同日に報じられたことは、AI産業全体の「信頼の危機」として最も深刻に受け止めるべきシグナルである。「AIは安全か」という問いに対して、AI産業のトップ企業2社が同日に「把握の遅延」と「意図しない漏洩」を開示した日は、AI信頼問題の最低点として記録される。\n\n電通の「DNAマーケティング」とTTD×Stagwellの「AI間広告運用」が同日に発表されたことは、AIマーケティングが「標準化・大量実装」フェーズに入ったことを示す。AIを「個別の戦略発掘→自動化運用→AIエージェント間の調整」というフルサイクルで実装する「AIフルスタック広告」は、楽天の広告事業の競争力を根本から再評価する必要性を示している。\n\nATLASが4週間を通じて最も継続的に観測してきた「楽天のAI成果発信」は、今日の楽天シンフォニーのウクライナ実証と楽天証券の家族プログラム拡充という二つの動きで、「グローバル技術×国内金融の深化」という次のフェーズに入ったことを確認した。楽天が「日本のAI環境10年遅れの中でナンバーワンになれる（7/24）」と宣言した後の最初の具体的な動きとして記録される。"
+  },
+  {
     "date": "2026-07-27",
     "total_articles": 79,
     "categories": [
