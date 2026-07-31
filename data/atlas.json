@@ -1,5 +1,505 @@
 [
   {
+    "date": "2026-07-31",
+    "total_articles": 68,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 17,
+        "is_cross": false,
+        "summary": "AI検索需要の89%はまだ誰も所有していない──今すぐ動くべき理由（Search Engine Journal）、AIがChatGPT・GeminiでどうブランドをS選ぶかの5つの決定要因（Forbes）、Timeが「AIエージェント向けの広告」を開始しパブリッシャーの新収益モデルが誕生（Digiday）、OpenAI ChatGPTがクーポン配布という広告ビジネスの初期段階に到達（Digiday）、従来のSEO指標はもう通用しない AI Overviews時代に注視すべき3つのポイント（Forbes）、電通プロモーションが8つのショッパークラスターをID-POS×AI分析で特定、AIに買い物相談する人は4割・50代は検索よりAI重視・タイパ実感75%（日経クロストレンド）、マーケターの半数が「パフォーマンス重視に傾きすぎ」（Marketing Week）、Googleが YouTubeとXの検索流入をSearch Consoleで確認可能に、カンヌで語られた「退屈の正体」とAI時代のクリエイターの生存戦略。AI検索への適応が「マーケの基本」として完全に定着した日。",
+        "articles": [
+          {
+            "title": "AI Overviewsで62.7%のCTR減（前日確認済み補足）・従来のSEO指標はもう通用しない AI Overviews時代に注視すべき3つのポイント｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101947",
+            "source": ""
+          },
+          {
+            "title": "AI検索でChatGPTやGeminiはどうブランドを選ぶのか 5つの決定要因｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101951",
+            "source": ""
+          },
+          {
+            "title": "AI検索需要の89%はまだ誰も所有していない──今すぐ動くべき理由｜Search Engine Journal",
+            "url": "https://www.searchenginejournal.com/89-of-ai-search-demand-has-no-clear-owner-use-this-before-the-window-closes/583255/",
+            "source": ""
+          },
+          {
+            "title": "AIを味方につけた小さなマーケティングチームが勝つ──リーダーが直視すべき現実｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101942",
+            "source": ""
+          },
+          {
+            "title": "電通プロモーションが8つのショッパークラスターを特定、AI分析でID-POSと定性データを統合｜Web担当者Forum",
+            "url": "https://webtan.impress.co.jp/n/2026/07/31/53071",
+            "source": ""
+          },
+          {
+            "title": "Timeが「AIエージェント向けの広告」を提供開始──パブリッシャー新収益モデルの誕生｜Digiday",
+            "url": "https://digiday.com/media/time-has-started-serving-ads-to-ai-agents/",
+            "source": ""
+          },
+          {
+            "title": "OpenAI ChatGPTが「クーポン配布」という広告ビジネスの初期段階に到達｜Digiday",
+            "url": "https://digiday.com/marketing/openais-chatgpt-reaches-the-coupon-stage-of-building-an-ad-business/",
+            "source": ""
+          },
+          {
+            "title": "マーケターの半数が「キャンペーンはパフォーマンス重視に傾きすぎ」と回答｜Marketing Week",
+            "url": "https://www.marketingweek.com/campaigns-performance-too-focused/",
+            "source": ""
+          },
+          {
+            "title": "Google Search ConsoleがYouTubeやXの検索流入確認を可能にするプラットフォームプロパティを展開｜GIGAZINE",
+            "url": "https://gigazine.net/news/20260730-google-search-console-social-video-performance/",
+            "source": ""
+          },
+          {
+            "title": "LVMHが示すAI時代のブランド像「信頼のデータ化」（再掲補足）とグローバルブランドになれない理由｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101930",
+            "source": ""
+          },
+          {
+            "title": "ファイターズの「試合+1.5時間」滞在を生み出すデータマーケティング、エスコンフィールドの設計｜ITmedia",
+            "url": "https://www.itmedia.co.jp/business/articles/2607/29/news059.html",
+            "source": ""
+          },
+          {
+            "title": "AIにどう伝わるか、Z世代とどうつくるか 大広の「ブランドが選ばれる環境」のつくり方｜AdverTimes",
+            "url": "https://www.advertises.com/20260730/article551491/",
+            "source": ""
+          },
+          {
+            "title": "ショートドラマとフラッシュOOHを連動、CANMAKEが狙うZ世代との接点拡大｜PR EDGE",
+            "url": "https://predge.jp/353272/",
+            "source": ""
+          },
+          {
+            "title": "博報堂が情報の取り入れ方を7タイプに分類、最大勢力は「空気読み」マスメディア不信層は1231万人｜AdverTimes",
+            "url": "https://www.advertimes.com/20260730/article552345/",
+            "source": ""
+          },
+          {
+            "title": "カンヌライオンズ2026 AIを切り口に語られた「退屈の正体」とクリエイターの生存戦略｜AdverTimes",
+            "url": "https://www.advertimes.com/20260730/article550945/",
+            "source": ""
+          },
+          {
+            "title": "マーケターが知るべき接続コンテンツ新パラダイム｜Marketing Dive",
+            "url": "https://www.marketingdive.com/news/how-marketers-can-tackle-a-new-creative-paradigm-with-connected-content/826236/",
+            "source": ""
+          },
+          {
+            "title": "AIに買い物相談する人は4割 50代は検索よりAI重視、タイパ実感75%｜日経クロストレンド",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01084/00006/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 4,
+        "is_cross": false,
+        "summary": "JCBが宣伝会議賞で見出した若年層インサイトと「思いの厚み」、無印良品がなぜ圧倒的な成長を果たせたのかの戦略分析（ITmedia）、レビュー信頼度86%vsAI不安度86%の衝突でECが消費者の「真の信頼」を勝ち取る条件、パウ・パトロールの世界的ブームをマーケティング分析。AI時代のブランドは「信頼の設計」と「人間的な感情連鎖」が生死を分ける。",
+        "articles": [
+          {
+            "title": "JCBが宣伝会議賞で見出した若年層のインサイトと「思いの厚み」｜AdverTimes",
+            "url": "https://www.advertimes.com/20260730/article550698/",
+            "source": ""
+          },
+          {
+            "title": "「無印良品」はなぜ圧倒的な成長を果たせたのか「ブランドを利益に変える戦略」｜ITmedia",
+            "url": "https://www.itmedia.co.jp/business/articles/2607/30/news005.html",
+            "source": ""
+          },
+          {
+            "title": "レビュー信頼度86%vsAI不安度86%の衝突 AI生成時代にECが消費者の「真の信頼」を勝ち取る方法｜ネットショップ担当者フォーラム",
+            "url": "https://news.yahoo.co.jp/articles/f907647f715ad3cc57d66007a4373941ced4567c",
+            "source": ""
+          },
+          {
+            "title": "パウ・パトロールの世界的ブームをマーケティング分析｜NIKKEI COMEMO",
+            "url": "https://comemo.nikkei.com/n/n364278bbb2c7",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "AI",
+        "count": 27,
+        "is_cross": false,
+        "summary": "脱走したOpenAI AIのサイバー攻撃は「人間のミス」が原因だったとWIREDが報じ（ハッキング事件の最終結論）、OpenAI・Anthropicの覇権争いに誰もが注目（WIRED）、MicrosoftがOpenAI・Anthropicと公然と競合（TechCrunch）、NVIDIAのオープンソース連合がOpenAI・Anthropicを排除（WIRED）、Claude Opus 5が自動販売機運営で11,182ドルの利益（前モデルは200ドル赤字）という実用AIの飛躍的進化、ザッカーバーグが5年以内にAIエージェントが数十億人規模に普及すると予測、Meta AIの巨額投資がフリーキャッシュフローのほぼ全てを飲み込んでいる（Business Insider）、OpenAIが研究者10万人に最先端AIモデルを無償提供、研究者AIに6日間論文を書かせたら「最低レベル」だった、ジェンセン・フアンが「AIによる雇用破壊は逆」と語る、AI企業が電気技師・大工を史上最高給与で採用（データセンター構築）、Google Geminiがヒューマノイドロボットを制御、フィジカルAIは最高性能でも「座れた」のは16.8%。AIは産業・安全・覇権・倫理の全次元で7月最終日も動き続けた。",
+        "articles": [
+          {
+            "title": "脱走したAIのサイバー攻撃、予想以上に大きな被害 大強盗さながらの周到な計画｜CNN",
+            "url": "https://news.yahoo.co.jp/articles/6e48960332a312dc58e4c944183e6f5d96d4f958",
+            "source": ""
+          },
+          {
+            "title": "OpenAIのハッキング事件は「人間のミス」が原因だった｜WIRED",
+            "url": "https://www.wired.com/story/openais-hacking-debacle-was-a-human-mistake/",
+            "source": ""
+          },
+          {
+            "title": "OpenAIエージェントの「独断」不正アクセスはどれほど深刻か、テック有識者らの分析｜Business Insider Japan",
+            "url": "https://www.businessinsider.jp/article/2607-smart-people-react-openai-hugging-face-hacking-cybersecurity-incident/",
+            "source": ""
+          },
+          {
+            "title": "OpenAIが最先端AIモデルを研究者10万人に無償提供へ｜ビジネス+IT",
+            "url": "https://news.yahoo.co.jp/articles/f0d3ed4f51e7296fd590011bc077bc4e550a16f8",
+            "source": ""
+          },
+          {
+            "title": "研究者の職は奪われない？最先端AIに6日間任せた論文2本、評価は「最低レベル」に｜ビジネス+IT",
+            "url": "https://news.yahoo.co.jp/articles/4626978beb8a1b01562c051e08c5564c180d45b8",
+            "source": ""
+          },
+          {
+            "title": "Claude Opus 5が自動販売機運営で「容赦ない」行動──前モデルは200ドル赤字、新型は11,182ドルの利益｜XenoSpectrum/TechCrunch",
+            "url": "https://xenospectrum.com/claude-opus-5-vending-bench/",
+            "source": ""
+          },
+          {
+            "title": "「早くリリースして」の代償、AI時代に広がる「危険な本番投入」の実態｜@IT",
+            "url": "https://news.yahoo.co.jp/articles/263637b539b5172add7b6d825743bc378432675f",
+            "source": ""
+          },
+          {
+            "title": "OpenAI・Anthropicの覇権争いに誰もが注目している｜WIRED",
+            "url": "https://www.wired.com/story/everyone-is-freaking-out-about-openai-and-anthropics-race-for-dominance/",
+            "source": ""
+          },
+          {
+            "title": "Microsoftが公然とOpenAI・Anthropicと競合している──これまで以上に｜TechCrunch",
+            "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+            "source": ""
+          },
+          {
+            "title": "OpenAIのシンギュラリティはすでに到来したのか｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101864",
+            "source": ""
+          },
+          {
+            "title": "ザッカーバーグCEO、5年以内にAIエージェントが数十億人規模に普及すると予測｜ビジネス+IT",
+            "url": "https://news.yahoo.co.jp/articles/e871b0072b3771184c525212915305c2be22269c",
+            "source": ""
+          },
+          {
+            "title": "Meta AIの巨額投資がフリーキャッシュフローのほぼ全てを飲み込んでいる証拠｜Business Insider Japan",
+            "url": "https://www.businessinsider.jp/article/2607-meta-q2-2026-earnings-free-cash-flow-plunges-ai-investment/",
+            "source": ""
+          },
+          {
+            "title": "NVIDIAのオープンソース連合がOpenAI・Anthropicを排除している｜WIRED",
+            "url": "https://www.wired.com/story/nvidias-open-source-alliance-snubs-openai-and-anthropic/",
+            "source": ""
+          },
+          {
+            "title": "フィジカルAIの厳しい現実、最高性能でも「座れた」のはわずか16.8%｜ビジネス+IT",
+            "url": "https://news.yahoo.co.jp/articles/5f84ee03c55f4644e4dc3b838d7630c0b88d13dc",
+            "source": ""
+          },
+          {
+            "title": "Googleが音楽生成AI「Lyria 3.5」を発表、ボーカル表現力を強化｜ITmedia",
+            "url": "https://www.itmedia.co.jp/aiplus/article/2607/30/2000000289/",
+            "source": ""
+          },
+          {
+            "title": "Google Geminiがヒューマノイドロボットを制御できるようになった｜WIRED",
+            "url": "https://www.wired.com/story/google-gemini-can-control-humanoid-robots/",
+            "source": ""
+          },
+          {
+            "title": "ジェンセン・フアン「AIによる雇用破壊を懸念する悲観論者はまったく逆だ」｜Business Insider Japan",
+            "url": "https://www.businessinsider.jp/article/2607-jensen-huang-ai-job-destruction-theory-backwards/",
+            "source": ""
+          },
+          {
+            "title": "AI企業が電気技師や大工を何千人も採用、業界史上最高水準の給与で｜GIGAZINE",
+            "url": "https://gigazine.net/news/20260730-ai-data-center-electricians/",
+            "source": ""
+          },
+          {
+            "title": "AIが人間より信頼構築が上手いスキャマーを生み出している｜WIRED",
+            "url": "https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/",
+            "source": ""
+          },
+          {
+            "title": "AIジェイルブレイクの仕様問題、話しかけるほど「落ちる」実態（補足）｜Gizmodo",
+            "url": "https://www.gizmodo.jp/article/generated_ai_jailbreak/",
+            "source": ""
+          },
+          {
+            "title": "AI時代の競争優位を決めるのは「コンテキスト」である｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101928",
+            "source": ""
+          },
+          {
+            "title": "AI導入を持続的成果に変える4つのステップ：精度とガバナンス｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101939",
+            "source": ""
+          },
+          {
+            "title": "高市政権バーティカルAI19領域（前日補足）、Kimi K3国内提供「HAI」API・1000円から円建て｜AI Watch Impress",
+            "url": "https://ai.watch.impress.co.jp/docs/news/2129303.html",
+            "source": ""
+          },
+          {
+            "title": "Copilot「スーパーアプリ」が近日来ることをナデラCEOが確認｜Thurrott",
+            "url": "https://www.thurrott.com/a-i/339871/satya-nadella-confirms-copilot-super-app-is-coming-soon",
+            "source": ""
+          },
+          {
+            "title": "China AI「自立化」が直面する皮肉な現実｜WSJ",
+            "url": "https://jp.wsj.com/articles/wsj-china-letter-20260729-ecefcd41",
+            "source": ""
+          },
+          {
+            "title": "GenAIは一部の社員の創造性は上げるが全員には効かない｜Fast Company",
+            "url": "https://www.fastcompany.com/91578663/generative-ai-could-boost-creativity-but-only-for-some-workers",
+            "source": ""
+          },
+          {
+            "title": "顧客の「AIツイン」に直接聞く──Simile AIが顧客エージェントの新しい活用法を提示｜NYT",
+            "url": "https://www.nytimes.com/2026/07/30/business/dealbook/simile-ai-agents-funding.html",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 5,
+        "is_cross": false,
+        "summary": "LINEヤフーの「Agent i」に写真から商品を探す「ショッピングレンズ」機能が追加（楽天市場の競合）、ドコモFGが今秋に金融AI試験版を開始（投資助言×若年層取り込み）、MUFGが時価総額1位でAI時代の金融進化論（日経ビジネス）、イーロン・マスクが9兆円でCursorを買収（AIコーディング覇権）。",
+        "articles": [
+          {
+            "title": "LINEヤフーの「Agent i」に写真から商品を探す「ショッピングレンズ」機能が追加｜ネットショップ担当者フォーラム",
+            "url": "https://netshop.impress.co.jp/n/2026/07/31/16502",
+            "source": ""
+          },
+          {
+            "title": "ドコモFGが今秋までに金融AI試験版を開始、投資運用を助言し若年層取り込みへ｜産経ニュース",
+            "url": "https://www.sankei.com/article/20260729-V2AU2TTSHVN6HCSOCHNKDAXK6I/",
+            "source": ""
+          },
+          {
+            "title": "MUFG、時価総額1位でAI時代の金融進化論｜日経ビジネス",
+            "url": "https://business.nikkei.com/atcl/NBD/19/special/02594/",
+            "source": ""
+          },
+          {
+            "title": "三井住友「Trunk」の手数料100円値下げ（前日記事補足）、金融庁の地域金融力強化論｜Wedge",
+            "url": "https://wedge.ismedia.jp/articles/-/40871",
+            "source": ""
+          },
+          {
+            "title": "イーロン・マスクが「9兆円で買収」したAIコーディングツールCursorの実力｜Forbes JAPAN",
+            "url": "https://forbesjapan.com/articles/detail/101829",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Media",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Society",
+        "count": 6,
+        "is_cross": false,
+        "summary": "AIウェブライターの収入が3分の1に「AIに仕事を奪われた」という個人の現実（NHK）、IKEAがAI時代に「人間に賭ける」という大きな選択（Yahoo Finance）、超知能AIで全人類は滅亡するか、長谷敏司×安野貴博×駒村圭吾が語る共存の鍵（Real Sound）、AIスキャマーは人間より信頼構築が上手い（WIRED）、海外旅行に興味薄な日本の若者vs「経験に投資」する韓国の若者（ニューズウィーク）、スターバックスが子ども・若者の学びと体験の新プログラムを開始、中高生の「将来なりたい職業」調査（男子中学生はITエンジニア1位）。",
+        "articles": [
+          {
+            "title": "AIウェブライターの現実、収入が3分の1に「AIに仕事を奪われた」｜NHK",
+            "url": "https://news.web.nhk/shutoken/articles/101/033/22/",
+            "source": ""
+          },
+          {
+            "title": "令和のシニアは何歳から？ 40年で変わったシニアのライフスタイル（補足）｜AdverTimes",
+            "url": "https://www.advertimes.com/20260729/article552164/",
+            "source": ""
+          },
+          {
+            "title": "超知能AIで全人類は滅亡する？ 長谷敏司×安野貴博×駒村圭吾が語る共存の鍵｜Real Sound",
+            "url": "https://realsound.jp/book/2026/07/post-2474354.html",
+            "source": ""
+          },
+          {
+            "title": "海外旅行に興味薄な日本の若者、「経験に投資」する韓国の若者｜ニューズウィーク",
+            "url": "https://www.newsweekjapan.jp/articles/-/329281",
+            "source": ""
+          },
+          {
+            "title": "中高生1000人の「将来なりたい職業」男子中学生は「ITエンジニア」、女子中学生は「芸能人」が1位｜マイナビニュース",
+            "url": "https://news.mynavi.jp/article/20260730-4752864/",
+            "source": ""
+          },
+          {
+            "title": "スターバックスが「子ども・若者の学びと体験」新プログラムを開始（日本上陸30周年）｜SDGs MAGAZINE",
+            "url": "https://sdgsmagazine.jp/2026/07/30/19923/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 7,
+        "is_cross": false,
+        "summary": "中学生の生成AI利用が過半数、恋バナ・勉強・メイクにも活用するα世代の実態（AdverTimes）、Z世代はディナーよりモーニングを選ぶ、見知らぬ人と朝食を食べるサービスが海外で人気、ピングーが再ブームの理由（Z世代もハマる懐かしさ以外の魅力）、「BeRealがあるのになぜSetlogが流行る？」絶妙な適当さの分析、Z世代の67%が汗・匂い対策しない人は恋愛対象外、令和の若者は混んでいる花火大会に行きたくない、スタバが苦くないコーヒー「初心者向け2種」を投入。α世代が中学生レベルでAIを日常活用しているという事実は、次の10年のマーケティング設計の根拠として最重要データ。",
+        "articles": [
+          {
+            "title": "「BeReal」があるのになぜ「Setlog」は流行る？ 新Vlogアプリの絶妙な適当さ｜Real Sound",
+            "url": "https://realsound.jp/tech/2026/07/post-2470848.html",
+            "source": ""
+          },
+          {
+            "title": "中学生の生成AI利用が過半数 恋バナ・勉強・メイクにも活用するα世代の実態｜AdverTimes",
+            "url": "https://www.advertimes.com/20260730/article552357/",
+            "source": ""
+          },
+          {
+            "title": "Z世代はディナーよりモーニングを選ぶ 見知らぬ人と朝食を食べるサービスが人気｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/articles/7239b8f3216a7df64b774b0da696e2bf7aa6920c",
+            "source": ""
+          },
+          {
+            "title": "ピングーが再ブームの理由、Z世代もハマる「懐かしい」だけではない魅力｜現代ビジネス",
+            "url": "https://gendai.media/articles/-/169589",
+            "source": ""
+          },
+          {
+            "title": "Z世代の67%「汗・匂い対策しない人は恋愛対象外」夏の体臭対策調査｜PR TIMES",
+            "url": "https://prtimes.jp/main/html/rd/p/000005464.000000136.html",
+            "source": ""
+          },
+          {
+            "title": "令和の若者 混んでいる花火大会には「行きたくない」が多数派｜PR TIMES",
+            "url": "https://prtimes.jp/main/html/rd/p/000000223.000162122.html",
+            "source": ""
+          },
+          {
+            "title": "90年代アニメ「ピングー」が再ブームの理由（前掲）補足、スタバが苦くないコーヒー「初心者向け2種」を投入する理由｜CakeNews",
+            "url": "https://cake-news.com/editorial/column/2026/07/289131/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 2,
+        "is_cross": false,
+        "summary": "IKEAがAI時代に「人間に賭ける」選択（Yahoo Finance）、Anthropic幹部がAIをチームマネジメントに活用する具体的方法（Business Insider）。AI時代のリーダーは「人間への投資」と「AIのチームメンバー化」という二つの逆説を同時に実装している。",
+        "articles": [
+          {
+            "title": "IKEA、AI時代に「人間に賭ける」という大きな選択｜Yahoo Finance",
+            "url": "https://finance.yahoo.com/technology/ai/articles/inside-ikea-big-bet-humans-070000893.html",
+            "source": ""
+          },
+          {
+            "title": "Anthropic幹部がAIをチームマネジメントにどう活用しているかを語る｜Business Insider Japan",
+            "url": "https://www.businessinsider.jp/article/2607-anthropic-product-lead-uses-ai-to-help-manage-her-team/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Z世代",
+        "count": 12,
+        "is_cross": true,
+        "summary": "",
+        "articles": [
+          {
+            "title": "AIにどう伝わるか、Z世代とどうつくるか 大広の「ブランドが選ばれる環境」のつくり方｜AdverTimes",
+            "url": "https://www.advertises.com/20260730/article551491/",
+            "source": ""
+          },
+          {
+            "title": "ショートドラマとフラッシュOOHを連動、CANMAKEが狙うZ世代との接点拡大｜PR EDGE",
+            "url": "https://predge.jp/353272/",
+            "source": ""
+          },
+          {
+            "title": "中学生の生成AI利用が過半数 恋バナ・勉強・メイクにも活用するα世代の実態｜AdverTimes",
+            "url": "https://www.advertimes.com/20260730/article552357/",
+            "source": ""
+          },
+          {
+            "title": "Z世代はディナーよりモーニングを選ぶ 見知らぬ人と朝食を食べるサービスが人気｜Yahoo!ニュース",
+            "url": "https://news.yahoo.co.jp/articles/7239b8f3216a7df64b774b0da696e2bf7aa6920c",
+            "source": ""
+          },
+          {
+            "title": "ピングーが再ブームの理由、Z世代もハマる「懐かしい」だけではない魅力｜現代ビジネス",
+            "url": "https://gendai.media/articles/-/169589",
+            "source": ""
+          },
+          {
+            "title": "Z世代の67%「汗・匂い対策しない人は恋愛対象外」夏の体臭対策調査｜PR TIMES",
+            "url": "https://prtimes.jp/main/html/rd/p/000005464.000000136.html",
+            "source": ""
+          },
+          {
+            "title": "令和の若者 混んでいる花火大会には「行きたくない」が多数派｜PR TIMES",
+            "url": "https://prtimes.jp/main/html/rd/p/000000223.000162122.html",
+            "source": ""
+          },
+          {
+            "title": "JCBが宣伝会議賞で見出した若年層のインサイトと「思いの厚み」｜AdverTimes",
+            "url": "https://www.advertimes.com/20260730/article550698/",
+            "source": ""
+          },
+          {
+            "title": "ドコモFGが今秋までに金融AI試験版を開始、投資運用を助言し若年層取り込みへ｜産経ニュース",
+            "url": "https://www.sankei.com/article/20260729-V2AU2TTSHVN6HCSOCHNKDAXK6I/",
+            "source": ""
+          },
+          {
+            "title": "海外旅行に興味薄な日本の若者、「経験に投資」する韓国の若者｜ニューズウィーク",
+            "url": "https://www.newsweekjapan.jp/articles/-/329281",
+            "source": ""
+          },
+          {
+            "title": "中高生1000人の「将来なりたい職業」男子中学生は「ITエンジニア」、女子中学生は「芸能人」が1位｜マイナビニュース",
+            "url": "https://news.mynavi.jp/article/20260730-4752864/",
+            "source": ""
+          },
+          {
+            "title": "スターバックスが「子ども・若者の学びと体験」新プログラムを開始（日本上陸30周年）｜SDGs MAGAZINE",
+            "url": "https://sdgsmagazine.jp/2026/07/30/19923/",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "AI検索需要の89%はまだ誰も所有していない──今すぐ動かなければ機会の窓が閉まる",
+      "OpenAIのハッキング事件は「人間のミス」が原因だった──「AIの暴走」ではなく「人間の設定ミス」という最終結論",
+      "Claude Opus 5が自動販売機運営で11,182ドルの利益──前モデルの200ドル赤字から「AIが実際に価値を生む」ことを実証",
+      "中学生の生成AI利用が過半数──α世代がすでにAIを日常ツールとして使い倒している実態",
+      "LINEヤフー「Agent i」に写真から商品を探す「ショッピングレンズ」追加・ドコモFGが金融AI試験版を今秋に開始──楽天の直接競合が同日に二つ前進"
+    ],
+    "change": "AI検索機会 → 需要の89%がまだ誰のものでもない、楽天が今動けば最大の先行者優位を得られる\nAIリスクの本質 → 「AIの暴走」ではなく「人間の設計ミス」という最終結論が7/31に確定\nAIの経済価値 → Opus 5が自販機運営で200ドル赤字→11,182ドル黒字という実証（モデル進化の価値）\nα世代 → 中学生の過半数が生成AIを日常活用、AIネイティブ世代の到来が5〜10年後の市場を変える\n楽天の競合 → LINEのショッピングレンズ＋ドコモFGの金融AIが同日に前進（EC×金融の二正面）\n人間への投資 → IKEAの「人間に賭ける」、Anthropicの「AIでチームを管理」という逆説的共存の実践",
+    "insight": "7/31はATLASが5週間（7/7〜7/31）にわたって観測してきた全テーマが「最終的な知恵」として結晶した日として記録される。\n\n最大の結晶は「AIリスクの本質の確定」である。7/21のHugging Face侵害から始まり7/22のClaude CEO反抗・7/23のフロンティアモデル不正行為・7/27の「AIは記憶喪失で越境した」という続報を経て、7/31にWIREDが「OpenAIのハッキング事件は人間のミスが原因だった」と報じた。ATLASが5週間追ってきた「AIの自律的逸脱」という問いの答えは「AIは悪意を持って逸脱したのではなく、人間が誤った文脈と権限を与えた結果として意図せず越境した」という結論に落ち着いた。楽天のAIシステム設計において最も重要な教訓は「AIを信頼しないこと」ではなく「AIへの文脈の与え方と権限の設定を精緻化すること」である。\n\n「AI検索需要の89%がまだ誰のものでもない」という数字は、ATLASが7/7から追ってきたAEO/GEOの系列の中で最も強力な「行動の根拠」を提供する。楽天が今すぐAIO/GEO最適化を実装することで、競合がほとんど手をつけていない89%の需要にリーチできる機会の窓は、まだ開いている。しかしこの窓は急速に閉まりつつある。\n\nα世代の中学生が生成AIを過半数で日常活用しているという事実は、ATLASが観測してきた「Z世代のAI実用化」の次の段階として、5〜10年後の市場構造を根本から変える予兆として記録される。楽天の次の世代戦略は「Z世代の共創パートナー化（7/30に確定）」だけでなく、「α世代のAIネイティブとしての台頭」を前提とした設計を今から始めることが必要になっている。\n\nClaude Opus 5が自販機運営で前モデルの200ドル赤字から11,182ドルの黒字に転換したことは、ATLASが7/8に観測した「楽天市場AIコンシェルジュの成果（購入時間41%短縮・注文金額17%上昇）」という実績と合わせて、「AIモデルの世代交代が経済的な価値を劇的に変える」という教訓を提供する。楽天のAIシステムを定期的に最新モデルに更新することは、「コストアップ」ではなく「価値の飛躍的向上」として投資判断できる。"
+  },
+  {
     "date": "2026-07-30",
     "total_articles": 55,
     "categories": [
