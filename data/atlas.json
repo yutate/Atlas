@@ -1,5 +1,730 @@
 [
   {
+    "date": "2026-09-07",
+    "total_articles": 108,
+    "categories": [
+      {
+        "name": "Marketing / Advertising",
+        "count": 4,
+        "is_cross": false,
+        "summary": "30秒、30分、30時間——人の時間を「価値ある体験」に変える日本のクリエイティビティ（電通報）──時間設計という観点での体験価値の定義、The Reckoning for Outcome-Based Pricing Is Here（ADWEEK）──アウトカムベースの広告課金モデルへの転換、AI検索とマーケティング設計の再考（継続）。アウトカムベースの広告課金は、成果で払うという設計への転換として楽天RMPの次世代設計においても重要な示唆を持つ。",
+        "articles": [
+          {
+            "title": "街全体でブランド体験提供 三井不動産が屋外広告参入、イベント連携",
+            "url": "https://www.nikkei.com/article/DGXZQOUC048QZ0U6A900C2000000/",
+            "source": "日本経済新聞"
+          },
+          {
+            "title": "30秒、30分、30時間。人の時間を「価値ある体験」に変える、日本のクリエイティビティ",
+            "url": "https://dentsu-ho.com/articles/9843",
+            "source": "電通報"
+          },
+          {
+            "title": "ごみを捨てたくなる広告、という逆転の発想｜FINDERS｜あなたのシゴトに、新たな視点を。",
+            "url": "https://finders.me/kqFQxAi4DssM5I1Ndg",
+            "source": ""
+          },
+          {
+            "title": "テレビCM、約8割が「ながら視聴」　6割が音をきっかけに画面へ視線【オトナル調べ】",
+            "url": "https://manamina.valuesccg.com/articles/5261",
+            "source": "［マナミナ］まなべるみんなのデータマーケティング・マガジン"
+          }
+        ]
+      },
+      {
+        "name": "Branding",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "AI",
+        "count": 74,
+        "is_cross": false,
+        "summary": "楽天調査、Z世代の約4割が生成AIを「ほぼ毎日」利用（ケータイWatch）──楽天が自社調査でZ世代のAI活用実態を発表、Claude Mythosが新たなフロンティアへ（継続）、グーグルが起こした新たな「革命」（newspicks）、China Is the Bogeyman Data Center Enthusiasts Just Can't Quit（WIRED）、AIへの不安で「キャリアが凍りつく」Z世代 停滞を打破する方法（Forbes）、動画の音声を一瞬でテキスト化（DXマガジン）、LLMに感情はない（Nature継続）、MetaのAI信奉から人間中心への回帰（継続）、AIへの懸念が米若者で過半数（継続）、Anthropicの2028年売上高予測（継続）など。楽天自身がZ世代のAI利用実態調査を発表したことが今週の最重要楽天ニュースとして記録される。",
+        "articles": [
+          {
+            "title": "NVIDIAはなぜハギングフェイスを買収するのか――大手AI企業の独自チップ化に備えGPU需要を分散 #エキスパートトピ（佐藤仁）",
+            "url": "https://news.yahoo.co.jp/expert/articles/89dda1acb66d29c477e452e31c4a7448ffeef861",
+            "source": ""
+          },
+          {
+            "title": "オープンＡＩのエージェント、米新興不正侵入前にもドイツで「暴走」（ロイター）",
+            "url": "https://news.yahoo.co.jp/articles/cce28c802211df075797707786b2a88964ba7a38",
+            "source": ""
+          },
+          {
+            "title": "アリババCEO呉泳銘、マスク・ベゾスと肩を並べる　TIME「AI影響力100人」表紙に（36Kr Japan）",
+            "url": "https://news.yahoo.co.jp/articles/ed7f687d766fe346c75996a32dcfd0a76b1ce700",
+            "source": ""
+          },
+          {
+            "title": "OpenAIが人型ロボを開発へ──アルトマンCEO、「誰もが自分専用のロボットを持つべき」（Forbes JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/26c8ab0cb8cbdc44cce56ff5f1491022e665a046",
+            "source": ""
+          },
+          {
+            "title": "AIで挑む不便なコンビニ 画像生成や同時通訳も体験（FINDERS）",
+            "url": "https://news.yahoo.co.jp/articles/1da77eadcbc625b1bb606c7c391ae2592dae3729",
+            "source": ""
+          },
+          {
+            "title": "ChatGPTに「これ調べて」と頼む人が、そもそも最初に間違えていること（ダイヤモンド・オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/b7e10019745a6f9b491306b028f2c044436afcc7",
+            "source": ""
+          },
+          {
+            "title": "AI監視をあざむくクルマ、人間の目にはド派手に見える（ギズモード・ジャパン）",
+            "url": "https://news.yahoo.co.jp/articles/a7fdaad795b15c6b000b65d415409eeeb9e5f5e9",
+            "source": ""
+          },
+          {
+            "title": "博報堂富裕層マーケティングラボ、「新富裕層調査2026」を発表　年代を超えた共通インサイト「10大価値観」から紐解く新富裕層のリアル 「〇〇離れ」に当てはまらない若年富裕層、若者並にAIを活用するシニア富裕層｜ニュースリリース｜博報堂 Hakuhodo Inc.",
+            "url": "https://www.hakuhodo.co.jp/news/newsrelease/267368/",
+            "source": ""
+          },
+          {
+            "title": "AIチャットボットに登山計画を丸投げした一行、あえなく遭難。水も食料も必要量持たず、翌朝救助",
+            "url": "https://gadget.phileweb.com/post-132453/",
+            "source": "Gadget Gate"
+          },
+          {
+            "title": "OpenAIがAI検索仕様を変更、Redditの引用シェアが数日で3.8％から0.5％に崩落（Forbes JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/dd0de073baca3c49f9e91128ae427d5e8cae4214",
+            "source": ""
+          },
+          {
+            "title": "ビル・ゲイツが警鐘を鳴らす「生成AI」3つのリスク…増える仕事と減る仕事、最も影響を受けるのは誰か？（Wedge（ウェッジ））",
+            "url": "https://news.yahoo.co.jp/articles/030d2b8e177c5c227e5ae598e7cb19d77434b0fb",
+            "source": ""
+          },
+          {
+            "title": "「ついにAIに意識が宿った」ってガチですか？　「クロード」の内部に\"ヒトの意識によく似た領域\"が出現！　（週プレNEWS）",
+            "url": "https://news.yahoo.co.jp/articles/081bb2011709d696243ff11f85160a21636b6427",
+            "source": ""
+          },
+          {
+            "title": "GDP、偏差値、AIの賢さ…なぜ「指標」は社会や人を動かすのか？（ダイヤモンド・オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/f94232552dcbd1b92bf27d3aa53fd653b2cfff23",
+            "source": ""
+          },
+          {
+            "title": "フロンティアAIの暴走リスク…OpenAI・アンソロピックと中国製オープンモデルの決定的な違い",
+            "url": "https://www.businessinsider.jp/article/2609-openai-anthropic-risky-different-open-weight-rivals-china/",
+            "source": "Business Insider Japan"
+          },
+          {
+            "title": "OpenAIがGPT-6 Astraを発表 ゴールドマン・サックス：知能のブレークスルーこそAI強気相場の真のエンジン — BigGo ファイナンス",
+            "url": "https://finance.biggo.jp/news/6ae81355-804f-4972-b757-f68d2828f82b",
+            "source": ""
+          },
+          {
+            "title": "OpenAI、休眠サイトへの自社AIエージェント書き込みを認め、非公表の理由を説明｜Infoseekニュース",
+            "url": "https://news.infoseek.co.jp/article/itmedia_news_202609062000001202/",
+            "source": ""
+          },
+          {
+            "title": "Research acceleration: The view inside OpenAI",
+            "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+            "source": "OpenAI"
+          },
+          {
+            "title": "AIの誤りが取締役会や投資家にまで到達、調査で判明",
+            "url": "https://forbesjapan.com/articles/detail/104204",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "【ミニ教養】日本は逆行。学校での「AI禁止」が始まった",
+            "url": "https://newspicks.com/news/17447399/body/",
+            "source": "newspicks.com"
+          },
+          {
+            "title": "5 ways leaders can harness brain chemistry for happier and more productive teams",
+            "url": "https://www.fastcompany.com/91601685/four-ways-leaders-can-harness-brain-chemistry-for-happier-and-more-productive-teams",
+            "source": "Fast Company"
+          },
+          {
+            "title": "OpenAI’s GPT-6 Astra Spawns Armies Of Agents That Run On Local CPUs, Handing Intel And AMD A Demand Windfall",
+            "url": "https://wccftech.com/openais-gpt-6-astra-spawns-armies-of-agents-that-run-on-local-cpus-handing-intel-and-amd-a-demand-windfall/",
+            "source": "wccftech.com"
+          },
+          {
+            "title": "[石川温の「スマホ業界 Watch」] アップルの「Mac」がなぜ今売れる？ 金融・航空業界が「手元で動くAI」を選ぶ深い理由",
+            "url": "https://k-tai.watch.impress.co.jp/docs/column/ishikawa/2138411.html",
+            "source": "ケータイ Watch"
+          },
+          {
+            "title": "OpenAIが数万台のMacを調達、なぜ今AI企業にMacが人気なのか（ビジネス＋IT）",
+            "url": "https://news.yahoo.co.jp/articles/b3665d32bf8f930701fcfb98e249745b84535c50",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "中国AI勢が怒涛のリリース、Z.ai開発の「GLM-5.3-Flash」、アリババ開発の「Qwen3.8-Flash-Next」、テンセント開発の「Hy4 preview」など生成AI技術5つを解説（生成AIウィークリー）",
+            "url": "https://www.techno-edge.net/article/2026/09/06/5467.html",
+            "source": "テクノエッジ TechnoEdge"
+          },
+          {
+            "title": "ネット広告で国内シェア3位に後退したサイバーエージェント、それでも動じない“元ネット広告王”が描く逆襲プランの全貌",
+            "url": "https://news.yahoo.co.jp/articles/bee768a114f7e6a9b2fcf44ae61b4bba3e216f3d",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "「AI＝GPU」がもはや昔の常識に 「CPU」に何が起きるのか：AI普及で変わるプロセッサ事情",
+            "url": "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news010.html",
+            "source": "ITmedia"
+          },
+          {
+            "title": "そりゃ仕事なくなるわ…AIに仕事を奪われる人の共通点とは？",
+            "url": "https://diamond.jp/articles/-/397028",
+            "source": "ダイヤモンド・オンライン"
+          },
+          {
+            "title": "マイクロソフト「Project Zenith」発表、Windowsで300億超AIモデルをローカル実行　実効性能はモデル構造が左右",
+            "url": "https://www.zaikei.co.jp/article/20260906/868788.html",
+            "source": "財経新聞"
+          },
+          {
+            "title": "ジブリ風AI画「飽きると思っていた」鈴木Pが明かす取材拒否の真意（朝日新聞）",
+            "url": "https://news.yahoo.co.jp/articles/bb742bc93f00e8c2b0ad77c1515962ca3cef97de",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "3,700のOpenAIエージェントが独サイトを「カンニング掲示板」に、削除の4倍のペースで大量投稿（平和博） - エキスパート",
+            "url": "https://news.yahoo.co.jp/expert/articles/638d554e7986350c43f71a09661caabf0d6373f9",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "AIを嫌う人が多い理由を、シリコンバレーはわかっていない",
+            "url": "https://wired.jp/article/sz-silicon-valley-doesnt-get-why-you-hate-ai/",
+            "source": "WIRED.jp"
+          },
+          {
+            "title": "「AIを使うと人は思考力が落ちる」を調べたらマネジメントの話に戻ってきた（嘉野均/人事の左腕） - エキスパート",
+            "url": "https://news.yahoo.co.jp/expert/articles/d03761ae0232d100de5f7b41f7b085bc1cce6b36",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "AIで作った「100点の理想」が、プロとの打ち合わせで50点になっていく理由",
+            "url": "https://rocketnews24.com/2026/09/06/2798277/",
+            "source": "ロケットニュース24"
+          },
+          {
+            "title": "なぜAIは人間が思いつかないアイデアを出せるのか——「常識の欠如」こそ創造の源泉である",
+            "url": "https://forbesjapan.com/articles/detail/103773",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "S・ジョブズ氏のタートルネックからAI大手が販売するアパレルへ――業界人ファッションの変遷が意味するもの（CNN.co.jp）",
+            "url": "https://news.yahoo.co.jp/articles/ab39dfda9f63914f62d1f28759a7bd96b5924954",
+            "source": "Yahoo!ニュース"
+          },
+          {
+            "title": "OpenAI's GPT-6 Astra Is Shockingly Good at Almost Everything",
+            "url": "https://decrypt.co/377514/openai-gpt-6-astra-review-shockingly-good",
+            "source": "Decrypt"
+          },
+          {
+            "title": "【波乱】OpenAIに400人流出。アップルの新体制を全解説",
+            "url": "https://newspicks.com/news/17430646/body/",
+            "source": "newspicks.com"
+          },
+          {
+            "title": "AIに向き合いすぎて、顧客と競合の存在を見失っていませんか",
+            "url": "https://newspicks.com/news/17418048/body/",
+            "source": "newspicks.com"
+          },
+          {
+            "title": "【論文】グーグルが起こした新たな「革命」",
+            "url": "https://newspicks.com/news/17451814/body/",
+            "source": "newspicks.com"
+          },
+          {
+            "title": "【新研究】最先端AIでも4分の1が説明できない――「最も解明されたはずのウイルス」が突きつける生命の謎",
+            "url": "https://newspicks.com/topics/synbio/posts/1013/",
+            "source": "newspicks.com"
+          },
+          {
+            "title": "楽天調査、Z世代の約4割が生成AIを「ほぼ毎日」利用",
+            "url": "https://k-tai.watch.impress.co.jp/docs/news/2138353.html",
+            "source": "ケータイ Watch"
+          },
+          {
+            "title": "AI活用は「勝つか、学ぶか」 シスコが示すAI時代のB2Bマーケティング戦略",
+            "url": "https://www.itmedia.co.jp/business/articles/2609/03/news002.html",
+            "source": "ITmedia"
+          },
+          {
+            "title": "あなたは顧客を過小評価していないか？ AIで誰でも分析できる時代、データ（過去）を未来につなげるには (1/3)",
+            "url": "https://markezine.jp/article/detail/77514",
+            "source": "MarkeZine"
+          },
+          {
+            "title": "AI検索対策、他社はどこまで進んでる？ 本格実施はわずか1割、KPI未設定は3割【Faber Company調べ】",
+            "url": "https://webtan.impress.co.jp/n/2026/09/01/53216",
+            "source": "Web担当者Forum"
+          },
+          {
+            "title": "Why China Is the Bogeyman Data Center Enthusiasts Just Can't Quit",
+            "url": "https://www.wired.com/story/why-china-is-still-the-bogeyman-for-data-center-enthusiasts/",
+            "source": "WIRED"
+          },
+          {
+            "title": "My Brief Summer Fling With Siri AI",
+            "url": "https://www.wired.com/story/my-brief-summer-fling-with-siri-ai/",
+            "source": "WIRED"
+          },
+          {
+            "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+            "url": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
+            "source": "WIRED"
+          },
+          {
+            "title": "AIへの不安で「キャリアが凍りつく」Z世代 停滞を打破する方法",
+            "url": "https://forbesjapan.com/articles/detail/104197",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "人間がAIを人間化する——見過ごされがちな5つの論理の飛躍",
+            "url": "https://forbesjapan.com/articles/detail/104191",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "信頼される創業者がAIへの「逆風」に静かに打ち勝つ方法",
+            "url": "https://forbesjapan.com/articles/detail/104196",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AIエージェントはマーケティングのボトルネックを解消しない。むしろ露呈させる",
+            "url": "https://forbesjapan.com/articles/detail/104205",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "収入と生産性を高めるSNS向け無料AIツール活用術5選",
+            "url": "https://forbesjapan.com/articles/detail/104179",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "AI時代に優秀なバーチャルアシスタントの価値が高まる理由",
+            "url": "https://forbesjapan.com/articles/detail/104171",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "真のEコマースAI革命 効率化を超えて「理解」へ",
+            "url": "https://forbesjapan.com/articles/detail/104165",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "LINEに眠る“嬉しかった記憶”を、AIが掘り起こす日",
+            "url": "https://www.businessinsider.jp/article/2609-line-ai-brings-back-past-memories/",
+            "source": "Business Insider Japan"
+          },
+          {
+            "title": "習慣はAIより強し？…OpenAIのアルトマンCEO「メールは自分で確認するほうが生産的に感じる」",
+            "url": "https://www.businessinsider.jp/article/2608-sam-altman-email-habits-inbox-no-ai-productive/",
+            "source": "Business Insider Japan"
+          },
+          {
+            "title": "なぜAIブームが選挙問題になったのか",
+            "url": "https://www.businessinsider.jp/article/2609voter-ai-backlash-tech-data-center-david-weigel-peter-kafka/",
+            "source": "Business Insider Japan"
+          },
+          {
+            "title": "戦場映像がAI訓練に、ウクライナ戦争が生んだ「新たな金脈」",
+            "url": "https://www.technologyreview.jp/s/390057/data-from-drones-in-ukraine-is-fueling-a-new-wild-west-marketplace/",
+            "source": "MITテクノロジーレビュー"
+          },
+          {
+            "title": "AI is coming for your customers and you need to be ready for it",
+            "url": "https://www.marketingweek.com/ai-customers-be-ready/",
+            "source": "Marketing Week"
+          },
+          {
+            "title": "生成AIの事業成果への貢献を実感は24％どまり マーケター1000人調査",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/00921/00069/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "AIで「売れる・売れない」の分岐点 推奨されない課題解決4つのポイント",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01455/00001/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "ウォルマートのAI利用客は注文額35％増 小売6社の広告戦略最前線",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01446/00001/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "知的財産にタダ乗りするAI企業､トークン･エコノミーの｢泥棒｣取り締まりは音楽業界の仕組みにヒントがある",
+            "url": "https://toyokeizai.net/articles/-/956963",
+            "source": "東洋経済オンライン"
+          },
+          {
+            "title": "AI最大の贈り物は「時間」　OpenAI幹部が語る、豊かな人生を築くAI活用術",
+            "url": "https://forbesjapan.com/articles/detail/104190",
+            "source": "Forbes JAPAN 公式サイト（フォーブス ジャパン）"
+          },
+          {
+            "title": "「音が出せない…」動画の音声を一瞬でテキスト化！字幕なし動画に『自動で字幕をつける』神ワザ",
+            "url": "https://dxmagazine.jp/news/mmgi263522/",
+            "source": "DXマガジン"
+          },
+          {
+            "title": "学校からAIを遠ざける動き、全米で拡大...ニューヨーク市は約60万人を対象に利用停止へ",
+            "url": "https://www.newsweekjapan.jp/articles/-/333077",
+            "source": "ニューズウィーク日本版 オフィシャルサイト"
+          },
+          {
+            "title": "「検索1位」でもクリックされない時代へ。アカマイが明かすGEOとAIボット対策、ゲーム業界にも迫る変化とは",
+            "url": "https://www.gamebusiness.jp/article/2026/09/04/27894.html",
+            "source": "GameBusiness.jp"
+          },
+          {
+            "title": "Anthropic、顧客環境でデータ管理可能な「Enterprise Frontier Safeguards」を発表|CodeZine（コードジン）",
+            "url": "https://codezine.jp/news/detail/29579",
+            "source": ""
+          },
+          {
+            "title": "AI広告の成功と失敗を分ける要因がみえてきた - ナゾロジー",
+            "url": "https://nazology.kusuguru.co.jp/archives/199280",
+            "source": ""
+          },
+          {
+            "title": "設計図も無料公開。ヒューマノイドロボットも自作の時代へ",
+            "url": "https://karapaia.com/archives/626284.html",
+            "source": "カラパイア"
+          },
+          {
+            "title": "圧縮とLLMに共通する本質は「データの予測」 - GIGAZINE",
+            "url": "https://gigazine.net/news/20260906-compression-is-prediction/",
+            "source": ""
+          },
+          {
+            "title": "2022年のMetaの未来予想、現在のGeminiがリアルで実現しちゃってるかも",
+            "url": "https://www.gizmodo.jp/article/meta-wants-to-bring-ai-and-universal-translation-to-the-gtm/",
+            "source": "ギズモード・ジャパン"
+          },
+          {
+            "title": "イーロンマスク テスラをAirbnb化 車が稼ぐ時代に突入か",
+            "url": "https://jidounten-lab.com/u_67200",
+            "source": "自動運転ラボ"
+          },
+          {
+            "title": "ChatGPT登場以降に公開されたウェブサイトの3分の1に「AI」の痕跡が見られることが研究で判明 - GIGAZINE",
+            "url": "https://gigazine.net/news/20260906-web-ai-signs/",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Business",
+        "count": 12,
+        "is_cross": false,
+        "summary": "「Used in Japan」が世界で高評価 日本のフリマ商品は「海外へ売る」時代へ（エキスパートトピ）──メルカリ・ラクマの越境ECの追い風、自衛隊の通信はイーロン・マスク次第になるのか 防衛白書が書かなかった依存の構造（SPA!）、日本の若者約140万人がSNSを「病的使用」（マネー現代）、「若者の街」はどこへ 西武と東急「渋谷100年戦争」（ITmedia）、若者の約3人に1人が「結婚拒否」（ライフ継続）、Z世代はすでに世界人口の約32%を占めている（ゴールドライフオンライン）、LINEとPayPayの連携延期（継続）。",
+        "articles": [
+          {
+            "title": "日本で言えば楽天やGMOが出てきた1990年代後半、中国で言えばアリババや百度（バイドゥ）が出てきた2000年代半ば…「インド」の現在地が熱いワケ（THE GOLD ONLINE（ゴールドオンライン））",
+            "url": "https://news.yahoo.co.jp/articles/0a130b6039b2d4e69d5a5eb700f8bb8948684cc7",
+            "source": ""
+          },
+          {
+            "title": "自衛隊の通信は“イーロン・マスク次第”になるのか。防衛白書が書かなかった依存の構造（SPA!）",
+            "url": "https://news.yahoo.co.jp/articles/3a727efaa20587feb3a9f07ac5c4a0dab2f35406",
+            "source": ""
+          },
+          {
+            "title": "だから会社が儲かっても給料は上がらない…経済学者｢日本企業が賃金を犠牲にして守り続けたもの｣（プレジデントオンライン）",
+            "url": "https://news.yahoo.co.jp/articles/e8a4ce354d6d068aeffbe4b6e49368815ca534dd",
+            "source": ""
+          },
+          {
+            "title": "「Used in Japan」が世界で高評価　日本のフリマ商品は“海外へ売る”時代へ #エキスパートトピ（砂押貴久）",
+            "url": "https://news.yahoo.co.jp/expert/articles/2b726bc97048d391d3d3d2e9851c534dd9e3ba6a",
+            "source": ""
+          },
+          {
+            "title": "Amazon Prime members just got a huge new perk - here’s how to use it",
+            "url": "https://www.independent.co.uk/us/money/amazon-prime-alexa-plus-free-to-members-b3045533.html",
+            "source": "The Independent"
+          },
+          {
+            "title": "新宿でポップコーンもらえる、楽天モバイルが通信費見直し・“推し活”応援のリアルイベント",
+            "url": "https://k-tai.watch.impress.co.jp/docs/news/2138330.html",
+            "source": "ケータイ Watch"
+          },
+          {
+            "title": "番組から購買までをデザインする 花王とAmazon Adsが描く、新時代のブランド体験",
+            "url": "https://forbesjapan.com/articles/detail/103321",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "日本の若者、約140万人がSNSを「病的使用」…それでも\"企業に甘い\"日本人の国民性（小出 フィッシャー 美奈） | マネー現代",
+            "url": "https://gendai.media/articles/-/170756",
+            "source": "講談社"
+          },
+          {
+            "title": "「若者の街」はどこへ　西武と東急「渋谷100年戦争」、西武渋谷とハンズ閉店の影響はどう出るのか：長浜淳之介のトレンドアンテナ（1/4 ページ） - ITmedia ビジネスオンライン",
+            "url": "https://www.itmedia.co.jp/business/spv/2609/07/news044.html",
+            "source": ""
+          },
+          {
+            "title": "SBペイメントサービス、財布もスマホもなくても決済可能に 将来的にECでも顔認証決済可能に",
+            "url": "https://netkeizai.com/articles/detail/19800",
+            "source": "日本ネット経済新聞｜新聞×ウェブでEC＆流通のデジタル化をリード"
+          },
+          {
+            "title": "｢自由な時間がなくなる｣若者の約3人に1人が｢結婚拒否｣調査の裏で…未婚者増より深刻な《人を信頼できない》危うさ | ライフ",
+            "url": "https://toyokeizai.net/articles/-/956979",
+            "source": "東洋経済オンライン"
+          },
+          {
+            "title": "Z世代はすでに世界人口の約32％を占めている。企業がこの世代を軽視できなくなったことにより……｜ゴールドライフオンライン",
+            "url": "https://renaissance-media.jp/articles/-/27441",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Media",
+        "count": 1,
+        "is_cross": false,
+        "summary": "SNS「setlog」若者になぜ刺さる（2026年9月5日・日経MJ）──ATLASが7/16から追ってきたsetlog系列が日経MJという主要経済誌にも掲載された。",
+        "articles": [
+          {
+            "title": "オープンデータで歴史的「思い込み」を打ち破る！ 研究者の調査手法はジャーナリズムにも役立ちます｜SlowNews",
+            "url": "https://slownews.com/n/n7d468a7f7ada",
+            "source": "スローニュース"
+          }
+        ]
+      },
+      {
+        "name": "Society",
+        "count": 9,
+        "is_cross": false,
+        "summary": "VHS・使い捨てカメラ・たまごっち… アメリカのZ世代が夢中になっている90年代テクノロジー10選（Business Insider）──アナログ回帰の最新形として記録、「推し活」に「ギルティ消費」 おせち商戦で若者獲得へ新趣向（時事通信）──推し活×季節商品という新しい接点、オフライン世代・Z世代・α世代が直接の相互作用を再び探し始める（VOI.id）、Z世代の56.2%がMBTI診断を複数回経験（Z-SOZOKEN）、Z世代の家事時給中央値1,600円（マイナビ）、管理職の9割超がZ世代のスキル不足を指摘（Euronews）、将来結婚したい？若者世代の本音調査（ピンズバNEWS）。",
+        "articles": [
+          {
+            "title": "SNS「setlog」若者になぜ刺さる 2026年9月5日",
+            "url": "https://news.yahoo.co.jp/pickup/6594300",
+            "source": ""
+          },
+          {
+            "title": "VHS、使い捨てカメラ、たまごっち…アメリカのZ世代が夢中になっている90年代テクノロジー10選（海外）（BUSINESS INSIDER JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/727b1a970d22b160766be6c6f975daa929d274e7",
+            "source": ""
+          },
+          {
+            "title": "「推し活」に「ギルティ消費」　おせち商戦、若者獲得へ新趣向　百貨店（時事通信）",
+            "url": "https://news.yahoo.co.jp/articles/94bbf2c2e818f56df7c82a7634bf306226d29660",
+            "source": ""
+          },
+          {
+            "title": "Z世代の56.2%がMBTI診断を何度も経験。複数回診断した層の85.4%がタイプの特徴を把握。Z-SOZOKEN（Z世代創造性研究所）がZ世代のMBTI診断についての第6章インサイトサマリーを公開。",
+            "url": "https://prtimes.jp/main/html/rd/p/000000102.000104461.html",
+            "source": "PR TIMES"
+          },
+          {
+            "title": "オフライン世代、Z世代、アルファ世代の現象が直接の相互作用を再び探し始めます",
+            "url": "https://voi.id/ja/lifestyle/592769",
+            "source": "VOI.id"
+          },
+          {
+            "title": "幸福度が高い人に共通する心理学の結論、「自由意志を信じる人」が幸せな理由",
+            "url": "https://forbesjapan.com/articles/detail/104054",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "【Z世代に聞いた】家事に「時給」をつけるならいくら？ 中央値は1,600円、「365日休みがない重労働」の声も",
+            "url": "https://news.mynavi.jp/article/20260902-4903287/",
+            "source": "マイナビニュース"
+          },
+          {
+            "title": "管理職の9割超がZ世代のスキル不足を指摘　「新卒採用より欠員を選ぶ」が3割 ｜ Euronews (Japanese)",
+            "url": "https://app.ekkow.com/1468651435199316724",
+            "source": ""
+          },
+          {
+            "title": "「将来結婚したい？」若者世代の本音調査、「価値観等が合わないと地獄」否定的な声も【後半】｜概要｜ニュース｜ピンズバNEWS",
+            "url": "https://pinzuba.news/articles/-/17717",
+            "source": ""
+          }
+        ]
+      },
+      {
+        "name": "Culture",
+        "count": 4,
+        "is_cross": false,
+        "summary": "α世代が選んだ今年上半期の意外な流行語は？（@DIME）──α世代の言語・文化の最新観測、VHS・使い捨てカメラ・たまごっちへのZ世代の回帰（Business Insider）、「推し活」に「ギルティ消費」（時事通信）、平成レトロ回帰の継続（継続）。",
+        "articles": [
+          {
+            "title": "α世代が選んだ今年上半期の意外な流行語は？",
+            "url": "https://dime.jp/genre/2150710/",
+            "source": "@DIME アットダイム"
+          },
+          {
+            "title": "推し活マップ「飢餓感×お薦め熱量」大公開 山田涼介、超かぐや姫！も上位",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01466/00005/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "スクイーズ再流行 ドンキから見る消費者心理と“隙間”を突く商品開発",
+            "url": "https://xtrend.nikkei.com/atcl/contents/18/01453/00001/",
+            "source": "日経クロストレンド"
+          },
+          {
+            "title": "「タイパ疲れ」が6割超。2026年夏の旅行で注目される「メンパ」とは？",
+            "url": "https://tabi-labo.com/312959/taipa-fatigue-menpa-leisure",
+            "source": "TABI LABO"
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "count": 4,
+        "is_cross": false,
+        "summary": "行為者-観察者バイアス（UX TIMES）──意思決定における認知バイアスの実務的な解説、「直感」は才能ではなく技術 科学的に正しい判断力を磨く訓練法（Forbes）、豊田章男が卒業式で放った最初のひと言（ダイヤモンド）、出世する人は「同じ会社」に居続けている（newspicks）。",
+        "articles": [
+          {
+            "title": "行為者-観察者バイアス",
+            "url": "https://uxdaystokyo.com/articles/glossary/actor-observer-bias/",
+            "source": "UX TIMES"
+          },
+          {
+            "title": "「直感」は才能ではなく技術、科学的に正しい判断力を磨く訓練法（Forbes JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/ca07f9762cbc8d393807b1ae77e23cf12db7b406",
+            "source": ""
+          },
+          {
+            "title": "たった30秒で米国の学生が拍手喝采→大爆笑…豊田章男が卒業式で放った「最初のひと言」（ダイヤモンド・オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/84e2ab83fe7dbd4dcdb1e2a44f7954e4d1379b2d",
+            "source": ""
+          },
+          {
+            "title": "【皮肉】出世する人は「同じ会社」に居続けている",
+            "url": "https://newspicks.com/news/17449227/body/",
+            "source": "newspicks.com"
+          }
+        ]
+      },
+      {
+        "name": "Other",
+        "count": 0,
+        "is_cross": false,
+        "summary": "該当なし。",
+        "articles": []
+      },
+      {
+        "name": "Z世代",
+        "count": 17,
+        "is_cross": true,
+        "summary": "Z世代・若者関連記事が17件と今週も充実。最大のシグナルは「楽天調査、Z世代の約4割が生成AIをほぼ毎日利用」（ケータイWatch）──楽天が自社調査でZ世代のAI利用実態を初めて発表した。「AIへの不安でキャリアが凍りつくZ世代」（Forbes）というデータと合わせると、積極活用層と不安層の分断が今週も継続して記録された。アメリカのZ世代がVHS・使い捨てカメラ・たまごっちに夢中（Business Insider）という90年代テクノロジーへの回帰、α世代が選んだ上半期の意外な流行語（@DIME）というα世代観測、オフライン・Z・α世代が直接の相互作用を探し始めるというVOI.idの報告も記録された。setlogが日経MJに掲載されたことも今週の重要なメディア進出として記録される。管理職の9割超がZ世代のスキル不足を指摘という、Z世代をマネジメントする側の視点も加わった。",
+        "articles": [
+          {
+            "title": "SNS「setlog」若者になぜ刺さる 2026年9月5日",
+            "url": "https://news.yahoo.co.jp/pickup/6594300",
+            "source": ""
+          },
+          {
+            "title": "VHS、使い捨てカメラ、たまごっち…アメリカのZ世代が夢中になっている90年代テクノロジー10選（海外）（BUSINESS INSIDER JAPAN）",
+            "url": "https://news.yahoo.co.jp/articles/727b1a970d22b160766be6c6f975daa929d274e7",
+            "source": ""
+          },
+          {
+            "title": "博報堂富裕層マーケティングラボ、「新富裕層調査2026」を発表　年代を超えた共通インサイト「10大価値観」から紐解く新富裕層のリアル 「〇〇離れ」に当てはまらない若年富裕層、若者並にAIを活用するシニア富裕層｜ニュースリリース｜博報堂 Hakuhodo Inc.",
+            "url": "https://www.hakuhodo.co.jp/news/newsrelease/267368/",
+            "source": ""
+          },
+          {
+            "title": "たった30秒で米国の学生が拍手喝采→大爆笑…豊田章男が卒業式で放った「最初のひと言」（ダイヤモンド・オンライン）",
+            "url": "https://news.yahoo.co.jp/articles/84e2ab83fe7dbd4dcdb1e2a44f7954e4d1379b2d",
+            "source": ""
+          },
+          {
+            "title": "「推し活」に「ギルティ消費」　おせち商戦、若者獲得へ新趣向　百貨店（時事通信）",
+            "url": "https://news.yahoo.co.jp/articles/94bbf2c2e818f56df7c82a7634bf306226d29660",
+            "source": ""
+          },
+          {
+            "title": "楽天調査、Z世代の約4割が生成AIを「ほぼ毎日」利用",
+            "url": "https://k-tai.watch.impress.co.jp/docs/news/2138353.html",
+            "source": "ケータイ Watch"
+          },
+          {
+            "title": "Z世代の56.2%がMBTI診断を何度も経験。複数回診断した層の85.4%がタイプの特徴を把握。Z-SOZOKEN（Z世代創造性研究所）がZ世代のMBTI診断についての第6章インサイトサマリーを公開。",
+            "url": "https://prtimes.jp/main/html/rd/p/000000102.000104461.html",
+            "source": "PR TIMES"
+          },
+          {
+            "title": "オフライン世代、Z世代、アルファ世代の現象が直接の相互作用を再び探し始めます",
+            "url": "https://voi.id/ja/lifestyle/592769",
+            "source": "VOI.id"
+          },
+          {
+            "title": "α世代が選んだ今年上半期の意外な流行語は？",
+            "url": "https://dime.jp/genre/2150710/",
+            "source": "@DIME アットダイム"
+          },
+          {
+            "title": "AIへの不安で「キャリアが凍りつく」Z世代 停滞を打破する方法",
+            "url": "https://forbesjapan.com/articles/detail/104197",
+            "source": "Forbes JAPAN"
+          },
+          {
+            "title": "日本の若者、約140万人がSNSを「病的使用」…それでも\"企業に甘い\"日本人の国民性（小出 フィッシャー 美奈） | マネー現代",
+            "url": "https://gendai.media/articles/-/170756",
+            "source": "講談社"
+          },
+          {
+            "title": "「若者の街」はどこへ　西武と東急「渋谷100年戦争」、西武渋谷とハンズ閉店の影響はどう出るのか：長浜淳之介のトレンドアンテナ（1/4 ページ） - ITmedia ビジネスオンライン",
+            "url": "https://www.itmedia.co.jp/business/spv/2609/07/news044.html",
+            "source": ""
+          },
+          {
+            "title": "【Z世代に聞いた】家事に「時給」をつけるならいくら？ 中央値は1,600円、「365日休みがない重労働」の声も",
+            "url": "https://news.mynavi.jp/article/20260902-4903287/",
+            "source": "マイナビニュース"
+          },
+          {
+            "title": "｢自由な時間がなくなる｣若者の約3人に1人が｢結婚拒否｣調査の裏で…未婚者増より深刻な《人を信頼できない》危うさ | ライフ",
+            "url": "https://toyokeizai.net/articles/-/956979",
+            "source": "東洋経済オンライン"
+          },
+          {
+            "title": "管理職の9割超がZ世代のスキル不足を指摘　「新卒採用より欠員を選ぶ」が3割 ｜ Euronews (Japanese)",
+            "url": "https://app.ekkow.com/1468651435199316724",
+            "source": ""
+          },
+          {
+            "title": "Z世代はすでに世界人口の約32％を占めている。企業がこの世代を軽視できなくなったことにより……｜ゴールドライフオンライン",
+            "url": "https://renaissance-media.jp/articles/-/27441",
+            "source": ""
+          },
+          {
+            "title": "「将来結婚したい？」若者世代の本音調査、「価値観等が合わないと地獄」否定的な声も【後半】｜概要｜ニュース｜ピンズバNEWS",
+            "url": "https://pinzuba.news/articles/-/17717",
+            "source": ""
+          }
+        ]
+      }
+    ],
+    "signals": [
+      "楽天調査、Z世代の約4割が生成AIを「ほぼ毎日」利用──楽天が自社調査でZ世代のAI活用実態を初めて発表",
+      "setlogが日経MJに掲載──ATLASが7/16から追ってきた系列が主要経済誌に到達",
+      "アメリカのZ世代がVHS・使い捨てカメラ・たまごっちに夢中──90年代テクノロジーへの回帰が米国でも記録",
+      "α世代が選んだ今年上半期の意外な流行語──α世代の文化観測が具体的なデータとして登場",
+      "The Reckoning for Outcome-Based Pricing Is Here（ADWEEK）──広告課金モデルが成果ベースへ転換する転換点"
+    ],
+    "change": "楽天×Z世代AI調査 → 約4割がほぼ毎日利用という自社データが初めて公表、外部調査との整合が取れた\nsetlogのメディア進出 → 日経MJに掲載、ニッチトレンドから業界注目の主流トレンドへ\n90年代テクノロジー回帰 → 米国のZ世代でも確認、アナログ回帰がグローバルなZ世代の価値観として確定\nα世代の流行語 → 上半期の意外な流行語がデータとして登場、α世代観測が具体化\n成果ベース広告課金 → ADWEEKが転換点を宣言、楽天RMPの次世代課金設計の参照点",
+    "insight": "9/7はATLASの観測において、「楽天の自社AI調査・setlogの日経MJ掲載・米国Z世代の90年代テクノロジー回帰・α世代の流行語・成果ベース広告課金の転換」という五つが記録された日として位置づけられる。\n\n最大のシグナルは楽天自身が「Z世代の約4割が生成AIをほぼ毎日利用」という自社調査を発表したことだ。9/1に外部調査で「Z世代のAI活用率が他世代の1.45倍」が記録されていたが、9/7に楽天の自社データが追加されたことで、Z世代のAI活用実態が複数のデータソースで裏付けられた。\n\nsetlogが日経MJに掲載されたことは、ATLASが7/16から追ってきた最も長い観測系列の一つが「主流化」した瞬間として記録される。「ニッチなZ世代SNS」が「日経MJが特集する業界注目トレンド」になるまでの軌跡は、ATLASの観測が「早期シグナル→主流化」を先行して捉えてきた最も明確な事例として残る。\n\nアメリカのZ世代がVHS・使い捨てカメラ・たまごっちに夢中というデータは、ATLASが8/28から追ってきた「アナログ回帰」系列をグローバルなZ世代の価値観として確定させた。日本の「CD回帰・ほぼ日手帳・setlog」と、米国の「90年代テクノロジー」は、国境を越えた同一の価値観から発している。"
+  },
+  {
     "date": "2026-09-04",
     "total_articles": 126,
     "categories": [
