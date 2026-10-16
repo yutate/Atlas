@@ -1,7 +1,7 @@
 [
   {
     "date": "2026-10-16",
-    "total": 143,
+    "total": 149,
     "categories": [
       {
         "name": "Marketing / Advertising",
@@ -135,6 +135,11 @@
             "title": "電通が「吸うラーメン」　ドラゴンの触り心地も再現【CEATEC 2026】",
             "url": "https://www.watch.impress.co.jp/docs/news/2148348.html",
             "source": "Impress Watch"
+          },
+          {
+            "title": "日テレ・TBS・フジがなぜ手を組むのか――テレビCMが“ネット広告のように買える”時代へ　3社共同出資で新会社設立の背景",
+            "url": "https://news.mynavi.jp/article/20261014-5127275/?lead=&utm_source=smartnews&utm_medium=android&utm_campaign=sp_app",
+            "source": "マイナビニュース"
           }
         ]
       },
@@ -150,6 +155,11 @@
             "title": "Forbes JAPAN: 金融ブランドがZ世代とミレニアル世代の信頼を獲得する方法",
             "url": "https://forbesjapan.com/articles/detail/106655",
             "source": ""
+          },
+          {
+            "title": "顧客の78%は「ブランドが消えても気にしない」　パーパスを事業成果に変える方法",
+            "url": "https://forbesjapan.com/articles/detail/106669",
+            "source": "Forbes JAPAN 公式サイト（フォーブス ジャパン）"
           }
         ]
       },
@@ -290,6 +300,11 @@
             "title": "WIRED: We Got Hot and Heavy with Meta’s Muse—And Underwhelmed by Apple’s HomeView",
             "url": "https://www.wired.com/story/uncanny-valley-podcast-we-got-hot-and-heavy-with-metas-muse-and-underwhelmed-by-apples-homeview/",
             "source": ""
+          },
+          {
+            "title": "Jevが画像入力に対応＆長大コンテキストに対応＆意思決定モデルのベンチマークテストも発表",
+            "url": "https://gigazine.net/news/20261015-jev-1-14/",
+            "source": "GIGAZINE"
           }
         ]
       },
@@ -450,6 +465,16 @@
             "title": "Bloomberg.com: アンソロピック、第3四半期の売上高が168億ドルに急増－IPO控え",
             "url": "https://www.bloomberg.com/jp/news/articles/2026-10-14/TMX4X3KIP3IC00",
             "source": ""
+          },
+          {
+            "title": "りそなHDとJCBが資本業務提携　企業向け決済など連携強化",
+            "url": "https://www.watch.impress.co.jp/docs/news/2148462.html",
+            "source": "Impress Watch"
+          },
+          {
+            "title": "【生活費の平均】年収が上位2割の世帯は月「45万6995円」。二人以上の世帯の生活費が年収で大きく変わるのは交通・通信や食料など | 概要 | LIMO",
+            "url": "https://limo.media/articles/-/141450",
+            "source": "くらしとお金の経済メディア"
           }
         ]
       },
@@ -594,6 +619,11 @@
           {
             "title": "Yahoo!ニュース: AIに“生命”宿る。IoT家電で自己複製し始める可能性が急浮上（PC Watch）",
             "url": "https://news.yahoo.co.jp/articles/eec17ef50b1ec50b4d5d09a861c974b4c166692f",
+            "source": ""
+          },
+          {
+            "title": "【親ガチャ論争】「親ガチャ失敗」から「産んでもらってる時点で神」まで、若者600人の本音調査",
+            "url": "https://kosodate.mynavi.jp/articles/46336",
             "source": ""
           }
         ]
@@ -851,6 +881,11 @@
             "title": "「最近の若者は出世したがらない」は本当か 20代の約6割が「昇進したい」意外な調査結果　管理職との世代間ギャップも | 概要",
             "url": "https://dot.asahi.com/articles/-/294578",
             "source": "AERA DIGITAL（アエラデジタル）"
+          },
+          {
+            "title": "【親ガチャ論争】「親ガチャ失敗」から「産んでもらってる時点で神」まで、若者600人の本音調査",
+            "url": "https://kosodate.mynavi.jp/articles/46336",
+            "source": ""
           }
         ]
       }
